@@ -1,0 +1,2 @@
+ALTER TABLE "CatalogCategory"
+ADD COLUMN "isTagActive" BOOLEAN NOT NULL DEFAULT true;

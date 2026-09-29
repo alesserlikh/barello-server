@@ -1,0 +1,3 @@
+ALTER TABLE "ContentStory"
+  ADD COLUMN IF NOT EXISTS "title" TEXT,
+  ADD COLUMN IF NOT EXISTS "location" TEXT;

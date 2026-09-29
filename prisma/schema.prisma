@@ -1,0 +1,2728 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserStatus {
+  UNIDENTIFIED
+  ACTIVE
+  BLOCKED
+  ARCHIVED
+}
+
+enum UserAdminGroup {
+  UNCLASSIFIED
+  REAL
+  TEST
+  INTERNAL_TEST
+}
+
+enum AccountDeletionRequestStatus {
+  PENDING
+  EXECUTED
+  CANCELLED
+}
+
+enum AccessLevel {
+  ADMIN
+  SENIOR_STAFF
+  LINE_STAFF
+}
+
+enum MembershipStatus {
+  PENDING
+  ACTIVE
+  REJECTED
+  REVOKED
+}
+
+enum DisplayRole {
+  OWNER
+  ADMINISTRATOR
+  BAR_MANAGER
+  SENIOR_BARTENDER
+  SOMMELIER
+  BARTENDER
+  WAITER
+}
+
+enum AccountType {
+  VENUE_STAFF
+  SUPPLIER_STAFF
+  UNIDENTIFIED
+}
+
+enum RegistrationFlowType {
+  DIRECT
+  INVITE_TOKEN
+}
+
+enum RegistrationDraftStatus {
+  IN_PROGRESS
+  READY_TO_CONFIRM
+  COMPLETED
+  EXPIRED
+  CANCELLED
+}
+
+enum VenueOwnerStatus {
+  OWNER_CONFIRMED
+  OWNER_MISSING
+}
+
+enum VenueStatus {
+  ACTIVE
+  BLOCKED
+  DELETED
+}
+
+enum VenuePhotoStatus {
+  ACTIVE
+  REJECTED
+}
+
+enum StaffInvitationStatus {
+  CREATED
+  SENT
+  ACCEPTED
+  EXPIRED
+  REVOKED
+}
+
+enum CompanyType {
+  VENUE
+  SUPPLIER
+}
+
+enum CompanyModerationRequestStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  CANCELLED
+}
+
+enum CompanyModerationRequestSource {
+  REGISTRATION_NOT_FOUND
+}
+
+enum TaskStatus {
+  TODO
+  IN_PROGRESS
+  DONE
+  CANCELED
+}
+
+enum TaskPriority {
+  LOW
+  MEDIUM
+  HIGH
+  URGENT
+}
+
+enum TaskVisibility {
+  PRIVATE
+  VENUE
+}
+
+enum NoteScope {
+  PRIVATE
+  VENUE
+  BARELLO_TEAM
+}
+
+enum VerificationCodeType {
+  LOGIN
+  REGISTER
+  RESET_PASSWORD
+  EMAIL_VERIFY
+}
+
+enum SupplierSpecialConditionType {
+  GLOBAL_DISCOUNT
+  PRODUCT_DISCOUNT
+  SPECIAL_PRICE
+  MOQ
+  DEFERRED_PAYMENT
+  DELIVERY_TERM
+}
+
+enum PriceImportSourceFormat {
+  XLSX
+  CSV
+  XML
+  API
+}
+
+enum SupplierPriceImportKind {
+  PRICE_WITH_OFFERS
+  PRODUCT_MASTER
+  STOCK_ONLY
+  IMAGE_PACKAGE
+}
+
+enum MeasureKind {
+  VOLUME
+  WEIGHT
+  COUNT
+}
+
+enum NameDictionaryKind {
+  CATEGORY_PREFIX
+  CATEGORY_KEYWORD
+  GEO_MARKER
+  FEATURE
+  TRADE_TERM
+  BRAND
+}
+
+enum NameTranslationSource {
+  SUPPLIER_FILE
+  MODERATOR
+  GENERATED
+}
+
+enum PriceImportStatus {
+  PENDING
+  UPLOADED
+  QUEUED
+  PROCESSING
+  PARSED
+  HAS_ISSUES
+  READY_TO_PUBLISH
+  PROCESSED
+  PUBLISHED
+  PARTIALLY_PUBLISHED
+  FAILED
+  CANCELLED
+}
+
+enum SupplierPlanStatus {
+  ACTIVE
+  TRIAL
+  PAST_DUE
+  CANCELLED
+}
+
+enum PriceImportRowMappingStatus {
+  IGNORED
+  PARSED
+  MATCHED
+  LOW_CONFIDENCE
+  CANDIDATE
+  UNMATCHED
+  MANUAL_MATCHED
+  FAILED
+}
+
+enum PriceImportIssueSeverity {
+  INFO
+  WARNING
+  ERROR
+  CRITICAL
+}
+
+enum PriceImportIssueStatus {
+  OPEN
+  RESOLVED
+  IGNORED
+}
+
+enum SupplierProductAliasType {
+  SUPPLIER_ARTICLE
+  SUPPLIER_SKU
+  SUPPLIER_CODE_7
+  BARCODE
+  LEGACY_ARTICLE
+  GENERATED_KEY
+}
+
+enum ProductCandidateStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  MERGED
+}
+
+enum ProductCatalogStatus {
+  DRAFT
+  NEEDS_REVIEW
+  CONFIRMED
+  HIDDEN
+  MERGED
+  ARCHIVED
+}
+
+enum CatalogImportRowValidationStatus {
+  RAW
+  NORMALIZED
+  MATCHED
+  VALIDATED
+  NEEDS_REVIEW
+  EDITED
+  REVALIDATED
+  APPROVED
+  READY_TO_PUBLISH
+  PUBLISHED
+  CONFLICT
+  IGNORED
+  FAILED
+}
+
+enum CatalogValidationIssueEntityType {
+  IMPORT
+  RAW_ROW
+  NORMALIZED_ROW
+  PRODUCT
+  SUPPLIER_PRODUCT
+  OFFER
+}
+
+enum CatalogPublishBatchStatus {
+  CREATED
+  RUNNING
+  PUBLISHED
+  PARTIALLY_PUBLISHED
+  FAILED
+  CANCELLED
+}
+
+enum SupplierImportImageMatchStatus {
+  PENDING
+  MATCHED
+  CONFIRMED
+  REJECTED
+}
+
+enum OfferAvailabilityLevel {
+  IN_STOCK
+  LOW_STOCK
+  OUT_OF_STOCK
+}
+
+enum CatalogCategorySection {
+  ALCOHOL
+  DRINKS_FOOD
+  NONFOOD
+}
+
+enum FacetType {
+  CHIPS
+  MULTISELECT
+  RANGE
+  TOGGLE
+  BUCKET
+}
+
+enum FacetLevel {
+  PRODUCT
+  VARIANT
+  OFFER
+}
+
+enum FacetScope {
+  CATALOG
+  VENUE_STOCK
+  SUPPLIER_STOCK
+  ADMIN_CATALOG
+  PRICE_IMPORT
+  MENU
+  INVENTORY
+}
+
+enum FacetOptionSource {
+  STATIC
+  DYNAMIC
+}
+
+enum ContractSupplierStatus {
+  ACTIVE
+  PAUSED
+  TERMINATED
+}
+
+enum SponsoredPlacementType {
+  CATEGORY_TOP
+  SEARCH_TOP
+  FEED_INLINE
+  BANNER
+}
+
+enum CartStatus {
+  ACTIVE
+  CONVERTED
+  ABANDONED
+}
+
+enum OrderBatchStatus {
+  DRAFT
+  SUBMITTED
+  PARTIALLY_SENT
+  COMPLETED
+  CANCELED
+}
+
+enum SupplierOrderStatus {
+  PENDING
+  ACCEPTED
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  REJECTED
+  CANCELED
+}
+
+enum SupplierOrderChannel {
+  EMAIL
+  API
+  MANUAL
+}
+
+enum SupplierOrderStatusActorType {
+  SUPPLIER
+  SYSTEM
+}
+
+enum DeliveryConfirmationDecision {
+  ACCEPTED
+  REJECTED
+}
+
+enum UnitType {
+  KG
+  L
+  PCS
+  G
+  ML
+}
+
+enum InventoryReservationReferenceType {
+  ORDER
+  MANUAL
+}
+
+enum StockMovementType {
+  PURCHASE
+  CONSUMPTION
+  ADJUSTMENT
+  WRITE_OFF
+  RETURN
+  MANUAL_RECEIPT
+}
+
+enum StockMovementReferenceType {
+  ORDER
+  MENU
+  TECH_CARD
+  INVENTORY
+  MANUAL
+  SALES_IMPORT
+  INVENTORY_SESSION
+}
+
+enum StockAlertType {
+  MISSING_INGREDIENT
+  LOW_STOCK
+  MANUAL_WARNING
+}
+
+enum MenuItemType {
+  PRODUCT
+  DISH
+}
+
+enum MenuItemTagType {
+  MANUAL
+  AUTO
+}
+
+enum InventorySessionStatus {
+  IN_PROGRESS
+  SUBMITTED_FOR_REVIEW
+  CLOSED
+}
+
+enum SalesImportStatus {
+  PENDING
+  PROCESSING
+  PROCESSED
+  FAILED
+}
+
+enum SalesImportSourceFormat {
+  XLSX
+  CSV
+}
+
+enum SalesReportRowMappingStatus {
+  MATCHED
+  UNMATCHED
+  MANUAL_MATCHED
+}
+
+enum AnalyticsPeriodType {
+  DAY
+  WEEK
+  MONTH
+}
+
+enum FileAssetType {
+  IMAGE
+  VIDEO
+  DOCUMENT
+  SPREADSHEET
+  BANNER
+  OTHER
+}
+
+enum ContentAuthorType {
+  ADMIN
+  SUPPLIER
+}
+
+enum ContentBannerLabel {
+  NEW
+}
+
+enum BusinessDownloadPurpose {
+  MENU
+  STOCK
+  SALES
+  ANALYTICS
+}
+
+enum BusinessDownloadStatus {
+  UPLOADED
+  PROCESSING
+  DONE
+  FAILED
+}
+
+enum AuditActorType {
+  USER
+  SUPPLIER
+  SYSTEM
+}
+
+model User {
+  id              String         @id @default(uuid()) @db.Uuid
+  publicId        String         @unique @default(dbgenerated("generate_public_id('1'::text)")) @db.VarChar(8)
+  phone           String?        @unique
+  email           String?        @unique
+  emailVerifiedAt DateTime?
+  passwordHash    String?
+  status          UserStatus
+  adminGroup      UserAdminGroup @default(UNCLASSIFIED)
+  accountType     AccountType    @default(UNIDENTIFIED)
+  activeVenueId   String?        @db.Uuid
+  defaultVenueId  String?        @db.Uuid
+  lastLoginAt     DateTime?
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  profile                   UserProfile?
+  activeVenue               Venue?                     @relation("UserActiveVenue", fields: [activeVenueId], references: [id], onDelete: SetNull)
+  defaultVenue              Venue?                     @relation("UserDefaultVenue", fields: [defaultVenueId], references: [id], onDelete: SetNull)
+  memberships               UserVenueMembership[]      @relation("UserMemberships")
+  confirmedMemberships      UserVenueMembership[]      @relation("ConfirmedByUser")
+  supplierMemberships       SupplierMembership[]
+  registrationDrafts        RegistrationDraft[]
+  createdStaffInvitations   StaffInvitation[]          @relation("CreatedStaffInvitations")
+  acceptedInvitations       StaffInvitation[]          @relation("AcceptedStaffInvitation")
+  companyModerationRequests CompanyModerationRequest[]
+
+  authoredNotes                UserNote[]                  @relation("UserAuthoredNotes")
+  noteAccesses                 UserNoteAccess[]
+  createdTasks                 UserTask[]                  @relation("UserCreatedTasks")
+  assignedTasks                UserTask[]                  @relation("UserAssignedTasks")
+  authSessions                 AuthSession[]
+  verificationCodes            VerificationCode[]
+  favoriteProducts             UserFavoriteProduct[]
+  carts                        Cart[]                      @relation("UserCreatedCarts")
+  orderBatches                 OrderBatch[]                @relation("UserCreatedOrderBatches")
+  deliveryConfirmations        OrderDeliveryConfirmation[]
+  inventoryReservations        InventoryReservation[]      @relation("InventoryReservationReservedBy")
+  inventorySessions            InventorySession[]          @relation("InventorySessionCreatedBy")
+  inventorySessionItemsCounted InventorySessionItem[]      @relation("InventorySessionItemCountedBy")
+  salesReportImports           SalesReportImport[]         @relation("SalesReportImportUploadedBy")
+  menuItemTagsCreated          MenuItemTag[]               @relation("MenuItemTagCreatedBy")
+  menuItemAnalogsAssigned      MenuItemAnalog[]            @relation("MenuItemAnalogAssignedBy")
+  fileAssetsUploaded           FileAsset[]                 @relation("FileAssetUploadedByUser")
+  auditLogsActor               AuditLog[]                  @relation("AuditLogActorUser")
+  accountDeletionRequests      AccountDeletionRequest[]
+  notifications                Notification[]
+  taskSettings                 UserTaskSettings?
+  businessDownloads            BusinessDownload[]          @relation("BusinessDownloadUploadedBy")
+  catalogFilterPresets         UserCatalogFilterPreset[]
+  contentStoryViews            ContentStoryView[]
+  contentStoryReactions        ContentStoryReaction[]
+  contentStoryReplies          ContentStoryReply[]
+
+  @@index([activeVenueId])
+  @@index([defaultVenueId])
+}
+
+model UserProfile {
+  id           String   @id @default(uuid()) @db.Uuid
+  userId       String   @unique @db.Uuid
+  firstName    String
+  lastName     String
+  middleName   String?
+  avatarFileId String?  @db.Uuid
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model UserVenueMembership {
+  id                String           @id @default(uuid()) @db.Uuid
+  publicId          String           @unique @default(dbgenerated("generate_public_id('4'::text)")) @db.VarChar(8)
+  userId            String           @db.Uuid
+  venueId           String           @db.Uuid
+  displayRole       DisplayRole
+  accessLevel       AccessLevel
+  membershipStatus  MembershipStatus
+  joinedAt          DateTime?
+  confirmedByUserId String?          @db.Uuid
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+
+  user            User  @relation("UserMemberships", fields: [userId], references: [id], onDelete: Cascade)
+  venue           Venue @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  confirmedByUser User? @relation("ConfirmedByUser", fields: [confirmedByUserId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, venueId])
+  @@index([venueId])
+  @@index([confirmedByUserId])
+}
+
+model UserNote {
+  id           String    @id @default(uuid()) @db.Uuid
+  authorUserId String    @db.Uuid
+  venueId      String?   @db.Uuid
+  scope        NoteScope @default(PRIVATE)
+  title        String
+  content      String    @db.Text
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  author   User             @relation("UserAuthoredNotes", fields: [authorUserId], references: [id], onDelete: Cascade)
+  venue    Venue?           @relation(fields: [venueId], references: [id], onDelete: SetNull)
+  accesses UserNoteAccess[]
+
+  @@index([authorUserId])
+  @@index([venueId])
+  @@index([scope, createdAt])
+}
+
+model UserNoteAccess {
+  id        String    @id @default(uuid()) @db.Uuid
+  noteId    String    @db.Uuid
+  userId    String    @db.Uuid
+  createdAt DateTime  @default(now())
+  readAt    DateTime?
+
+  note UserNote @relation(fields: [noteId], references: [id], onDelete: Cascade)
+  user User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([noteId, userId])
+  @@index([userId])
+}
+
+model UserTask {
+  id             String         @id @default(uuid()) @db.Uuid
+  title          String
+  description    String?        @db.Text
+  status         TaskStatus     @default(TODO)
+  priority       TaskPriority   @default(MEDIUM)
+  visibility     TaskVisibility @default(PRIVATE)
+  creatorUserId  String         @db.Uuid
+  assigneeUserId String         @db.Uuid
+  venueId        String?        @db.Uuid
+  dueDate        DateTime?
+  onboardingKey  String?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  creator  User   @relation("UserCreatedTasks", fields: [creatorUserId], references: [id], onDelete: Cascade)
+  assignee User   @relation("UserAssignedTasks", fields: [assigneeUserId], references: [id], onDelete: Cascade)
+  venue    Venue? @relation(fields: [venueId], references: [id], onDelete: SetNull)
+
+  @@unique([assigneeUserId, onboardingKey])
+  @@index([creatorUserId])
+  @@index([assigneeUserId])
+  @@index([venueId])
+  @@index([status])
+  @@index([dueDate])
+}
+
+model UserTaskSettings {
+  id                   String   @id @default(uuid()) @db.Uuid
+  userId               String   @unique @db.Uuid
+  weekStartsOn         Int      @default(1)
+  showCompleted        Boolean  @default(true)
+  notificationsEnabled Boolean  @default(true)
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Notification {
+  id                 String    @id @default(uuid()) @db.Uuid
+  userId             String    @db.Uuid
+  title              String
+  description        String    @db.Text
+  type               String
+  isRead             Boolean   @default(false)
+  readAt             DateTime?
+  relatedEntityType  String?
+  relatedEntityId    String?
+  relatedEntityRoute String?
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isRead])
+  @@index([userId, createdAt])
+}
+
+model AuthSession {
+  id               String   @id @default(uuid()) @db.Uuid
+  userId           String   @db.Uuid
+  refreshTokenHash String
+  expiresAt        DateTime
+  userAgent        String?
+  ipAddress        String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model VerificationCode {
+  id        String               @id @default(uuid()) @db.Uuid
+  target    String
+  code      String
+  type      VerificationCodeType
+  userId    String?              @db.Uuid
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime             @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([target, type])
+  @@index([expiresAt])
+}
+
+model Business {
+  id           String   @id @default(uuid()) @db.Uuid
+  name         String
+  taxNumber    String   @unique
+  legalAddress String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  venues                    Venue[]
+  supplier                  Supplier?
+  registrationDrafts        RegistrationDraft[]
+  companyModerationRequests CompanyModerationRequest[]
+}
+
+model Venue {
+  id                           String            @id @default(uuid()) @db.Uuid
+  publicId                     String            @unique @default(dbgenerated("generate_public_id('3'::text)")) @db.VarChar(8)
+  businessId                   String            @db.Uuid
+  name                         String
+  city                         String
+  address                      String?
+  latitude                     Decimal?          @db.Decimal(9, 6)
+  longitude                    Decimal?          @db.Decimal(9, 6)
+  phone                        String?
+  email                        String?
+  website                      String?
+  contactPersonName            String?
+  seatsCount                   Int?
+  description                  String?           @db.Text
+  venueType                    String?
+  mainPhotoFileId              String?           @db.Uuid
+  showPhoneInCard              Boolean           @default(false)
+  showAdminContactsToSuppliers Boolean           @default(false)
+  ownerStatus                  VenueOwnerStatus?
+  venueStatus                  VenueStatus       @default(ACTIVE)
+  isActive                     Boolean           @default(true)
+  createdAt                    DateTime          @default(now())
+  updatedAt                    DateTime          @updatedAt
+
+  business                  Business                   @relation(fields: [businessId], references: [id], onDelete: Cascade)
+  activeForUsers            User[]                     @relation("UserActiveVenue")
+  defaultForUsers           User[]                     @relation("UserDefaultVenue")
+  memberships               UserVenueMembership[]
+  cuisineLinks              VenueCuisineType[]
+  photos                    VenuePhoto[]
+  notes                     UserNote[]
+  businessDownloads         BusinessDownload[]
+  tasks                     UserTask[]
+  supplierSpecialConditions SupplierSpecialCondition[]
+  contractSuppliers         ContractSupplier[]
+  favoriteProducts          UserFavoriteProduct[]
+  carts                     Cart[]
+  orderBatches              OrderBatch[]
+  supplierOrders            SupplierOrder[]
+  inventoryItems            InventoryItem[]
+  inventoryReservations     InventoryReservation[]
+  stockMovements            StockMovement[]
+  stockAlerts               StockAlert[]
+  stopListItems             StopListItem[]
+  menuCategories            MenuCategory[]
+  menuItems                 MenuItem[]
+  menuItemTags              MenuItemTag[]
+  pairingStats              MenuItemPairingStat[]
+  inventorySessions         InventorySession[]
+  salesReportImports        SalesReportImport[]
+  salesReportRows           SalesReportRow[]
+  analyticsSnapshots        VenueAnalyticsSnapshot[]
+  registrationDrafts        RegistrationDraft[]
+  staffInvitations          StaffInvitation[]
+
+  @@index([businessId])
+  @@index([venueStatus])
+}
+
+model CuisineType {
+  id        String   @id @default(uuid()) @db.Uuid
+  name      String   @unique
+  createdAt DateTime @default(now())
+
+  venues VenueCuisineType[]
+}
+
+model VenueCuisineType {
+  id            String   @id @default(uuid()) @db.Uuid
+  venueId       String   @db.Uuid
+  cuisineTypeId String   @db.Uuid
+  createdAt     DateTime @default(now())
+
+  venue       Venue       @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  cuisineType CuisineType @relation(fields: [cuisineTypeId], references: [id], onDelete: Cascade)
+
+  @@unique([venueId, cuisineTypeId])
+  @@index([cuisineTypeId])
+}
+
+model Supplier {
+  id              String              @id @default(uuid()) @db.Uuid
+  publicId        String              @unique @default(dbgenerated("generate_public_id('2'::text)")) @db.VarChar(8)
+  businessId      String?             @unique @db.Uuid
+  name            String
+  catalogName     String?
+  city            String?
+  address         String?
+  latitude        Decimal?            @db.Decimal(9, 6)
+  longitude       Decimal?            @db.Decimal(9, 6)
+  contactName     String?
+  description     String?             @db.Text
+  phone           String?
+  email           String?
+  website         String?
+  passwordHash    String?
+  pinHash         String?
+  mainPhotoFileId String?             @db.Uuid
+  showPhoneInCard Boolean             @default(false)
+  planName        String?
+  planStatus      SupplierPlanStatus?
+  promoBalance    Decimal?            @db.Decimal(12, 2)
+  isActive        Boolean             @default(true)
+  createdAt       DateTime            @default(now())
+  updatedAt       DateTime            @updatedAt
+
+  business                  Business?                   @relation(fields: [businessId], references: [id], onDelete: SetNull)
+  categories                SupplierCategory[]
+  catalogCategoryMappings   CatalogCategoryMapping[]
+  specialConditions         SupplierSpecialCondition[]
+  photos                    SupplierPhoto[]
+  importProfiles            SupplierImportProfile[]
+  priceImports              SupplierPriceImport[]
+  priceImportIssues         SupplierPriceImportIssue[]
+  catalogNormalizedRows     CatalogNormalizedRow[]
+  catalogValidationIssues   CatalogValidationIssue[]
+  catalogPublishBatches     CatalogPublishBatch[]
+  productAliases            SupplierProductAlias[]
+  productCandidates         ProductCandidate[]
+  importImageMatches        SupplierImportImageMatch[]
+  stockImports              SupplierStockImport[]
+  inventoryItems            SupplierInventoryItem[]
+  regionPresences           SupplierRegionPresence[]
+  supplierProducts          SupplierProduct[]
+  contractSuppliers         ContractSupplier[]
+  categoryBanners           CatalogCategoryBanner[]
+  catalogBanners            CatalogBanner[]
+  sponsoredPlacements       SponsoredProductPlacement[]
+  searchSuggestions         CatalogSearchSuggestion[]
+  supplierOrders            SupplierOrder[]
+  supplierOrderStatusEvents SupplierOrderStatusEvent[]
+  fileAssetsUploaded        FileAsset[]                 @relation("FileAssetUploadedBySupplier")
+  auditLogsActor            AuditLog[]                  @relation("AuditLogActorSupplier")
+  memberships               SupplierMembership[]
+
+  @@index([businessId])
+}
+
+model VenuePhoto {
+  id          String           @id @default(uuid()) @db.Uuid
+  venueId     String           @db.Uuid
+  fileAssetId String           @db.Uuid
+  sortOrder   Int              @default(0)
+  status      VenuePhotoStatus @default(ACTIVE)
+  rejectedAt  DateTime?
+  createdAt   DateTime         @default(now())
+
+  venue     Venue     @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  fileAsset FileAsset @relation(fields: [fileAssetId], references: [id], onDelete: Cascade)
+
+  @@index([venueId])
+  @@index([fileAssetId])
+  @@index([status])
+}
+
+model SupplierPhoto {
+  id          String   @id @default(uuid()) @db.Uuid
+  supplierId  String   @db.Uuid
+  fileAssetId String   @db.Uuid
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  supplier  Supplier  @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  fileAsset FileAsset @relation(fields: [fileAssetId], references: [id], onDelete: Cascade)
+
+  @@index([supplierId])
+  @@index([fileAssetId])
+}
+
+model RegistrationDraft {
+  id                       String                  @id @default(uuid()) @db.Uuid
+  flowType                 RegistrationFlowType
+  status                   RegistrationDraftStatus @default(IN_PROGRESS)
+  userId                   String?                 @db.Uuid
+  fullName                 String?
+  phone                    String?
+  phoneOtpVerified         Boolean                 @default(false)
+  selectedAccountType      AccountType?
+  venueRole                DisplayRole?
+  supplierRole             String?
+  supplierAccessLevel      AccessLevel?
+  venueAccessLevel         AccessLevel?
+  inn                      String?
+  companyExistsInBarello   Boolean?
+  existingCompanyType      CompanyType?
+  existingCompanyId        String?                 @db.Uuid
+  externalCompanyConfirmed Boolean?
+  externalCompanyData      Json?
+  manualCompanyName        String?
+  manualCompanyAddress     String?
+  inviteToken              String?
+  staffInvitationId        String?                 @db.Uuid
+  venueId                  String?                 @db.Uuid
+  businessId               String?                 @db.Uuid
+  invitedRole              DisplayRole?
+  invitedAccessLevel       AccessLevel?
+  expiresAt                DateTime
+  completedAt              DateTime?
+  createdAt                DateTime                @default(now())
+  updatedAt                DateTime                @updatedAt
+
+  user                      User?                      @relation(fields: [userId], references: [id], onDelete: SetNull)
+  staffInvitation           StaffInvitation?           @relation(fields: [staffInvitationId], references: [id], onDelete: SetNull)
+  venue                     Venue?                     @relation(fields: [venueId], references: [id], onDelete: SetNull)
+  business                  Business?                  @relation(fields: [businessId], references: [id], onDelete: SetNull)
+  companyModerationRequests CompanyModerationRequest[]
+
+  @@index([userId])
+  @@index([staffInvitationId])
+  @@index([venueId])
+  @@index([businessId])
+  @@index([phone])
+  @@index([status])
+  @@index([flowType])
+  @@index([expiresAt])
+}
+
+model StaffInvitation {
+  id                 String                @id @default(uuid()) @db.Uuid
+  venueId            String                @db.Uuid
+  inviterUserId      String                @db.Uuid
+  invitedRole        DisplayRole
+  invitedAccessLevel AccessLevel
+  status             StaffInvitationStatus @default(CREATED)
+  currentTokenHash   String
+  inviteUrl          String
+  expiresAt          DateTime
+  acceptedByUserId   String?               @db.Uuid
+  acceptedAt         DateTime?
+  createdAt          DateTime              @default(now())
+  updatedAt          DateTime              @updatedAt
+
+  venue              Venue               @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  inviterUser        User                @relation("CreatedStaffInvitations", fields: [inviterUserId], references: [id], onDelete: Cascade)
+  acceptedByUser     User?               @relation("AcceptedStaffInvitation", fields: [acceptedByUserId], references: [id], onDelete: SetNull)
+  registrationDrafts RegistrationDraft[]
+
+  @@index([venueId])
+  @@index([inviterUserId])
+  @@index([acceptedByUserId])
+  @@index([status])
+  @@index([expiresAt])
+}
+
+model CompanyModerationRequest {
+  id                   String                         @id @default(uuid()) @db.Uuid
+  userId               String                         @db.Uuid
+  draftId              String                         @db.Uuid
+  businessId           String?                        @db.Uuid
+  requestedCompanyType CompanyType
+  requestedVenueRole   DisplayRole?
+  requestedAccessLevel AccessLevel?
+  inn                  String
+  companyName          String
+  companyAddress       String?
+  source               CompanyModerationRequestSource
+  status               CompanyModerationRequestStatus @default(PENDING)
+  createdAt            DateTime                       @default(now())
+  updatedAt            DateTime                       @updatedAt
+
+  user     User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  draft    RegistrationDraft @relation(fields: [draftId], references: [id], onDelete: Cascade)
+  business Business?         @relation(fields: [businessId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([draftId])
+  @@index([businessId])
+  @@index([requestedCompanyType])
+  @@index([status])
+}
+
+model SupplierMembership {
+  id                String           @id @default(uuid()) @db.Uuid
+  userId            String           @db.Uuid
+  supplierId        String           @db.Uuid
+  displayRole       String
+  accessLevel       AccessLevel
+  status            MembershipStatus
+  notifyByEmail     Boolean          @default(false)
+  notifyByMessenger Boolean          @default(false)
+  messengerType     String?
+  messengerContact  String?
+  joinedAt          DateTime?
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  supplier Supplier @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, supplierId])
+  @@index([supplierId])
+  @@index([status])
+}
+
+model SupplierCategory {
+  id                String   @id @default(uuid()) @db.Uuid
+  supplierId        String   @db.Uuid
+  catalogCategoryId String   @db.Uuid
+  createdAt         DateTime @default(now())
+
+  supplier        Supplier        @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  catalogCategory CatalogCategory @relation(fields: [catalogCategoryId], references: [id], onDelete: Cascade)
+
+  @@unique([supplierId, catalogCategoryId])
+  @@index([catalogCategoryId])
+}
+
+model SupplierSpecialCondition {
+  id            String                       @id @default(uuid()) @db.Uuid
+  supplierId    String                       @db.Uuid
+  venueId       String                       @db.Uuid
+  conditionType SupplierSpecialConditionType
+  valueJson     Json
+  isActive      Boolean                      @default(true)
+  startsAt      DateTime?
+  endsAt        DateTime?
+  createdAt     DateTime                     @default(now())
+  updatedAt     DateTime                     @updatedAt
+
+  supplier Supplier @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  venue    Venue    @relation(fields: [venueId], references: [id], onDelete: Cascade)
+
+  @@index([supplierId])
+  @@index([venueId])
+  @@index([conditionType])
+}
+
+model SupplierImportProfile {
+  id              String                  @id @default(uuid()) @db.Uuid
+  supplierId      String?                 @db.Uuid
+  code            String
+  name            String
+  version         Int                     @default(1)
+  isActive        Boolean                 @default(true)
+  isDefault       Boolean                 @default(false)
+  sourceFormat    PriceImportSourceFormat @default(XLSX)
+  rulesJson       Json
+  createdByUserId String?                 @db.Uuid
+  confirmedAt     DateTime?
+  createdAt       DateTime                @default(now())
+  updatedAt       DateTime                @updatedAt
+
+  supplier Supplier?             @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  imports  SupplierPriceImport[]
+
+  @@unique([supplierId, code, version])
+  @@index([supplierId])
+  @@index([code, isActive])
+  @@index([isDefault])
+}
+
+model SupplierPriceImport {
+  id                  String                  @id @default(uuid()) @db.Uuid
+  supplierId          String                  @db.Uuid
+  fileAssetId         String                  @db.Uuid
+  profileId           String?                 @db.Uuid
+  previousImportId    String?                 @db.Uuid
+  sourceFormat        PriceImportSourceFormat
+  importKind          SupplierPriceImportKind @default(PRICE_WITH_OFFERS)
+  status              PriceImportStatus       @default(UPLOADED)
+  fileHash            String?
+  originalFileName    String?
+  priceDate           DateTime?               @db.Date
+  parserVersion       String?
+  detectedProfileJson Json?
+  mappingConfigJson   Json?
+  profileSnapshotJson Json?
+  rowsCount           Int                     @default(0)
+  parsedRows          Int                     @default(0)
+  matchedRows         Int                     @default(0)
+  processedRows       Int                     @default(0)
+  failedRows          Int                     @default(0)
+  issuesCount         Int                     @default(0)
+  criticalIssuesCount Int                     @default(0)
+  summaryJson         Json?
+  errorText           String?                 @db.Text
+  publishedAt         DateTime?
+  createdAt           DateTime                @default(now())
+  updatedAt           DateTime                @updatedAt
+
+  supplier               Supplier                   @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  fileAsset              FileAsset                  @relation("SupplierPriceImportFile", fields: [fileAssetId], references: [id], onDelete: Cascade)
+  profile                SupplierImportProfile?     @relation(fields: [profileId], references: [id], onDelete: SetNull)
+  previousImport         SupplierPriceImport?       @relation("SupplierPriceImportPrevious", fields: [previousImportId], references: [id], onDelete: SetNull)
+  nextImports            SupplierPriceImport[]      @relation("SupplierPriceImportPrevious")
+  rows                   SupplierPriceImportRow[]
+  issues                 SupplierPriceImportIssue[]
+  productCandidates      ProductCandidate[]
+  imageMatches           SupplierImportImageMatch[]
+  normalizedRows         CatalogNormalizedRow[]
+  matchCandidates        CatalogMatchCandidate[]
+  validationIssues       CatalogValidationIssue[]
+  publishBatches         CatalogPublishBatch[]
+  sourceSupplierProducts SupplierProduct[]          @relation("SupplierProductSourceImport")
+  sourceOffers           Offer[]                    @relation("OfferSourceImport")
+  sourceAliases          SupplierProductAlias[]     @relation("SupplierProductAliasSourceImport")
+
+  @@index([supplierId])
+  @@index([fileAssetId])
+  @@index([profileId])
+  @@index([previousImportId])
+  @@index([importKind])
+  @@index([status])
+  @@index([fileHash])
+  @@index([publishedAt])
+}
+
+model SupplierStockImport {
+  id            String                  @id @default(uuid()) @db.Uuid
+  supplierId    String                  @db.Uuid
+  fileAssetId   String                  @db.Uuid
+  sourceFormat  PriceImportSourceFormat
+  status        PriceImportStatus       @default(UPLOADED)
+  rowsCount     Int                     @default(0)
+  processedRows Int                     @default(0)
+  failedRows    Int                     @default(0)
+  createdAt     DateTime                @default(now())
+  updatedAt     DateTime                @updatedAt
+
+  supplier  Supplier  @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  fileAsset FileAsset @relation(fields: [fileAssetId], references: [id], onDelete: Cascade)
+
+  @@index([supplierId])
+  @@index([status])
+}
+
+model SupplierPriceImportRow {
+  id                      String                           @id @default(uuid()) @db.Uuid
+  importId                String                           @db.Uuid
+  sheetName               String?
+  rowIndex                Int?
+  rowType                 String?
+  rawName                 String
+  rawCategory             String?
+  normalizedName          String?
+  mappedProductId         String?                          @db.Uuid
+  mappedProductVariantId  String?                          @db.Uuid
+  mappedSupplierProductId String?                          @db.Uuid
+  mappedOfferId           String?                          @db.Uuid
+  mappingStatus           PriceImportRowMappingStatus
+  mappingConfidence       Decimal?                         @db.Decimal(5, 2)
+  identityKey             String?
+  rowHash                 String?
+  sourceBarcode           String?
+  sourceArticle           String?
+  sourceSku               String?
+  rawPayload              Json?
+  normalizedPayload       Json?
+  adminCorrectionPayload  Json?
+  validationStatus        CatalogImportRowValidationStatus @default(RAW)
+  approvedAt              DateTime?
+  publishedAt             DateTime?
+  errorText               String?                          @db.Text
+  createdAt               DateTime                         @default(now())
+  updatedAt               DateTime                         @updatedAt
+
+  import                 SupplierPriceImport        @relation(fields: [importId], references: [id], onDelete: Cascade)
+  mappedProduct          Product?                   @relation(fields: [mappedProductId], references: [id], onDelete: SetNull)
+  mappedProductVariant   ProductVariant?            @relation(fields: [mappedProductVariantId], references: [id], onDelete: SetNull)
+  mappedSupplierProduct  SupplierProduct?           @relation(fields: [mappedSupplierProductId], references: [id], onDelete: SetNull)
+  mappedOffer            Offer?                     @relation(fields: [mappedOfferId], references: [id], onDelete: SetNull)
+  sourceOffers           Offer[]                    @relation("OfferSourceImportRow")
+  sourceAliases          SupplierProductAlias[]     @relation("SupplierProductAliasSourceImportRow")
+  sourceSupplierProducts SupplierProduct[]          @relation("SupplierProductSourceImportRow")
+  normalizedRows         CatalogNormalizedRow[]
+  matchCandidates        CatalogMatchCandidate[]
+  validationIssues       CatalogValidationIssue[]
+  issues                 SupplierPriceImportIssue[]
+  productCandidates      ProductCandidate[]
+  imageMatches           SupplierImportImageMatch[]
+
+  @@index([importId])
+  @@index([sheetName, rowIndex])
+  @@index([mappedProductId])
+  @@index([mappedProductVariantId])
+  @@index([mappedSupplierProductId])
+  @@index([mappedOfferId])
+  @@index([mappingStatus])
+  @@index([validationStatus])
+  @@index([approvedAt])
+  @@index([publishedAt])
+  @@index([identityKey])
+  @@index([rowHash])
+  @@index([sourceBarcode])
+  @@index([sourceArticle])
+}
+
+model SupplierPriceImportIssue {
+  id               String                   @id @default(uuid()) @db.Uuid
+  importId         String                   @db.Uuid
+  rowId            String?                  @db.Uuid
+  supplierId       String                   @db.Uuid
+  type             String
+  severity         PriceImportIssueSeverity @default(WARNING)
+  status           PriceImportIssueStatus   @default(OPEN)
+  fieldName        String?
+  message          String                   @db.Text
+  supplierValue    Json?
+  catalogValue     Json?
+  detailsJson      Json?
+  suggestedAction  String?
+  resolutionJson   Json?
+  resolvedByUserId String?                  @db.Uuid
+  resolvedAt       DateTime?
+  createdAt        DateTime                 @default(now())
+  updatedAt        DateTime                 @updatedAt
+
+  import   SupplierPriceImport     @relation(fields: [importId], references: [id], onDelete: Cascade)
+  row      SupplierPriceImportRow? @relation(fields: [rowId], references: [id], onDelete: SetNull)
+  supplier Supplier                @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+
+  @@index([importId])
+  @@index([rowId])
+  @@index([supplierId])
+  @@index([severity, status])
+  @@index([type])
+}
+
+model CatalogCategory {
+  id                 String                 @id @default(uuid()) @db.Uuid
+  name               String
+  code               String?                @unique
+  section            CatalogCategorySection @default(NONFOOD)
+  sortOrder          Int                    @default(0)
+  isTagActive        Boolean                @default(true)
+  showInQuickFilters Boolean                @default(false)
+  isHidden           Boolean                @default(false)
+  parentId           String?                @db.Uuid
+  path               String                 @default("")
+  depth              Int                    @default(1)
+  createdAt          DateTime               @default(now())
+  updatedAt          DateTime               @updatedAt
+
+  parent                CatalogCategory?            @relation("CatalogCategoryTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children              CatalogCategory[]           @relation("CatalogCategoryTree")
+  products              Product[]
+  supplierCategories    SupplierCategory[]
+  categoryMappings      CatalogCategoryMapping[]
+  categoryBanners       CatalogCategoryBanner[]
+  catalogBanners        CatalogBanner[]
+  sponsoredPlacements   SponsoredProductPlacement[]
+  searchSuggestions     CatalogSearchSuggestion[]
+  catalogNormalizedRows CatalogNormalizedRow[]
+  facetRegistryEntries  FacetRegistryEntry[]
+
+  @@unique([name, parentId])
+  @@index([parentId])
+  @@index([parentId, sortOrder])
+  @@index([path])
+  @@index([depth])
+}
+
+model FacetRegistryEntry {
+  id            String            @id @default(uuid()) @db.Uuid
+  key           String            @unique @db.VarChar(80)
+  label         String
+  type          FacetType
+  level         FacetLevel
+  scopes        FacetScope[]
+  categoryId    String?           @db.Uuid
+  categoryScope Json?
+  dataSource    String
+  optionSource  FacetOptionSource @default(DYNAMIC)
+  minFillRate   Decimal           @default(0.05) @db.Decimal(5, 4)
+  isActive      Boolean           @default(true)
+  sortOrder     Int               @default(0)
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  category CatalogCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  options  FacetOption[]
+
+  @@index([isActive, sortOrder])
+  @@index([categoryId])
+}
+
+model FacetOption {
+  id        String   @id @default(uuid()) @db.Uuid
+  facetId   String   @db.Uuid
+  value     String
+  label     String
+  sortOrder Int      @default(0)
+  metadata  Json?
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  facet FacetRegistryEntry @relation(fields: [facetId], references: [id], onDelete: Cascade)
+
+  @@unique([facetId, value])
+  @@index([facetId, sortOrder])
+  @@index([isActive])
+}
+
+model CatalogCategoryMapping {
+  id                    String   @id @default(uuid()) @db.Uuid
+  supplierId            String?  @db.Uuid
+  rawCategory           String
+  normalizedRawCategory String
+  catalogCategoryId     String   @db.Uuid
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  supplier        Supplier?       @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  catalogCategory CatalogCategory @relation(fields: [catalogCategoryId], references: [id], onDelete: Cascade)
+
+  @@index([supplierId, normalizedRawCategory])
+  @@index([catalogCategoryId])
+}
+
+model CatalogNameDictionaryEntry {
+  id                String             @id @default(uuid()) @db.Uuid
+  kind              NameDictionaryKind
+  pattern           String
+  normalizedPattern String
+  payloadJson       Json
+  priority          Int                @default(0)
+  isActive          Boolean            @default(true)
+  createdByUserId   String?            @db.Uuid
+  createdAt         DateTime           @default(now())
+  updatedAt         DateTime           @updatedAt
+
+  @@unique([kind, normalizedPattern])
+  @@index([kind, isActive])
+}
+
+model ProductNameTranslation {
+  id           String                @id @default(uuid()) @db.Uuid
+  normalizedRu String                @unique
+  ruName       String
+  enName       String
+  source       NameTranslationSource
+  confidence   Decimal               @db.Decimal(5, 2)
+  confirmedAt  DateTime?
+  createdAt    DateTime              @default(now())
+  updatedAt    DateTime              @updatedAt
+
+  @@index([source])
+}
+
+model Product {
+  id                  String               @id @default(uuid()) @db.Uuid
+  publicId            String               @unique @default(dbgenerated("generate_public_id('0'::text)")) @db.VarChar(8)
+  name                String
+  categoryId          String?              @db.Uuid
+  rawCategory         String?
+  description         String?              @db.Text
+  barcode             String?              @unique
+  barcodeImageFileId  String?              @db.Uuid
+  article             String?
+  brand               String?
+  producer            String?
+  country             String?
+  region              String?
+  manufacturer        String?
+  manufacturedYear    Int?
+  vintage             Int?
+  translatedName      String?
+  alcoholPercent      Decimal?             @db.Decimal(5, 2)
+  alcoholPercentMax   Decimal?             @db.Decimal(5, 2)
+  features            Json?
+  color               String?
+  sugar               String?
+  grapeSorts          Json?
+  attributesJson      Json?
+  packageVolume       Decimal?             @db.Decimal(12, 3)
+  packageVolumeUnit   String?
+  packageQuantity     Decimal?             @db.Decimal(12, 3)
+  mainImageFileId     String?              @db.Uuid
+  promoVideoFileId    String?              @db.Uuid
+  status              ProductCatalogStatus @default(NEEDS_REVIEW)
+  isHidden            Boolean              @default(false)
+  isConfirmed         Boolean              @default(false)
+  confirmedAt         DateTime?
+  hiddenAt            DateTime?
+  mergedIntoProductId String?              @db.Uuid
+  isPromo             Boolean              @default(false)
+  createdAt           DateTime             @default(now())
+  updatedAt           DateTime             @updatedAt
+
+  category                CatalogCategory?            @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  barcodeImage            FileAsset?                  @relation("ProductBarcodeImage", fields: [barcodeImageFileId], references: [id], onDelete: SetNull)
+  mainImage               FileAsset?                  @relation("ProductMainImage", fields: [mainImageFileId], references: [id], onDelete: SetNull)
+  promoVideo              FileAsset?                  @relation("ProductPromoVideo", fields: [promoVideoFileId], references: [id], onDelete: SetNull)
+  mergedIntoProduct       Product?                    @relation("ProductMergeTarget", fields: [mergedIntoProductId], references: [id], onDelete: SetNull)
+  mergedProducts          Product[]                   @relation("ProductMergeTarget")
+  variants                ProductVariant[]
+  supplierProducts        SupplierProduct[]
+  supplierInventoryItems  SupplierInventoryItem[]
+  favoriteByUsers         UserFavoriteProduct[]
+  supplierPriceImportRows SupplierPriceImportRow[]
+  productCandidates       ProductCandidate[]
+  catalogMatchCandidates  CatalogMatchCandidate[]
+  catalogValidationIssues CatalogValidationIssue[]
+  importImageMatches      SupplierImportImageMatch[]
+  mediaAssets             ProductMediaAsset[]
+  cartItems               CartItem[]
+  orderItems              SupplierOrderItem[]
+  sponsoredPlacements     SponsoredProductPlacement[]
+  searchSuggestions       CatalogSearchSuggestion[]
+  inventoryItems          InventoryItem[]
+  menuItems               MenuItem[]
+  unitConversionProfile   UnitConversionProfile?
+  catalogNormalizedRows   CatalogNormalizedRow[]
+
+  @@index([categoryId])
+  @@index([barcodeImageFileId])
+  @@index([mainImageFileId])
+  @@index([promoVideoFileId])
+  @@index([status])
+  @@index([isHidden])
+  @@index([isConfirmed])
+  @@index([mergedIntoProductId])
+}
+
+model ProductMediaAsset {
+  id          String   @id @default(uuid()) @db.Uuid
+  productId   String   @db.Uuid
+  fileAssetId String   @unique @db.Uuid
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  product   Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+  fileAsset FileAsset @relation(fields: [fileAssetId], references: [id], onDelete: Cascade)
+
+  @@index([productId, sortOrder])
+}
+
+model ProductVariant {
+  id              String      @id @default(uuid()) @db.Uuid
+  productId       String      @db.Uuid
+  measureKind     MeasureKind @default(VOLUME)
+  volume          Decimal?    @db.Decimal(12, 3)
+  volumeUnit      String?
+  weightG         Int?
+  unitCount       Int?
+  rawValue        Decimal?    @db.Decimal(12, 3)
+  rawUnit         String?
+  setSize         Int?
+  packageSize     Decimal?    @db.Decimal(12, 3)
+  packageSizeUnit String?
+  packagingType   String?
+  isDefault       Boolean     @default(false)
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  product                 Product                    @relation(fields: [productId], references: [id], onDelete: Cascade)
+  supplierProducts        SupplierProduct[]
+  cartItems               CartItem[]
+  orderItems              SupplierOrderItem[]
+  supplierPriceImportRows SupplierPriceImportRow[]
+  productCandidates       ProductCandidate[]
+  importImageMatches      SupplierImportImageMatch[]
+  catalogNormalizedRows   CatalogNormalizedRow[]
+  catalogMatchCandidates  CatalogMatchCandidate[]
+
+  @@unique([productId, volume, volumeUnit])
+  @@index([productId])
+}
+
+model UserCatalogFilterPreset {
+  id        String     @id @default(uuid()) @db.Uuid
+  userId    String     @db.Uuid
+  scope     FacetScope
+  name      String
+  query     Json
+  isDefault Boolean    @default(false)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, scope])
+  @@index([isDefault])
+}
+
+model SupplierProduct {
+  id                String   @id @default(uuid()) @db.Uuid
+  supplierId        String   @db.Uuid
+  productId         String   @db.Uuid
+  productVariantId  String   @db.Uuid
+  supplierSku       String?
+  supplierNameAlias String?
+  sourceImportId    String?  @db.Uuid
+  sourceImportRowId String?  @db.Uuid
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  supplier                Supplier                 @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  product                 Product                  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productVariant          ProductVariant           @relation(fields: [productVariantId], references: [id], onDelete: Cascade)
+  sourceImport            SupplierPriceImport?     @relation("SupplierProductSourceImport", fields: [sourceImportId], references: [id], onDelete: SetNull)
+  sourceImportRow         SupplierPriceImportRow?  @relation("SupplierProductSourceImportRow", fields: [sourceImportRowId], references: [id], onDelete: SetNull)
+  offers                  Offer[]
+  importRows              SupplierPriceImportRow[]
+  aliases                 SupplierProductAlias[]
+  productCandidates       ProductCandidate[]
+  catalogMatchCandidates  CatalogMatchCandidate[]
+  catalogValidationIssues CatalogValidationIssue[]
+  catalogNormalizedRows   CatalogNormalizedRow[]
+
+  @@unique([supplierId, productId, productVariantId])
+  @@index([productId])
+  @@index([productVariantId])
+  @@index([supplierId, supplierSku])
+  @@index([sourceImportId])
+  @@index([sourceImportRowId])
+}
+
+model SupplierProductAlias {
+  id                String                   @id @default(uuid()) @db.Uuid
+  supplierId        String                   @db.Uuid
+  supplierProductId String?                  @db.Uuid
+  aliasType         SupplierProductAliasType
+  rawValue          String
+  normalizedValue   String
+  sourceImportId    String?                  @db.Uuid
+  sourceImportRowId String?                  @db.Uuid
+  confidence        Decimal?                 @db.Decimal(5, 2)
+  isActive          Boolean                  @default(true)
+  createdAt         DateTime                 @default(now())
+  updatedAt         DateTime                 @updatedAt
+
+  supplier        Supplier                @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  supplierProduct SupplierProduct?        @relation(fields: [supplierProductId], references: [id], onDelete: SetNull)
+  sourceImport    SupplierPriceImport?    @relation("SupplierProductAliasSourceImport", fields: [sourceImportId], references: [id], onDelete: SetNull)
+  sourceImportRow SupplierPriceImportRow? @relation("SupplierProductAliasSourceImportRow", fields: [sourceImportRowId], references: [id], onDelete: SetNull)
+
+  @@unique([supplierId, aliasType, normalizedValue])
+  @@index([supplierProductId])
+  @@index([sourceImportId])
+  @@index([sourceImportRowId])
+  @@index([isActive])
+}
+
+model Offer {
+  id                     String                 @id @default(uuid()) @db.Uuid
+  supplierProductId      String                 @db.Uuid
+  sourceImportId         String?                @db.Uuid
+  sourceImportRowId      String?                @db.Uuid
+  price                  Decimal                @db.Decimal(12, 2)
+  basePrice              Decimal?               @db.Decimal(12, 2)
+  discountPrice          Decimal?               @db.Decimal(12, 2)
+  effectivePrice         Decimal?               @db.Decimal(12, 2)
+  currency               String                 @default("RUB")
+  unit                   String
+  minOrderQty            Decimal?               @db.Decimal(12, 3)
+  packQty                Decimal?               @db.Decimal(12, 3)
+  stockTotal             Decimal?               @db.Decimal(12, 3)
+  stockAvailable         Decimal?               @db.Decimal(12, 3)
+  stockReserved          Decimal?               @db.Decimal(12, 3)
+  stockPayload           Json?
+  deliveryDaysMin        Int?
+  deliveryDaysMax        Int?
+  availabilityLevel      OfferAvailabilityLevel @default(IN_STOCK)
+  deliveryTerm           String?
+  specialOfferText       String?
+  specialConditionText   String?
+  isAvailable            Boolean                @default(true)
+  isCurrent              Boolean                @default(true)
+  missingFromLatestPrice Boolean                @default(false)
+  validFrom              DateTime?
+  validTo                DateTime?
+  rawPayload             Json?
+  createdAt              DateTime               @default(now())
+  updatedAt              DateTime               @updatedAt
+
+  supplierProduct         SupplierProduct             @relation(fields: [supplierProductId], references: [id], onDelete: Cascade)
+  sourceImport            SupplierPriceImport?        @relation("OfferSourceImport", fields: [sourceImportId], references: [id], onDelete: SetNull)
+  sourceImportRow         SupplierPriceImportRow?     @relation("OfferSourceImportRow", fields: [sourceImportRowId], references: [id], onDelete: SetNull)
+  cartItems               CartItem[]
+  orderItems              SupplierOrderItem[]
+  supplierPriceImportRows SupplierPriceImportRow[]
+  sponsoredPlacements     SponsoredProductPlacement[]
+  catalogValidationIssues CatalogValidationIssue[]
+
+  @@index([supplierProductId])
+  @@index([sourceImportId])
+  @@index([sourceImportRowId])
+  @@index([isAvailable])
+  @@index([isCurrent])
+  @@index([missingFromLatestPrice])
+  @@index([price])
+  @@index([effectivePrice])
+}
+
+model ProductCandidate {
+  id                       String                 @id @default(uuid()) @db.Uuid
+  supplierId               String                 @db.Uuid
+  importId                 String?                @db.Uuid
+  importRowId              String?                @db.Uuid
+  matchedProductId         String?                @db.Uuid
+  matchedProductVariantId  String?                @db.Uuid
+  matchedSupplierProductId String?                @db.Uuid
+  status                   ProductCandidateStatus @default(PENDING)
+  confidence               Decimal?               @db.Decimal(5, 2)
+  identityKey              String?
+  normalizedName           String
+  categoryName             String?
+  producerName             String?
+  barcode                  String?
+  supplierArticle          String?
+  volumeMl                 Int?
+  vintage                  Int?
+  payloadJson              Json?
+  resolutionJson           Json?
+  resolvedByUserId         String?                @db.Uuid
+  resolvedAt               DateTime?
+  createdAt                DateTime               @default(now())
+  updatedAt                DateTime               @updatedAt
+
+  supplier               Supplier                @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  import                 SupplierPriceImport?    @relation(fields: [importId], references: [id], onDelete: SetNull)
+  importRow              SupplierPriceImportRow? @relation(fields: [importRowId], references: [id], onDelete: SetNull)
+  matchedProduct         Product?                @relation(fields: [matchedProductId], references: [id], onDelete: SetNull)
+  matchedProductVariant  ProductVariant?         @relation(fields: [matchedProductVariantId], references: [id], onDelete: SetNull)
+  matchedSupplierProduct SupplierProduct?        @relation(fields: [matchedSupplierProductId], references: [id], onDelete: SetNull)
+
+  @@index([supplierId])
+  @@index([importId])
+  @@index([importRowId])
+  @@index([matchedProductId])
+  @@index([matchedProductVariantId])
+  @@index([matchedSupplierProductId])
+  @@index([status])
+  @@index([identityKey])
+  @@index([barcode])
+}
+
+model CatalogNormalizedRow {
+  id                       String                           @id @default(uuid()) @db.Uuid
+  importId                 String                           @db.Uuid
+  rawRowId                 String                           @db.Uuid
+  supplierId               String                           @db.Uuid
+  status                   CatalogImportRowValidationStatus @default(NORMALIZED)
+  normalizedName           String?
+  canonicalName            String?
+  russianName              String?
+  categoryId               String?                          @db.Uuid
+  categoryName             String?
+  article                  String?
+  supplierSku              String?
+  barcode                  String?
+  brand                    String?
+  producer                 String?
+  manufacturer             String?
+  country                  String?
+  region                   String?
+  vintage                  Int?
+  alcoholPercent           Decimal?                         @db.Decimal(5, 2)
+  volume                   Decimal?                         @db.Decimal(12, 3)
+  volumeUnit               String?
+  packageSize              Decimal?                         @db.Decimal(12, 3)
+  packageSizeUnit          String?
+  description              String?                          @db.Text
+  imageFileId              String?                          @db.Uuid
+  price                    Decimal?                         @db.Decimal(12, 2)
+  currency                 String?
+  stockAvailable           Decimal?                         @db.Decimal(12, 3)
+  availability             String?
+  matchedProductId         String?                          @db.Uuid
+  matchedProductVariantId  String?                          @db.Uuid
+  matchedSupplierProductId String?                          @db.Uuid
+  confidence               Decimal?                         @db.Decimal(5, 2)
+  normalizedPayload        Json?
+  adminCorrectionPayload   Json?
+  approvedAt               DateTime?
+  publishedAt              DateTime?
+  createdAt                DateTime                         @default(now())
+  updatedAt                DateTime                         @updatedAt
+
+  import                 SupplierPriceImport      @relation(fields: [importId], references: [id], onDelete: Cascade)
+  rawRow                 SupplierPriceImportRow   @relation(fields: [rawRowId], references: [id], onDelete: Cascade)
+  supplier               Supplier                 @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  category               CatalogCategory?         @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  image                  FileAsset?               @relation("CatalogNormalizedRowImage", fields: [imageFileId], references: [id], onDelete: SetNull)
+  matchedProduct         Product?                 @relation(fields: [matchedProductId], references: [id], onDelete: SetNull)
+  matchedProductVariant  ProductVariant?          @relation(fields: [matchedProductVariantId], references: [id], onDelete: SetNull)
+  matchedSupplierProduct SupplierProduct?         @relation(fields: [matchedSupplierProductId], references: [id], onDelete: SetNull)
+  matchCandidates        CatalogMatchCandidate[]
+  validationIssues       CatalogValidationIssue[]
+
+  @@unique([importId, rawRowId])
+  @@index([supplierId])
+  @@index([status])
+  @@index([categoryId])
+  @@index([barcode])
+  @@index([article])
+  @@index([supplierSku])
+  @@index([matchedProductId])
+  @@index([matchedProductVariantId])
+  @@index([matchedSupplierProductId])
+  @@index([approvedAt])
+  @@index([publishedAt])
+}
+
+model CatalogMatchCandidate {
+  id                String   @id @default(uuid()) @db.Uuid
+  importId          String   @db.Uuid
+  rawRowId          String?  @db.Uuid
+  normalizedRowId   String?  @db.Uuid
+  productId         String   @db.Uuid
+  productVariantId  String?  @db.Uuid
+  supplierProductId String?  @db.Uuid
+  score             Decimal  @db.Decimal(5, 2)
+  reason            String?
+  signalsJson       Json?
+  selectedByAdmin   Boolean  @default(false)
+  rejectedByAdmin   Boolean  @default(false)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  import          SupplierPriceImport     @relation(fields: [importId], references: [id], onDelete: Cascade)
+  rawRow          SupplierPriceImportRow? @relation(fields: [rawRowId], references: [id], onDelete: Cascade)
+  normalizedRow   CatalogNormalizedRow?   @relation(fields: [normalizedRowId], references: [id], onDelete: Cascade)
+  product         Product                 @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productVariant  ProductVariant?         @relation(fields: [productVariantId], references: [id], onDelete: SetNull)
+  supplierProduct SupplierProduct?        @relation(fields: [supplierProductId], references: [id], onDelete: SetNull)
+
+  @@index([importId])
+  @@index([rawRowId])
+  @@index([normalizedRowId])
+  @@index([productId])
+  @@index([productVariantId])
+  @@index([supplierProductId])
+  @@index([selectedByAdmin])
+  @@index([rejectedByAdmin])
+}
+
+model CatalogValidationIssue {
+  id                String                           @id @default(uuid()) @db.Uuid
+  importId          String?                          @db.Uuid
+  rawRowId          String?                          @db.Uuid
+  normalizedRowId   String?                          @db.Uuid
+  supplierId        String?                          @db.Uuid
+  productId         String?                          @db.Uuid
+  supplierProductId String?                          @db.Uuid
+  offerId           String?                          @db.Uuid
+  entityType        CatalogValidationIssueEntityType
+  type              String
+  severity          PriceImportIssueSeverity         @default(WARNING)
+  status            PriceImportIssueStatus           @default(OPEN)
+  fieldName         String?
+  message           String                           @db.Text
+  sourceValue       Json?
+  catalogValue      Json?
+  detailsJson       Json?
+  suggestedAction   String?
+  resolutionJson    Json?
+  resolvedByUserId  String?                          @db.Uuid
+  resolvedAt        DateTime?
+  createdAt         DateTime                         @default(now())
+  updatedAt         DateTime                         @updatedAt
+
+  import          SupplierPriceImport?    @relation(fields: [importId], references: [id], onDelete: Cascade)
+  rawRow          SupplierPriceImportRow? @relation(fields: [rawRowId], references: [id], onDelete: SetNull)
+  normalizedRow   CatalogNormalizedRow?   @relation(fields: [normalizedRowId], references: [id], onDelete: SetNull)
+  supplier        Supplier?               @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  product         Product?                @relation(fields: [productId], references: [id], onDelete: SetNull)
+  supplierProduct SupplierProduct?        @relation(fields: [supplierProductId], references: [id], onDelete: SetNull)
+  offer           Offer?                  @relation(fields: [offerId], references: [id], onDelete: SetNull)
+
+  @@index([importId])
+  @@index([rawRowId])
+  @@index([normalizedRowId])
+  @@index([supplierId])
+  @@index([productId])
+  @@index([supplierProductId])
+  @@index([offerId])
+  @@index([entityType])
+  @@index([severity, status])
+  @@index([type])
+}
+
+model CatalogPublishBatch {
+  id                String                    @id @default(uuid()) @db.Uuid
+  importId          String                    @db.Uuid
+  supplierId        String                    @db.Uuid
+  status            CatalogPublishBatchStatus @default(CREATED)
+  requestedByUserId String?                   @db.Uuid
+  summaryJson       Json?
+  errorText         String?                   @db.Text
+  startedAt         DateTime?
+  completedAt       DateTime?
+  createdAt         DateTime                  @default(now())
+  updatedAt         DateTime                  @updatedAt
+
+  import   SupplierPriceImport @relation(fields: [importId], references: [id], onDelete: Cascade)
+  supplier Supplier            @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+
+  @@index([importId])
+  @@index([supplierId])
+  @@index([status])
+  @@index([requestedByUserId])
+  @@index([createdAt])
+}
+
+model SupplierImportImageMatch {
+  id                      String                         @id @default(uuid()) @db.Uuid
+  supplierId              String                         @db.Uuid
+  importId                String?                        @db.Uuid
+  importRowId             String?                        @db.Uuid
+  fileAssetId             String                         @db.Uuid
+  originalFileName        String
+  normalizedFileName      String
+  matchedProductId        String?                        @db.Uuid
+  matchedProductVariantId String?                        @db.Uuid
+  confidence              Decimal?                       @db.Decimal(5, 2)
+  status                  SupplierImportImageMatchStatus @default(PENDING)
+  matchReason             String?
+  detailsJson             Json?
+  confirmedByUserId       String?                        @db.Uuid
+  confirmedAt             DateTime?
+  createdAt               DateTime                       @default(now())
+  updatedAt               DateTime                       @updatedAt
+
+  supplier              Supplier                @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  import                SupplierPriceImport?    @relation(fields: [importId], references: [id], onDelete: SetNull)
+  importRow             SupplierPriceImportRow? @relation(fields: [importRowId], references: [id], onDelete: SetNull)
+  fileAsset             FileAsset               @relation(fields: [fileAssetId], references: [id], onDelete: Cascade)
+  matchedProduct        Product?                @relation(fields: [matchedProductId], references: [id], onDelete: SetNull)
+  matchedProductVariant ProductVariant?         @relation(fields: [matchedProductVariantId], references: [id], onDelete: SetNull)
+
+  @@index([supplierId])
+  @@index([importId])
+  @@index([importRowId])
+  @@index([fileAssetId])
+  @@index([matchedProductId])
+  @@index([matchedProductVariantId])
+  @@index([status])
+  @@index([normalizedFileName])
+}
+
+model ContractSupplier {
+  id          String                 @id @default(uuid()) @db.Uuid
+  venueId     String                 @db.Uuid
+  supplierId  String                 @db.Uuid
+  priority    Int                    @default(0)
+  isPreferred Boolean                @default(false)
+  isActive    Boolean                @default(true)
+  status      ContractSupplierStatus @default(ACTIVE)
+  createdAt   DateTime               @default(now())
+  updatedAt   DateTime               @updatedAt
+
+  venue    Venue    @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  supplier Supplier @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+
+  @@unique([venueId, supplierId])
+  @@index([supplierId])
+}
+
+model UserFavoriteProduct {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String   @db.Uuid
+  productId String   @db.Uuid
+  venueId   String?  @db.Uuid
+  createdAt DateTime @default(now())
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  venue   Venue?  @relation(fields: [venueId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, productId, venueId])
+  @@index([productId])
+  @@index([venueId])
+}
+
+model CatalogCategoryBanner {
+  id                String    @id @default(uuid()) @db.Uuid
+  catalogCategoryId String    @db.Uuid
+  supplierId        String?   @db.Uuid
+  fileAssetId       String    @db.Uuid
+  title             String?
+  linkUrl           String?
+  isActive          Boolean   @default(true)
+  startsAt          DateTime?
+  endsAt            DateTime?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  catalogCategory CatalogCategory @relation(fields: [catalogCategoryId], references: [id], onDelete: Cascade)
+  supplier        Supplier?       @relation(fields: [supplierId], references: [id], onDelete: SetNull)
+
+  @@index([catalogCategoryId])
+  @@index([supplierId])
+}
+
+model CatalogBanner {
+  id                String    @id @default(uuid()) @db.Uuid
+  supplierId        String?   @db.Uuid
+  catalogCategoryId String?   @db.Uuid
+  fileAssetId       String    @db.Uuid
+  title             String?
+  linkUrl           String?
+  position          Int       @default(0)
+  isActive          Boolean   @default(true)
+  startsAt          DateTime?
+  endsAt            DateTime?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  supplier        Supplier?        @relation(fields: [supplierId], references: [id], onDelete: SetNull)
+  catalogCategory CatalogCategory? @relation(fields: [catalogCategoryId], references: [id], onDelete: SetNull)
+
+  @@index([supplierId])
+  @@index([catalogCategoryId])
+  @@index([position])
+}
+
+model SponsoredProductPlacement {
+  id                String                 @id @default(uuid()) @db.Uuid
+  productId         String                 @db.Uuid
+  supplierId        String?                @db.Uuid
+  offerId           String?                @db.Uuid
+  placementType     SponsoredPlacementType
+  catalogCategoryId String?                @db.Uuid
+  searchKeyword     String?
+  position          Int                    @default(0)
+  isActive          Boolean                @default(true)
+  startsAt          DateTime?
+  endsAt            DateTime?
+  createdAt         DateTime               @default(now())
+  updatedAt         DateTime               @updatedAt
+
+  product         Product          @relation(fields: [productId], references: [id], onDelete: Cascade)
+  supplier        Supplier?        @relation(fields: [supplierId], references: [id], onDelete: SetNull)
+  offer           Offer?           @relation(fields: [offerId], references: [id], onDelete: SetNull)
+  catalogCategory CatalogCategory? @relation(fields: [catalogCategoryId], references: [id], onDelete: SetNull)
+
+  @@index([productId])
+  @@index([supplierId])
+  @@index([offerId])
+  @@index([catalogCategoryId])
+  @@index([placementType, position])
+}
+
+model CatalogSearchSuggestion {
+  id                String   @id @default(uuid()) @db.Uuid
+  keyword           String
+  productId         String?  @db.Uuid
+  catalogCategoryId String?  @db.Uuid
+  supplierId        String?  @db.Uuid
+  score             Decimal  @default(0) @db.Decimal(12, 4)
+  isActive          Boolean  @default(true)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  product         Product?         @relation(fields: [productId], references: [id], onDelete: SetNull)
+  catalogCategory CatalogCategory? @relation(fields: [catalogCategoryId], references: [id], onDelete: SetNull)
+  supplier        Supplier?        @relation(fields: [supplierId], references: [id], onDelete: SetNull)
+
+  @@index([keyword])
+  @@index([productId])
+  @@index([catalogCategoryId])
+  @@index([supplierId])
+}
+
+model Cart {
+  id              String     @id @default(uuid()) @db.Uuid
+  venueId         String     @db.Uuid
+  createdByUserId String     @db.Uuid
+  status          CartStatus @default(ACTIVE)
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+
+  venue         Venue        @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  createdByUser User         @relation("UserCreatedCarts", fields: [createdByUserId], references: [id], onDelete: Cascade)
+  items         CartItem[]
+  orderBatches  OrderBatch[]
+
+  @@index([venueId])
+  @@index([createdByUserId])
+}
+
+model CartItem {
+  id               String   @id @default(uuid()) @db.Uuid
+  cartId           String   @db.Uuid
+  productId        String   @db.Uuid
+  productVariantId String?  @db.Uuid
+  offerId          String   @db.Uuid
+  quantity         Decimal  @db.Decimal(12, 3)
+  unit             String
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  cart           Cart            @relation(fields: [cartId], references: [id], onDelete: Cascade)
+  product        Product         @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productVariant ProductVariant? @relation(fields: [productVariantId], references: [id], onDelete: SetNull)
+  offer          Offer           @relation(fields: [offerId], references: [id], onDelete: Cascade)
+
+  @@index([cartId])
+  @@index([productId])
+  @@index([productVariantId])
+  @@index([offerId])
+}
+
+model OrderBatch {
+  id              String           @id @default(uuid()) @db.Uuid
+  venueId         String           @db.Uuid
+  createdByUserId String           @db.Uuid
+  cartId          String?          @db.Uuid
+  status          OrderBatchStatus @default(DRAFT)
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  venue          Venue           @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  createdByUser  User            @relation("UserCreatedOrderBatches", fields: [createdByUserId], references: [id], onDelete: Cascade)
+  cart           Cart?           @relation(fields: [cartId], references: [id], onDelete: SetNull)
+  supplierOrders SupplierOrder[]
+
+  @@index([venueId])
+  @@index([createdByUserId])
+  @@index([cartId])
+}
+
+model SupplierOrder {
+  id                 String               @id @default(uuid()) @db.Uuid
+  orderBatchId       String               @db.Uuid
+  venueId            String               @db.Uuid
+  supplierId         String               @db.Uuid
+  status             SupplierOrderStatus  @default(PENDING)
+  totalAmount        Decimal?             @db.Decimal(12, 2)
+  currency           String               @default("RUB")
+  channel            SupplierOrderChannel @default(EMAIL)
+  orderedAt          DateTime?
+  expectedDeliveryAt DateTime?
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+
+  orderBatch            OrderBatch                  @relation(fields: [orderBatchId], references: [id], onDelete: Cascade)
+  venue                 Venue                       @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  supplier              Supplier                    @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  items                 SupplierOrderItem[]
+  statusEvents          SupplierOrderStatusEvent[]
+  deliveryConfirmations OrderDeliveryConfirmation[]
+
+  @@index([orderBatchId])
+  @@index([venueId])
+  @@index([supplierId])
+  @@index([status])
+}
+
+model SupplierOrderItem {
+  id               String   @id @default(uuid()) @db.Uuid
+  supplierOrderId  String   @db.Uuid
+  productId        String   @db.Uuid
+  productVariantId String?  @db.Uuid
+  offerId          String   @db.Uuid
+  quantity         Decimal  @db.Decimal(12, 3)
+  price            Decimal  @db.Decimal(12, 2)
+  unit             String
+  total            Decimal  @db.Decimal(12, 2)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  supplierOrder  SupplierOrder   @relation(fields: [supplierOrderId], references: [id], onDelete: Cascade)
+  product        Product         @relation(fields: [productId], references: [id], onDelete: Restrict)
+  productVariant ProductVariant? @relation(fields: [productVariantId], references: [id], onDelete: SetNull)
+  offer          Offer           @relation(fields: [offerId], references: [id], onDelete: Restrict)
+
+  @@index([supplierOrderId])
+  @@index([productId])
+  @@index([productVariantId])
+  @@index([offerId])
+}
+
+model SupplierOrderStatusEvent {
+  id              String                       @id @default(uuid()) @db.Uuid
+  supplierOrderId String                       @db.Uuid
+  status          SupplierOrderStatus
+  comment         String?
+  actorType       SupplierOrderStatusActorType
+  actorSupplierId String?                      @db.Uuid
+  createdAt       DateTime                     @default(now())
+
+  supplierOrder SupplierOrder @relation(fields: [supplierOrderId], references: [id], onDelete: Cascade)
+  actorSupplier Supplier?     @relation(fields: [actorSupplierId], references: [id], onDelete: SetNull)
+
+  @@index([supplierOrderId])
+  @@index([actorSupplierId])
+  @@index([status])
+}
+
+model OrderDeliveryConfirmation {
+  id                String                       @id @default(uuid()) @db.Uuid
+  supplierOrderId   String                       @db.Uuid
+  confirmedByUserId String                       @db.Uuid
+  decision          DeliveryConfirmationDecision
+  rejectionReason   String?
+  createdAt         DateTime                     @default(now())
+  updatedAt         DateTime                     @updatedAt
+
+  supplierOrder   SupplierOrder @relation(fields: [supplierOrderId], references: [id], onDelete: Cascade)
+  confirmedByUser User          @relation(fields: [confirmedByUserId], references: [id], onDelete: Restrict)
+
+  @@index([supplierOrderId])
+  @@index([confirmedByUserId])
+}
+
+model InventoryItem {
+  id                String   @id @default(uuid()) @db.Uuid
+  venueId           String   @db.Uuid
+  productId         String?  @db.Uuid
+  name              String
+  quantity          Decimal  @db.Decimal(12, 3)
+  unit              UnitType
+  minThreshold      Decimal? @db.Decimal(12, 3)
+  avgPrice          Decimal? @db.Decimal(12, 2)
+  lastPurchasePrice Decimal? @db.Decimal(12, 2)
+  isOutOfStock      Boolean  @default(false)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  venue                 Venue                  @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  product               Product?               @relation(fields: [productId], references: [id], onDelete: SetNull)
+  reservations          InventoryReservation[]
+  stockMovements        StockMovement[]
+  stockAlerts           StockAlert[]
+  techCardIngredients   TechCardIngredient[]
+  inventorySessionItems InventorySessionItem[]
+
+  @@index([venueId])
+  @@index([productId])
+}
+
+model SupplierInventoryItem {
+  id           String   @id @default(uuid()) @db.Uuid
+  supplierId   String   @db.Uuid
+  productId    String?  @db.Uuid
+  name         String
+  quantity     Decimal  @db.Decimal(12, 3)
+  unit         UnitType
+  isOutOfStock Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  supplier Supplier @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  product  Product? @relation(fields: [productId], references: [id], onDelete: SetNull)
+
+  @@index([supplierId])
+  @@index([productId])
+}
+
+model InventoryReservation {
+  id               String                             @id @default(uuid()) @db.Uuid
+  venueId          String                             @db.Uuid
+  inventoryItemId  String                             @db.Uuid
+  quantity         Decimal                            @db.Decimal(12, 3)
+  unit             UnitType
+  reason           String?
+  referenceType    InventoryReservationReferenceType?
+  referenceId      String?                            @db.Uuid
+  reservedByUserId String                             @db.Uuid
+  expiresAt        DateTime?
+  isActive         Boolean                            @default(true)
+  createdAt        DateTime                           @default(now())
+  updatedAt        DateTime                           @updatedAt
+
+  venue          Venue         @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  inventoryItem  InventoryItem @relation(fields: [inventoryItemId], references: [id], onDelete: Cascade)
+  reservedByUser User          @relation("InventoryReservationReservedBy", fields: [reservedByUserId], references: [id], onDelete: Restrict)
+
+  @@index([venueId])
+  @@index([inventoryItemId])
+  @@index([reservedByUserId])
+  @@index([isActive])
+}
+
+model StockMovement {
+  id              String                      @id @default(uuid()) @db.Uuid
+  venueId         String                      @db.Uuid
+  inventoryItemId String                      @db.Uuid
+  type            StockMovementType
+  quantity        Decimal                     @db.Decimal(12, 3)
+  unit            UnitType
+  price           Decimal?                    @db.Decimal(12, 2)
+  referenceType   StockMovementReferenceType?
+  referenceId     String?                     @db.Uuid
+  createdAt       DateTime                    @default(now())
+  updatedAt       DateTime                    @updatedAt
+
+  venue         Venue         @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  inventoryItem InventoryItem @relation(fields: [inventoryItemId], references: [id], onDelete: Cascade)
+
+  @@index([venueId])
+  @@index([inventoryItemId])
+  @@index([type])
+}
+
+model StockAlert {
+  id              String         @id @default(uuid()) @db.Uuid
+  venueId         String         @db.Uuid
+  inventoryItemId String?        @db.Uuid
+  message         String
+  type            StockAlertType
+  isActive        Boolean        @default(true)
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  venue         Venue          @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  inventoryItem InventoryItem? @relation(fields: [inventoryItemId], references: [id], onDelete: SetNull)
+
+  @@index([venueId])
+  @@index([inventoryItemId])
+  @@index([isActive])
+}
+
+model StopListItem {
+  id         String   @id @default(uuid()) @db.Uuid
+  venueId    String   @db.Uuid
+  menuItemId String   @db.Uuid
+  reason     String?
+  isManual   Boolean  @default(false)
+  isActive   Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  venue    Venue    @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  menuItem MenuItem @relation(fields: [menuItemId], references: [id], onDelete: Cascade)
+
+  @@index([venueId])
+  @@index([menuItemId])
+  @@index([isActive])
+}
+
+model MenuCategory {
+  id        String   @id @default(uuid()) @db.Uuid
+  venueId   String   @db.Uuid
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  venue     Venue      @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  menuItems MenuItem[]
+
+  @@index([venueId])
+}
+
+model MenuItem {
+  id               String       @id @default(uuid()) @db.Uuid
+  venueId          String       @db.Uuid
+  categoryId       String       @db.Uuid
+  name             String
+  description      String?      @db.Text
+  flavorProfile    String?
+  type             MenuItemType
+  productId        String?      @db.Uuid
+  price            Decimal      @db.Decimal(12, 2)
+  unit             String
+  calculatedCost   Decimal?     @db.Decimal(12, 2)
+  costCalculatedAt DateTime?
+  isActive         Boolean      @default(true)
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
+
+  venue           Venue                 @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  category        MenuCategory          @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  product         Product?              @relation(fields: [productId], references: [id], onDelete: SetNull)
+  stopListItems   StopListItem[]
+  tags            MenuItemTag[]
+  analogsBase     MenuItemAnalog[]      @relation("MenuItemAnalogBase")
+  analogsAsAnalog MenuItemAnalog[]      @relation("MenuItemAnalogAnalog")
+  pairingsBase    MenuItemPairingStat[] @relation("MenuItemPairingBase")
+  pairingsPaired  MenuItemPairingStat[] @relation("MenuItemPairingPaired")
+  techCard        TechCard?
+  salesReportRows SalesReportRow[]
+
+  @@index([venueId])
+  @@index([categoryId])
+  @@index([productId])
+}
+
+model MenuItemTag {
+  id              String          @id @default(uuid()) @db.Uuid
+  menuItemId      String          @db.Uuid
+  venueId         String          @db.Uuid
+  name            String
+  tagType         MenuItemTagType
+  isVenueShared   Boolean         @default(false)
+  createdByUserId String?         @db.Uuid
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+
+  menuItem      MenuItem @relation(fields: [menuItemId], references: [id], onDelete: Cascade)
+  venue         Venue    @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  createdByUser User?    @relation("MenuItemTagCreatedBy", fields: [createdByUserId], references: [id], onDelete: SetNull)
+
+  @@index([menuItemId])
+  @@index([venueId])
+  @@index([createdByUserId])
+}
+
+model MenuItemAnalog {
+  id               String   @id @default(uuid()) @db.Uuid
+  menuItemId       String   @db.Uuid
+  analogMenuItemId String   @db.Uuid
+  assignedByUserId String   @db.Uuid
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  menuItem       MenuItem @relation("MenuItemAnalogBase", fields: [menuItemId], references: [id], onDelete: Cascade)
+  analogMenuItem MenuItem @relation("MenuItemAnalogAnalog", fields: [analogMenuItemId], references: [id], onDelete: Cascade)
+  assignedByUser User     @relation("MenuItemAnalogAssignedBy", fields: [assignedByUserId], references: [id], onDelete: Restrict)
+
+  @@index([menuItemId])
+  @@index([analogMenuItemId])
+  @@index([assignedByUserId])
+}
+
+model MenuItemPairingStat {
+  id               String   @id @default(uuid()) @db.Uuid
+  venueId          String   @db.Uuid
+  menuItemId       String   @db.Uuid
+  pairedMenuItemId String   @db.Uuid
+  pairingCount     Int      @default(0)
+  lastUpdatedAt    DateTime
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  venue          Venue    @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  menuItem       MenuItem @relation("MenuItemPairingBase", fields: [menuItemId], references: [id], onDelete: Cascade)
+  pairedMenuItem MenuItem @relation("MenuItemPairingPaired", fields: [pairedMenuItemId], references: [id], onDelete: Cascade)
+
+  @@index([venueId])
+  @@index([menuItemId])
+  @@index([pairedMenuItemId])
+}
+
+model TechCard {
+  id             String   @id @default(uuid()) @db.Uuid
+  menuItemId     String   @unique @db.Uuid
+  outputQuantity Decimal  @db.Decimal(12, 3)
+  outputUnit     String
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  menuItem    MenuItem             @relation(fields: [menuItemId], references: [id], onDelete: Cascade)
+  ingredients TechCardIngredient[]
+}
+
+model TechCardIngredient {
+  id              String   @id @default(uuid()) @db.Uuid
+  techCardId      String   @db.Uuid
+  inventoryItemId String   @db.Uuid
+  quantity        Decimal  @db.Decimal(12, 3)
+  unit            UnitType
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  techCard      TechCard      @relation(fields: [techCardId], references: [id], onDelete: Cascade)
+  inventoryItem InventoryItem @relation(fields: [inventoryItemId], references: [id], onDelete: Cascade)
+
+  @@index([techCardId])
+  @@index([inventoryItemId])
+}
+
+model InventorySession {
+  id              String                 @id @default(uuid()) @db.Uuid
+  venueId         String                 @db.Uuid
+  createdByUserId String                 @db.Uuid
+  status          InventorySessionStatus
+  startedAt       DateTime
+  completedAt     DateTime?
+  createdAt       DateTime               @default(now())
+  updatedAt       DateTime               @updatedAt
+
+  venue         Venue                  @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  createdByUser User                   @relation("InventorySessionCreatedBy", fields: [createdByUserId], references: [id], onDelete: Restrict)
+  items         InventorySessionItem[]
+
+  @@index([venueId])
+  @@index([createdByUserId])
+  @@index([status])
+}
+
+model InventorySessionItem {
+  id              String    @id @default(uuid()) @db.Uuid
+  sessionId       String    @db.Uuid
+  inventoryItemId String    @db.Uuid
+  expectedQty     Decimal   @db.Decimal(12, 3)
+  actualQty       Decimal?  @db.Decimal(12, 3)
+  expectedUnit    UnitType
+  actualUnit      UnitType?
+  differenceQty   Decimal?  @db.Decimal(12, 3)
+  differenceValue Decimal?  @db.Decimal(12, 2)
+  note            String?   @db.Text
+  countedByUserId String?   @db.Uuid
+  countedAt       DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  session       InventorySession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  inventoryItem InventoryItem    @relation(fields: [inventoryItemId], references: [id], onDelete: Cascade)
+  countedByUser User?            @relation("InventorySessionItemCountedBy", fields: [countedByUserId], references: [id], onDelete: SetNull)
+
+  @@index([sessionId])
+  @@index([inventoryItemId])
+  @@index([countedByUserId])
+}
+
+model UnitConversionProfile {
+  id                  String   @id @default(uuid()) @db.Uuid
+  productId           String   @unique @db.Uuid
+  catalogUnit         String?
+  inventoryBaseUnit   String
+  menuSaleUnit        String?
+  inventoryInputUnit  String?
+  baseToInputFactor   Decimal? @db.Decimal(18, 6)
+  catalogToBaseFactor Decimal? @db.Decimal(18, 6)
+  menuToBaseFactor    Decimal? @db.Decimal(18, 6)
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model SalesReportImport {
+  id               String                  @id @default(uuid()) @db.Uuid
+  venueId          String                  @db.Uuid
+  fileAssetId      String                  @db.Uuid
+  status           SalesImportStatus       @default(PENDING)
+  sourceFormat     SalesImportSourceFormat
+  uploadedByUserId String                  @db.Uuid
+  periodStart      DateTime?               @db.Date
+  periodEnd        DateTime?               @db.Date
+  rowsCount        Int                     @default(0)
+  processedRows    Int                     @default(0)
+  failedRows       Int                     @default(0)
+  createdAt        DateTime                @default(now())
+  updatedAt        DateTime                @updatedAt
+
+  venue          Venue            @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  uploadedByUser User             @relation("SalesReportImportUploadedBy", fields: [uploadedByUserId], references: [id], onDelete: Restrict)
+  rows           SalesReportRow[]
+
+  @@index([venueId])
+  @@index([uploadedByUserId])
+  @@index([status])
+}
+
+model SalesReportRow {
+  id               String                      @id @default(uuid()) @db.Uuid
+  importId         String                      @db.Uuid
+  venueId          String                      @db.Uuid
+  rawName          String
+  rawCategory      String?
+  mappedMenuItemId String?                     @db.Uuid
+  quantity         Decimal                     @db.Decimal(12, 3)
+  revenue          Decimal                     @db.Decimal(12, 2)
+  costAmount       Decimal?                    @db.Decimal(12, 2)
+  marginAmount     Decimal?                    @db.Decimal(12, 2)
+  saleDate         DateTime?                   @db.Date
+  mappingStatus    SalesReportRowMappingStatus
+  rawPayload       Json?
+  createdAt        DateTime                    @default(now())
+  updatedAt        DateTime                    @updatedAt
+
+  import         SalesReportImport @relation(fields: [importId], references: [id], onDelete: Cascade)
+  venue          Venue             @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  mappedMenuItem MenuItem?         @relation(fields: [mappedMenuItemId], references: [id], onDelete: SetNull)
+
+  @@index([importId])
+  @@index([venueId])
+  @@index([mappedMenuItemId])
+  @@index([mappingStatus])
+}
+
+model VenueAnalyticsSnapshot {
+  id                  String              @id @default(uuid()) @db.Uuid
+  venueId             String              @db.Uuid
+  periodType          AnalyticsPeriodType
+  periodStart         DateTime            @db.Date
+  periodEnd           DateTime            @db.Date
+  stockValue          Decimal?            @db.Decimal(12, 2)
+  lowStockCount       Int                 @default(0)
+  stopListCount       Int                 @default(0)
+  purchaseAmount      Decimal?            @db.Decimal(12, 2)
+  salesRevenue        Decimal?            @db.Decimal(12, 2)
+  salesCost           Decimal?            @db.Decimal(12, 2)
+  salesMargin         Decimal?            @db.Decimal(12, 2)
+  writeOffAmount      Decimal?            @db.Decimal(12, 2)
+  inventoryDifference Decimal?            @db.Decimal(12, 2)
+  priceGrowthCount    Int                 @default(0)
+  topItemsJson        Json?
+  worstItemsJson      Json?
+  stopListItemsJson   Json?
+  pairingStatsJson    Json?
+  stockForecastJson   Json?
+  createdAt           DateTime            @default(now())
+  updatedAt           DateTime            @updatedAt
+
+  venue Venue @relation(fields: [venueId], references: [id], onDelete: Cascade)
+
+  @@index([venueId])
+  @@index([periodType, periodStart, periodEnd])
+}
+
+model FileAsset {
+  id                   String        @id @default(uuid()) @db.Uuid
+  storageKey           String        @unique
+  fileName             String
+  mimeType             String
+  fileSize             Int
+  type                 FileAssetType
+  uploadedByUserId     String?       @db.Uuid
+  uploadedBySupplierId String?       @db.Uuid
+  createdAt            DateTime      @default(now())
+  updatedAt            DateTime      @updatedAt
+
+  uploadedByUser             User?                      @relation("FileAssetUploadedByUser", fields: [uploadedByUserId], references: [id], onDelete: SetNull)
+  uploadedBySupplier         Supplier?                  @relation("FileAssetUploadedBySupplier", fields: [uploadedBySupplierId], references: [id], onDelete: SetNull)
+  venuePhotos                VenuePhoto[]
+  supplierPhotos             SupplierPhoto[]
+  supplierPriceImports       SupplierPriceImport[]      @relation("SupplierPriceImportFile")
+  supplierStockImports       SupplierStockImport[]
+  supplierImportImageMatches SupplierImportImageMatch[]
+  productMediaAssets         ProductMediaAsset[]
+  productBarcodeImages       Product[]                  @relation("ProductBarcodeImage")
+  productMainImages          Product[]                  @relation("ProductMainImage")
+  productPromoVideos         Product[]                  @relation("ProductPromoVideo")
+  catalogNormalizedRowImages CatalogNormalizedRow[]     @relation("CatalogNormalizedRowImage")
+  businessDownload           BusinessDownload?
+
+  @@index([uploadedByUserId])
+  @@index([uploadedBySupplierId])
+}
+
+model ContentStory {
+  id              String            @id @default(uuid()) @db.Uuid
+  authorType      ContentAuthorType
+  adminAuthorName String?
+  supplierId      String?           @db.Uuid
+  fileAssetId     String            @db.Uuid
+  title           String?
+  location        String?
+  sortOrder       Int               @default(0)
+  isActive        Boolean           @default(true)
+  publishedAt     DateTime?
+  expiresAt       DateTime?
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  views     ContentStoryView[]
+  reactions ContentStoryReaction[]
+  replies   ContentStoryReply[]
+
+  @@index([authorType, isActive, sortOrder])
+  @@index([supplierId])
+  @@index([fileAssetId])
+  @@index([isActive, expiresAt, sortOrder])
+}
+
+model ContentStoryView {
+  id        String   @id @default(uuid()) @db.Uuid
+  storyId   String   @db.Uuid
+  userId    String   @db.Uuid
+  createdAt DateTime @default(now())
+
+  story ContentStory @relation(fields: [storyId], references: [id], onDelete: Cascade)
+  user  User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([storyId, userId])
+  @@index([userId, createdAt])
+}
+
+model ContentStoryReaction {
+  id        String   @id @default(uuid()) @db.Uuid
+  storyId   String   @db.Uuid
+  userId    String   @db.Uuid
+  reaction  String   @db.VarChar(24)
+  createdAt DateTime @default(now())
+
+  story ContentStory @relation(fields: [storyId], references: [id], onDelete: Cascade)
+  user  User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([storyId, createdAt])
+  @@index([userId, createdAt])
+}
+
+model ContentStoryReply {
+  id        String   @id @default(uuid()) @db.Uuid
+  storyId   String   @db.Uuid
+  userId    String   @db.Uuid
+  message   String   @db.Text
+  createdAt DateTime @default(now())
+
+  story ContentStory @relation(fields: [storyId], references: [id], onDelete: Cascade)
+  user  User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([storyId, createdAt])
+  @@index([userId, createdAt])
+}
+
+model HomeBannerContent {
+  id          String             @id @default(uuid()) @db.Uuid
+  title       String             @db.VarChar(20)
+  label       ContentBannerLabel @default(NEW)
+  bodyText    String             @db.Text
+  lead        String             @db.Text
+  cta         String
+  fileAssetId String             @db.Uuid
+  sortOrder   Int                @default(0)
+  isActive    Boolean            @default(true)
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  @@index([isActive, sortOrder])
+  @@index([fileAssetId])
+}
+
+model BusinessDownload {
+  id               String                  @id @default(uuid()) @db.Uuid
+  venueId          String                  @db.Uuid
+  fileAssetId      String                  @unique @db.Uuid
+  uploadedByUserId String?                 @db.Uuid
+  purpose          BusinessDownloadPurpose
+  status           BusinessDownloadStatus  @default(UPLOADED)
+  processingError  String?                 @db.Text
+  createdAt        DateTime                @default(now())
+  updatedAt        DateTime                @updatedAt
+
+  venue      Venue     @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  fileAsset  FileAsset @relation(fields: [fileAssetId], references: [id], onDelete: Cascade)
+  uploadedBy User?     @relation("BusinessDownloadUploadedBy", fields: [uploadedByUserId], references: [id], onDelete: SetNull)
+
+  @@index([venueId, createdAt])
+  @@index([uploadedByUserId])
+  @@index([status])
+}
+
+model SupplierRegionPresence {
+  id         String   @id @default(uuid()) @db.Uuid
+  supplierId String   @db.Uuid
+  regionCode String
+  regionName String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  supplier Supplier @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+
+  @@unique([supplierId, regionCode])
+  @@index([supplierId])
+}
+
+model AuditLog {
+  id              String         @id @default(uuid()) @db.Uuid
+  actorType       AuditActorType
+  actorUserId     String?        @db.Uuid
+  actorSupplierId String?        @db.Uuid
+  entityType      String
+  entityId        String?        @db.Uuid
+  action          String
+  payload         Json?
+  createdAt       DateTime       @default(now())
+
+  actorUser     User?     @relation("AuditLogActorUser", fields: [actorUserId], references: [id], onDelete: SetNull)
+  actorSupplier Supplier? @relation("AuditLogActorSupplier", fields: [actorSupplierId], references: [id], onDelete: SetNull)
+
+  @@index([actorUserId])
+  @@index([actorSupplierId])
+  @@index([entityType, entityId])
+  @@index([action])
+}
+
+model AccountDeletionRequest {
+  id                       String                       @id @default(uuid()) @db.Uuid
+  userId                   String                       @db.Uuid
+  status                   AccountDeletionRequestStatus @default(PENDING)
+  requestedReason          String?                      @db.Text
+  requestedAt              DateTime                     @default(now())
+  scheduledDeletionAt      DateTime
+  executedAt               DateTime?
+  executedByModeratorId    String?
+  executedByModeratorEmail String?
+  executionReason          String?                      @db.Text
+  cancelledAt              DateTime?
+  createdAt                DateTime                     @default(now())
+  updatedAt                DateTime                     @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([status, scheduledDeletionAt])
+}

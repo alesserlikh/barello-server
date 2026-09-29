@@ -1,0 +1,6073 @@
+[
+ {
+  "pattern": "кубань",
+  "normalizedPattern": "кубань",
+  "payload": {
+   "country": "Россия",
+   "region": "Кубань",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "kuban",
+  "normalizedPattern": "kuban",
+  "payload": {
+   "country": "Россия",
+   "region": "Кубань",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "таманский полуостров",
+  "normalizedPattern": "таманский полуостров",
+  "payload": {
+   "country": "Россия",
+   "region": "Кубань, Тамань",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "тамань",
+  "normalizedPattern": "тамань",
+  "payload": {
+   "country": "Россия",
+   "region": "Кубань, Тамань",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "taman",
+  "normalizedPattern": "taman",
+  "payload": {
+   "country": "Россия",
+   "region": "Кубань, Тамань",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "новороссийск",
+  "normalizedPattern": "новороссийск",
+  "payload": {
+   "country": "Россия",
+   "region": "Кубань, Черноморская зона",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "семигорье",
+  "normalizedPattern": "семигорье",
+  "payload": {
+   "country": "Россия",
+   "region": "Кубань, Черноморская зона",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "анапа",
+  "normalizedPattern": "анапа",
+  "payload": {
+   "country": "Россия",
+   "region": "Кубань, Черноморская зона",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "геленджик",
+  "normalizedPattern": "геленджик",
+  "payload": {
+   "country": "Россия",
+   "region": "Кубань, Черноморская зона",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "крым",
+  "normalizedPattern": "крым",
+  "payload": {
+   "country": "Россия",
+   "region": "Крым",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "crimea",
+  "normalizedPattern": "crimea",
+  "payload": {
+   "country": "Россия",
+   "region": "Крым",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "севастополь",
+  "normalizedPattern": "севастополь",
+  "payload": {
+   "country": "Россия",
+   "region": "Севастополь",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "sevastopol",
+  "normalizedPattern": "sevastopol",
+  "payload": {
+   "country": "Россия",
+   "region": "Севастополь",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "долина дона",
+  "normalizedPattern": "долина дона",
+  "payload": {
+   "country": "Россия",
+   "region": "Долина Дона",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "долины дона",
+  "normalizedPattern": "долины дона",
+  "payload": {
+   "country": "Россия",
+   "region": "Долина Дона",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "ставрополье",
+  "normalizedPattern": "ставрополье",
+  "payload": {
+   "country": "Россия",
+   "region": "Ставрополье",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "ставропольский край",
+  "normalizedPattern": "ставропольский край",
+  "payload": {
+   "country": "Россия",
+   "region": "Ставрополье",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "дагестан",
+  "normalizedPattern": "дагестан",
+  "payload": {
+   "country": "Россия",
+   "region": "Дагестан",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "dagestan",
+  "normalizedPattern": "dagestan",
+  "payload": {
+   "country": "Россия",
+   "region": "Дагестан",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "нижняя волга",
+  "normalizedPattern": "нижняя волга",
+  "payload": {
+   "country": "Россия",
+   "region": "Нижняя Волга",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "бордо",
+  "normalizedPattern": "бордо",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "bordeaux",
+  "normalizedPattern": "bordeaux",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "медок",
+  "normalizedPattern": "медок",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Медок",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "medoc",
+  "normalizedPattern": "medoc",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Медок",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "о медок",
+  "normalizedPattern": "о медок",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Медок",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "haut medoc",
+  "normalizedPattern": "haut medoc",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Медок",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "от медок",
+  "normalizedPattern": "от медок",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Медок",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "марго",
+  "normalizedPattern": "марго",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Марго",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "margaux",
+  "normalizedPattern": "margaux",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Марго",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пойяк",
+  "normalizedPattern": "пойяк",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Пойяк",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пойак",
+  "normalizedPattern": "пойак",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Пойяк",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pauillac",
+  "normalizedPattern": "pauillac",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Пойяк",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сен жюльен",
+  "normalizedPattern": "сен жюльен",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Сен-Жюльен",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "saint julien",
+  "normalizedPattern": "saint julien",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Сен-Жюльен",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сент эстеф",
+  "normalizedPattern": "сент эстеф",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Сент-Эстеф",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "saint estephe",
+  "normalizedPattern": "saint estephe",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Сент-Эстеф",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пессак леоньян",
+  "normalizedPattern": "пессак леоньян",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Пессак-Леоньян",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pessac leognan",
+  "normalizedPattern": "pessac leognan",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Пессак-Леоньян",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "грав",
+  "normalizedPattern": "грав",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Грав",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "graves",
+  "normalizedPattern": "graves",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Грав",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сент эмильон",
+  "normalizedPattern": "сент эмильон",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Сент-Эмильон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сент эмилион",
+  "normalizedPattern": "сент эмилион",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Сент-Эмильон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "saint emilion",
+  "normalizedPattern": "saint emilion",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Сент-Эмильон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "помроль",
+  "normalizedPattern": "помроль",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Помроль",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pomerol",
+  "normalizedPattern": "pomerol",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Помроль",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сотерн",
+  "normalizedPattern": "сотерн",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Сотерн",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "sauternes",
+  "normalizedPattern": "sauternes",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Сотерн",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кастийон",
+  "normalizedPattern": "кастийон",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Кот де Кастийон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "castillon",
+  "normalizedPattern": "castillon",
+  "payload": {
+   "country": "Франция",
+   "region": "Бордо, Кот де Кастийон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "бургундия",
+  "normalizedPattern": "бургундия",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "bourgogne",
+  "normalizedPattern": "bourgogne",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "burgundy",
+  "normalizedPattern": "burgundy",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "шабли",
+  "normalizedPattern": "шабли",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Шабли",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "chablis",
+  "normalizedPattern": "chablis",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Шабли",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "жевре шамбертен",
+  "normalizedPattern": "жевре шамбертен",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Жевре-Шамбертен",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "gevrey chambertin",
+  "normalizedPattern": "gevrey chambertin",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Жевре-Шамбертен",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "нюи сен жорж",
+  "normalizedPattern": "нюи сен жорж",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Нюи-Сен-Жорж",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "nuits saint georges",
+  "normalizedPattern": "nuits saint georges",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Нюи-Сен-Жорж",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вон романе",
+  "normalizedPattern": "вон романе",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Вон-Романе",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "vosne romanee",
+  "normalizedPattern": "vosne romanee",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Вон-Романе",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "шамболь мюзиньи",
+  "normalizedPattern": "шамболь мюзиньи",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Шамболь-Мюзиньи",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "chambolle musigny",
+  "normalizedPattern": "chambolle musigny",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Шамболь-Мюзиньи",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мерсо",
+  "normalizedPattern": "мерсо",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Мерсо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "meursault",
+  "normalizedPattern": "meursault",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Мерсо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пюлиньи монраше",
+  "normalizedPattern": "пюлиньи монраше",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Пюлиньи-Монраше",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "puligny montrachet",
+  "normalizedPattern": "puligny montrachet",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Пюлиньи-Монраше",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "шассань монраше",
+  "normalizedPattern": "шассань монраше",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Шассань-Монраше",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "chassagne montrachet",
+  "normalizedPattern": "chassagne montrachet",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Шассань-Монраше",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "поммар",
+  "normalizedPattern": "поммар",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Поммар",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pommard",
+  "normalizedPattern": "pommard",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Поммар",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вольне",
+  "normalizedPattern": "вольне",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Вольне",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "volnay",
+  "normalizedPattern": "volnay",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Вольне",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кортон",
+  "normalizedPattern": "кортон",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Кортон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "corton",
+  "normalizedPattern": "corton",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Кортон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "алос кортон",
+  "normalizedPattern": "алос кортон",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Кортон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "aloxe corton",
+  "normalizedPattern": "aloxe corton",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Кортон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "макон",
+  "normalizedPattern": "макон",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Макон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "macon",
+  "normalizedPattern": "macon",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Макон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пуйи фюиссе",
+  "normalizedPattern": "пуйи фюиссе",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Пуйи-Фюиссе",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pouilly fuisse",
+  "normalizedPattern": "pouilly fuisse",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Пуйи-Фюиссе",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кот де нюи",
+  "normalizedPattern": "кот де нюи",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Кот де Нюи",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "cote de nuits",
+  "normalizedPattern": "cote de nuits",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Кот де Нюи",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кот де бон",
+  "normalizedPattern": "кот де бон",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Кот де Бон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "cote de beaune",
+  "normalizedPattern": "cote de beaune",
+  "payload": {
+   "country": "Франция",
+   "region": "Бургундия, Кот де Бон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "шампань",
+  "normalizedPattern": "шампань",
+  "payload": {
+   "country": "Франция",
+   "region": "Шампань",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "champagne",
+  "normalizedPattern": "champagne",
+  "payload": {
+   "country": "Франция",
+   "region": "Шампань",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "долина луары",
+  "normalizedPattern": "долина луары",
+  "payload": {
+   "country": "Франция",
+   "region": "Долина Луары",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "val de loire",
+  "normalizedPattern": "val de loire",
+  "payload": {
+   "country": "Франция",
+   "region": "Долина Луары",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "loire",
+  "normalizedPattern": "loire",
+  "payload": {
+   "country": "Франция",
+   "region": "Долина Луары",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сансер",
+  "normalizedPattern": "сансер",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Сансер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "sancerre",
+  "normalizedPattern": "sancerre",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Сансер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пуйи фюме",
+  "normalizedPattern": "пуйи фюме",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Пуйи-Фюме",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pouilly fume",
+  "normalizedPattern": "pouilly fume",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Пуйи-Фюме",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вувре",
+  "normalizedPattern": "вувре",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Вувре",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "vouvray",
+  "normalizedPattern": "vouvray",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Вувре",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "шинон",
+  "normalizedPattern": "шинон",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Шинон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "chinon",
+  "normalizedPattern": "chinon",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Шинон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мюскаде",
+  "normalizedPattern": "мюскаде",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Мюскаде",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "muscadet",
+  "normalizedPattern": "muscadet",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Мюскаде",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "анжу",
+  "normalizedPattern": "анжу",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Анжу",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "anjou",
+  "normalizedPattern": "anjou",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Анжу",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сомюр",
+  "normalizedPattern": "сомюр",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Сомюр",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "saumur",
+  "normalizedPattern": "saumur",
+  "payload": {
+   "country": "Франция",
+   "region": "Луара, Сомюр",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "рона",
+  "normalizedPattern": "рона",
+  "payload": {
+   "country": "Франция",
+   "region": "Долина Роны",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "долина роны",
+  "normalizedPattern": "долина роны",
+  "payload": {
+   "country": "Франция",
+   "region": "Долина Роны",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "rhone",
+  "normalizedPattern": "rhone",
+  "payload": {
+   "country": "Франция",
+   "region": "Долина Роны",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "cotes du rhone",
+  "normalizedPattern": "cotes du rhone",
+  "payload": {
+   "country": "Франция",
+   "region": "Долина Роны",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кот дю рон",
+  "normalizedPattern": "кот дю рон",
+  "payload": {
+   "country": "Франция",
+   "region": "Долина Роны",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кот роти",
+  "normalizedPattern": "кот роти",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Кот-Роти",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "cote rotie",
+  "normalizedPattern": "cote rotie",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Кот-Роти",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "эрмитаж",
+  "normalizedPattern": "эрмитаж",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Эрмитаж",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "hermitage",
+  "normalizedPattern": "hermitage",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Эрмитаж",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кроз эрмитаж",
+  "normalizedPattern": "кроз эрмитаж",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Кроз-Эрмитаж",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "crozes hermitage",
+  "normalizedPattern": "crozes hermitage",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Кроз-Эрмитаж",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "шатонеф дю пап",
+  "normalizedPattern": "шатонеф дю пап",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Шатонёф-дю-Пап",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "chateauneuf du pape",
+  "normalizedPattern": "chateauneuf du pape",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Шатонёф-дю-Пап",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "жигондас",
+  "normalizedPattern": "жигондас",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Жигондас",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "gigondas",
+  "normalizedPattern": "gigondas",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Жигондас",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вакейрас",
+  "normalizedPattern": "вакейрас",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Вакейрас",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "vacqueyras",
+  "normalizedPattern": "vacqueyras",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Вакейрас",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кондрие",
+  "normalizedPattern": "кондрие",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Кондриё",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "condrieu",
+  "normalizedPattern": "condrieu",
+  "payload": {
+   "country": "Франция",
+   "region": "Рона, Кондриё",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "эльзас",
+  "normalizedPattern": "эльзас",
+  "payload": {
+   "country": "Франция",
+   "region": "Эльзас",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "alsace",
+  "normalizedPattern": "alsace",
+  "payload": {
+   "country": "Франция",
+   "region": "Эльзас",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "прованс",
+  "normalizedPattern": "прованс",
+  "payload": {
+   "country": "Франция",
+   "region": "Прованс",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "provence",
+  "normalizedPattern": "provence",
+  "payload": {
+   "country": "Франция",
+   "region": "Прованс",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кот де прованс",
+  "normalizedPattern": "кот де прованс",
+  "payload": {
+   "country": "Франция",
+   "region": "Прованс",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "cotes de provence",
+  "normalizedPattern": "cotes de provence",
+  "payload": {
+   "country": "Франция",
+   "region": "Прованс",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "бандоль",
+  "normalizedPattern": "бандоль",
+  "payload": {
+   "country": "Франция",
+   "region": "Прованс, Бандоль",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "bandol",
+  "normalizedPattern": "bandol",
+  "payload": {
+   "country": "Франция",
+   "region": "Прованс, Бандоль",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "лангедок",
+  "normalizedPattern": "лангедок",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "languedoc",
+  "normalizedPattern": "languedoc",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пэи д ок",
+  "normalizedPattern": "пэи д ок",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pays d oc",
+  "normalizedPattern": "pays d oc",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "лиму",
+  "normalizedPattern": "лиму",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Лиму",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "limoux",
+  "normalizedPattern": "limoux",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Лиму",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "бланкет де лиму",
+  "normalizedPattern": "бланкет де лиму",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Лиму",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "blanquette de limoux",
+  "normalizedPattern": "blanquette de limoux",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Лиму",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пик сен лу",
+  "normalizedPattern": "пик сен лу",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Пик-Сен-Лу",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pic saint loup",
+  "normalizedPattern": "pic saint loup",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Пик-Сен-Лу",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "корбьер",
+  "normalizedPattern": "корбьер",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Корбьер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "corbieres",
+  "normalizedPattern": "corbieres",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Корбьер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "минервуа",
+  "normalizedPattern": "минервуа",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Минервуа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "minervois",
+  "normalizedPattern": "minervois",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Минервуа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пикпуль",
+  "normalizedPattern": "пикпуль",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Пикпуль",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "picpoul",
+  "normalizedPattern": "picpoul",
+  "payload": {
+   "country": "Франция",
+   "region": "Лангедок, Пикпуль",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "каор",
+  "normalizedPattern": "каор",
+  "payload": {
+   "country": "Франция",
+   "region": "Юго-Запад, Каор",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "cahors",
+  "normalizedPattern": "cahors",
+  "payload": {
+   "country": "Франция",
+   "region": "Юго-Запад, Каор",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мадиран",
+  "normalizedPattern": "мадиран",
+  "payload": {
+   "country": "Франция",
+   "region": "Юго-Запад, Мадиран",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "madiran",
+  "normalizedPattern": "madiran",
+  "payload": {
+   "country": "Франция",
+   "region": "Юго-Запад, Мадиран",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "жюрансон",
+  "normalizedPattern": "жюрансон",
+  "payload": {
+   "country": "Франция",
+   "region": "Юго-Запад, Жюрансон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "jurancon",
+  "normalizedPattern": "jurancon",
+  "payload": {
+   "country": "Франция",
+   "region": "Юго-Запад, Жюрансон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "божоле",
+  "normalizedPattern": "божоле",
+  "payload": {
+   "country": "Франция",
+   "region": "Божоле",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "beaujolais",
+  "normalizedPattern": "beaujolais",
+  "payload": {
+   "country": "Франция",
+   "region": "Божоле",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "моргон",
+  "normalizedPattern": "моргон",
+  "payload": {
+   "country": "Франция",
+   "region": "Божоле, Моргон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "morgon",
+  "normalizedPattern": "morgon",
+  "payload": {
+   "country": "Франция",
+   "region": "Божоле, Моргон",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "флери",
+  "normalizedPattern": "флери",
+  "payload": {
+   "country": "Франция",
+   "region": "Божоле, Флёри",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "fleurie",
+  "normalizedPattern": "fleurie",
+  "payload": {
+   "country": "Франция",
+   "region": "Божоле, Флёри",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мулен а ван",
+  "normalizedPattern": "мулен а ван",
+  "payload": {
+   "country": "Франция",
+   "region": "Божоле, Мулен-а-Ван",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "moulin a vent",
+  "normalizedPattern": "moulin a vent",
+  "payload": {
+   "country": "Франция",
+   "region": "Божоле, Мулен-а-Ван",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "арбуа",
+  "normalizedPattern": "арбуа",
+  "payload": {
+   "country": "Франция",
+   "region": "Юра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "arbois",
+  "normalizedPattern": "arbois",
+  "payload": {
+   "country": "Франция",
+   "region": "Юра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "юра",
+  "normalizedPattern": "юра",
+  "payload": {
+   "country": "Франция",
+   "region": "Юра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "jura",
+  "normalizedPattern": "jura",
+  "payload": {
+   "country": "Франция",
+   "region": "Юра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "гранд шампань",
+  "normalizedPattern": "гранд шампань",
+  "payload": {
+   "country": "Франция",
+   "region": "Коньяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Коньяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "grande champagne",
+  "normalizedPattern": "grande champagne",
+  "payload": {
+   "country": "Франция",
+   "region": "Коньяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Коньяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пти шампань",
+  "normalizedPattern": "пти шампань",
+  "payload": {
+   "country": "Франция",
+   "region": "Коньяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Коньяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "petite champagne",
+  "normalizedPattern": "petite champagne",
+  "payload": {
+   "country": "Франция",
+   "region": "Коньяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Коньяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "фин шампань",
+  "normalizedPattern": "фин шампань",
+  "payload": {
+   "country": "Франция",
+   "region": "Коньяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Коньяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "fine champagne",
+  "normalizedPattern": "fine champagne",
+  "payload": {
+   "country": "Франция",
+   "region": "Коньяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Коньяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "борடери",
+  "normalizedPattern": "бор ери",
+  "payload": {
+   "country": "Франция",
+   "region": "Коньяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Коньяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "borderies",
+  "normalizedPattern": "borderies",
+  "payload": {
+   "country": "Франция",
+   "region": "Коньяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Коньяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "баз арманьяк",
+  "normalizedPattern": "баз арманьяк",
+  "payload": {
+   "country": "Франция",
+   "region": "Арманьяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Арманьяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "bas armagnac",
+  "normalizedPattern": "bas armagnac",
+  "payload": {
+   "country": "Франция",
+   "region": "Арманьяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Арманьяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "тенарез",
+  "normalizedPattern": "тенарез",
+  "payload": {
+   "country": "Франция",
+   "region": "Арманьяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Арманьяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "tenareze",
+  "normalizedPattern": "tenareze",
+  "payload": {
+   "country": "Франция",
+   "region": "Арманьяк",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Арманьяк"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пэи д ож",
+  "normalizedPattern": "пэи д ож",
+  "payload": {
+   "country": "Франция",
+   "region": "Нормандия",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Кальвадос"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pays d auge",
+  "normalizedPattern": "pays d auge",
+  "payload": {
+   "country": "Франция",
+   "region": "Нормандия",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Кальвадос"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пьемонт",
+  "normalizedPattern": "пьемонт",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "piemonte",
+  "normalizedPattern": "piemonte",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "piedmont",
+  "normalizedPattern": "piedmont",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "бароло",
+  "normalizedPattern": "бароло",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Бароло",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "barolo",
+  "normalizedPattern": "barolo",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Бароло",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "барбареско",
+  "normalizedPattern": "барбареско",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Барбареско",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "barbaresco",
+  "normalizedPattern": "barbaresco",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Барбареско",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "ланге",
+  "normalizedPattern": "ланге",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Ланге",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "langhe",
+  "normalizedPattern": "langhe",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Ланге",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "роэро",
+  "normalizedPattern": "роэро",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Роэро",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "roero",
+  "normalizedPattern": "roero",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Роэро",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "гави",
+  "normalizedPattern": "гави",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Гави",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "gavi",
+  "normalizedPattern": "gavi",
+  "payload": {
+   "country": "Италия",
+   "region": "Пьемонт, Гави",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "тоскана",
+  "normalizedPattern": "тоскана",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "toscana",
+  "normalizedPattern": "toscana",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "tuscany",
+  "normalizedPattern": "tuscany",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кьянти",
+  "normalizedPattern": "кьянти",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Кьянти",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "chianti",
+  "normalizedPattern": "chianti",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Кьянти",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кьянти классико",
+  "normalizedPattern": "кьянти классико",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Кьянти Классико",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "chianti classico",
+  "normalizedPattern": "chianti classico",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Кьянти Классико",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "брунелло ди монтальчино",
+  "normalizedPattern": "брунелло ди монтальчино",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Брунелло ди Монтальчино",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "brunello di montalcino",
+  "normalizedPattern": "brunello di montalcino",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Брунелло ди Монтальчино",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "монтальчино",
+  "normalizedPattern": "монтальчино",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Брунелло ди Монтальчино",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "montalcino",
+  "normalizedPattern": "montalcino",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Брунелло ди Монтальчино",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вино нобиле ди монтепульчано",
+  "normalizedPattern": "вино нобиле ди монтепульчано",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Вино Нобиле ди Монтепульчано",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "vino nobile di montepulciano",
+  "normalizedPattern": "vino nobile di montepulciano",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Вино Нобиле ди Монтепульчано",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "болгери",
+  "normalizedPattern": "болгери",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Болгери",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "bolgheri",
+  "normalizedPattern": "bolgheri",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Болгери",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "маремма",
+  "normalizedPattern": "маремма",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Маремма",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "maremma",
+  "normalizedPattern": "maremma",
+  "payload": {
+   "country": "Италия",
+   "region": "Тоскана, Маремма",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "венето",
+  "normalizedPattern": "венето",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "veneto",
+  "normalizedPattern": "veneto",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вальполичелла",
+  "normalizedPattern": "вальполичелла",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето, Вальполичелла",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "valpolicella",
+  "normalizedPattern": "valpolicella",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето, Вальполичелла",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "соаве",
+  "normalizedPattern": "соаве",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето, Соаве",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "soave",
+  "normalizedPattern": "soave",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето, Соаве",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вальдоббьядене",
+  "normalizedPattern": "вальдоббьядене",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето, Вальдоббьядене",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "valdobbiadene",
+  "normalizedPattern": "valdobbiadene",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето, Вальдоббьядене",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "конельяно",
+  "normalizedPattern": "конельяно",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето, Конельяно",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "conegliano",
+  "normalizedPattern": "conegliano",
+  "payload": {
+   "country": "Италия",
+   "region": "Венето, Конельяно",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "фриули",
+  "normalizedPattern": "фриули",
+  "payload": {
+   "country": "Италия",
+   "region": "Фриули",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "friuli",
+  "normalizedPattern": "friuli",
+  "payload": {
+   "country": "Италия",
+   "region": "Фриули",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "альто адидже",
+  "normalizedPattern": "альто адидже",
+  "payload": {
+   "country": "Италия",
+   "region": "Трентино-Альто-Адидже",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "alto adige",
+  "normalizedPattern": "alto adige",
+  "payload": {
+   "country": "Италия",
+   "region": "Трентино-Альто-Адидже",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "трентино",
+  "normalizedPattern": "трентино",
+  "payload": {
+   "country": "Италия",
+   "region": "Трентино-Альто-Адидже",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "trentino",
+  "normalizedPattern": "trentino",
+  "payload": {
+   "country": "Италия",
+   "region": "Трентино-Альто-Адидже",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "франчакорта",
+  "normalizedPattern": "франчакорта",
+  "payload": {
+   "country": "Италия",
+   "region": "Ломбардия, Франчакорта",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "franciacorta",
+  "normalizedPattern": "franciacorta",
+  "payload": {
+   "country": "Италия",
+   "region": "Ломбардия, Франчакорта",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "абруццо",
+  "normalizedPattern": "абруццо",
+  "payload": {
+   "country": "Италия",
+   "region": "Абруццо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "abruzzo",
+  "normalizedPattern": "abruzzo",
+  "payload": {
+   "country": "Италия",
+   "region": "Абруццо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "монтепульчано д абруццо",
+  "normalizedPattern": "монтепульчано д абруццо",
+  "payload": {
+   "country": "Италия",
+   "region": "Абруццо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "montepulciano d abruzzo",
+  "normalizedPattern": "montepulciano d abruzzo",
+  "payload": {
+   "country": "Италия",
+   "region": "Абруццо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кампания",
+  "normalizedPattern": "кампания",
+  "payload": {
+   "country": "Италия",
+   "region": "Кампания",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "campania",
+  "normalizedPattern": "campania",
+  "payload": {
+   "country": "Италия",
+   "region": "Кампания",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "таурази",
+  "normalizedPattern": "таурази",
+  "payload": {
+   "country": "Италия",
+   "region": "Кампания",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "taurasi",
+  "normalizedPattern": "taurasi",
+  "payload": {
+   "country": "Италия",
+   "region": "Кампания",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "греко ди туфо",
+  "normalizedPattern": "греко ди туфо",
+  "payload": {
+   "country": "Италия",
+   "region": "Кампания",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "greco di tufo",
+  "normalizedPattern": "greco di tufo",
+  "payload": {
+   "country": "Италия",
+   "region": "Кампания",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "фиано ди авеллино",
+  "normalizedPattern": "фиано ди авеллино",
+  "payload": {
+   "country": "Италия",
+   "region": "Кампания",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "fiano di avellino",
+  "normalizedPattern": "fiano di avellino",
+  "payload": {
+   "country": "Италия",
+   "region": "Кампания",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "апулия",
+  "normalizedPattern": "апулия",
+  "payload": {
+   "country": "Италия",
+   "region": "Апулия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "puglia",
+  "normalizedPattern": "puglia",
+  "payload": {
+   "country": "Италия",
+   "region": "Апулия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "саленто",
+  "normalizedPattern": "саленто",
+  "payload": {
+   "country": "Италия",
+   "region": "Апулия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "salento",
+  "normalizedPattern": "salento",
+  "payload": {
+   "country": "Италия",
+   "region": "Апулия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мандурия",
+  "normalizedPattern": "мандурия",
+  "payload": {
+   "country": "Италия",
+   "region": "Апулия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "manduria",
+  "normalizedPattern": "manduria",
+  "payload": {
+   "country": "Италия",
+   "region": "Апулия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сицилия",
+  "normalizedPattern": "сицилия",
+  "payload": {
+   "country": "Италия",
+   "region": "Сицилия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "sicilia",
+  "normalizedPattern": "sicilia",
+  "payload": {
+   "country": "Италия",
+   "region": "Сицилия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "sicily",
+  "normalizedPattern": "sicily",
+  "payload": {
+   "country": "Италия",
+   "region": "Сицилия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "этна",
+  "normalizedPattern": "этна",
+  "payload": {
+   "country": "Италия",
+   "region": "Сицилия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "etna",
+  "normalizedPattern": "etna",
+  "payload": {
+   "country": "Италия",
+   "region": "Сицилия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сардиния",
+  "normalizedPattern": "сардиния",
+  "payload": {
+   "country": "Италия",
+   "region": "Сардиния",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "sardegna",
+  "normalizedPattern": "sardegna",
+  "payload": {
+   "country": "Италия",
+   "region": "Сардиния",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "sardinia",
+  "normalizedPattern": "sardinia",
+  "payload": {
+   "country": "Италия",
+   "region": "Сардиния",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "каннонау",
+  "normalizedPattern": "каннонау",
+  "payload": {
+   "country": "Италия",
+   "region": "Сардиния",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "cannonau",
+  "normalizedPattern": "cannonau",
+  "payload": {
+   "country": "Италия",
+   "region": "Сардиния",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "эмилия романья",
+  "normalizedPattern": "эмилия романья",
+  "payload": {
+   "country": "Италия",
+   "region": "Эмилия-Романья",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "emilia romagna",
+  "normalizedPattern": "emilia romagna",
+  "payload": {
+   "country": "Италия",
+   "region": "Эмилия-Романья",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "марке",
+  "normalizedPattern": "марке",
+  "payload": {
+   "country": "Италия",
+   "region": "Марке",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "marche",
+  "normalizedPattern": "marche",
+  "payload": {
+   "country": "Италия",
+   "region": "Марке",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вердиккио",
+  "normalizedPattern": "вердиккио",
+  "payload": {
+   "country": "Италия",
+   "region": "Марке",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "verdicchio",
+  "normalizedPattern": "verdicchio",
+  "payload": {
+   "country": "Италия",
+   "region": "Марке",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "умбрия",
+  "normalizedPattern": "умбрия",
+  "payload": {
+   "country": "Италия",
+   "region": "Умбрия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "umbria",
+  "normalizedPattern": "umbria",
+  "payload": {
+   "country": "Италия",
+   "region": "Умбрия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "монтефалько",
+  "normalizedPattern": "монтефалько",
+  "payload": {
+   "country": "Италия",
+   "region": "Умбрия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "montefalco",
+  "normalizedPattern": "montefalco",
+  "payload": {
+   "country": "Италия",
+   "region": "Умбрия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "риоха",
+  "normalizedPattern": "риоха",
+  "payload": {
+   "country": "Испания",
+   "region": "Риоха",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "rioja",
+  "normalizedPattern": "rioja",
+  "payload": {
+   "country": "Испания",
+   "region": "Риоха",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "рибера дель дуэро",
+  "normalizedPattern": "рибера дель дуэро",
+  "payload": {
+   "country": "Испания",
+   "region": "Рибера-дель-Дуэро",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "ribera del duero",
+  "normalizedPattern": "ribera del duero",
+  "payload": {
+   "country": "Испания",
+   "region": "Рибера-дель-Дуэро",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "приорат",
+  "normalizedPattern": "приорат",
+  "payload": {
+   "country": "Испания",
+   "region": "Приорат",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "priorat",
+  "normalizedPattern": "priorat",
+  "payload": {
+   "country": "Испания",
+   "region": "Приорат",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "руэда",
+  "normalizedPattern": "руэда",
+  "payload": {
+   "country": "Испания",
+   "region": "Руэда",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "rueda",
+  "normalizedPattern": "rueda",
+  "payload": {
+   "country": "Испания",
+   "region": "Руэда",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "риас байшас",
+  "normalizedPattern": "риас байшас",
+  "payload": {
+   "country": "Испания",
+   "region": "Риас Байшас",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "rias baixas",
+  "normalizedPattern": "rias baixas",
+  "payload": {
+   "country": "Испания",
+   "region": "Риас Байшас",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "toro",
+  "normalizedPattern": "toro",
+  "payload": {
+   "country": "Испания",
+   "region": "Торо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "бьерсо",
+  "normalizedPattern": "бьерсо",
+  "payload": {
+   "country": "Испания",
+   "region": "Бьерсо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "bierzo",
+  "normalizedPattern": "bierzo",
+  "payload": {
+   "country": "Испания",
+   "region": "Бьерсо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "хумилья",
+  "normalizedPattern": "хумилья",
+  "payload": {
+   "country": "Испания",
+   "region": "Хумилья",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "jumilla",
+  "normalizedPattern": "jumilla",
+  "payload": {
+   "country": "Испания",
+   "region": "Хумилья",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "ла манча",
+  "normalizedPattern": "ла манча",
+  "payload": {
+   "country": "Испания",
+   "region": "Ла-Манча",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "la mancha",
+  "normalizedPattern": "la mancha",
+  "payload": {
+   "country": "Испания",
+   "region": "Ла-Манча",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "наварра",
+  "normalizedPattern": "наварра",
+  "payload": {
+   "country": "Испания",
+   "region": "Наварра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "navarra",
+  "normalizedPattern": "navarra",
+  "payload": {
+   "country": "Испания",
+   "region": "Наварра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сомонтано",
+  "normalizedPattern": "сомонтано",
+  "payload": {
+   "country": "Испания",
+   "region": "Сомонтано",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "somontano",
+  "normalizedPattern": "somontano",
+  "payload": {
+   "country": "Испания",
+   "region": "Сомонтано",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пенедес",
+  "normalizedPattern": "пенедес",
+  "payload": {
+   "country": "Испания",
+   "region": "Пенедес",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "penedes",
+  "normalizedPattern": "penedes",
+  "payload": {
+   "country": "Испания",
+   "region": "Пенедес",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "утьель рекена",
+  "normalizedPattern": "утьель рекена",
+  "payload": {
+   "country": "Испания",
+   "region": "Утьель-Рекена",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "utiel requena",
+  "normalizedPattern": "utiel requena",
+  "payload": {
+   "country": "Испания",
+   "region": "Утьель-Рекена",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "jerez",
+  "normalizedPattern": "jerez",
+  "payload": {
+   "country": "Испания",
+   "region": "Херес",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "xeres",
+  "normalizedPattern": "xeres",
+  "payload": {
+   "country": "Испания",
+   "region": "Херес",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "монтилья морилес",
+  "normalizedPattern": "монтилья морилес",
+  "payload": {
+   "country": "Испания",
+   "region": "Монтилья-Морилес",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "montilla moriles",
+  "normalizedPattern": "montilla moriles",
+  "payload": {
+   "country": "Испания",
+   "region": "Монтилья-Морилес",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кампо де борха",
+  "normalizedPattern": "кампо де борха",
+  "payload": {
+   "country": "Испания",
+   "region": "Кампо де Борха",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "campo de borja",
+  "normalizedPattern": "campo de borja",
+  "payload": {
+   "country": "Испания",
+   "region": "Кампо де Борха",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "калатаюд",
+  "normalizedPattern": "калатаюд",
+  "payload": {
+   "country": "Испания",
+   "region": "Калатаюд",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "calatayud",
+  "normalizedPattern": "calatayud",
+  "payload": {
+   "country": "Испания",
+   "region": "Калатаюд",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вальдепеньяс",
+  "normalizedPattern": "вальдепеньяс",
+  "payload": {
+   "country": "Испания",
+   "region": "Вальдепеньяс",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "valdepenas",
+  "normalizedPattern": "valdepenas",
+  "payload": {
+   "country": "Испания",
+   "region": "Вальдепеньяс",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кариньена",
+  "normalizedPattern": "кариньена",
+  "payload": {
+   "country": "Испания",
+   "region": "Кариньена",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "carinena",
+  "normalizedPattern": "carinena",
+  "payload": {
+   "country": "Испания",
+   "region": "Кариньена",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кава",
+  "normalizedPattern": "кава",
+  "payload": {
+   "country": "Испания",
+   "region": "Кава DO",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "cava",
+  "normalizedPattern": "cava",
+  "payload": {
+   "country": "Испания",
+   "region": "Кава DO",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "дору",
+  "normalizedPattern": "дору",
+  "payload": {
+   "country": "Португалия",
+   "region": "Дору",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "douro",
+  "normalizedPattern": "douro",
+  "payload": {
+   "country": "Португалия",
+   "region": "Дору",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "дуэро португалия",
+  "normalizedPattern": "дуэро португалия",
+  "payload": {
+   "country": "Португалия",
+   "region": "Дору",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "дау",
+  "normalizedPattern": "дау",
+  "payload": {
+   "country": "Португалия",
+   "region": "Дау",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "dao",
+  "normalizedPattern": "dao",
+  "payload": {
+   "country": "Португалия",
+   "region": "Дау",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "алентежу",
+  "normalizedPattern": "алентежу",
+  "payload": {
+   "country": "Португалия",
+   "region": "Алентежу",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "alentejo",
+  "normalizedPattern": "alentejo",
+  "payload": {
+   "country": "Португалия",
+   "region": "Алентежу",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "винью верде",
+  "normalizedPattern": "винью верде",
+  "payload": {
+   "country": "Португалия",
+   "region": "Винью Верде",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "vinho verde",
+  "normalizedPattern": "vinho verde",
+  "payload": {
+   "country": "Португалия",
+   "region": "Винью Верде",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "байррада",
+  "normalizedPattern": "байррада",
+  "payload": {
+   "country": "Португалия",
+   "region": "Байррада",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "bairrada",
+  "normalizedPattern": "bairrada",
+  "payload": {
+   "country": "Португалия",
+   "region": "Байррада",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сетубал",
+  "normalizedPattern": "сетубал",
+  "payload": {
+   "country": "Португалия",
+   "region": "Сетубал",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "setubal",
+  "normalizedPattern": "setubal",
+  "payload": {
+   "country": "Португалия",
+   "region": "Сетубал",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мозель",
+  "normalizedPattern": "мозель",
+  "payload": {
+   "country": "Германия",
+   "region": "Мозель",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "mosel",
+  "normalizedPattern": "mosel",
+  "payload": {
+   "country": "Германия",
+   "region": "Мозель",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "рейнгау",
+  "normalizedPattern": "рейнгау",
+  "payload": {
+   "country": "Германия",
+   "region": "Рейнгау",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "rheingau",
+  "normalizedPattern": "rheingau",
+  "payload": {
+   "country": "Германия",
+   "region": "Рейнгау",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "рейнхессен",
+  "normalizedPattern": "рейнхессен",
+  "payload": {
+   "country": "Германия",
+   "region": "Рейнхессен",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "rheinhessen",
+  "normalizedPattern": "rheinhessen",
+  "payload": {
+   "country": "Германия",
+   "region": "Рейнхессен",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пфальц",
+  "normalizedPattern": "пфальц",
+  "payload": {
+   "country": "Германия",
+   "region": "Пфальц",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "pfalz",
+  "normalizedPattern": "pfalz",
+  "payload": {
+   "country": "Германия",
+   "region": "Пфальц",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "наэ",
+  "normalizedPattern": "наэ",
+  "payload": {
+   "country": "Германия",
+   "region": "Наэ",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "nahe",
+  "normalizedPattern": "nahe",
+  "payload": {
+   "country": "Германия",
+   "region": "Наэ",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "баден",
+  "normalizedPattern": "баден",
+  "payload": {
+   "country": "Германия",
+   "region": "Баден",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "baden",
+  "normalizedPattern": "baden",
+  "payload": {
+   "country": "Германия",
+   "region": "Баден",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "франкен",
+  "normalizedPattern": "франкен",
+  "payload": {
+   "country": "Германия",
+   "region": "Франкен",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "franken",
+  "normalizedPattern": "franken",
+  "payload": {
+   "country": "Германия",
+   "region": "Франкен",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вахау",
+  "normalizedPattern": "вахау",
+  "payload": {
+   "country": "Австрия",
+   "region": "Вахау",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "wachau",
+  "normalizedPattern": "wachau",
+  "payload": {
+   "country": "Австрия",
+   "region": "Вахау",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кампталь",
+  "normalizedPattern": "кампталь",
+  "payload": {
+   "country": "Австрия",
+   "region": "Кампталь/Кремшталь",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "kamptal",
+  "normalizedPattern": "kamptal",
+  "payload": {
+   "country": "Австрия",
+   "region": "Кампталь/Кремшталь",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кремшталь",
+  "normalizedPattern": "кремшталь",
+  "payload": {
+   "country": "Австрия",
+   "region": "Кампталь/Кремшталь",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "kremstal",
+  "normalizedPattern": "kremstal",
+  "payload": {
+   "country": "Австрия",
+   "region": "Кампталь/Кремшталь",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "бургенланд",
+  "normalizedPattern": "бургенланд",
+  "payload": {
+   "country": "Австрия",
+   "region": "Бургенланд",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "burgenland",
+  "normalizedPattern": "burgenland",
+  "payload": {
+   "country": "Австрия",
+   "region": "Бургенланд",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "нидеростеррайх",
+  "normalizedPattern": "нидеростеррайх",
+  "payload": {
+   "country": "Австрия",
+   "region": "Нижняя Австрия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "niederosterreich",
+  "normalizedPattern": "niederosterreich",
+  "payload": {
+   "country": "Австрия",
+   "region": "Нижняя Австрия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "штирия",
+  "normalizedPattern": "штирия",
+  "payload": {
+   "country": "Австрия",
+   "region": "Штирия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "steiermark",
+  "normalizedPattern": "steiermark",
+  "payload": {
+   "country": "Австрия",
+   "region": "Штирия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "styria",
+  "normalizedPattern": "styria",
+  "payload": {
+   "country": "Австрия",
+   "region": "Штирия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "токай",
+  "normalizedPattern": "токай",
+  "payload": {
+   "country": "Венгрия",
+   "region": "Токай",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "tokaj",
+  "normalizedPattern": "tokaj",
+  "payload": {
+   "country": "Венгрия",
+   "region": "Токай",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "tokaji",
+  "normalizedPattern": "tokaji",
+  "payload": {
+   "country": "Венгрия",
+   "region": "Токай",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "напа",
+  "normalizedPattern": "напа",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Напа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "napa",
+  "normalizedPattern": "napa",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Напа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "napa valley",
+  "normalizedPattern": "napa valley",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Напа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "долина напа",
+  "normalizedPattern": "долина напа",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Напа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сонома",
+  "normalizedPattern": "сонома",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Сонома",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "sonoma",
+  "normalizedPattern": "sonoma",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Сонома",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "пасо роблес",
+  "normalizedPattern": "пасо роблес",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Пасо-Роблес",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "paso robles",
+  "normalizedPattern": "paso robles",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Пасо-Роблес",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сентрал коуст",
+  "normalizedPattern": "сентрал коуст",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Центральное побережье",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "central coast",
+  "normalizedPattern": "central coast",
+  "payload": {
+   "country": "США",
+   "region": "Калифорния, Центральное побережье",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "уилламетт",
+  "normalizedPattern": "уилламетт",
+  "payload": {
+   "country": "США",
+   "region": "Орегон, Уилламетт",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "willamette",
+  "normalizedPattern": "willamette",
+  "payload": {
+   "country": "США",
+   "region": "Орегон, Уилламетт",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "колумбия вэлли",
+  "normalizedPattern": "колумбия вэлли",
+  "payload": {
+   "country": "США",
+   "region": "Вашингтон, Колумбия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "columbia valley",
+  "normalizedPattern": "columbia valley",
+  "payload": {
+   "country": "США",
+   "region": "Вашингтон, Колумбия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кентукки",
+  "normalizedPattern": "кентукки",
+  "payload": {
+   "country": "США",
+   "region": "Кентукки",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски",
+    "Американский виски",
+    "Бурбон"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "kentucky",
+  "normalizedPattern": "kentucky",
+  "payload": {
+   "country": "США",
+   "region": "Кентукки",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски",
+    "Американский виски",
+    "Бурбон"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кентукки страйт",
+  "normalizedPattern": "кентукки страйт",
+  "payload": {
+   "country": "США",
+   "region": "Кентукки",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски",
+    "Американский виски",
+    "Бурбон"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "kentucky straight",
+  "normalizedPattern": "kentucky straight",
+  "payload": {
+   "country": "США",
+   "region": "Кентукки",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски",
+    "Американский виски",
+    "Бурбон"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "теннесси",
+  "normalizedPattern": "теннесси",
+  "payload": {
+   "country": "США",
+   "region": "Теннесси",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "tennessee",
+  "normalizedPattern": "tennessee",
+  "payload": {
+   "country": "США",
+   "region": "Теннесси",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "майпо",
+  "normalizedPattern": "майпо",
+  "payload": {
+   "country": "Чили",
+   "region": "Майпо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "maipo",
+  "normalizedPattern": "maipo",
+  "payload": {
+   "country": "Чили",
+   "region": "Майпо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кольчагуа",
+  "normalizedPattern": "кольчагуа",
+  "payload": {
+   "country": "Чили",
+   "region": "Кольчагуа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "colchagua",
+  "normalizedPattern": "colchagua",
+  "payload": {
+   "country": "Чили",
+   "region": "Кольчагуа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "касабланка",
+  "normalizedPattern": "касабланка",
+  "payload": {
+   "country": "Чили",
+   "region": "Касабланка",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "casablanca",
+  "normalizedPattern": "casablanca",
+  "payload": {
+   "country": "Чили",
+   "region": "Касабланка",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мауле",
+  "normalizedPattern": "мауле",
+  "payload": {
+   "country": "Чили",
+   "region": "Мауле",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "maule",
+  "normalizedPattern": "maule",
+  "payload": {
+   "country": "Чили",
+   "region": "Мауле",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "аконкагуа",
+  "normalizedPattern": "аконкагуа",
+  "payload": {
+   "country": "Чили",
+   "region": "Аконкагуа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "aconcagua",
+  "normalizedPattern": "aconcagua",
+  "payload": {
+   "country": "Чили",
+   "region": "Аконкагуа",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "лейда",
+  "normalizedPattern": "лейда",
+  "payload": {
+   "country": "Чили",
+   "region": "Лейда",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "leyda",
+  "normalizedPattern": "leyda",
+  "payload": {
+   "country": "Чили",
+   "region": "Лейда",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "лимари",
+  "normalizedPattern": "лимари",
+  "payload": {
+   "country": "Чили",
+   "region": "Лимари",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "limari",
+  "normalizedPattern": "limari",
+  "payload": {
+   "country": "Чили",
+   "region": "Лимари",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "курико",
+  "normalizedPattern": "курико",
+  "payload": {
+   "country": "Чили",
+   "region": "Курико",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "curico",
+  "normalizedPattern": "curico",
+  "payload": {
+   "country": "Чили",
+   "region": "Курико",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сентрал вэлли чили",
+  "normalizedPattern": "сентрал вэлли чили",
+  "payload": {
+   "country": "Чили",
+   "region": "Центральная долина",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "valle central",
+  "normalizedPattern": "valle central",
+  "payload": {
+   "country": "Чили",
+   "region": "Центральная долина",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мендоса",
+  "normalizedPattern": "мендоса",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Мендоса",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "mendoza",
+  "normalizedPattern": "mendoza",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Мендоса",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "долина уко",
+  "normalizedPattern": "долина уко",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Мендоса, Уко",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "uco valley",
+  "normalizedPattern": "uco valley",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Мендоса, Уко",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "valle de uco",
+  "normalizedPattern": "valle de uco",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Мендоса, Уко",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кафайяте",
+  "normalizedPattern": "кафайяте",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Сальта",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "cafayate",
+  "normalizedPattern": "cafayate",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Сальта",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сальта",
+  "normalizedPattern": "сальта",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Сальта",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "salta",
+  "normalizedPattern": "salta",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Сальта",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "патагония",
+  "normalizedPattern": "патагония",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Патагония",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "patagonia",
+  "normalizedPattern": "patagonia",
+  "payload": {
+   "country": "Аргентина",
+   "region": "Патагония",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "баросса",
+  "normalizedPattern": "баросса",
+  "payload": {
+   "country": "Австралия",
+   "region": "Баросса",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "barossa",
+  "normalizedPattern": "barossa",
+  "payload": {
+   "country": "Австралия",
+   "region": "Баросса",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "макларен вейл",
+  "normalizedPattern": "макларен вейл",
+  "payload": {
+   "country": "Австралия",
+   "region": "Макларен-Вейл",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "mclaren vale",
+  "normalizedPattern": "mclaren vale",
+  "payload": {
+   "country": "Австралия",
+   "region": "Макларен-Вейл",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кунаварра",
+  "normalizedPattern": "кунаварра",
+  "payload": {
+   "country": "Австралия",
+   "region": "Кунаварра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "coonawarra",
+  "normalizedPattern": "coonawarra",
+  "payload": {
+   "country": "Австралия",
+   "region": "Кунаварра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "маргарет ривер",
+  "normalizedPattern": "маргарет ривер",
+  "payload": {
+   "country": "Австралия",
+   "region": "Маргарет-Ривер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "margaret river",
+  "normalizedPattern": "margaret river",
+  "payload": {
+   "country": "Австралия",
+   "region": "Маргарет-Ривер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "ярра",
+  "normalizedPattern": "ярра",
+  "payload": {
+   "country": "Австралия",
+   "region": "Ярра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "yarra",
+  "normalizedPattern": "yarra",
+  "payload": {
+   "country": "Австралия",
+   "region": "Ярра",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "хантер вэлли",
+  "normalizedPattern": "хантер вэлли",
+  "payload": {
+   "country": "Австралия",
+   "region": "Хантер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "hunter valley",
+  "normalizedPattern": "hunter valley",
+  "payload": {
+   "country": "Австралия",
+   "region": "Хантер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "клэр вэлли",
+  "normalizedPattern": "клэр вэлли",
+  "payload": {
+   "country": "Австралия",
+   "region": "Клэр",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "clare valley",
+  "normalizedPattern": "clare valley",
+  "payload": {
+   "country": "Австралия",
+   "region": "Клэр",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "иден вэлли",
+  "normalizedPattern": "иден вэлли",
+  "payload": {
+   "country": "Австралия",
+   "region": "Иден",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "eden valley",
+  "normalizedPattern": "eden valley",
+  "payload": {
+   "country": "Австралия",
+   "region": "Иден",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "франклэнд",
+  "normalizedPattern": "франклэнд",
+  "payload": {
+   "country": "Австралия",
+   "region": "Франкленд-Ривер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "frankland",
+  "normalizedPattern": "frankland",
+  "payload": {
+   "country": "Австралия",
+   "region": "Франкленд-Ривер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "frankland river",
+  "normalizedPattern": "frankland river",
+  "payload": {
+   "country": "Австралия",
+   "region": "Франкленд-Ривер",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "риверина",
+  "normalizedPattern": "риверина",
+  "payload": {
+   "country": "Австралия",
+   "region": "Риверина",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "riverina",
+  "normalizedPattern": "riverina",
+  "payload": {
+   "country": "Австралия",
+   "region": "Риверина",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "аделаида хиллз",
+  "normalizedPattern": "аделаида хиллз",
+  "payload": {
+   "country": "Австралия",
+   "region": "Аделаида-Хиллз",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "adelaide hills",
+  "normalizedPattern": "adelaide hills",
+  "payload": {
+   "country": "Австралия",
+   "region": "Аделаида-Хиллз",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мальборо",
+  "normalizedPattern": "мальборо",
+  "payload": {
+   "country": "Новая Зеландия",
+   "region": "Мальборо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "marlborough",
+  "normalizedPattern": "marlborough",
+  "payload": {
+   "country": "Новая Зеландия",
+   "region": "Мальборо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "сентрал отаго",
+  "normalizedPattern": "сентрал отаго",
+  "payload": {
+   "country": "Новая Зеландия",
+   "region": "Центральное Отаго",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "central otago",
+  "normalizedPattern": "central otago",
+  "payload": {
+   "country": "Новая Зеландия",
+   "region": "Центральное Отаго",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "хокс бей",
+  "normalizedPattern": "хокс бей",
+  "payload": {
+   "country": "Новая Зеландия",
+   "region": "Хокс-Бей",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "hawke s bay",
+  "normalizedPattern": "hawke s bay",
+  "payload": {
+   "country": "Новая Зеландия",
+   "region": "Хокс-Бей",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "hawkes bay",
+  "normalizedPattern": "hawkes bay",
+  "payload": {
+   "country": "Новая Зеландия",
+   "region": "Хокс-Бей",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мартинборо",
+  "normalizedPattern": "мартинборо",
+  "payload": {
+   "country": "Новая Зеландия",
+   "region": "Мартинборо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "martinborough",
+  "normalizedPattern": "martinborough",
+  "payload": {
+   "country": "Новая Зеландия",
+   "region": "Мартинборо",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "стелленбош",
+  "normalizedPattern": "стелленбош",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Стелленбош",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "stellenbosch",
+  "normalizedPattern": "stellenbosch",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Стелленбош",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "свартленд",
+  "normalizedPattern": "свартленд",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Свартленд",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "swartland",
+  "normalizedPattern": "swartland",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Свартленд",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "паарль",
+  "normalizedPattern": "паарль",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Паарль",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "paarl",
+  "normalizedPattern": "paarl",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Паарль",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "уокер бей",
+  "normalizedPattern": "уокер бей",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Уокер-Бей",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "walker bay",
+  "normalizedPattern": "walker bay",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Уокер-Бей",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вестерн кейп",
+  "normalizedPattern": "вестерн кейп",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Западный Кейп",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "western cape",
+  "normalizedPattern": "western cape",
+  "payload": {
+   "country": "ЮАР",
+   "region": "Западный Кейп",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кахетия",
+  "normalizedPattern": "кахетия",
+  "payload": {
+   "country": "Грузия",
+   "region": "Кахетия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "kakheti",
+  "normalizedPattern": "kakheti",
+  "payload": {
+   "country": "Грузия",
+   "region": "Кахетия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кахети",
+  "normalizedPattern": "кахети",
+  "payload": {
+   "country": "Грузия",
+   "region": "Кахетия",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "киндзмараули",
+  "normalizedPattern": "киндзмараули",
+  "payload": {
+   "country": "Грузия",
+   "region": "Киндзмараули",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "kindzmarauli",
+  "normalizedPattern": "kindzmarauli",
+  "payload": {
+   "country": "Грузия",
+   "region": "Киндзмараули",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мукузани",
+  "normalizedPattern": "мукузани",
+  "payload": {
+   "country": "Грузия",
+   "region": "Мукузани",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "mukuzani",
+  "normalizedPattern": "mukuzani",
+  "payload": {
+   "country": "Грузия",
+   "region": "Мукузани",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "цинандали",
+  "normalizedPattern": "цинандали",
+  "payload": {
+   "country": "Грузия",
+   "region": "Цинандали",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "tsinandali",
+  "normalizedPattern": "tsinandali",
+  "payload": {
+   "country": "Грузия",
+   "region": "Цинандали",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "хванчкара",
+  "normalizedPattern": "хванчкара",
+  "payload": {
+   "country": "Грузия",
+   "region": "Хванчкара",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "khvanchkara",
+  "normalizedPattern": "khvanchkara",
+  "payload": {
+   "country": "Грузия",
+   "region": "Хванчкара",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "ахашени",
+  "normalizedPattern": "ахашени",
+  "payload": {
+   "country": "Грузия",
+   "region": "Ахашени",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "akhasheni",
+  "normalizedPattern": "akhasheni",
+  "payload": {
+   "country": "Грузия",
+   "region": "Ахашени",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "напареули",
+  "normalizedPattern": "напареули",
+  "payload": {
+   "country": "Грузия",
+   "region": "Напареули",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "napareuli",
+  "normalizedPattern": "napareuli",
+  "payload": {
+   "country": "Грузия",
+   "region": "Напареули",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "твиши",
+  "normalizedPattern": "твиши",
+  "payload": {
+   "country": "Грузия",
+   "region": "Твиши",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "tvishi",
+  "normalizedPattern": "tvishi",
+  "payload": {
+   "country": "Грузия",
+   "region": "Твиши",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "гурджаани",
+  "normalizedPattern": "гурджаани",
+  "payload": {
+   "country": "Грузия",
+   "region": "Гурджаани",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "gurjaani",
+  "normalizedPattern": "gurjaani",
+  "payload": {
+   "country": "Грузия",
+   "region": "Гурджаани",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "алазанская долина",
+  "normalizedPattern": "алазанская долина",
+  "payload": {
+   "country": "Грузия",
+   "region": "Алазанская долина",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "alazani",
+  "normalizedPattern": "alazani",
+  "payload": {
+   "country": "Грузия",
+   "region": "Алазанская долина",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "вайоц дзор",
+  "normalizedPattern": "вайоц дзор",
+  "payload": {
+   "country": "Армения",
+   "region": "Вайоц Дзор",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "vayots dzor",
+  "normalizedPattern": "vayots dzor",
+  "payload": {
+   "country": "Армения",
+   "region": "Вайоц Дзор",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "арени армения",
+  "normalizedPattern": "арени армения",
+  "payload": {
+   "country": "Армения",
+   "region": "Вайоц Дзор",
+   "impliesCategoryPath": [
+    "Вино"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "спейсайд",
+  "normalizedPattern": "спейсайд",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Спейсайд",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "speyside",
+  "normalizedPattern": "speyside",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Спейсайд",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "айла",
+  "normalizedPattern": "айла",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Айла",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "islay",
+  "normalizedPattern": "islay",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Айла",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "хайленд",
+  "normalizedPattern": "хайленд",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Хайленд",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "highland",
+  "normalizedPattern": "highland",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Хайленд",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "highlands",
+  "normalizedPattern": "highlands",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Хайленд",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "лоуленд",
+  "normalizedPattern": "лоуленд",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Лоуленд",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "lowland",
+  "normalizedPattern": "lowland",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Лоуленд",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "lowlands",
+  "normalizedPattern": "lowlands",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Лоуленд",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кэмпбелтаун",
+  "normalizedPattern": "кэмпбелтаун",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Кэмпбелтаун",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "кампбелтаун",
+  "normalizedPattern": "кампбелтаун",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Кэмпбелтаун",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "campbeltown",
+  "normalizedPattern": "campbeltown",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Кэмпбелтаун",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "айл оф скай",
+  "normalizedPattern": "айл оф скай",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "isle of skye",
+  "normalizedPattern": "isle of skye",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "оркни",
+  "normalizedPattern": "оркни",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "orkney",
+  "normalizedPattern": "orkney",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "джура остров",
+  "normalizedPattern": "джура остров",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "isle of jura",
+  "normalizedPattern": "isle of jura",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "арран",
+  "normalizedPattern": "арран",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "arran",
+  "normalizedPattern": "arran",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "малл",
+  "normalizedPattern": "малл",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "isle of mull",
+  "normalizedPattern": "isle of mull",
+  "payload": {
+   "country": "Шотландия",
+   "region": "Острова",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Виски"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "халиско",
+  "normalizedPattern": "халиско",
+  "payload": {
+   "country": "Мексика",
+   "region": "Халиско",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Агавовые дистилляты",
+    "Текила"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "jalisco",
+  "normalizedPattern": "jalisco",
+  "payload": {
+   "country": "Мексика",
+   "region": "Халиско",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Агавовые дистилляты",
+    "Текила"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "оахака",
+  "normalizedPattern": "оахака",
+  "payload": {
+   "country": "Мексика",
+   "region": "Оахака",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Агавовые дистилляты",
+    "Мескаль"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "oaxaca",
+  "normalizedPattern": "oaxaca",
+  "payload": {
+   "country": "Мексика",
+   "region": "Оахака",
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Агавовые дистилляты",
+    "Мескаль"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "ямайка",
+  "normalizedPattern": "ямайка",
+  "payload": {
+   "country": "Ямайка",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "jamaica",
+  "normalizedPattern": "jamaica",
+  "payload": {
+   "country": "Ямайка",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "барбадос",
+  "normalizedPattern": "барбадос",
+  "payload": {
+   "country": "Барбадос",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "barbados",
+  "normalizedPattern": "barbados",
+  "payload": {
+   "country": "Барбадос",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "мартиника",
+  "normalizedPattern": "мартиника",
+  "payload": {
+   "country": "Мартиника",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "martinique",
+  "normalizedPattern": "martinique",
+  "payload": {
+   "country": "Мартиника",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "агриколь",
+  "normalizedPattern": "агриколь",
+  "payload": {
+   "country": "Мартиника",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "agricole",
+  "normalizedPattern": "agricole",
+  "payload": {
+   "country": "Мартиника",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "демерара",
+  "normalizedPattern": "демерара",
+  "payload": {
+   "country": "Гайана",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "demerara",
+  "normalizedPattern": "demerara",
+  "payload": {
+   "country": "Гайана",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "гайана",
+  "normalizedPattern": "гайана",
+  "payload": {
+   "country": "Гайана",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ },
+ {
+  "pattern": "guyana",
+  "normalizedPattern": "guyana",
+  "payload": {
+   "country": "Гайана",
+   "region": null,
+   "impliesCategoryPath": [
+    "Крепкий алкоголь",
+    "Ром"
+   ],
+   "weight": 0.5
+  }
+ }
+]

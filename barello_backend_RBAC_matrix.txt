@@ -1,0 +1,1447 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BARELLO — BACKEND RBAC MATRIX v4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+════════════════════════════════════════════════════
+ЧАСТЬ I. СХЕМА СУЩНОСТЕЙ
+════════════════════════════════════════════════════
+
+──────────────────────────────────────────────────
+1. Auth / Users
+──────────────────────────────────────────────────
+User
+id                UUID        PK
+
+phone             String      unique, nullable
+email             String      unique, nullable
+passwordHash      String      nullable
+
+status            Enum        ACTIVE / PENDING_VENUE_CONFIRMATION / BLOCKED / ARCHIVED
+
+lastLoginAt       DateTime    nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Бизнес-правило: должен быть заполнен минимум один из полей phone или email.
+
+UserProfile
+id                UUID        PK
+userId            UUID        unique FK → User
+
+firstName         String
+lastName          String
+middleName        String      nullable
+
+avatarFileId      UUID        FK → FileAsset, nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+UserVenueMembership
+id                UUID        PK
+
+userId            UUID        FK → User
+venueId           UUID        FK → Venue
+
+displayRole       Enum        OWNER / ADMINISTRATOR / SENIOR_BARTENDER / LINE_BARTENDER / SOMMELIER / WAITER
+accessLevel       Enum        ADMIN / SENIOR_STAFF / LINE_STAFF
+membershipStatus  Enum        PENDING / ACTIVE / REJECTED / ARCHIVED
+
+joinedAt          DateTime    nullable
+confirmedByUserId UUID        FK → User, nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Уникальность: (userId, venueId) UNIQUE
+
+UserNote
+id                UUID        PK
+
+authorUserId      UUID        FK → User
+venueId           UUID        FK → Venue, nullable
+
+title             String
+content           Text
+
+createdAt         DateTime
+updatedAt         DateTime
+
+UserNoteAccess
+id                UUID        PK
+
+noteId            UUID        FK → UserNote
+userId            UUID        FK → User
+
+createdAt         DateTime
+
+UserTask
+id                UUID        PK
+
+title             String
+description       Text        nullable
+
+status            Enum        TODO / IN_PROGRESS / DONE / CANCELED
+priority          Enum        LOW / MEDIUM / HIGH / URGENT
+
+creatorUserId     UUID        FK → User
+assigneeUserId    UUID        FK → User
+
+venueId           UUID        FK → Venue, nullable
+
+dueDate           DateTime    nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+AuthSession
+id                UUID        PK
+
+userId            UUID        FK → User
+
+refreshTokenHash  String
+expiresAt         DateTime
+
+userAgent         String      nullable
+ipAddress         String      nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+VerificationCode
+id                UUID        PK
+
+target            String
+code              String
+
+type              Enum        LOGIN / REGISTER / RESET_PASSWORD
+
+userId            UUID        FK → User, nullable
+
+expiresAt         DateTime
+usedAt            DateTime    nullable
+
+createdAt         DateTime
+
+──────────────────────────────────────────────────
+2. Business / Venue
+──────────────────────────────────────────────────
+Business
+id                UUID        PK
+
+name              String
+taxNumber         String      unique
+
+legalAddress      String      nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Venue
+id                           UUID        PK
+
+businessId                   UUID        FK → Business
+
+name                         String
+
+city                         String
+address                      String      nullable
+
+latitude                     Decimal     nullable
+longitude                    Decimal     nullable
+
+phone                        String      nullable
+email                        String      nullable
+website                      String      nullable
+
+contactPersonName            String      nullable
+seatsCount                   Int         nullable
+
+mainPhotoFileId              UUID        FK → FileAsset, nullable
+
+showAdminContactsToSuppliers Boolean     default false
+
+isActive                     Boolean     default true
+
+createdAt                    DateTime
+updatedAt                    DateTime
+
+CuisineType
+id                UUID        PK
+
+name              String      unique
+
+createdAt         DateTime
+
+VenueCuisineType
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+cuisineTypeId     UUID        FK → CuisineType
+
+createdAt         DateTime
+
+Уникальность: (venueId, cuisineTypeId) UNIQUE
+
+──────────────────────────────────────────────────
+3. Suppliers
+──────────────────────────────────────────────────
+Supplier
+id                UUID        PK
+
+name              String
+
+city              String      nullable
+address           String      nullable
+
+latitude          Decimal     nullable
+longitude         Decimal     nullable
+
+contactName       String      nullable
+phone             String      nullable
+email             String      nullable
+website           String      nullable
+
+passwordHash      String      NOT NULL
+pinHash           String      nullable
+
+mainPhotoFileId   UUID        FK → FileAsset, nullable
+
+isActive          Boolean     default true
+
+createdAt         DateTime
+updatedAt         DateTime
+
+SupplierCategory
+id                UUID        PK
+
+supplierId        UUID        FK → Supplier
+catalogCategoryId UUID        FK → CatalogCategory
+
+createdAt         DateTime
+
+Уникальность: (supplierId, catalogCategoryId) UNIQUE
+
+SupplierSpecialCondition
+id                UUID        PK
+
+supplierId        UUID        FK → Supplier
+venueId           UUID        FK → Venue
+
+conditionType     Enum        GLOBAL_DISCOUNT / PRODUCT_DISCOUNT / SPECIAL_PRICE / MOQ / DEFERRED_PAYMENT / DELIVERY_TERM
+valueJson         Json
+
+isActive          Boolean     default true
+
+startsAt          DateTime    nullable
+endsAt            DateTime    nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+SupplierPriceImport
+id                UUID        PK
+
+supplierId        UUID        FK → Supplier
+fileAssetId       UUID        FK → FileAsset
+
+sourceFormat      Enum        XLSX / CSV / XML / API
+status            Enum        PENDING / PROCESSING / PROCESSED / FAILED
+
+rowsCount         Int         default 0
+processedRows     Int         default 0
+failedRows        Int         default 0
+
+createdAt         DateTime
+updatedAt         DateTime
+
+SupplierPriceImportRow
+id                UUID        PK
+
+importId          UUID        FK → SupplierPriceImport
+
+rawName           String
+rawCategory       String      nullable
+
+mappedProductId   UUID        FK → Product, nullable
+mappedOfferId     UUID        FK → Offer, nullable
+
+mappingStatus     Enum        MATCHED / UNMATCHED / MANUAL_MATCHED / FAILED
+rawPayload        Json        nullable
+errorText         Text        nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+──────────────────────────────────────────────────
+4. Catalog
+──────────────────────────────────────────────────
+CatalogCategory
+id                UUID        PK
+
+name              String
+parentId          UUID        FK → CatalogCategory, nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Product
+id                UUID        PK
+
+name              String
+
+categoryId        UUID        FK → CatalogCategory, nullable
+rawCategory       String      nullable
+
+description       Text        nullable
+
+barcode           String      unique, nullable
+barcodeImageFileId UUID       FK → FileAsset, nullable
+
+article           String      nullable
+manufacturer      String      nullable
+manufacturedYear  Int         nullable
+translatedName    String      nullable
+
+packageVolume     Decimal     nullable
+packageVolumeUnit String      nullable
+packageQuantity   Decimal     nullable
+
+mainImageFileId   UUID        FK → FileAsset, nullable
+promoVideoFileId  UUID        FK → FileAsset, nullable
+
+isPromo           Boolean     default false
+
+createdAt         DateTime
+updatedAt         DateTime
+
+ProductVariant
+id                UUID        PK
+
+productId         UUID        FK → Product
+
+volume            Decimal     nullable
+volumeUnit        String      nullable
+packageSize       Decimal     nullable
+packageSizeUnit   String      nullable
+
+isDefault         Boolean     default false
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Уникальность: (productId, volume, volumeUnit) UNIQUE
+
+SupplierProduct
+id                UUID        PK
+
+supplierId        UUID        FK → Supplier
+productId         UUID        FK → Product
+productVariantId  UUID        FK → ProductVariant, nullable
+
+supplierSku       String      nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Уникальность: (supplierId, productId) UNIQUE
+
+Offer
+id                UUID        PK
+
+supplierProductId     UUID    FK → SupplierProduct
+
+price                 Decimal
+currency              String  default "RUB"
+
+unit                  String
+minOrderQty           Decimal nullable
+
+availabilityLevel     Enum    IN_STOCK / LOW_STOCK / OUT_OF_STOCK  default IN_STOCK
+deliveryTerm          String  nullable
+specialOfferText      String  nullable
+specialConditionText  String  nullable
+
+isAvailable           Boolean default true
+
+validFrom             DateTime nullable
+validTo               DateTime nullable
+
+createdAt             DateTime
+updatedAt             DateTime
+
+ContractSupplier
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+supplierId        UUID        FK → Supplier
+
+priority          Int         default 0
+isActive          Boolean     default true
+status            Enum        ACTIVE / PAUSED / TERMINATED    default ACTIVE
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Уникальность: (venueId, supplierId) UNIQUE
+
+UserFavoriteProduct
+id                UUID        PK
+
+userId            UUID        FK → User
+productId         UUID        FK → Product
+venueId           UUID        FK → Venue, nullable
+
+createdAt         DateTime
+
+Уникальность: (userId, productId, venueId) UNIQUE
+
+CatalogCategoryBanner
+id                UUID        PK
+
+catalogCategoryId UUID        FK → CatalogCategory
+supplierId        UUID        FK → Supplier, nullable
+
+fileAssetId       UUID        FK → FileAsset
+title             String      nullable
+linkUrl           String      nullable
+
+isActive          Boolean     default true
+
+startsAt          DateTime    nullable
+endsAt            DateTime    nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+CatalogBanner
+id                UUID        PK
+
+supplierId        UUID        FK → Supplier, nullable
+catalogCategoryId UUID        FK → CatalogCategory, nullable
+
+fileAssetId       UUID        FK → FileAsset
+title             String      nullable
+linkUrl           String      nullable
+
+position          Int         default 0
+isActive          Boolean     default true
+
+startsAt          DateTime    nullable
+endsAt            DateTime    nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+SponsoredProductPlacement
+id                UUID        PK
+
+productId         UUID        FK → Product
+supplierId        UUID        FK → Supplier, nullable
+offerId           UUID        FK → Offer, nullable
+
+placementType     Enum        CATEGORY_TOP / SEARCH_TOP / FEED_INLINE / BANNER
+
+catalogCategoryId UUID        FK → CatalogCategory, nullable
+searchKeyword     String      nullable
+
+position          Int         default 0
+isActive          Boolean     default true
+
+startsAt          DateTime    nullable
+endsAt            DateTime    nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+CatalogSearchSuggestion
+id                UUID        PK
+
+keyword           String
+
+productId         UUID        FK → Product, nullable
+catalogCategoryId UUID        FK → CatalogCategory, nullable
+supplierId        UUID        FK → Supplier, nullable
+
+score             Decimal     default 0
+isActive          Boolean     default true
+
+createdAt         DateTime
+updatedAt         DateTime
+
+──────────────────────────────────────────────────
+5. Orders
+──────────────────────────────────────────────────
+Flow заказа: Cart → CartItem → OrderBatch → SupplierOrder → SupplierOrderItem → SupplierOrderStatusEvent / OrderDeliveryConfirmation
+
+Cart
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+createdByUserId   UUID        FK → User
+
+createdAt         DateTime
+updatedAt         DateTime
+
+CartItem
+id                UUID        PK
+
+cartId            UUID        FK → Cart
+productId         UUID        FK → Product
+productVariantId  UUID        FK → ProductVariant, nullable
+offerId           UUID        FK → Offer
+
+quantity          Decimal
+unit              String
+
+createdAt         DateTime
+updatedAt         DateTime
+
+OrderBatch
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+createdByUserId   UUID        FK → User
+cartId            UUID        FK → Cart, nullable
+
+status            Enum        DRAFT / SUBMITTED / PARTIALLY_SENT / COMPLETED / CANCELED
+
+createdAt         DateTime
+updatedAt         DateTime
+
+SupplierOrder
+id                UUID        PK
+
+orderBatchId      UUID        FK → OrderBatch
+venueId           UUID        FK → Venue
+supplierId        UUID        FK → Supplier
+
+status            Enum        PENDING / ACCEPTED / PROCESSING / SHIPPED / DELIVERED / REJECTED / CANCELED
+
+totalAmount       Decimal     nullable
+currency          String      default "RUB"
+
+channel           Enum        EMAIL / API / MANUAL    default EMAIL
+
+orderedAt         DateTime    nullable
+expectedDeliveryAt DateTime   nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+SupplierOrderItem
+id                UUID        PK
+
+supplierOrderId   UUID        FK → SupplierOrder
+productId         UUID        FK → Product
+productVariantId  UUID        FK → ProductVariant, nullable
+offerId           UUID        FK → Offer
+
+quantity          Decimal
+price             Decimal     (фиксируется на момент заказа)
+unit              String
+total             Decimal     (денормализованное: quantity × price; пересчёт на бэке обязателен)
+
+createdAt         DateTime
+updatedAt         DateTime
+
+SupplierOrderStatusEvent
+id                UUID        PK
+
+supplierOrderId   UUID        FK → SupplierOrder
+
+status            Enum        PENDING / ACCEPTED / PROCESSING / SHIPPED / DELIVERED / REJECTED / CANCELED
+comment           String      nullable
+
+actorType         Enum        SUPPLIER / SYSTEM
+actorSupplierId   UUID        FK → Supplier, nullable
+
+createdAt         DateTime
+
+OrderDeliveryConfirmation
+id                UUID        PK
+
+supplierOrderId   UUID        FK → SupplierOrder
+confirmedByUserId UUID        FK → User
+
+decision          Enum        ACCEPTED / REJECTED
+rejectionReason   String      nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+──────────────────────────────────────────────────
+6. Inventory / Stock
+──────────────────────────────────────────────────
+InventoryItem
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+productId         UUID        FK → Product, nullable
+
+name              String
+quantity          Decimal
+unit              Enum        KG / L / PCS / G / ML
+
+minThreshold      Decimal     nullable
+
+avgPrice          Decimal     nullable
+lastPurchasePrice Decimal     nullable
+
+isOutOfStock      Boolean     default false
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Важно: productId nullable — поддерживает ручное заведение складской позиции.
+
+InventoryReservation
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+inventoryItemId   UUID        FK → InventoryItem
+
+quantity          Decimal
+unit              Enum        KG / L / PCS / G / ML
+
+reason            String      nullable
+referenceType     Enum        ORDER / MANUAL, nullable
+referenceId       UUID        nullable
+
+reservedByUserId  UUID        FK → User
+expiresAt         DateTime    nullable
+
+isActive          Boolean     default true
+
+createdAt         DateTime
+updatedAt         DateTime
+
+StockMovement
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+inventoryItemId   UUID        FK → InventoryItem
+
+type              Enum        PURCHASE / CONSUMPTION / ADJUSTMENT / WRITE_OFF / RETURN / MANUAL_RECEIPT
+
+quantity          Decimal
+unit              Enum        KG / L / PCS / G / ML
+
+price             Decimal     nullable
+
+referenceType     Enum        ORDER / MENU / TECH_CARD / INVENTORY / MANUAL / SALES_IMPORT / INVENTORY_SESSION, nullable
+referenceId       UUID        nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+StockAlert
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+inventoryItemId   UUID        FK → InventoryItem, nullable
+
+message           String
+type              Enum        MISSING_INGREDIENT / LOW_STOCK / MANUAL_WARNING
+
+isActive          Boolean     default true
+
+createdAt         DateTime
+updatedAt         DateTime
+
+StopListItem
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+menuItemId        UUID        FK → MenuItem
+
+reason            String      nullable
+isManual          Boolean     default false
+isActive          Boolean     default true
+
+createdAt         DateTime
+updatedAt         DateTime
+
+──────────────────────────────────────────────────
+7. Menu / Tech Cards / Inventory Sessions
+──────────────────────────────────────────────────
+MenuCategory
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+name              String
+
+createdAt         DateTime
+updatedAt         DateTime
+
+MenuItem
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+categoryId        UUID        FK → MenuCategory
+
+name              String
+description       Text        nullable
+flavorProfile     String      nullable
+
+type              Enum        PRODUCT / DISH
+
+productId         UUID        FK → Product, nullable
+
+price             Decimal
+unit              String
+
+calculatedCost    Decimal     nullable
+costCalculatedAt  DateTime    nullable
+
+isActive          Boolean     default true
+
+createdAt         DateTime
+updatedAt         DateTime
+
+MenuItemTag
+id                UUID        PK
+
+menuItemId        UUID        FK → MenuItem
+venueId           UUID        FK → Venue
+
+name              String
+tagType           Enum        MANUAL / AUTO
+isVenueShared     Boolean     default false
+
+createdByUserId   UUID        FK → User, nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+MenuItemAnalog
+id                UUID        PK
+
+menuItemId        UUID        FK → MenuItem
+analogMenuItemId  UUID        FK → MenuItem
+
+assignedByUserId  UUID        FK → User
+
+createdAt         DateTime
+updatedAt         DateTime
+
+MenuItemPairingStat
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+menuItemId        UUID        FK → MenuItem
+pairedMenuItemId  UUID        FK → MenuItem
+
+pairingCount      Int         default 0
+lastUpdatedAt     DateTime
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Примечание: два FK на MenuItem — menuItemId (базовая позиция) и pairedMenuItemId (с чем заказывают).
+
+TechCard
+id                UUID        PK
+
+menuItemId        UUID        unique FK → MenuItem
+
+outputQuantity    Decimal
+outputUnit        String
+
+createdAt         DateTime
+updatedAt         DateTime
+
+TechCardIngredient
+id                UUID        PK
+
+techCardId        UUID        FK → TechCard
+inventoryItemId   UUID        FK → InventoryItem
+
+quantity          Decimal
+unit              Enum        KG / L / PCS / G / ML
+
+createdAt         DateTime
+updatedAt         DateTime
+
+InventorySession
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+createdByUserId   UUID        FK → User
+
+status            Enum        IN_PROGRESS / SUBMITTED_FOR_REVIEW / CLOSED
+
+startedAt         DateTime
+completedAt       DateTime    nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+InventorySessionItem
+id                UUID        PK
+
+sessionId         UUID        FK → InventorySession
+inventoryItemId   UUID        FK → InventoryItem
+
+expectedQty       Decimal
+actualQty         Decimal     nullable
+
+expectedUnit      Enum        KG / L / PCS / G / ML
+actualUnit        Enum        KG / L / PCS / G / ML    nullable
+
+differenceQty     Decimal     nullable
+differenceValue   Decimal     nullable
+
+note              Text        nullable
+
+countedByUserId   UUID        FK → User, nullable
+countedAt         DateTime    nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Бизнес-правило: LINE_STAFF не видит expectedQty до момента сабмита своего ввода.
+
+──────────────────────────────────────────────────
+8. Unit Conversion
+──────────────────────────────────────────────────
+UnitConversionProfile
+id                UUID        PK
+
+productId         UUID        unique FK → Product
+
+catalogUnit       String      nullable
+inventoryBaseUnit String
+menuSaleUnit      String      nullable
+inventoryInputUnit String     nullable
+
+baseToInputFactor   Decimal   nullable
+catalogToBaseFactor Decimal   nullable
+menuToBaseFactor    Decimal   nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+──────────────────────────────────────────────────
+9. Sales / Analytics
+──────────────────────────────────────────────────
+SalesReportImport
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+fileAssetId       UUID        FK → FileAsset
+
+status            Enum        PENDING / PROCESSING / PROCESSED / FAILED
+sourceFormat      Enum        XLSX / CSV
+
+uploadedByUserId  UUID        FK → User
+
+periodStart       Date        nullable
+periodEnd         Date        nullable
+
+rowsCount         Int         default 0
+processedRows     Int         default 0
+failedRows        Int         default 0
+
+createdAt         DateTime
+updatedAt         DateTime
+
+SalesReportRow
+id                UUID        PK
+
+importId          UUID        FK → SalesReportImport
+venueId           UUID        FK → Venue
+
+rawName           String
+rawCategory       String      nullable
+
+mappedMenuItemId  UUID        FK → MenuItem, nullable
+
+quantity          Decimal
+revenue           Decimal
+
+costAmount        Decimal     nullable
+marginAmount      Decimal     nullable
+
+saleDate          Date        nullable
+
+mappingStatus     Enum        MATCHED / UNMATCHED / MANUAL_MATCHED
+rawPayload        Json        nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+VenueAnalyticsSnapshot
+id                UUID        PK
+
+venueId           UUID        FK → Venue
+
+periodType        Enum        DAY / WEEK / MONTH
+periodStart       Date
+periodEnd         Date
+
+stockValue        Decimal     nullable
+lowStockCount     Int         default 0
+stopListCount     Int         default 0
+
+purchaseAmount    Decimal     nullable
+salesRevenue      Decimal     nullable
+salesCost         Decimal     nullable
+salesMargin       Decimal     nullable
+
+writeOffAmount    Decimal     nullable
+inventoryDifference Decimal   nullable
+
+priceGrowthCount  Int         default 0
+
+topItemsJson      Json        nullable
+worstItemsJson    Json        nullable
+stopListItemsJson Json        nullable
+pairingStatsJson  Json        nullable
+stockForecastJson Json        nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+──────────────────────────────────────────────────
+10. Files / Audit
+──────────────────────────────────────────────────
+FileAsset
+id                UUID        PK
+
+storageKey        String      unique
+fileName          String
+mimeType          String
+fileSize          Int
+
+type              Enum        IMAGE / VIDEO / DOCUMENT / SPREADSHEET / BANNER / OTHER
+
+uploadedByUserId      UUID    FK → User, nullable
+uploadedBySupplierId  UUID    FK → Supplier, nullable
+
+createdAt         DateTime
+updatedAt         DateTime
+
+Бизнес-правило: CHECK (uploadedByUserId IS NOT NULL OR uploadedBySupplierId IS NOT NULL)
+
+AuditLog
+id                UUID        PK
+
+actorType         Enum        USER / SUPPLIER / SYSTEM
+actorUserId       UUID        FK → User, nullable
+actorSupplierId   UUID        FK → Supplier, nullable
+
+entityType        String
+entityId          UUID        nullable
+
+action            String
+payload           Json        nullable
+
+createdAt         DateTime
+
+
+════════════════════════════════════════════════════
+ЧАСТЬ II. RBAC MAPPING
+════════════════════════════════════════════════════
+
+──────────────────────────────────────────────────
+11. displayRole → accessLevel
+──────────────────────────────────────────────────
+OWNER               → ADMIN
+ADMINISTRATOR       → ADMIN
+SENIOR_BARTENDER    → SENIOR_STAFF
+SOMMELIER           → SENIOR_STAFF
+LINE_BARTENDER      → LINE_STAFF
+WAITER              → LINE_STAFF
+
+
+════════════════════════════════════════════════════
+ЧАСТЬ III. МАТРИЦА ПРАВ ПО МОДУЛЯМ
+════════════════════════════════════════════════════
+
+Обозначения:
+  ✓  — полный доступ
+  R  — только чтение
+  —  — нет доступа
+
+Роли: ADMIN | SENIOR | LINE | SUPPLIER | SYSTEM
+
+════════════════════════════════════════════════════
+ЧАСТЬ III. МАТРИЦА ПРАВ ПО МОДУЛЯМ
+════════════════════════════════════════════════════
+
+Обозначения:
+  ✓  — полный доступ
+  R  — только чтение
+  —  — нет доступа
+
+Роли: ADMIN | SENIOR | LINE | SUPPLIER | SYSTEM
+
+──────────────────────────────────────────────────
+12. Orders — Cart
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+cart.view                             ✓       ✓       ✓        —        —
+cart.item.add                         ✓       ✓       ✓        —        —
+cart.item.update                      ✓       ✓       ✓        —        —
+cart.item.remove                      ✓       ✓       ✓        —        —
+cart.clear                            ✓       ✓       —        —        —
+cart.checkout                         ✓       ✓       —        —        —
+
+Примечание: LINE_STAFF работает с корзиной, но не оформляет заказ (cart.checkout — только ADMIN/SENIOR).
+
+──────────────────────────────────────────────────
+13. Orders — OrderBatch
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+order_batch.view                      ✓       ✓       —        —        —
+order_batch.create                    ✓       ✓       —        —        —
+order_batch.cancel                    ✓       ✓       —        —        —
+
+──────────────────────────────────────────────────
+14. Orders — SupplierOrder (сторона заведения)
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+supplier_order.view                   ✓       ✓       R        —        —
+supplier_order.status.view            ✓       ✓       ✓        —        —
+supplier_order.create                 ✓       ✓       —        —        —
+supplier_order.cancel                 ✓       ✓       —        —        —
+supplier_order.delivery.notification.view  ✓  ✓      —        —        —
+supplier_order.delivery.accept        ✓       ✓       —        —        —
+supplier_order.delivery.reject        ✓       ✓       —        —        —
+supplier_order.delivery.reject_reason.submit  ✓  ✓   —        —        —
+supplier_order.history.view           ✓       ✓       —        —        —
+
+──────────────────────────────────────────────────
+15. Orders — SupplierOrderItem
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+supplier_order_item.view              ✓       ✓       —        R        —
+supplier_order_item.create            ✓       ✓       —        —        —
+supplier_order_item.update            ✓       ✓       —        —        —
+supplier_order_item.remove            ✓       ✓       —        —        —
+
+──────────────────────────────────────────────────
+16. Orders — SupplierOrderStatusEvent
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+supplier_order_status_event.view      ✓       ✓       R        ✓        —
+supplier_order_status_event.create    —       —       —        ✓        ✓
+
+Примечание: статусы меняет поставщик (ACCEPTED / PROCESSING / SHIPPED) или система (API-интеграция).
+Заведение только читает историю.
+
+──────────────────────────────────────────────────
+17. Orders — OrderDeliveryConfirmation
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+order_delivery_confirmation.view      ✓       ✓       —        R        —
+order_delivery_confirmation.create    ✓       ✓       —        —        —
+order_delivery_confirmation.reject_with_reason  ✓  ✓  —       —        —
+
+Примечание: поставщик видит факт подтверждения/отклонения, но не создаёт его.
+
+──────────────────────────────────────────────────
+18. Orders — Supplier side
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+supplier_order.inbox.view             —       —       —        ✓        —
+supplier_order.item.view              —       —       —        ✓        —
+supplier_order.status.update          —       —       —        ✓        —
+supplier_order.history.view           —       —       —        ✓        —
+supplier_order.delivery.rejection.view  —     —       —        ✓        —
+supplier_order.delivery.rejection.comment.view  —  —  —       ✓        —
+
+Примечание: поставщик управляет только своими SupplierOrder и не имеет доступа к складу заведения.
+
+──────────────────────────────────────────────────
+19. Orders — Notifications
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+order_notification.view               ✓       ✓       —        ✓        —
+order_notification.receive_delivery_prompt  ✓  ✓     —        —        —
+order_notification.receive_rejection  ✓       ✓       —        ✓        —
+order_notification.receive_completion ✓       ✓       —        ✓        —
+
+──────────────────────────────────────────────────
+20. Orders — Channels / Integrations
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+supplier_order.channel.email.use      —       —       —        —        ✓
+supplier_order.channel.api.use        —       —       —        —        ✓
+supplier_order.integration.status.view  —     —       —        ✓        ✓
+
+──────────────────────────────────────────────────
+21. Catalog Home / Feed / Discovery
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+catalog.home.view                     ✓       ✓       ✓        ✓        —
+catalog.feed.view                     ✓       ✓       ✓        ✓        —
+catalog.search.use                    ✓       ✓       ✓        ✓        —
+catalog.barcode.scan                  ✓       ✓       ✓        —        —
+catalog.filters.use                   ✓       ✓       ✓        ✓        —
+catalog.sort.use                      ✓       ✓       ✓        ✓        —
+catalog.product.view                  ✓       ✓       ✓        ✓        —
+catalog.favorite.toggle               ✓       ✓       ✓        —        —
+catalog.order.add                     ✓       ✓       ✓        —        —
+
+──────────────────────────────────────────────────
+22. Catalog Promotions / Discovery Admin
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+catalog.sponsored_category.manage     —       —       —        ✓        —
+catalog.banner.manage                 —       —       —        ✓        —
+catalog.sponsored_product.manage      —       —       —        ✓        —
+catalog.promo_video.manage            —       —       —        ✓        —
+catalog.offer.special.manage          —       —       —        ✓        —
+catalog.discovery.admin               —       —       —        —        ✓
+catalog.search.index.rebuild          —       —       —        —        ✓
+
+──────────────────────────────────────────────────
+23. Product Detail
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+product.view.basic                    ✓       ✓       ✓        ✓        —
+product.view.full                     ✓       ✓       R        ✓        —
+product.variant.view                  ✓       ✓       ✓        ✓        —
+product.variant.create                —       —       —        ✓        —
+product.variant.update                —       —       —        ✓        —
+product.variant.delete                —       —       —        ✓        —
+product.barcode.view                  ✓       ✓       ✓        ✓        —
+product.description.view              ✓       ✓       ✓        ✓        —
+product.offer.alternatives.view       ✓       ✓       ✓        ✓        —
+product.promo.view                    ✓       ✓       ✓        ✓        —
+product.promo.video.open              ✓       ✓       ✓        ✓        —
+product.promo.edit                    —       —       —        ✓        —
+product.special_offer.edit            —       —       —        ✓        —
+product.special_condition.edit        —       —       —        ✓        —
+
+──────────────────────────────────────────────────
+24. Offer
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+offer.view                            ✓       ✓       ✓        ✓        —
+offer.compare                         ✓       ✓       ✓        —        —
+offer.alternative.view                ✓       ✓       ✓        ✓        —
+offer.create                          —       —       —        ✓        —
+offer.update                          —       —       —        ✓        —
+offer.disable                         —       —       —        ✓        —
+offer.special.edit                    —       —       —        ✓        —
+offer.delivery.edit                   —       —       —        ✓        —
+offer.availability.edit               —       —       —        ✓        —
+
+──────────────────────────────────────────────────
+25. ContractSupplier
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+contract_supplier.view                ✓       R       —        —        —
+contract_supplier.assign              ✓       —       —        —        —
+contract_supplier.priority.update     ✓       —       —        —        —
+contract_supplier.deactivate          ✓       —       —        —        —
+
+Примечание: поставщик не имеет права самоназначить себя контрактным.
+
+──────────────────────────────────────────────────
+26. CatalogSearchSuggestion
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+catalog.suggestion.view               ✓       ✓       ✓        ✓        —
+catalog.suggestion.admin.manage       —       —       —        —        ✓
+catalog.suggestion.rebuild            —       —       —        —        ✓
+
+──────────────────────────────────────────────────
+27. Inventory / Stock Detail
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+inventory.card.view                   ✓       ✓       R        —        —
+inventory.stock.edit                  ✓       ✓       —        —        —
+inventory.min_threshold.edit          ✓       —       —        —        —
+inventory.stop_list.toggle            ✓       ✓       —        —        —
+inventory.menu_visibility.toggle      ✓       ✓       —        —        —
+inventory.restock.from_catalog        ✓       ✓       —        —        —
+inventory.purchase_history.view       ✓       ✓       —        —        —
+inventory.sales_history.view          ✓       ✓       —        —        —
+inventory.audit_history.view          ✓       ✓       —        —        —
+inventory.best_offers.view            ✓       ✓       R        —        —
+
+──────────────────────────────────────────────────
+28. InventoryReservation
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+inventory.reserve.view                ✓       ✓       R        —        —
+inventory.reserve.create              ✓       ✓       —        —        —
+inventory.reserve.update              ✓       ✓       —        —        —
+inventory.reserve.delete              ✓       —       —        —        —
+
+──────────────────────────────────────────────────
+29. Menu Product Card
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+menu.card.view                        ✓       ✓       ✓        —        —
+menu.product.card.view                ✓       ✓       ✓        —        —
+menu.product.create                   ✓       ✓       —        —        —
+menu.item.update                      ✓       ✓       —        —        —
+menu.item.hide                        ✓       ✓       —        —        —
+menu.item.show                        ✓       ✓       —        —        —
+menu.item.delete                      ✓       —       —        —        —
+menu.item.description.edit            ✓       ✓       —        —        —
+menu.item.flavor_profile.edit         ✓       ✓       —        —        —
+menu.product.tags.edit                ✓       ✓       —        —        —
+
+──────────────────────────────────────────────────
+30. Menu Dish Card / TechCard
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+menu.dish.card.view                   ✓       ✓       ✓        —        —
+menu.dish.create                      ✓       ✓       —        —        —
+menu.tech_card.view                   ✓       ✓       ✓        —        —
+menu.tech_card.edit                   ✓       ✓       —        —        —
+menu.item.analogs.manage              ✓       —       —        —        —
+menu.item.pairings.view               ✓       ✓       R        —        —
+
+──────────────────────────────────────────────────
+31. MenuItemTag
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+menu.tag.view.private                 ✓       ✓       ✓        —        —
+menu.tag.view.venue_shared            ✓       ✓       ✓        —        —
+menu.tag.auto.view                    ✓       ✓       ✓        —        —
+menu.tag.create                       ✓       ✓       ✓        —        —
+menu.tag.update                       ✓       ✓       —        —        —
+menu.tag.delete                       ✓       —       —        —        —
+menu.tag.share_to_venue               ✓       ✓       —        —        —
+
+Примечание:
+  LINE_STAFF — может создавать только личные теги (isVenueShared = false).
+  AUTO-теги (tagType = AUTO) нельзя редактировать вручную ни одной роли.
+
+──────────────────────────────────────────────────
+32. MenuItemAnalog
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+menu.analogs.view                     ✓       ✓       R        —        —
+menu.analogs.manage                   ✓       —       —        —        —
+
+──────────────────────────────────────────────────
+33. MenuItemPairingStat
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+menu.pairing_stats.view               ✓       ✓       R        —        —
+
+──────────────────────────────────────────────────
+34. Inventory Audit (InventorySession / InventorySessionItem)
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+inventory_session.card.view           ✓       ✓       ✓        —        —
+inventory_session.actual_qty.enter    ✓       ✓       ✓        —        —
+inventory_session.note.edit           ✓       ✓       ✓        —        —
+inventory_session.expected_qty.view_after_submit  ✓  ✓  ✓      —        —
+inventory_session.barcode.scan        ✓       ✓       ✓        —        —
+inventory_session.close               ✓       ✓       —        —        —
+
+Примечание: LINE_STAFF не видит expectedQty до момента сабмита своего ввода (скрыто на уровне API).
+
+──────────────────────────────────────────────────
+35. Barcode Lookup (сквозной блок)
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+barcode.scan.catalog                  ✓       ✓       ✓        —        —
+barcode.scan.menu                     ✓       ✓       ✓        —        —
+barcode.scan.inventory                ✓       ✓       R        —        —
+barcode.scan.audit                    ✓       ✓       ✓        —        —
+
+──────────────────────────────────────────────────
+36. FileAsset
+──────────────────────────────────────────────────
+Право                               ADMIN   SENIOR  LINE    SUPPLIER  SYSTEM
+file.view                             ✓       ✓       ✓        ✓        —
+file.upload.image                     ✓       ✓       —        ✓        —
+file.upload.video                     —       —       —        ✓        —
+file.upload.banner                    —       —       —        ✓        —
+file.upload.document                  ✓       ✓       —        ✓        —
+file.delete                           ✓       —       —        ✓        —
+file.assign.to_product                —       —       —        ✓        —
+file.assign.to_category_banner        —       —       —        ✓        —
+file.assign.to_catalog_banner         —       —       —        ✓        —
+
+
+════════════════════════════════════════════════════
+ЧАСТЬ IV. КЛЮЧЕВЫЕ ПРАВИЛА И АУДИТ
+════════════════════════════════════════════════════
+
+──────────────────────────────────────────────────
+28. Ключевые правила
+──────────────────────────────────────────────────
+User
+  — должен иметь минимум один из контактов: phone или email
+
+Supplier
+  — отдельный логин компании без модели сотрудников
+  — passwordHash NOT NULL — нельзя создать аккаунт поставщика без пароля
+
+Venue
+  — публичность контактов поставщикам регулируется showAdminContactsToSuppliers
+
+Product
+  — единый товар платформы
+  — офферы разных поставщиков привязаны через SupplierProduct → Offer
+  — barcode — сквозной ключ поиска: каталог / меню / склад / ревизия
+
+ProductVariant
+  — варианты управляются поставщиком в рамках своих товаров
+  — master-level данные (без поставщика) правит только модератор/система
+
+Offer
+  — availabilityLevel, deliveryTerm, specialOfferText управляет только поставщик
+  — цена фиксируется в SupplierOrderItem на момент заказа
+
+ContractSupplier
+  — поставщик не может самоназначить себя контрактным
+  — приоритет и статус управляет только ADMIN заведения
+
+Inventory
+  — складская позиция может существовать без привязки к Product (productId nullable)
+  — unit строго типизирован Enum KG / L / PCS / G / ML
+  — minThreshold питает StockAlert (тип LOW_STOCK)
+
+InventoryReservation
+  — резерв не списывает фактический остаток, но учитывается в "доступном остатке"
+  — isActive = false освобождает резерв без удаления записи
+
+Menu
+  — MenuItem.type = PRODUCT может ссылаться на Product
+  — MenuItem.type = DISH использует TechCard (1:1)
+
+StopList
+  — стоп-лист относится к MenuItem, а не к Product
+  — isActive = false снимает позицию без удаления записи
+
+MenuItemTag
+  — AUTO-теги (tagType = AUTO) нельзя редактировать вручную
+  — isVenueShared = true — тег виден всем сотрудникам заведения
+  — LINE_STAFF может создавать только личные теги (isVenueShared = false)
+
+MenuItemAnalog
+  — назначаются только ADMIN
+  — ссылается на два MenuItems внутри одного заведения
+
+MenuItemPairingStat
+  — два FK на MenuItem: menuItemId и pairedMenuItemId
+  — обновляется системой из SalesReportRow
+
+TechCard
+  — ингредиенты привязаны к InventoryItem, а не к Product
+
+InventorySession
+  — LINE_STAFF не видит expectedQty до сабмита (скрывается на уровне API)
+
+Orders
+  — Пользователь собирает одну общую корзину заведения
+  — При оформлении заказа товары автоматически разбиваются по поставщикам
+  — Каждому поставщику отправляется отдельная SupplierOrder
+  — Поставщик может менять только статусы своей SupplierOrder (ACCEPTED / PROCESSING / SHIPPED)
+  — Приёмка подтверждается заведением отдельно по каждой SupplierOrder
+  — При подтверждении приёмки товары переходят на склад
+  — При отклонении приёмки поставщику отправляется уведомление с причиной
+  — SupplierOrderItem.total — денормализованное поле; бэкенд пересчитывает при любом изменении quantity или price
+
+FileAsset
+  — каждый файл обязан иметь владельца: uploadedByUserId или uploadedBySupplierId
+  — CHECK (uploadedByUserId IS NOT NULL OR uploadedBySupplierId IS NOT NULL)
+
+──────────────────────────────────────────────────
+29. AuditLog — перечень событий
+──────────────────────────────────────────────────
+Базовые (были ранее)
+  USER_CREATED / USER_BLOCKED / USER_ARCHIVED
+  VENUE_CREATED / VENUE_UPDATED
+  SUPPLIER_CREATED / SUPPLIER_UPDATED
+  ORDER_PLACED / ORDER_CANCELED / ORDER_DELIVERED
+  PRICE_IMPORT_UPLOADED / PRICE_IMPORT_PROCESSED
+  SALES_REPORT_IMPORTED
+
+Новые (добавлены в v3)
+  CATALOG_BANNER_CREATED
+  CATALOG_CATEGORY_BANNER_CREATED
+  SPONSORED_PRODUCT_PLACEMENT_CREATED
+  PROMO_VIDEO_OPENED
+  BARCODE_SCAN_EXECUTED
+  PRODUCT_VARIANT_CREATED
+  PRODUCT_VARIANT_UPDATED
+  CONTRACT_SUPPLIER_ASSIGNED
+  CONTRACT_SUPPLIER_STATUS_CHANGED
+  MENU_ANALOGS_UPDATED
+  MENU_TAG_CREATED
+  MENU_TAG_SHARED
+  MENU_TAG_DELETED
+  INVENTORY_RESERVATION_CREATED
+  INVENTORY_RESERVATION_RELEASED
+  STOP_LIST_TOGGLED
+  MIN_THRESHOLD_UPDATED
+  INVENTORY_SESSION_CLOSED
+  OFFER_AVAILABILITY_CHANGED
+  OFFER_SPECIAL_TEXT_UPDATED
+  CART_CHECKOUT_INITIATED
+  ORDER_BATCH_CREATED
+  ORDER_BATCH_CANCELED
+  SUPPLIER_ORDER_CREATED
+  SUPPLIER_ORDER_STATUS_CHANGED
+  SUPPLIER_ORDER_CANCELED
+  ORDER_DELIVERY_ACCEPTED
+  ORDER_DELIVERY_REJECTED
+
+
+════════════════════════════════════════════════════
+ЧАСТЬ V. СВОДКА ИЗМЕНЕНИЙ v3
+════════════════════════════════════════════════════
+
+Новые сущности
+  + ProductVariant
+  + InventoryReservation
+  + CatalogCategoryBanner
+  + CatalogBanner
+  + SponsoredProductPlacement
+  + CatalogSearchSuggestion
+  + MenuItemTag
+  + MenuItemAnalog
+  + MenuItemPairingStat
+
+Расширены существующие сущности
+  Product        — barcodeImageFileId, article, manufacturer, manufacturedYear, translatedName
+  Offer          — availabilityLevel, deliveryTerm, specialOfferText, specialConditionText
+  InventoryItem  — minThreshold; unit String → Enum
+  MenuItem       — description, flavorProfile
+  InventorySessionItem — note; unit String → Enum
+  TechCardIngredient   — unit String → Enum
+  StockMovement  — unit String → Enum; referenceType + SALES_IMPORT / INVENTORY_SESSION
+  StopListItem   — isActive Boolean default true
+  FileAsset      — type + BANNER
+  VenueAnalyticsSnapshot — pairingStatsJson, stockForecastJson
+  TechCard       — menuItemId помечен unique (1:1 с MenuItem)
+
+Новые блоки RBAC matrix
+  12. Catalog Home / Feed / Discovery
+  13. Catalog Promotions / Discovery Admin
+  14. Product Detail
+  15. Offer
+  16. ContractSupplier
+  17. CatalogSearchSuggestion
+  18. Inventory / Stock Detail
+  19. InventoryReservation
+  20. Menu Product Card
+  21. Menu Dish Card / TechCard
+  22. MenuItemTag
+  23. MenuItemAnalog
+  24. MenuItemPairingStat
+  25. Inventory Audit
+  26. Barcode Lookup (сквозной)
+  27. FileAsset
+
+Новые события AuditLog — 30 новых action-кодов (см. раздел 29)
+
+Изменения v4 (Orders)
+  Схема: Order / OrderItem → Cart / CartItem / OrderBatch / SupplierOrder /
+          SupplierOrderItem / SupplierOrderStatusEvent / OrderDeliveryConfirmation
+  RBAC: добавлены блоки 12–20 (Orders), старые блоки Catalog+ сдвинуты на 21–36
+  Правила: раздел Orders в ключевых правилах полностью переписан

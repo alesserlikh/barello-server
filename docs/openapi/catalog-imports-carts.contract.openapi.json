@@ -1,0 +1,320 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Barello catalog, supplier price imports and cart contract",
+    "version": "0.1.0",
+    "description": "Contract-first API surface for catalog, supplier price import preview/publish, autocomplete, SKU search and venue cart add."
+  },
+  "paths": {
+    "/products": {
+      "get": {
+        "summary": "List catalog products",
+        "parameters": [
+          { "$ref": "#/components/parameters/Offset" },
+          { "$ref": "#/components/parameters/Limit" },
+          { "name": "venueId", "in": "query", "schema": { "type": "string", "format": "uuid" } },
+          { "name": "query", "in": "query", "schema": { "type": "string" } },
+          { "name": "categoryId", "in": "query", "schema": { "type": "string", "format": "uuid" } },
+          { "name": "supplierIds", "in": "query", "schema": { "type": "array", "items": { "type": "string", "format": "uuid" } }, "style": "form", "explode": false },
+          { "name": "availability", "in": "query", "schema": { "type": "array", "items": { "$ref": "#/components/schemas/ProductStatus" } }, "style": "form", "explode": false },
+          { "name": "priceMin", "in": "query", "schema": { "type": "number", "minimum": 0 } },
+          { "name": "priceMax", "in": "query", "schema": { "type": "number", "minimum": 0 } },
+          { "name": "stockMin", "in": "query", "schema": { "type": "number", "minimum": 0 } },
+          { "name": "deliveryDaysMax", "in": "query", "schema": { "type": "integer", "minimum": 0 } },
+          { "name": "favoritesOnly", "in": "query", "schema": { "type": "boolean" } },
+          { "name": "sort", "in": "query", "schema": { "type": "string", "enum": ["relevance", "price_asc", "price_desc", "newest", "name_asc"] } }
+        ],
+        "responses": {
+          "200": { "$ref": "#/components/responses/CatalogList" },
+          "400": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    },
+    "/products/{productId}": {
+      "get": {
+        "summary": "Get catalog product card",
+        "parameters": [
+          { "name": "productId", "in": "path", "required": true, "schema": { "type": "string", "format": "uuid" } },
+          { "name": "venueId", "in": "query", "schema": { "type": "string", "format": "uuid" } }
+        ],
+        "responses": {
+          "200": { "$ref": "#/components/responses/CatalogProductCard" },
+          "404": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    },
+    "/products/suggestions": {
+      "get": {
+        "summary": "Catalog search autocomplete",
+        "parameters": [
+          { "name": "query", "in": "query", "required": true, "schema": { "type": "string", "minLength": 1 } },
+          { "name": "limit", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 20, "default": 10 } }
+        ],
+        "responses": {
+          "200": { "$ref": "#/components/responses/Suggestions" },
+          "400": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    },
+    "/products/sku-search": {
+      "get": {
+        "summary": "Search catalog by SKU, supplier article or barcode",
+        "parameters": [
+          { "$ref": "#/components/parameters/Offset" },
+          { "$ref": "#/components/parameters/Limit" },
+          { "name": "query", "in": "query", "required": true, "schema": { "type": "string", "minLength": 1 } },
+          { "name": "venueId", "in": "query", "schema": { "type": "string", "format": "uuid" } }
+        ],
+        "responses": {
+          "200": { "$ref": "#/components/responses/SkuSearch" },
+          "400": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    },
+    "/price-imports": {
+      "get": {
+        "summary": "List supplier price imports",
+        "parameters": [
+          { "$ref": "#/components/parameters/Offset" },
+          { "$ref": "#/components/parameters/Limit" },
+          { "name": "status", "in": "query", "schema": { "type": "array", "items": { "$ref": "#/components/schemas/PriceImportStatus" } }, "style": "form", "explode": false }
+        ],
+        "responses": {
+          "200": { "$ref": "#/components/responses/PriceImportList" },
+          "403": { "$ref": "#/components/responses/Error" }
+        }
+      },
+      "post": {
+        "summary": "Upload supplier price import",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "required": ["file"],
+                "properties": {
+                  "supplierId": { "type": "string", "format": "uuid" },
+                  "file": { "type": "string", "format": "binary" },
+                  "profileId": { "type": "string", "format": "uuid" },
+                  "priceDate": { "type": "string", "format": "date" },
+                  "images": { "type": "string", "format": "binary" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": { "$ref": "#/components/responses/PriceImportItem" },
+          "400": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    },
+    "/price-imports/{importId}/preview": {
+      "get": {
+        "summary": "Preview parsed supplier price import rows and issues",
+        "parameters": [
+          { "name": "importId", "in": "path", "required": true, "schema": { "type": "string", "format": "uuid" } },
+          { "$ref": "#/components/parameters/Offset" },
+          { "$ref": "#/components/parameters/Limit" }
+        ],
+        "responses": {
+          "200": { "$ref": "#/components/responses/PriceImportPreview" },
+          "404": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    },
+    "/price-imports/{importId}/issues": {
+      "get": {
+        "summary": "List supplier price import issues",
+        "parameters": [
+          { "name": "importId", "in": "path", "required": true, "schema": { "type": "string", "format": "uuid" } },
+          { "$ref": "#/components/parameters/Offset" },
+          { "$ref": "#/components/parameters/Limit" },
+          { "name": "status", "in": "query", "schema": { "type": "array", "items": { "$ref": "#/components/schemas/PriceImportIssueStatus" } }, "style": "form", "explode": false },
+          { "name": "severity", "in": "query", "schema": { "type": "array", "items": { "$ref": "#/components/schemas/PriceImportIssueSeverity" } }, "style": "form", "explode": false }
+        ],
+        "responses": {
+          "200": { "$ref": "#/components/responses/PriceImportIssues" },
+          "404": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    },
+    "/price-imports/{importId}/publish": {
+      "post": {
+        "summary": "Publish supplier price import to current catalog offers",
+        "parameters": [
+          { "name": "importId", "in": "path", "required": true, "schema": { "type": "string", "format": "uuid" } }
+        ],
+        "responses": {
+          "200": { "$ref": "#/components/responses/PriceImportPublish" },
+          "409": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    },
+    "/price-imports/{importId}": {
+      "delete": {
+        "summary": "Delete supplier price import",
+        "parameters": [
+          { "name": "importId", "in": "path", "required": true, "schema": { "type": "string", "format": "uuid" } }
+        ],
+        "responses": {
+          "200": { "$ref": "#/components/responses/PriceImportDelete" },
+          "404": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    },
+    "/cart/items": {
+      "post": {
+        "summary": "Add selected offer/SKU to venue cart",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/AddCartItem" }
+            }
+          }
+        },
+        "responses": {
+          "200": { "$ref": "#/components/responses/Cart" },
+          "400": { "$ref": "#/components/responses/Error" }
+        }
+      }
+    }
+  },
+  "components": {
+    "parameters": {
+      "Offset": { "name": "offset", "in": "query", "schema": { "type": "integer", "minimum": 0, "default": 0 } },
+      "Limit": { "name": "limit", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 100, "default": 20 } }
+    },
+    "responses": {
+      "CatalogList": { "description": "Catalog products", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CatalogListResponse" } } } },
+      "CatalogProductCard": { "description": "Catalog product card", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CatalogProductCardResponse" } } } },
+      "Suggestions": { "description": "Autocomplete suggestions", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SuggestionsResponse" } } } },
+      "SkuSearch": { "description": "SKU search result", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/SkuSearchResponse" } } } },
+      "PriceImportItem": { "description": "Supplier price import", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/PriceImportItemResponse" } } } },
+      "PriceImportList": { "description": "Supplier price imports", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/PriceImportListResponse" } } } },
+      "PriceImportPreview": { "description": "Supplier price import preview", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/PriceImportPreviewResponse" } } } },
+      "PriceImportIssues": { "description": "Supplier price import issues", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/PriceImportIssuesResponse" } } } },
+      "PriceImportPublish": { "description": "Supplier price import publish result", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/PriceImportPublishResponse" } } } },
+      "PriceImportDelete": { "description": "Supplier price import delete result", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/PriceImportDeleteResponse" } } } },
+      "Cart": { "description": "Venue cart", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CartResponse" } } } },
+      "Error": { "description": "Request failed", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ErrorEnvelope" } } } }
+    },
+    "schemas": {
+      "SuccessBase": { "type": "object", "required": ["ok", "data"], "properties": { "ok": { "const": true }, "data": {} } },
+      "ErrorEnvelope": {
+        "type": "object",
+        "required": ["ok", "error"],
+        "properties": {
+          "ok": { "const": false },
+          "error": {
+            "type": "object",
+            "required": ["code", "message"],
+            "properties": {
+              "code": { "type": "string" },
+              "message": { "type": "string" },
+              "details": {},
+              "fieldErrors": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string" } } }
+            }
+          }
+        }
+      },
+      "PaginationMeta": {
+        "type": "object",
+        "required": ["offset", "limit", "total", "hasMore"],
+        "properties": {
+          "offset": { "type": "integer", "minimum": 0 },
+          "limit": { "type": "integer", "minimum": 1 },
+          "total": { "type": "integer", "minimum": 0 },
+          "hasMore": { "type": "boolean" }
+        }
+      },
+      "ProductStatus": { "type": "string", "enum": ["ACTIVE", "ORDERABLE", "SOLD_OUT", "UNAVAILABLE"] },
+      "OfferStatus": { "type": "string", "enum": ["ACTIVE", "OUT_OF_STOCK", "CLOSED"] },
+      "PriceImportStatus": { "type": "string", "enum": ["UPLOADED", "QUEUED", "PROCESSING", "PARSED", "HAS_ISSUES", "READY_TO_PUBLISH", "PUBLISHED", "FAILED", "CANCELLED"] },
+      "PriceImportRowStatus": { "type": "string", "enum": ["IGNORED", "PARSED", "MATCHED", "LOW_CONFIDENCE", "CANDIDATE", "FAILED"] },
+      "PriceImportIssueStatus": { "type": "string", "enum": ["OPEN", "RESOLVED", "IGNORED"] },
+      "PriceImportIssueSeverity": { "type": "string", "enum": ["INFO", "WARNING", "ERROR", "CRITICAL"] },
+      "CartItemStatus": { "type": "string", "enum": ["ACTIVE", "REQUIRES_APPROVAL", "REMOVED"] },
+      "Money": { "type": "object", "required": ["amount", "currency"], "properties": { "amount": { "type": "number" }, "currency": { "type": "string" } } },
+      "CatalogListItem": {
+        "type": "object",
+        "required": ["id", "title", "translatedTitle", "manufacturer", "vintage", "category", "mainImage", "defaultSkuId", "skuPreview", "priceFrom", "isFavorite", "suppliersCount"],
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "title": { "type": "string" },
+          "translatedTitle": { "type": ["string", "null"] },
+          "manufacturer": { "type": ["string", "null"] },
+          "vintage": { "type": ["integer", "null"] },
+          "category": { "type": "object" },
+          "mainImage": { "type": ["object", "null"] },
+          "defaultSkuId": { "type": ["string", "null"], "format": "uuid" },
+          "skuPreview": { "type": ["object", "null"] },
+          "priceFrom": { "anyOf": [{ "$ref": "#/components/schemas/Money" }, { "type": "null" }] },
+          "isFavorite": { "type": "boolean" },
+          "suppliersCount": { "type": "integer", "minimum": 0 }
+        }
+      },
+      "CatalogProductCard": {
+        "allOf": [
+          { "$ref": "#/components/schemas/CatalogListItem" },
+          { "type": "object", "required": ["skus"], "properties": { "skus": { "type": "array", "items": { "type": "object" } } } }
+        ]
+      },
+      "CatalogListResponse": {
+        "type": "object",
+        "required": ["ok", "data", "meta"],
+        "properties": {
+          "ok": { "const": true },
+          "data": { "type": "object", "required": ["items"], "properties": { "items": { "type": "array", "items": { "$ref": "#/components/schemas/CatalogListItem" } } } },
+          "meta": { "$ref": "#/components/schemas/PaginationMeta" }
+        }
+      },
+      "CatalogProductCardResponse": {
+        "type": "object",
+        "required": ["ok", "data"],
+        "properties": {
+          "ok": { "const": true },
+          "data": { "type": "object", "required": ["item"], "properties": { "item": { "$ref": "#/components/schemas/CatalogProductCard" } } }
+        }
+      },
+      "SuggestionsResponse": {
+        "type": "object",
+        "required": ["ok", "data"],
+        "properties": {
+          "ok": { "const": true },
+          "data": { "type": "object", "required": ["items"], "properties": { "items": { "type": "array", "items": { "type": "object" } } } }
+        }
+      },
+      "SkuSearchResponse": {
+        "type": "object",
+        "required": ["ok", "data", "meta"],
+        "properties": {
+          "ok": { "const": true },
+          "data": { "type": "object", "required": ["exactMatch", "similarItems"], "properties": { "exactMatch": { "anyOf": [{ "$ref": "#/components/schemas/CatalogListItem" }, { "type": "null" }] }, "similarItems": { "type": "array", "items": { "$ref": "#/components/schemas/CatalogListItem" } } } },
+          "meta": { "$ref": "#/components/schemas/PaginationMeta" }
+        }
+      },
+      "PriceImportItemResponse": { "type": "object", "required": ["ok", "data"], "properties": { "ok": { "const": true }, "data": { "type": "object" } } },
+      "PriceImportListResponse": { "type": "object", "required": ["ok", "data", "meta"], "properties": { "ok": { "const": true }, "data": { "type": "object" }, "meta": { "$ref": "#/components/schemas/PaginationMeta" } } },
+      "PriceImportPreviewResponse": { "type": "object", "required": ["ok", "data", "meta"], "properties": { "ok": { "const": true }, "data": { "type": "object" }, "meta": { "$ref": "#/components/schemas/PaginationMeta" } } },
+      "PriceImportIssuesResponse": { "type": "object", "required": ["ok", "data", "meta"], "properties": { "ok": { "const": true }, "data": { "type": "object" }, "meta": { "$ref": "#/components/schemas/PaginationMeta" } } },
+      "PriceImportPublishResponse": { "type": "object", "required": ["ok", "data"], "properties": { "ok": { "const": true }, "data": { "type": "object" } } },
+      "PriceImportDeleteResponse": { "type": "object", "required": ["ok", "data"], "properties": { "ok": { "const": true }, "data": { "type": "object", "required": ["deletedId"], "properties": { "deletedId": { "type": "string", "format": "uuid" } } } } },
+      "AddCartItem": {
+        "type": "object",
+        "required": ["venueId", "offerId", "productId", "productVariantId", "quantity", "unit"],
+        "properties": {
+          "venueId": { "type": "string", "format": "uuid" },
+          "offerId": { "type": "string", "format": "uuid" },
+          "productId": { "type": "string", "format": "uuid" },
+          "productVariantId": { "type": "string", "format": "uuid" },
+          "quantity": { "type": "number", "exclusiveMinimum": 0 },
+          "unit": { "type": "string" }
+        }
+      },
+      "CartResponse": { "type": "object", "required": ["ok", "data"], "properties": { "ok": { "const": true }, "data": { "type": "object" } } }
+    }
+  }
+}

@@ -1,0 +1,7410 @@
+[
+ {
+  "pattern": "féder",
+  "normalizedPattern": "féder",
+  "payload": {
+   "en": "feder"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "авола",
+  "normalizedPattern": "авола",
+  "payload": {
+   "en": "avola"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "австралия",
+  "normalizedPattern": "австралия",
+  "payload": {
+   "en": "australia"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "агава",
+  "normalizedPattern": "агава",
+  "payload": {
+   "en": "agave"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "агустин",
+  "normalizedPattern": "агустин",
+  "payload": {
+   "en": "augustin"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ай",
+  "normalizedPattern": "ай",
+  "payload": {
+   "en": "i"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "айла",
+  "normalizedPattern": "айла",
+  "payload": {
+   "en": "islay"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "айленд",
+  "normalizedPattern": "айленд",
+  "payload": {
+   "en": "island"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "айриш",
+  "normalizedPattern": "айриш",
+  "payload": {
+   "en": "irish"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "айришмен",
+  "normalizedPattern": "айришмен",
+  "payload": {
+   "en": "irishman"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "айс",
+  "normalizedPattern": "айс",
+  "payload": {
+   "en": "ice"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "айсвайн",
+  "normalizedPattern": "айсвайн",
+  "payload": {
+   "en": "eiswein"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "аконкагуа",
+  "normalizedPattern": "аконкагуа",
+  "payload": {
+   "en": "aconcagua"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "алазанская",
+  "normalizedPattern": "алазанская",
+  "payload": {
+   "en": "alazani"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "алибер",
+  "normalizedPattern": "алибер",
+  "payload": {
+   "en": "alibert"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "алиготе",
+  "normalizedPattern": "алиготе",
+  "payload": {
+   "en": "aligote"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "аль",
+  "normalizedPattern": "аль",
+  "payload": {
+   "en": "al"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "альбариньо",
+  "normalizedPattern": "альбариньо",
+  "payload": {
+   "en": "albarino"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "альвариньо",
+  "normalizedPattern": "альвариньо",
+  "payload": {
+   "en": "alvarinho"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "альта",
+  "normalizedPattern": "альта",
+  "payload": {
+   "en": "alta"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "альте",
+  "normalizedPattern": "альте",
+  "payload": {
+   "en": "alte"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "альтемази",
+  "normalizedPattern": "альтемази",
+  "payload": {
+   "en": "altemasi"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "альтизано",
+  "normalizedPattern": "альтизано",
+  "payload": {
+   "en": "altisano"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "альто",
+  "normalizedPattern": "альто",
+  "payload": {
+   "en": "alto"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "альянико",
+  "normalizedPattern": "альянико",
+  "payload": {
+   "en": "aglianico"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "амабиле",
+  "normalizedPattern": "амабиле",
+  "payload": {
+   "en": "amabile"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "амаззони",
+  "normalizedPattern": "амаззони",
+  "payload": {
+   "en": "amazzoni"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "амароне",
+  "normalizedPattern": "амароне",
+  "payload": {
+   "en": "amarone"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ангостура",
+  "normalizedPattern": "ангостура",
+  "payload": {
+   "en": "angostura"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "анд",
+  "normalizedPattern": "анд",
+  "payload": {
+   "en": "and"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "анкоммон",
+  "normalizedPattern": "анкоммон",
+  "payload": {
+   "en": "uncommon"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "анна",
+  "normalizedPattern": "анна",
+  "payload": {
+   "en": "anna"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "аннада",
+  "normalizedPattern": "аннада",
+  "payload": {
+   "en": "anada"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "анне",
+  "normalizedPattern": "анне",
+  "payload": {
+   "en": "annees"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "анниверсарио",
+  "normalizedPattern": "анниверсарио",
+  "payload": {
+   "en": "anniversario"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "анри",
+  "normalizedPattern": "анри",
+  "payload": {
+   "en": "henri"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "аньехо",
+  "normalizedPattern": "аньехо",
+  "payload": {
+   "en": "anejo"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "аньяда",
+  "normalizedPattern": "аньяда",
+  "payload": {
+   "en": "anada"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "аос",
+  "normalizedPattern": "аос",
+  "payload": {
+   "en": "aoc"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "аперитив",
+  "normalizedPattern": "аперитив",
+  "payload": {
+   "en": "aperitif"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "аполлонис",
+  "normalizedPattern": "аполлонис",
+  "payload": {
+   "en": "apollonis"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "аранго",
+  "normalizedPattern": "аранго",
+  "payload": {
+   "en": "arango"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "араташен",
+  "normalizedPattern": "араташен",
+  "payload": {
+   "en": "aratashen"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "аренберг",
+  "normalizedPattern": "аренберг",
+  "payload": {
+   "en": "arenberg"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "арени",
+  "normalizedPattern": "арени",
+  "payload": {
+   "en": "areni"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "арести",
+  "normalizedPattern": "арести",
+  "payload": {
+   "en": "aresti"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "аринто",
+  "normalizedPattern": "аринто",
+  "payload": {
+   "en": "arinto"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "аркури",
+  "normalizedPattern": "аркури",
+  "payload": {
+   "en": "arkuri"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "арман",
+  "normalizedPattern": "арман",
+  "payload": {
+   "en": "armand"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "арманьяк",
+  "normalizedPattern": "арманьяк",
+  "payload": {
+   "en": "armagnac"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "арольдос",
+  "normalizedPattern": "арольдос",
+  "payload": {
+   "en": "haroldos"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "арри",
+  "normalizedPattern": "арри",
+  "payload": {
+   "en": "arry"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "арс",
+  "normalizedPattern": "арс",
+  "payload": {
+   "en": "ars"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "артемия",
+  "normalizedPattern": "артемия",
+  "payload": {
+   "en": "artemia"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "артисанал",
+  "normalizedPattern": "артисанал",
+  "payload": {
+   "en": "artisanal"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "асеимани",
+  "normalizedPattern": "асеимани",
+  "payload": {
+   "en": "aseimani"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ассамбляж",
+  "normalizedPattern": "ассамбляж",
+  "payload": {
+   "en": "assemblages"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ассу",
+  "normalizedPattern": "ассу",
+  "payload": {
+   "en": "aszu"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "асти",
+  "normalizedPattern": "асти",
+  "payload": {
+   "en": "asti"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "асу",
+  "normalizedPattern": "асу",
+  "payload": {
+   "en": "asz"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ателье",
+  "normalizedPattern": "ателье",
+  "payload": {
+   "en": "atelier"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "атемпораль",
+  "normalizedPattern": "атемпораль",
+  "payload": {
+   "en": "atemporal"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "аттила",
+  "normalizedPattern": "аттила",
+  "payload": {
+   "en": "attila"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ауслезе",
+  "normalizedPattern": "ауслезе",
+  "payload": {
+   "en": "auslese"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "африка",
+  "normalizedPattern": "африка",
+  "payload": {
+   "en": "africa"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "баер",
+  "normalizedPattern": "баер",
+  "payload": {
+   "en": "baer"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "баж",
+  "normalizedPattern": "баж",
+  "payload": {
+   "en": "bages"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бай",
+  "normalizedPattern": "бай",
+  "payload": {
+   "en": "by"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бандоль",
+  "normalizedPattern": "бандоль",
+  "payload": {
+   "en": "bandol"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "барбера",
+  "normalizedPattern": "барбера",
+  "payload": {
+   "en": "barbera"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "барел",
+  "normalizedPattern": "барел",
+  "payload": {
+   "en": "barrel"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "барн",
+  "normalizedPattern": "барн",
+  "payload": {
+   "en": "barn"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бароло",
+  "normalizedPattern": "бароло",
+  "payload": {
+   "en": "barolo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "барон",
+  "normalizedPattern": "барон",
+  "payload": {
+   "en": "baron"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "баронесса",
+  "normalizedPattern": "баронесса",
+  "payload": {
+   "en": "baroness"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "баросса",
+  "normalizedPattern": "баросса",
+  "payload": {
+   "en": "barossa"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "баррел",
+  "normalizedPattern": "баррел",
+  "payload": {
+   "en": "barrel"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "баррока",
+  "normalizedPattern": "баррока",
+  "payload": {
+   "en": "barroca"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "барселона",
+  "normalizedPattern": "барселона",
+  "payload": {
+   "en": "barcelona"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "батч",
+  "normalizedPattern": "батч",
+  "payload": {
+   "en": "batch"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бееренауслезе",
+  "normalizedPattern": "бееренауслезе",
+  "payload": {
+   "en": "beerenauslese"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бей",
+  "normalizedPattern": "бей",
+  "payload": {
+   "en": "bay"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "белла",
+  "normalizedPattern": "белла",
+  "payload": {
+   "en": "bella"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бен",
+  "normalizedPattern": "бен",
+  "payload": {
+   "en": "ben"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "берис",
+  "normalizedPattern": "берис",
+  "payload": {
+   "en": "berries"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "беркшир",
+  "normalizedPattern": "беркшир",
+  "payload": {
+   "en": "berkshire"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бильбао",
+  "normalizedPattern": "бильбао",
+  "payload": {
+   "en": "bilbao"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "био",
+  "normalizedPattern": "био",
+  "payload": {
+   "en": "bio"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "биосфир",
+  "normalizedPattern": "биосфир",
+  "payload": {
+   "en": "biosphere"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бир",
+  "normalizedPattern": "бир",
+  "payload": {
+   "en": "beer"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "биттер",
+  "normalizedPattern": "биттер",
+  "payload": {
+   "en": "bitter"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "биттерс",
+  "normalizedPattern": "биттерс",
+  "payload": {
+   "en": "bitters"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бич",
+  "normalizedPattern": "бич",
+  "payload": {
+   "en": "beach"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "блан",
+  "normalizedPattern": "блан",
+  "payload": {
+   "en": "blanc"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "блан де блан",
+  "normalizedPattern": "блан де блан",
+  "payload": {
+   "en": "blanc de blancs"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "блан де нуар",
+  "normalizedPattern": "блан де нуар",
+  "payload": {
+   "en": "blanc de noirs"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бланк",
+  "normalizedPattern": "бланк",
+  "payload": {
+   "en": "blanc"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бланко",
+  "normalizedPattern": "бланко",
+  "payload": {
+   "en": "blanco"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "блауфранкиш",
+  "normalizedPattern": "блауфранкиш",
+  "payload": {
+   "en": "blaufrankisch"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "блауфренкиш",
+  "normalizedPattern": "блауфренкиш",
+  "payload": {
+   "en": "blaufrankisch"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "блауэр",
+  "normalizedPattern": "блауэр",
+  "payload": {
+   "en": "blauer"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "блекаддер",
+  "normalizedPattern": "блекаддер",
+  "payload": {
+   "en": "blackadder"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бленд",
+  "normalizedPattern": "бленд",
+  "payload": {
+   "en": "blend"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "блендед",
+  "normalizedPattern": "блендед",
+  "payload": {
+   "en": "blended"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "блэк",
+  "normalizedPattern": "блэк",
+  "payload": {
+   "en": "black"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "блю",
+  "normalizedPattern": "блю",
+  "payload": {
+   "en": "blue"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бодега",
+  "normalizedPattern": "бодега",
+  "payload": {
+   "en": "bodega"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бодегас",
+  "normalizedPattern": "бодегас",
+  "payload": {
+   "en": "bodegas"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "боккино",
+  "normalizedPattern": "боккино",
+  "payload": {
+   "en": "bocchino"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бокштайн",
+  "normalizedPattern": "бокштайн",
+  "payload": {
+   "en": "bockstein"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "боска",
+  "normalizedPattern": "боска",
+  "payload": {
+   "en": "bosca"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ботаникал",
+  "normalizedPattern": "ботаникал",
+  "payload": {
+   "en": "botanical"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ботаникалс",
+  "normalizedPattern": "ботаникалс",
+  "payload": {
+   "en": "botanicals"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ботафого",
+  "normalizedPattern": "ботафого",
+  "payload": {
+   "en": "botafogo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "боттер",
+  "normalizedPattern": "боттер",
+  "payload": {
+   "en": "botter"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "брава",
+  "normalizedPattern": "брава",
+  "payload": {
+   "en": "brava"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бранка",
+  "normalizedPattern": "бранка",
+  "payload": {
+   "en": "branca"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "брендс",
+  "normalizedPattern": "брендс",
+  "payload": {
+   "en": "brands"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "брокар",
+  "normalizedPattern": "брокар",
+  "payload": {
+   "en": "brocard"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бруни",
+  "normalizedPattern": "бруни",
+  "payload": {
+   "en": "bruni"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "брют",
+  "normalizedPattern": "брют",
+  "payload": {
+   "en": "brut"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "буве",
+  "normalizedPattern": "буве",
+  "payload": {
+   "en": "bouvet"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бузи",
+  "normalizedPattern": "бузи",
+  "payload": {
+   "en": "bouzy"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бурбон",
+  "normalizedPattern": "бурбон",
+  "payload": {
+   "en": "bourbon"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бургенланд",
+  "normalizedPattern": "бургенланд",
+  "payload": {
+   "en": "burgenland"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бургонь",
+  "normalizedPattern": "бургонь",
+  "payload": {
+   "en": "bourgogne"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бургундер",
+  "normalizedPattern": "бургундер",
+  "payload": {
+   "en": "burgunder"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "буржуа",
+  "normalizedPattern": "буржуа",
+  "payload": {
+   "en": "bourgeois"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бьюти",
+  "normalizedPattern": "бьюти",
+  "payload": {
+   "en": "beauty"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "бьянко",
+  "normalizedPattern": "бьянко",
+  "payload": {
+   "en": "bianco"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бэй",
+  "normalizedPattern": "бэй",
+  "payload": {
+   "en": "bay"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "бэррел",
+  "normalizedPattern": "бэррел",
+  "payload": {
+   "en": "barrel"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вайлд",
+  "normalizedPattern": "вайлд",
+  "payload": {
+   "en": "wild"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вайн",
+  "normalizedPattern": "вайн",
+  "payload": {
+   "en": "wine"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вайнгут",
+  "normalizedPattern": "вайнгут",
+  "payload": {
+   "en": "weingut"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вайнери",
+  "normalizedPattern": "вайнери",
+  "payload": {
+   "en": "winery"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вайнс",
+  "normalizedPattern": "вайнс",
+  "payload": {
+   "en": "wines"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вайнъярд",
+  "normalizedPattern": "вайнъярд",
+  "payload": {
+   "en": "vineyard"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вале",
+  "normalizedPattern": "вале",
+  "payload": {
+   "en": "vale"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "валлана",
+  "normalizedPattern": "валлана",
+  "payload": {
+   "en": "vallana"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "валле",
+  "normalizedPattern": "валле",
+  "payload": {
+   "en": "valle"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "валь",
+  "normalizedPattern": "валь",
+  "payload": {
+   "en": "val"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вальдеспино",
+  "normalizedPattern": "вальдеспино",
+  "payload": {
+   "en": "valdespino"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вальполичелла",
+  "normalizedPattern": "вальполичелла",
+  "payload": {
+   "en": "valpolicella"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ван",
+  "normalizedPattern": "ван",
+  "payload": {
+   "en": "van"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ванту",
+  "normalizedPattern": "ванту",
+  "payload": {
+   "en": "ventoux"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вега",
+  "normalizedPattern": "вега",
+  "payload": {
+   "en": "vega"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вельтлинер",
+  "normalizedPattern": "вельтлинер",
+  "payload": {
+   "en": "veltliner"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "вендимия",
+  "normalizedPattern": "вендимия",
+  "payload": {
+   "en": "vendimia"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "верде",
+  "normalizedPattern": "верде",
+  "payload": {
+   "en": "verde"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вердельо",
+  "normalizedPattern": "вердельо",
+  "payload": {
+   "en": "verdelho"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "вердехо",
+  "normalizedPattern": "вердехо",
+  "payload": {
+   "en": "verdejo"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "верджине",
+  "normalizedPattern": "верджине",
+  "payload": {
+   "en": "vergine"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вердо",
+  "normalizedPattern": "вердо",
+  "payload": {
+   "en": "verdot"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "верментино",
+  "normalizedPattern": "верментино",
+  "payload": {
+   "en": "vermentino"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "вив",
+  "normalizedPattern": "вив",
+  "payload": {
+   "en": "vive"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вилла",
+  "normalizedPattern": "вилла",
+  "payload": {
+   "en": "villa"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вина",
+  "normalizedPattern": "вина",
+  "payload": {
+   "en": "wines"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "винеярд",
+  "normalizedPattern": "винеярд",
+  "payload": {
+   "en": "vineyard"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вино",
+  "normalizedPattern": "вино",
+  "payload": {
+   "en": "wine"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "винтаж",
+  "normalizedPattern": "винтаж",
+  "payload": {
+   "en": "vintage"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "винтер",
+  "normalizedPattern": "винтер",
+  "payload": {
+   "en": "winter"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "винтерфул",
+  "normalizedPattern": "винтерфул",
+  "payload": {
+   "en": "winterful"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "винь",
+  "normalizedPattern": "винь",
+  "payload": {
+   "en": "vignes"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "виньо",
+  "normalizedPattern": "виньо",
+  "payload": {
+   "en": "vinho"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "виньярд",
+  "normalizedPattern": "виньярд",
+  "payload": {
+   "en": "vineyard"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "виньярдс",
+  "normalizedPattern": "виньярдс",
+  "payload": {
+   "en": "vineyard"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вионье",
+  "normalizedPattern": "вионье",
+  "payload": {
+   "en": "viognier"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "вирджин",
+  "normalizedPattern": "вирджин",
+  "payload": {
+   "en": "virgin"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "виста",
+  "normalizedPattern": "виста",
+  "payload": {
+   "en": "vista"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вите",
+  "normalizedPattern": "вите",
+  "payload": {
+   "en": "vite"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "витикольтори",
+  "normalizedPattern": "витикольтори",
+  "payload": {
+   "en": "viticoltori"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "виура",
+  "normalizedPattern": "виура",
+  "payload": {
+   "en": "viura"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "водка",
+  "normalizedPattern": "водка",
+  "payload": {
+   "en": "vodka"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вольвер",
+  "normalizedPattern": "вольвер",
+  "payload": {
+   "en": "volver"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вольмут",
+  "normalizedPattern": "вольмут",
+  "payload": {
+   "en": "wohlmuth"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вольне",
+  "normalizedPattern": "вольне",
+  "payload": {
+   "en": "volnay"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вон",
+  "normalizedPattern": "вон",
+  "payload": {
+   "en": "vosne"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "всоп",
+  "normalizedPattern": "всоп",
+  "payload": {
+   "en": "vsop"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вуд",
+  "normalizedPattern": "вуд",
+  "payload": {
+   "en": "wood"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вужо",
+  "normalizedPattern": "вужо",
+  "payload": {
+   "en": "vougeot"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вье",
+  "normalizedPattern": "вье",
+  "payload": {
+   "en": "vieux"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вьей",
+  "normalizedPattern": "вьей",
+  "payload": {
+   "en": "vieilles"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "вью",
+  "normalizedPattern": "вью",
+  "payload": {
+   "en": "viu"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вэйл",
+  "normalizedPattern": "вэйл",
+  "payload": {
+   "en": "vale"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "вэлли",
+  "normalizedPattern": "вэлли",
+  "payload": {
+   "en": "valley"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гави",
+  "normalizedPattern": "гави",
+  "payload": {
+   "en": "cortese"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "галли",
+  "normalizedPattern": "галли",
+  "payload": {
+   "en": "gully"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "галодоро",
+  "normalizedPattern": "галодоро",
+  "payload": {
+   "en": "galodoro"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гаме",
+  "normalizedPattern": "гаме",
+  "payload": {
+   "en": "gamay"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "гану",
+  "normalizedPattern": "гану",
+  "payload": {
+   "en": "gaunoux"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гарганега",
+  "normalizedPattern": "гарганега",
+  "payload": {
+   "en": "garganega"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "гарнача",
+  "normalizedPattern": "гарнача",
+  "payload": {
+   "en": "garnacha"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "гато",
+  "normalizedPattern": "гато",
+  "payload": {
+   "en": "gato"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гауча",
+  "normalizedPattern": "гауча",
+  "payload": {
+   "en": "gaucha"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гевехс",
+  "normalizedPattern": "гевехс",
+  "payload": {
+   "en": "gewachs"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гевюрцтраминер",
+  "normalizedPattern": "гевюрцтраминер",
+  "payload": {
+   "en": "gewurztraminer"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "гере",
+  "normalizedPattern": "гере",
+  "payload": {
+   "en": "gere"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гиндзе",
+  "normalizedPattern": "гиндзе",
+  "payload": {
+   "en": "ginjo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гинетон",
+  "normalizedPattern": "гинетон",
+  "payload": {
+   "en": "gineton"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гири",
+  "normalizedPattern": "гири",
+  "payload": {
+   "en": "garioch"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "глейцер",
+  "normalizedPattern": "глейцер",
+  "payload": {
+   "en": "glaetzer"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "глен",
+  "normalizedPattern": "глен",
+  "payload": {
+   "en": "glen"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "гленн",
+  "normalizedPattern": "гленн",
+  "payload": {
+   "en": "glen"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "глера",
+  "normalizedPattern": "глера",
+  "payload": {
+   "en": "glera"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "голд",
+  "normalizedPattern": "голд",
+  "payload": {
+   "en": "gold"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "голден",
+  "normalizedPattern": "голден",
+  "payload": {
+   "en": "golden"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "грав",
+  "normalizedPattern": "грав",
+  "payload": {
+   "en": "graves"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гран",
+  "normalizedPattern": "гран",
+  "payload": {
+   "en": "grand"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "гран резерва",
+  "normalizedPattern": "гран резерва",
+  "payload": {
+   "en": "gran reserva"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "гранд",
+  "normalizedPattern": "гранд",
+  "payload": {
+   "en": "grand"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "гранде",
+  "normalizedPattern": "гранде",
+  "payload": {
+   "en": "grande"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "грандз",
+  "normalizedPattern": "грандз",
+  "payload": {
+   "en": "grandes"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гранкрю",
+  "normalizedPattern": "гранкрю",
+  "payload": {
+   "en": "grand cru"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "грейн",
+  "normalizedPattern": "грейн",
+  "payload": {
+   "en": "grain"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "гренаш",
+  "normalizedPattern": "гренаш",
+  "payload": {
+   "en": "grenache"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "гри",
+  "normalizedPattern": "гри",
+  "payload": {
+   "en": "gris"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "гриджио",
+  "normalizedPattern": "гриджио",
+  "payload": {
+   "en": "grigio"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гриджо",
+  "normalizedPattern": "гриджо",
+  "payload": {
+   "en": "grigio"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "грин",
+  "normalizedPattern": "грин",
+  "payload": {
+   "en": "green"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "гринок",
+  "normalizedPattern": "гринок",
+  "payload": {
+   "en": "greenock"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "гро",
+  "normalizedPattern": "гро",
+  "payload": {
+   "en": "gros"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "гро мансан",
+  "normalizedPattern": "гро мансан",
+  "payload": {
+   "en": "gros manseng"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "грюнер",
+  "normalizedPattern": "грюнер",
+  "payload": {
+   "en": "gruner veltliner"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "грюнер вельтлинер",
+  "normalizedPattern": "грюнер вельтлинер",
+  "payload": {
+   "en": "gruner veltliner"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "гулле",
+  "normalizedPattern": "гулле",
+  "payload": {
+   "en": "goulley"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "да",
+  "normalizedPattern": "да",
+  "payload": {
+   "en": "da"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дабл",
+  "normalizedPattern": "дабл",
+  "payload": {
+   "en": "double"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "дайгиндзе",
+  "normalizedPattern": "дайгиндзе",
+  "payload": {
+   "en": "daiginjo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "даймонд",
+  "normalizedPattern": "даймонд",
+  "payload": {
+   "en": "diamond"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "данска",
+  "normalizedPattern": "данска",
+  "payload": {
+   "en": "danzka"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "дарк",
+  "normalizedPattern": "дарк",
+  "payload": {
+   "en": "dark"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дассай",
+  "normalizedPattern": "дассай",
+  "payload": {
+   "en": "dassai"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "де",
+  "normalizedPattern": "де",
+  "payload": {
+   "en": "de"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дегоржаж",
+  "normalizedPattern": "дегоржаж",
+  "payload": {
+   "en": "degorgement"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дез",
+  "normalizedPattern": "дез",
+  "payload": {
+   "en": "des"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "деи",
+  "normalizedPattern": "деи",
+  "payload": {
+   "en": "dei"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дей",
+  "normalizedPattern": "дей",
+  "payload": {
+   "en": "dei"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "делла",
+  "normalizedPattern": "делла",
+  "payload": {
+   "en": "della"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "делле",
+  "normalizedPattern": "делле",
+  "payload": {
+   "en": "delle"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дель",
+  "normalizedPattern": "дель",
+  "payload": {
+   "en": "del"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "деми",
+  "normalizedPattern": "деми",
+  "payload": {
+   "en": "demi"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дени",
+  "normalizedPattern": "дени",
+  "payload": {
+   "en": "denis"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "дер",
+  "normalizedPattern": "дер",
+  "payload": {
+   "en": "der"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дересла",
+  "normalizedPattern": "дересла",
+  "payload": {
+   "en": "dereszla"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "деспань",
+  "normalizedPattern": "деспань",
+  "payload": {
+   "en": "despagne"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "деурич",
+  "normalizedPattern": "деурич",
+  "payload": {
+   "en": "deuri"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "дефра",
+  "normalizedPattern": "дефра",
+  "payload": {
+   "en": "defra"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "джимшер",
+  "normalizedPattern": "джимшер",
+  "payload": {
+   "en": "jimsher"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "джинджер",
+  "normalizedPattern": "джинджер",
+  "payload": {
+   "en": "ginger"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "джой",
+  "normalizedPattern": "джой",
+  "payload": {
+   "en": "joy"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "джулиан",
+  "normalizedPattern": "джулиан",
+  "payload": {
+   "en": "julian"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "джунипер",
+  "normalizedPattern": "джунипер",
+  "payload": {
+   "en": "juniper"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дзюнмай",
+  "normalizedPattern": "дзюнмай",
+  "payload": {
+   "en": "junmai"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ди",
+  "normalizedPattern": "ди",
+  "payload": {
+   "en": "di"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дистилери",
+  "normalizedPattern": "дистилери",
+  "payload": {
+   "en": "distillery"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дистиллд",
+  "normalizedPattern": "дистиллд",
+  "payload": {
+   "en": "distilled"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дистиллери",
+  "normalizedPattern": "дистиллери",
+  "payload": {
+   "en": "distillery"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дистиллерия",
+  "normalizedPattern": "дистиллерия",
+  "payload": {
+   "en": "distillerie"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "додже",
+  "normalizedPattern": "додже",
+  "payload": {
+   "en": "doge"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "дозаж",
+  "normalizedPattern": "дозаж",
+  "payload": {
+   "en": "dosage"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дойцерхоф",
+  "normalizedPattern": "дойцерхоф",
+  "payload": {
+   "en": "deutzerhof"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "док",
+  "normalizedPattern": "док",
+  "payload": {
+   "en": "dock"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "дольче",
+  "normalizedPattern": "дольче",
+  "payload": {
+   "en": "dolce"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дольчетто",
+  "normalizedPattern": "дольчетто",
+  "payload": {
+   "en": "dolcetto"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "домен",
+  "normalizedPattern": "домен",
+  "payload": {
+   "en": "domaine"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "домэн",
+  "normalizedPattern": "домэн",
+  "payload": {
+   "en": "domaine"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дон",
+  "normalizedPattern": "дон",
+  "payload": {
+   "en": "don"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "донья",
+  "normalizedPattern": "донья",
+  "payload": {
+   "en": "dona"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дос",
+  "normalizedPattern": "дос",
+  "payload": {
+   "en": "dos"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "драй",
+  "normalizedPattern": "драй",
+  "payload": {
+   "en": "dry"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "друэн",
+  "normalizedPattern": "друэн",
+  "payload": {
+   "en": "drouin"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ду",
+  "normalizedPattern": "ду",
+  "payload": {
+   "en": "do"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дульче",
+  "normalizedPattern": "дульче",
+  "payload": {
+   "en": "dulce"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дурт",
+  "normalizedPattern": "дурт",
+  "payload": {
+   "en": "dourthe"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "душ",
+  "normalizedPattern": "душ",
+  "payload": {
+   "en": "dos"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дуэре",
+  "normalizedPattern": "дуэре",
+  "payload": {
+   "en": "douhairet"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "дэд",
+  "normalizedPattern": "дэд",
+  "payload": {
+   "en": "dead"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "дю",
+  "normalizedPattern": "дю",
+  "payload": {
+   "en": "du"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "еарс",
+  "normalizedPattern": "еарс",
+  "payload": {
+   "en": "years"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "жан",
+  "normalizedPattern": "жан",
+  "payload": {
+   "en": "jean"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "жарден",
+  "normalizedPattern": "жарден",
+  "payload": {
+   "en": "jardin"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "жиль",
+  "normalizedPattern": "жиль",
+  "payload": {
+   "en": "gilles"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "жозеф",
+  "normalizedPattern": "жозеф",
+  "payload": {
+   "en": "joseph"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "жорж",
+  "normalizedPattern": "жорж",
+  "payload": {
+   "en": "georges"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "жюльен",
+  "normalizedPattern": "жюльен",
+  "payload": {
+   "en": "julien"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "зе",
+  "normalizedPattern": "зе",
+  "payload": {
+   "en": "the"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "зект",
+  "normalizedPattern": "зект",
+  "payload": {
+   "en": "sekt"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "зельбах",
+  "normalizedPattern": "зельбах",
+  "payload": {
+   "en": "selbach"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "зеро",
+  "normalizedPattern": "зеро",
+  "payload": {
+   "en": "zero"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "зинфандель",
+  "normalizedPattern": "зинфандель",
+  "payload": {
+   "en": "zinfandel"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "зонненур",
+  "normalizedPattern": "зонненур",
+  "payload": {
+   "en": "sonnenuhr"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "изолейшн",
+  "normalizedPattern": "изолейшн",
+  "payload": {
+   "en": "isolation"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ила",
+  "normalizedPattern": "ила",
+  "payload": {
+   "en": "ila"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "илевен",
+  "normalizedPattern": "илевен",
+  "payload": {
+   "en": "eleven"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "иль",
+  "normalizedPattern": "иль",
+  "payload": {
+   "en": "il"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "империал",
+  "normalizedPattern": "империал",
+  "payload": {
+   "en": "imperial"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "инстинкт",
+  "normalizedPattern": "инстинкт",
+  "payload": {
+   "en": "instinct"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "исл",
+  "normalizedPattern": "исл",
+  "payload": {
+   "en": "isle"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "италия",
+  "normalizedPattern": "италия",
+  "payload": {
+   "en": "italy"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "йеллоу",
+  "normalizedPattern": "йеллоу",
+  "payload": {
+   "en": "yellow"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "йирс",
+  "normalizedPattern": "йирс",
+  "payload": {
+   "en": "years"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "йо",
+  "normalizedPattern": "йо",
+  "payload": {
+   "en": "yo"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "каберне",
+  "normalizedPattern": "каберне",
+  "payload": {
+   "en": "cabernet"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "каберне совиньон",
+  "normalizedPattern": "каберне совиньон",
+  "payload": {
+   "en": "cabernet sauvignon"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "каберне фран",
+  "normalizedPattern": "каберне фран",
+  "payload": {
+   "en": "cabernet franc"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "кабинет",
+  "normalizedPattern": "кабинет",
+  "payload": {
+   "en": "kabinett"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кабра",
+  "normalizedPattern": "кабра",
+  "payload": {
+   "en": "cabra"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кава",
+  "normalizedPattern": "кава",
+  "payload": {
+   "en": "cava"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кавит",
+  "normalizedPattern": "кавит",
+  "payload": {
+   "en": "cavit"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кадарка",
+  "normalizedPattern": "кадарка",
+  "payload": {
+   "en": "kadarka"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "каза",
+  "normalizedPattern": "каза",
+  "payload": {
+   "en": "casa"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "каладос",
+  "normalizedPattern": "каладос",
+  "payload": {
+   "en": "calados"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кальвадос",
+  "normalizedPattern": "кальвадос",
+  "payload": {
+   "en": "calvados"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "камалеао",
+  "normalizedPattern": "камалеао",
+  "payload": {
+   "en": "camaleao"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "камден",
+  "normalizedPattern": "камден",
+  "payload": {
+   "en": "camden"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кампбелтаун",
+  "normalizedPattern": "кампбелтаун",
+  "payload": {
+   "en": "campbeltown"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кампи",
+  "normalizedPattern": "кампи",
+  "payload": {
+   "en": "campi"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кампо",
+  "normalizedPattern": "кампо",
+  "payload": {
+   "en": "campo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "канале",
+  "normalizedPattern": "канале",
+  "payload": {
+   "en": "canale"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кантагалло",
+  "normalizedPattern": "кантагалло",
+  "payload": {
+   "en": "cantagallo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кантенак",
+  "normalizedPattern": "кантенак",
+  "payload": {
+   "en": "cantenac"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кантине",
+  "normalizedPattern": "кантине",
+  "payload": {
+   "en": "cantine"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "каньер",
+  "normalizedPattern": "каньер",
+  "payload": {
+   "en": "caniere"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кап",
+  "normalizedPattern": "кап",
+  "payload": {
+   "en": "cap"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кариньян",
+  "normalizedPattern": "кариньян",
+  "payload": {
+   "en": "carignan"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "карло",
+  "normalizedPattern": "карло",
+  "payload": {
+   "en": "carlo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "карлос",
+  "normalizedPattern": "карлос",
+  "payload": {
+   "en": "carlos"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "карменер",
+  "normalizedPattern": "карменер",
+  "payload": {
+   "en": "carmenere"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "каролина",
+  "normalizedPattern": "каролина",
+  "payload": {
+   "en": "carolina"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "карпано",
+  "normalizedPattern": "карпано",
+  "payload": {
+   "en": "carpano"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "каса",
+  "normalizedPattern": "каса",
+  "payload": {
+   "en": "casa"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "каск",
+  "normalizedPattern": "каск",
+  "payload": {
+   "en": "cask"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "каскс",
+  "normalizedPattern": "каскс",
+  "payload": {
+   "en": "casks"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кастелло",
+  "normalizedPattern": "кастелло",
+  "payload": {
+   "en": "castello"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кастильо",
+  "normalizedPattern": "кастильо",
+  "payload": {
+   "en": "castillo"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кастро",
+  "normalizedPattern": "кастро",
+  "payload": {
+   "en": "castro"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "квин",
+  "normalizedPattern": "квин",
+  "payload": {
+   "en": "queen"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "квинтэссенция",
+  "normalizedPattern": "квинтэссенция",
+  "payload": {
+   "en": "quintessense"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "квотер",
+  "normalizedPattern": "квотер",
+  "payload": {
+   "en": "quarter"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кейп",
+  "normalizedPattern": "кейп",
+  "payload": {
+   "en": "cape"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "келлерай",
+  "normalizedPattern": "келлерай",
+  "payload": {
+   "en": "kellerei"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кинг",
+  "normalizedPattern": "кинг",
+  "payload": {
+   "en": "king"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "киндзмараули",
+  "normalizedPattern": "киндзмараули",
+  "payload": {
+   "en": "kindzmarauli"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "кинта",
+  "normalizedPattern": "кинта",
+  "payload": {
+   "en": "quinta"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кир",
+  "normalizedPattern": "кир",
+  "payload": {
+   "en": "kir"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кирмонт",
+  "normalizedPattern": "кирмонт",
+  "payload": {
+   "en": "keermont"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "киси",
+  "normalizedPattern": "киси",
+  "payload": {
+   "en": "kisi"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "клаб",
+  "normalizedPattern": "клаб",
+  "payload": {
+   "en": "club"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "класико",
+  "normalizedPattern": "класико",
+  "payload": {
+   "en": "clasico"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "классе",
+  "normalizedPattern": "классе",
+  "payload": {
+   "en": "classe"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "классик",
+  "normalizedPattern": "классик",
+  "payload": {
+   "en": "classic"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "классико",
+  "normalizedPattern": "классико",
+  "payload": {
+   "en": "classico"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "клеман",
+  "normalizedPattern": "клеман",
+  "payload": {
+   "en": "clement"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "клерет",
+  "normalizedPattern": "клерет",
+  "payload": {
+   "en": "clairette"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "кло",
+  "normalizedPattern": "кло",
+  "payload": {
+   "en": "clos"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "клуб",
+  "normalizedPattern": "клуб",
+  "payload": {
+   "en": "club"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ков",
+  "normalizedPattern": "ков",
+  "payload": {
+   "en": "cove"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кодорнью",
+  "normalizedPattern": "кодорнью",
+  "payload": {
+   "en": "codorniu"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кодорню",
+  "normalizedPattern": "кодорню",
+  "payload": {
+   "en": "codorniu"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кол",
+  "normalizedPattern": "кол",
+  "payload": {
+   "en": "caol"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "коллексион",
+  "normalizedPattern": "коллексион",
+  "payload": {
+   "en": "coleccion"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "коллексьон",
+  "normalizedPattern": "коллексьон",
+  "payload": {
+   "en": "collection"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "коллекта",
+  "normalizedPattern": "коллекта",
+  "payload": {
+   "en": "collecta"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "коллекшн",
+  "normalizedPattern": "коллекшн",
+  "payload": {
+   "en": "collection"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "коломбар",
+  "normalizedPattern": "коломбар",
+  "payload": {
+   "en": "colombard"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "кольте",
+  "normalizedPattern": "кольте",
+  "payload": {
+   "en": "colte"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "компани",
+  "normalizedPattern": "компани",
+  "payload": {
+   "en": "company"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "композисьон",
+  "normalizedPattern": "композисьон",
+  "payload": {
+   "en": "composition"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "конде",
+  "normalizedPattern": "конде",
+  "payload": {
+   "en": "conde"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "контрада",
+  "normalizedPattern": "контрада",
+  "payload": {
+   "en": "contrada"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "конфюрон",
+  "normalizedPattern": "конфюрон",
+  "payload": {
+   "en": "confuron"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "коншес",
+  "normalizedPattern": "коншес",
+  "payload": {
+   "en": "conscious"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "корвина",
+  "normalizedPattern": "корвина",
+  "payload": {
+   "en": "corvina"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "корн",
+  "normalizedPattern": "корн",
+  "payload": {
+   "en": "corn"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "корралехо",
+  "normalizedPattern": "корралехо",
+  "payload": {
+   "en": "corralejo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кортезе",
+  "normalizedPattern": "кортезе",
+  "payload": {
+   "en": "cortese"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "кортон",
+  "normalizedPattern": "кортон",
+  "payload": {
+   "en": "corton"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "коста",
+  "normalizedPattern": "коста",
+  "payload": {
+   "en": "costa"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кот",
+  "normalizedPattern": "кот",
+  "payload": {
+   "en": "cotes"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кото",
+  "normalizedPattern": "кото",
+  "payload": {
+   "en": "coteaux"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "коттидо",
+  "normalizedPattern": "коттидо",
+  "payload": {
+   "en": "cotetidot"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "коуст",
+  "normalizedPattern": "коуст",
+  "payload": {
+   "en": "coast"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "краун",
+  "normalizedPattern": "краун",
+  "payload": {
+   "en": "crown"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "крафт",
+  "normalizedPattern": "крафт",
+  "payload": {
+   "en": "craft"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "крем",
+  "normalizedPattern": "крем",
+  "payload": {
+   "en": "creme"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "креман",
+  "normalizedPattern": "креман",
+  "payload": {
+   "en": "cremant"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "крианса",
+  "normalizedPattern": "крианса",
+  "payload": {
+   "en": "crianza"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "крик",
+  "normalizedPattern": "крик",
+  "payload": {
+   "en": "creek"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "крис",
+  "normalizedPattern": "крис",
+  "payload": {
+   "en": "chris"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кристал",
+  "normalizedPattern": "кристал",
+  "payload": {
+   "en": "crystal"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кристиан",
+  "normalizedPattern": "кристиан",
+  "payload": {
+   "en": "christian"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "крузадо",
+  "normalizedPattern": "крузадо",
+  "payload": {
+   "en": "cruzado"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "крю",
+  "normalizedPattern": "крю",
+  "payload": {
+   "en": "cru"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "куберо",
+  "normalizedPattern": "куберо",
+  "payload": {
+   "en": "cubero"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "куерчето",
+  "normalizedPattern": "куерчето",
+  "payload": {
+   "en": "querceto"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "куйо",
+  "normalizedPattern": "куйо",
+  "payload": {
+   "en": "cuyo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кунунга",
+  "normalizedPattern": "кунунга",
+  "payload": {
+   "en": "koonunga"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "курадо",
+  "normalizedPattern": "курадо",
+  "payload": {
+   "en": "curado"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "курант",
+  "normalizedPattern": "курант",
+  "payload": {
+   "en": "kurant"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кьярли",
+  "normalizedPattern": "кьярли",
+  "payload": {
+   "en": "chiarli"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "кюве",
+  "normalizedPattern": "кюве",
+  "payload": {
+   "en": "cuvee"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кюве престиж",
+  "normalizedPattern": "кюве престиж",
+  "payload": {
+   "en": "cuvee prestige"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "кюрасао",
+  "normalizedPattern": "кюрасао",
+  "payload": {
+   "en": "curacao"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ла",
+  "normalizedPattern": "ла",
+  "payload": {
+   "en": "la"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лава",
+  "normalizedPattern": "лава",
+  "payload": {
+   "en": "lava"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лаге",
+  "normalizedPattern": "лаге",
+  "payload": {
+   "en": "lage"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лагер",
+  "normalizedPattern": "лагер",
+  "payload": {
+   "en": "lager"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лагранж",
+  "normalizedPattern": "лагранж",
+  "payload": {
+   "en": "lagrange"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ладюбе",
+  "normalizedPattern": "ладюбе",
+  "payload": {
+   "en": "ladubay"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лайвс",
+  "normalizedPattern": "лайвс",
+  "payload": {
+   "en": "lives"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лайт",
+  "normalizedPattern": "лайт",
+  "payload": {
+   "en": "light"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лаломба",
+  "normalizedPattern": "лаломба",
+  "payload": {
+   "en": "lalomba"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ламбруско",
+  "normalizedPattern": "ламбруско",
+  "payload": {
+   "en": "lambrusco"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лас",
+  "normalizedPattern": "лас",
+  "payload": {
+   "en": "las"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лассаль",
+  "normalizedPattern": "лассаль",
+  "payload": {
+   "en": "lassalle"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лаурент",
+  "normalizedPattern": "лаурент",
+  "payload": {
+   "en": "laurent"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ле",
+  "normalizedPattern": "ле",
+  "payload": {
+   "en": "le"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "легаси",
+  "normalizedPattern": "легаси",
+  "payload": {
+   "en": "legacy"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лез",
+  "normalizedPattern": "лез",
+  "payload": {
+   "en": "les"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лейбл",
+  "normalizedPattern": "лейбл",
+  "payload": {
+   "en": "label"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лейк",
+  "normalizedPattern": "лейк",
+  "payload": {
+   "en": "lake"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лейт",
+  "normalizedPattern": "лейт",
+  "payload": {
+   "en": "late"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "леовиль",
+  "normalizedPattern": "леовиль",
+  "payload": {
+   "en": "leoville"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "леоньян",
+  "normalizedPattern": "леоньян",
+  "payload": {
+   "en": "leognan"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ликер",
+  "normalizedPattern": "ликер",
+  "payload": {
+   "en": "liqueur"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лима",
+  "normalizedPattern": "лима",
+  "payload": {
+   "en": "lima"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лимитед",
+  "normalizedPattern": "лимитед",
+  "payload": {
+   "en": "limited"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лимончелло",
+  "normalizedPattern": "лимончелло",
+  "payload": {
+   "en": "limoncello"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "линда",
+  "normalizedPattern": "линда",
+  "payload": {
+   "en": "linda"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "линч",
+  "normalizedPattern": "линч",
+  "payload": {
+   "en": "lynch"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лифили",
+  "normalizedPattern": "лифили",
+  "payload": {
+   "en": "lifili"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ломас",
+  "normalizedPattern": "ломас",
+  "payload": {
+   "en": "lomas"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лонг",
+  "normalizedPattern": "лонг",
+  "payload": {
+   "en": "long"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лондон",
+  "normalizedPattern": "лондон",
+  "payload": {
+   "en": "london"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лос",
+  "normalizedPattern": "лос",
+  "payload": {
+   "en": "los"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лоуленд",
+  "normalizedPattern": "лоуленд",
+  "payload": {
+   "en": "lowland"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "лох",
+  "normalizedPattern": "лох",
+  "payload": {
+   "en": "loch"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "луи",
+  "normalizedPattern": "луи",
+  "payload": {
+   "en": "louis"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "луиджи",
+  "normalizedPattern": "луиджи",
+  "payload": {
+   "en": "luigi"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "лухан",
+  "normalizedPattern": "лухан",
+  "payload": {
+   "en": "lujan"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "луче",
+  "normalizedPattern": "луче",
+  "payload": {
+   "en": "luce"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "люмьер",
+  "normalizedPattern": "люмьер",
+  "payload": {
+   "en": "lumieres"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ля",
+  "normalizedPattern": "ля",
+  "payload": {
+   "en": "la"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мадейра",
+  "normalizedPattern": "мадейра",
+  "payload": {
+   "en": "madeira"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "майе",
+  "normalizedPattern": "майе",
+  "payload": {
+   "en": "maillet"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "майяр",
+  "normalizedPattern": "майяр",
+  "payload": {
+   "en": "maillard"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "макабео",
+  "normalizedPattern": "макабео",
+  "payload": {
+   "en": "macabeo"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "макларен",
+  "normalizedPattern": "макларен",
+  "payload": {
+   "en": "mclaren"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "малат",
+  "normalizedPattern": "малат",
+  "payload": {
+   "en": "malat"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мальбек",
+  "normalizedPattern": "мальбек",
+  "payload": {
+   "en": "malbec"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "мальборо",
+  "normalizedPattern": "мальборо",
+  "payload": {
+   "en": "marlborough"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "манент",
+  "normalizedPattern": "манент",
+  "payload": {
+   "en": "manent"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мансан",
+  "normalizedPattern": "мансан",
+  "payload": {
+   "en": "manseng"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "марани",
+  "normalizedPattern": "марани",
+  "payload": {
+   "en": "marani"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "марго",
+  "normalizedPattern": "марго",
+  "payload": {
+   "en": "margaux"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мариенбург",
+  "normalizedPattern": "мариенбург",
+  "payload": {
+   "en": "marienburg"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мария",
+  "normalizedPattern": "мария",
+  "payload": {
+   "en": "maria"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "марк",
+  "normalizedPattern": "марк",
+  "payload": {
+   "en": "marc"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "маркес",
+  "normalizedPattern": "маркес",
+  "payload": {
+   "en": "marques"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "маркиз",
+  "normalizedPattern": "маркиз",
+  "payload": {
+   "en": "marques"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мартин",
+  "normalizedPattern": "мартин",
+  "payload": {
+   "en": "martin"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мартинелли",
+  "normalizedPattern": "мартинелли",
+  "payload": {
+   "en": "martinelli"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "масса",
+  "normalizedPattern": "масса",
+  "payload": {
+   "en": "massa"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мауджери",
+  "normalizedPattern": "мауджери",
+  "payload": {
+   "en": "maugeri"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "маунтин",
+  "normalizedPattern": "маунтин",
+  "payload": {
+   "en": "mountain"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мауришиус",
+  "normalizedPattern": "мауришиус",
+  "payload": {
+   "en": "mauritian"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "маурэр",
+  "normalizedPattern": "маурэр",
+  "payload": {
+   "en": "maurer"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "медок",
+  "normalizedPattern": "медок",
+  "payload": {
+   "en": "medoc"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мезон",
+  "normalizedPattern": "мезон",
+  "payload": {
+   "en": "maison"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мендоса",
+  "normalizedPattern": "мендоса",
+  "payload": {
+   "en": "mendoza"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "менсия",
+  "normalizedPattern": "менсия",
+  "payload": {
+   "en": "mencia"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "менье",
+  "normalizedPattern": "менье",
+  "payload": {
+   "en": "meunier"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "мерле",
+  "normalizedPattern": "мерле",
+  "payload": {
+   "en": "merlet"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мерло",
+  "normalizedPattern": "мерло",
+  "payload": {
+   "en": "merlot"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "мерм",
+  "normalizedPattern": "мерм",
+  "payload": {
+   "en": "merme"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мерус",
+  "normalizedPattern": "мерус",
+  "payload": {
+   "en": "merus"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мескаль",
+  "normalizedPattern": "мескаль",
+  "payload": {
+   "en": "mezcal"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "метод",
+  "normalizedPattern": "метод",
+  "payload": {
+   "en": "methode"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "методо",
+  "normalizedPattern": "методо",
+  "payload": {
+   "en": "metodo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "миленэр",
+  "normalizedPattern": "миленэр",
+  "payload": {
+   "en": "millenaire"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "милизим",
+  "normalizedPattern": "милизим",
+  "payload": {
+   "en": "millesime"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "миллезим",
+  "normalizedPattern": "миллезим",
+  "payload": {
+   "en": "millesime"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "миллезимато",
+  "normalizedPattern": "миллезимато",
+  "payload": {
+   "en": "millesimato"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "миллезиме",
+  "normalizedPattern": "миллезиме",
+  "payload": {
+   "en": "millesime"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "миллениум",
+  "normalizedPattern": "миллениум",
+  "payload": {
+   "en": "millennium"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "миллерс",
+  "normalizedPattern": "миллерс",
+  "payload": {
+   "en": "millers"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "милье",
+  "normalizedPattern": "милье",
+  "payload": {
+   "en": "milieu"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "миолан",
+  "normalizedPattern": "миолан",
+  "payload": {
+   "en": "miolane"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мирабелло",
+  "normalizedPattern": "мирабелло",
+  "payload": {
+   "en": "mirabello"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "молт",
+  "normalizedPattern": "молт",
+  "payload": {
+   "en": "malt"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "молтс",
+  "normalizedPattern": "молтс",
+  "payload": {
+   "en": "malts"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мон",
+  "normalizedPattern": "мон",
+  "payload": {
+   "en": "mont"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "монастрель",
+  "normalizedPattern": "монастрель",
+  "payload": {
+   "en": "monastrell"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "монмен",
+  "normalizedPattern": "монмен",
+  "payload": {
+   "en": "montmains"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "монополь",
+  "normalizedPattern": "монополь",
+  "payload": {
+   "en": "monopole"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "монраше",
+  "normalizedPattern": "монраше",
+  "payload": {
+   "en": "montrachet"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "монтальбано",
+  "normalizedPattern": "монтальбано",
+  "payload": {
+   "en": "montalbano"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "монте",
+  "normalizedPattern": "монте",
+  "payload": {
+   "en": "monte"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "монтели",
+  "normalizedPattern": "монтели",
+  "payload": {
+   "en": "monthelie"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "монтепульчано",
+  "normalizedPattern": "монтепульчано",
+  "payload": {
+   "en": "montepulciano"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "море",
+  "normalizedPattern": "море",
+  "payload": {
+   "en": "morey"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "морэ",
+  "normalizedPattern": "морэ",
+  "payload": {
+   "en": "morey"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "москато",
+  "normalizedPattern": "москато",
+  "payload": {
+   "en": "moscato"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "мтеби",
+  "normalizedPattern": "мтеби",
+  "payload": {
+   "en": "mtebi"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мукузани",
+  "normalizedPattern": "мукузани",
+  "payload": {
+   "en": "kindzmarauli"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "мулен",
+  "normalizedPattern": "мулен",
+  "payload": {
+   "en": "moulin"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мун",
+  "normalizedPattern": "мун",
+  "payload": {
+   "en": "moon"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мурведр",
+  "normalizedPattern": "мурведр",
+  "payload": {
+   "en": "monastrell"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "мускат",
+  "normalizedPattern": "мускат",
+  "payload": {
+   "en": "moscato"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "мутон",
+  "normalizedPattern": "мутон",
+  "payload": {
+   "en": "mouton"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мцване",
+  "normalizedPattern": "мцване",
+  "payload": {
+   "en": "mtsvane"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "мэзон",
+  "normalizedPattern": "мэзон",
+  "payload": {
+   "en": "maison"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мэн",
+  "normalizedPattern": "мэн",
+  "payload": {
+   "en": "man"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "мэш",
+  "normalizedPattern": "мэш",
+  "payload": {
+   "en": "mash"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мюзле",
+  "normalizedPattern": "мюзле",
+  "payload": {
+   "en": "muselet"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мята",
+  "normalizedPattern": "мята",
+  "payload": {
+   "en": "mint"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "найн",
+  "normalizedPattern": "найн",
+  "payload": {
+   "en": "nine"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "насьональ",
+  "normalizedPattern": "насьональ",
+  "payload": {
+   "en": "nacional"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "натюр",
+  "normalizedPattern": "натюр",
+  "payload": {
+   "en": "nature"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "неббиоло",
+  "normalizedPattern": "неббиоло",
+  "payload": {
+   "en": "nebbiolo"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "негро",
+  "normalizedPattern": "негро",
+  "payload": {
+   "en": "negro"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "негроамаро",
+  "normalizedPattern": "негроамаро",
+  "payload": {
+   "en": "negroamaro"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "неро",
+  "normalizedPattern": "неро",
+  "payload": {
+   "en": "nero"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "неро д авола",
+  "normalizedPattern": "неро д авола",
+  "payload": {
+   "en": "nero d avola"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "нидеростеррайх",
+  "normalizedPattern": "нидеростеррайх",
+  "payload": {
+   "en": "niederosterreich"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ниттнаус",
+  "normalizedPattern": "ниттнаус",
+  "payload": {
+   "en": "nittnaus"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "нобл",
+  "normalizedPattern": "нобл",
+  "payload": {
+   "en": "noble"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ноблес",
+  "normalizedPattern": "ноблес",
+  "payload": {
+   "en": "nobles"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ноблесс",
+  "normalizedPattern": "ноблесс",
+  "payload": {
+   "en": "noblesse"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "новая",
+  "normalizedPattern": "новая",
+  "payload": {
+   "en": "new"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "нон",
+  "normalizedPattern": "нон",
+  "payload": {
+   "en": "non"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "нонино",
+  "normalizedPattern": "нонино",
+  "payload": {
+   "en": "nonino"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "норф",
+  "normalizedPattern": "норф",
+  "payload": {
+   "en": "north"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "нуар",
+  "normalizedPattern": "нуар",
+  "payload": {
+   "en": "noir"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "оак",
+  "normalizedPattern": "оак",
+  "payload": {
+   "en": "oak"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "оверпруф",
+  "normalizedPattern": "оверпруф",
+  "payload": {
+   "en": "overproof"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "олд",
+  "normalizedPattern": "олд",
+  "payload": {
+   "en": "old"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "олива",
+  "normalizedPattern": "олива",
+  "payload": {
+   "en": "oliva"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "олио",
+  "normalizedPattern": "олио",
+  "payload": {
+   "en": "olio"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "олоросо",
+  "normalizedPattern": "олоросо",
+  "payload": {
+   "en": "oloroso"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "органик",
+  "normalizedPattern": "органик",
+  "payload": {
+   "en": "organic"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "оригинал",
+  "normalizedPattern": "оригинал",
+  "payload": {
+   "en": "original"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ориджинал",
+  "normalizedPattern": "ориджинал",
+  "payload": {
+   "en": "original"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "оро",
+  "normalizedPattern": "оро",
+  "payload": {
+   "en": "oro"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "оскар",
+  "normalizedPattern": "оскар",
+  "payload": {
+   "en": "oscar"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "оук",
+  "normalizedPattern": "оук",
+  "payload": {
+   "en": "oak"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "оф",
+  "normalizedPattern": "оф",
+  "payload": {
+   "en": "of"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "офф",
+  "normalizedPattern": "офф",
+  "payload": {
+   "en": "off"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пайпер",
+  "normalizedPattern": "пайпер",
+  "payload": {
+   "en": "piper"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пале",
+  "normalizedPattern": "пале",
+  "payload": {
+   "en": "palais"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "пампа",
+  "normalizedPattern": "пампа",
+  "payload": {
+   "en": "pampa"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "панчен",
+  "normalizedPattern": "панчен",
+  "payload": {
+   "en": "puncheon"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "пап",
+  "normalizedPattern": "пап",
+  "payload": {
+   "en": "pape"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "парк",
+  "normalizedPattern": "парк",
+  "payload": {
+   "en": "park"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "парфюм",
+  "normalizedPattern": "парфюм",
+  "payload": {
+   "en": "parfum"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "паскаль",
+  "normalizedPattern": "паскаль",
+  "payload": {
+   "en": "pascal"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "патрик",
+  "normalizedPattern": "патрик",
+  "payload": {
+   "en": "patrick"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пего",
+  "normalizedPattern": "пего",
+  "payload": {
+   "en": "pega"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "педро",
+  "normalizedPattern": "педро",
+  "payload": {
+   "en": "pedro"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "перро",
+  "normalizedPattern": "перро",
+  "payload": {
+   "en": "perro"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пескье",
+  "normalizedPattern": "пескье",
+  "payload": {
+   "en": "pesquie"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пессак",
+  "normalizedPattern": "пессак",
+  "payload": {
+   "en": "pessac"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "петит",
+  "normalizedPattern": "петит",
+  "payload": {
+   "en": "petit"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "петит вердо",
+  "normalizedPattern": "петит вердо",
+  "payload": {
+   "en": "petit verdot"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пик",
+  "normalizedPattern": "пик",
+  "payload": {
+   "en": "pic"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "пилснер",
+  "normalizedPattern": "пилснер",
+  "payload": {
+   "en": "pilsner"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "пинвино",
+  "normalizedPattern": "пинвино",
+  "payload": {
+   "en": "pinwino"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пинк",
+  "normalizedPattern": "пинк",
+  "payload": {
+   "en": "pink"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пино",
+  "normalizedPattern": "пино",
+  "payload": {
+   "en": "pinot"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пино блан",
+  "normalizedPattern": "пино блан",
+  "payload": {
+   "en": "pinot blanc"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пино гри",
+  "normalizedPattern": "пино гри",
+  "payload": {
+   "en": "pinot gris"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пино гриджо",
+  "normalizedPattern": "пино гриджо",
+  "payload": {
+   "en": "pinot grigio"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пино менье",
+  "normalizedPattern": "пино менье",
+  "payload": {
+   "en": "pinot meunier"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пино нуар",
+  "normalizedPattern": "пино нуар",
+  "payload": {
+   "en": "pinot noir"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пинотаж",
+  "normalizedPattern": "пинотаж",
+  "payload": {
+   "en": "pinotage"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пипеньо",
+  "normalizedPattern": "пипеньо",
+  "payload": {
+   "en": "pipeno"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пит",
+  "normalizedPattern": "пит",
+  "payload": {
+   "en": "peat"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "питед",
+  "normalizedPattern": "питед",
+  "payload": {
+   "en": "peated"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "платинум",
+  "normalizedPattern": "платинум",
+  "payload": {
+   "en": "platinum"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "подере",
+  "normalizedPattern": "подере",
+  "payload": {
+   "en": "podere"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "поинт",
+  "normalizedPattern": "поинт",
+  "payload": {
+   "en": "point"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пойзон",
+  "normalizedPattern": "пойзон",
+  "payload": {
+   "en": "poison"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пойяк",
+  "normalizedPattern": "пойяк",
+  "payload": {
+   "en": "pauillac"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "поло",
+  "normalizedPattern": "поло",
+  "payload": {
+   "en": "polo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "поммар",
+  "normalizedPattern": "поммар",
+  "payload": {
+   "en": "pommard"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "помроль",
+  "normalizedPattern": "помроль",
+  "payload": {
+   "en": "pomerol"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "понт",
+  "normalizedPattern": "понт",
+  "payload": {
+   "en": "pont"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "понте",
+  "normalizedPattern": "понте",
+  "payload": {
+   "en": "ponte"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "порт",
+  "normalizedPattern": "порт",
+  "payload": {
+   "en": "port"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "портвуд",
+  "normalizedPattern": "портвуд",
+  "payload": {
+   "en": "port wood"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "портер",
+  "normalizedPattern": "портер",
+  "payload": {
+   "en": "porter"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "поршере",
+  "normalizedPattern": "поршере",
+  "payload": {
+   "en": "porcheret"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пот",
+  "normalizedPattern": "пот",
+  "payload": {
+   "en": "pot"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "поттстилл",
+  "normalizedPattern": "поттстилл",
+  "payload": {
+   "en": "pot still"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "премиум",
+  "normalizedPattern": "премиум",
+  "payload": {
+   "en": "premium"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "премье",
+  "normalizedPattern": "премье",
+  "payload": {
+   "en": "premier"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "преферанс",
+  "normalizedPattern": "преферанс",
+  "payload": {
+   "en": "preference"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "примитиво",
+  "normalizedPattern": "примитиво",
+  "payload": {
+   "en": "primitivo"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "принц",
+  "normalizedPattern": "принц",
+  "payload": {
+   "en": "prince"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "принчипато",
+  "normalizedPattern": "принчипато",
+  "payload": {
+   "en": "principato"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "прованс",
+  "normalizedPattern": "прованс",
+  "payload": {
+   "en": "provence"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "просекко",
+  "normalizedPattern": "просекко",
+  "payload": {
+   "en": "prosecco"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "прохибидо",
+  "normalizedPattern": "прохибидо",
+  "payload": {
+   "en": "prohibido"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "пти",
+  "normalizedPattern": "пти",
+  "payload": {
+   "en": "petite"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пти вердо",
+  "normalizedPattern": "пти вердо",
+  "payload": {
+   "en": "petit verdot"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пти мансан",
+  "normalizedPattern": "пти мансан",
+  "payload": {
+   "en": "petit manseng"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пти сира",
+  "normalizedPattern": "пти сира",
+  "payload": {
+   "en": "petite sirah"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "пулиньи",
+  "normalizedPattern": "пулиньи",
+  "payload": {
+   "en": "puligny"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "путтоньош",
+  "normalizedPattern": "путтоньош",
+  "payload": {
+   "en": "puttonyos"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "раатс",
+  "normalizedPattern": "раатс",
+  "payload": {
+   "en": "raats"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "раевское",
+  "normalizedPattern": "раевское",
+  "payload": {
+   "en": "raevskoe"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рай",
+  "normalizedPattern": "рай",
+  "payload": {
+   "en": "rye"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "райниш",
+  "normalizedPattern": "райниш",
+  "payload": {
+   "en": "reinisch"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рам",
+  "normalizedPattern": "рам",
+  "payload": {
+   "en": "rum"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "рамон",
+  "normalizedPattern": "рамон",
+  "payload": {
+   "en": "ramon"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "раудии",
+  "normalizedPattern": "раудии",
+  "payload": {
+   "en": "raudii"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ребен",
+  "normalizedPattern": "ребен",
+  "payload": {
+   "en": "reben"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ребхольц",
+  "normalizedPattern": "ребхольц",
+  "payload": {
+   "en": "rebholz"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ред",
+  "normalizedPattern": "ред",
+  "payload": {
+   "en": "red"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "резерв",
+  "normalizedPattern": "резерв",
+  "payload": {
+   "en": "reserve"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "резерва",
+  "normalizedPattern": "резерва",
+  "payload": {
+   "en": "reserva"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "рейнольдс",
+  "normalizedPattern": "рейнольдс",
+  "payload": {
+   "en": "reynolds"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рейр",
+  "normalizedPattern": "рейр",
+  "payload": {
+   "en": "rare"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ремхугт",
+  "normalizedPattern": "ремхугт",
+  "payload": {
+   "en": "remhoogte"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ренессанс",
+  "normalizedPattern": "ренессанс",
+  "payload": {
+   "en": "renaissance"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "репосадо",
+  "normalizedPattern": "репосадо",
+  "payload": {
+   "en": "reposado"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ресерва",
+  "normalizedPattern": "ресерва",
+  "payload": {
+   "en": "reserva"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рибоксклуф",
+  "normalizedPattern": "рибоксклуф",
+  "payload": {
+   "en": "rhebokskloof"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "риве",
+  "normalizedPattern": "риве",
+  "payload": {
+   "en": "rive"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ривер",
+  "normalizedPattern": "ривер",
+  "payload": {
+   "en": "river"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "риверина",
+  "normalizedPattern": "риверина",
+  "payload": {
+   "en": "riverina"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "риверс",
+  "normalizedPattern": "риверс",
+  "payload": {
+   "en": "rivers"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "рид",
+  "normalizedPattern": "рид",
+  "payload": {
+   "en": "ried"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ридж",
+  "normalizedPattern": "ридж",
+  "payload": {
+   "en": "ridge"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ризерва",
+  "normalizedPattern": "ризерва",
+  "payload": {
+   "en": "riserva"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "рингланд",
+  "normalizedPattern": "рингланд",
+  "payload": {
+   "en": "ringland"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рислинг",
+  "normalizedPattern": "рислинг",
+  "payload": {
+   "en": "riesling"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "ричли",
+  "normalizedPattern": "ричли",
+  "payload": {
+   "en": "richly"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ркацители",
+  "normalizedPattern": "ркацители",
+  "payload": {
+   "en": "rkatsiteli"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "роз",
+  "normalizedPattern": "роз",
+  "payload": {
+   "en": "roses"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "розан",
+  "normalizedPattern": "розан",
+  "payload": {
+   "en": "rauzan"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "розато",
+  "normalizedPattern": "розато",
+  "payload": {
+   "en": "rosato"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "розе",
+  "normalizedPattern": "розе",
+  "payload": {
+   "en": "rose"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "роки",
+  "normalizedPattern": "роки",
+  "payload": {
+   "en": "rocky"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "роллан",
+  "normalizedPattern": "роллан",
+  "payload": {
+   "en": "rolland"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ром",
+  "normalizedPattern": "ром",
+  "payload": {
+   "en": "rum"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рондоне",
+  "normalizedPattern": "рондоне",
+  "payload": {
+   "en": "rondone"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рориз",
+  "normalizedPattern": "рориз",
+  "payload": {
+   "en": "roriz"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "рориш",
+  "normalizedPattern": "рориш",
+  "payload": {
+   "en": "roriz"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "роса",
+  "normalizedPattern": "роса",
+  "payload": {
+   "en": "rosa"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "россо",
+  "normalizedPattern": "россо",
+  "payload": {
+   "en": "rosso"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ротшильд",
+  "normalizedPattern": "ротшильд",
+  "payload": {
+   "en": "rothschild"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "роуд",
+  "normalizedPattern": "роуд",
+  "payload": {
+   "en": "road"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "роуз",
+  "normalizedPattern": "роуз",
+  "payload": {
+   "en": "rose"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рохо",
+  "normalizedPattern": "рохо",
+  "payload": {
+   "en": "rojo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "роял",
+  "normalizedPattern": "роял",
+  "payload": {
+   "en": "royal"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "руж",
+  "normalizedPattern": "руж",
+  "payload": {
+   "en": "rouge"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "рускеала",
+  "normalizedPattern": "рускеала",
+  "payload": {
+   "en": "ruskeala"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "руссо",
+  "normalizedPattern": "руссо",
+  "payload": {
+   "en": "russo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рустер",
+  "normalizedPattern": "рустер",
+  "payload": {
+   "en": "rooster"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рэа",
+  "normalizedPattern": "рэа",
+  "payload": {
+   "en": "rare"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рэд",
+  "normalizedPattern": "рэд",
+  "payload": {
+   "en": "red"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рэй",
+  "normalizedPattern": "рэй",
+  "payload": {
+   "en": "rey"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "рэйр",
+  "normalizedPattern": "рэйр",
+  "payload": {
+   "en": "rare"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "рэнч",
+  "normalizedPattern": "рэнч",
+  "payload": {
+   "en": "ranch"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "саваж",
+  "normalizedPattern": "саваж",
+  "payload": {
+   "en": "sauvage"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сади",
+  "normalizedPattern": "сади",
+  "payload": {
+   "en": "sadie"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сайдер",
+  "normalizedPattern": "сайдер",
+  "payload": {
+   "en": "cider"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "саленто",
+  "normalizedPattern": "саленто",
+  "payload": {
+   "en": "salento"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "самароли",
+  "normalizedPattern": "самароли",
+  "payload": {
+   "en": "samaroli"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "самородни",
+  "normalizedPattern": "самородни",
+  "payload": {
+   "en": "szamorodni"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сан",
+  "normalizedPattern": "сан",
+  "payload": {
+   "en": "san"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сангре",
+  "normalizedPattern": "сангре",
+  "payload": {
+   "en": "sangre"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "санджовезе",
+  "normalizedPattern": "санджовезе",
+  "payload": {
+   "en": "sangiovese"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "сант",
+  "normalizedPattern": "сант",
+  "payload": {
+   "en": "sant"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "санта",
+  "normalizedPattern": "санта",
+  "payload": {
+   "en": "santa"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "санте",
+  "normalizedPattern": "санте",
+  "payload": {
+   "en": "sante"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "санторини",
+  "normalizedPattern": "санторини",
+  "payload": {
+   "en": "santorini"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сантос",
+  "normalizedPattern": "сантос",
+  "payload": {
+   "en": "santos"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "саперави",
+  "normalizedPattern": "саперави",
+  "payload": {
+   "en": "kindzmarauli"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "сапфир",
+  "normalizedPattern": "сапфир",
+  "payload": {
+   "en": "saphir"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сауэр",
+  "normalizedPattern": "сауэр",
+  "payload": {
+   "en": "sour"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "свит",
+  "normalizedPattern": "свит",
+  "payload": {
+   "en": "sweet"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сворд",
+  "normalizedPattern": "сворд",
+  "payload": {
+   "en": "sword"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "севен",
+  "normalizedPattern": "севен",
+  "payload": {
+   "en": "seven"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сега",
+  "normalizedPattern": "сега",
+  "payload": {
+   "en": "cega"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сек",
+  "normalizedPattern": "сек",
+  "payload": {
+   "en": "sec"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "секко",
+  "normalizedPattern": "секко",
+  "payload": {
+   "en": "secco"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "секонд",
+  "normalizedPattern": "секонд",
+  "payload": {
+   "en": "second"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "секрето",
+  "normalizedPattern": "секрето",
+  "payload": {
+   "en": "secreto"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "селексьон",
+  "normalizedPattern": "селексьон",
+  "payload": {
+   "en": "selection"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "селекшн",
+  "normalizedPattern": "селекшн",
+  "payload": {
+   "en": "selection"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "селлар",
+  "normalizedPattern": "селлар",
+  "payload": {
+   "en": "cellar"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "семильон",
+  "normalizedPattern": "семильон",
+  "payload": {
+   "en": "semillon"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "сен",
+  "normalizedPattern": "сен",
+  "payload": {
+   "en": "saint"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сенсо",
+  "normalizedPattern": "сенсо",
+  "payload": {
+   "en": "cinsault"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "сент",
+  "normalizedPattern": "сент",
+  "payload": {
+   "en": "saint"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "серра",
+  "normalizedPattern": "серра",
+  "payload": {
+   "en": "serra"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сеттесоли",
+  "normalizedPattern": "сеттесоли",
+  "payload": {
+   "en": "settesoli"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сигалас",
+  "normalizedPattern": "сигалас",
+  "payload": {
+   "en": "sigalas"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сигнатюр",
+  "normalizedPattern": "сигнатюр",
+  "payload": {
+   "en": "signature"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сигначе",
+  "normalizedPattern": "сигначе",
+  "payload": {
+   "en": "signature"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сикс",
+  "normalizedPattern": "сикс",
+  "payload": {
+   "en": "six"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сильванер",
+  "normalizedPattern": "сильванер",
+  "payload": {
+   "en": "silvaner"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сильвер",
+  "normalizedPattern": "сильвер",
+  "payload": {
+   "en": "silver"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сингл",
+  "normalizedPattern": "сингл",
+  "payload": {
+   "en": "single"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сира",
+  "normalizedPattern": "сира",
+  "payload": {
+   "en": "syrah"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "ситрус",
+  "normalizedPattern": "ситрус",
+  "payload": {
+   "en": "citrus"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "скотч",
+  "normalizedPattern": "скотч",
+  "payload": {
+   "en": "scotch"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "смоки",
+  "normalizedPattern": "смоки",
+  "payload": {
+   "en": "smoky"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "смол",
+  "normalizedPattern": "смол",
+  "payload": {
+   "en": "small"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "смоуки",
+  "normalizedPattern": "смоуки",
+  "payload": {
+   "en": "smoky"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "снейк",
+  "normalizedPattern": "снейк",
+  "payload": {
+   "en": "snake"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сноу",
+  "normalizedPattern": "сноу",
+  "payload": {
+   "en": "snow"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "совиньон",
+  "normalizedPattern": "совиньон",
+  "payload": {
+   "en": "sauvignon"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "совиньон блан",
+  "normalizedPattern": "совиньон блан",
+  "payload": {
+   "en": "sauvignon blanc"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "солей",
+  "normalizedPattern": "солей",
+  "payload": {
+   "en": "soley"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "солера",
+  "normalizedPattern": "солера",
+  "payload": {
+   "en": "solera"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сомюр",
+  "normalizedPattern": "сомюр",
+  "payload": {
+   "en": "saumur"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "соул",
+  "normalizedPattern": "соул",
+  "payload": {
+   "en": "soul"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "спайсед",
+  "normalizedPattern": "спайсед",
+  "payload": {
+   "en": "spiced"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "спарклинг",
+  "normalizedPattern": "спарклинг",
+  "payload": {
+   "en": "sparkling"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "спейсайд",
+  "normalizedPattern": "спейсайд",
+  "payload": {
+   "en": "speyside"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "спешиал",
+  "normalizedPattern": "спешиал",
+  "payload": {
+   "en": "special"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "спешл",
+  "normalizedPattern": "спешл",
+  "payload": {
+   "en": "special"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "спирит",
+  "normalizedPattern": "спирит",
+  "payload": {
+   "en": "spirit"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "спиритс",
+  "normalizedPattern": "спиритс",
+  "payload": {
+   "en": "spirits"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "спринг",
+  "normalizedPattern": "спринг",
+  "payload": {
+   "en": "spring"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "спуманте",
+  "normalizedPattern": "спуманте",
+  "payload": {
+   "en": "spumante"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "стар",
+  "normalizedPattern": "стар",
+  "payload": {
+   "en": "star"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "стаут",
+  "normalizedPattern": "стаут",
+  "payload": {
+   "en": "stout"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "стелленруст",
+  "normalizedPattern": "стелленруст",
+  "payload": {
+   "en": "stellenrust"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "стилл",
+  "normalizedPattern": "стилл",
+  "payload": {
+   "en": "still"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "стоун",
+  "normalizedPattern": "стоун",
+  "payload": {
+   "en": "stone"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "стрейт",
+  "normalizedPattern": "стрейт",
+  "payload": {
+   "en": "straight"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "стренгс",
+  "normalizedPattern": "стренгс",
+  "payload": {
+   "en": "strength"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "стренгт",
+  "normalizedPattern": "стренгт",
+  "payload": {
+   "en": "strength"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "стрендж",
+  "normalizedPattern": "стрендж",
+  "payload": {
+   "en": "strength"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "стэндиш",
+  "normalizedPattern": "стэндиш",
+  "payload": {
+   "en": "standish"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "супериоре",
+  "normalizedPattern": "супериоре",
+  "payload": {
+   "en": "superiore"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сурджива",
+  "normalizedPattern": "сурджива",
+  "payload": {
+   "en": "surgiva"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "сьерра",
+  "normalizedPattern": "сьерра",
+  "payload": {
+   "en": "sierra"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сюффрен",
+  "normalizedPattern": "сюффрен",
+  "payload": {
+   "en": "suffrene"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "тальбо",
+  "normalizedPattern": "тальбо",
+  "payload": {
+   "en": "talbot"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "таннат",
+  "normalizedPattern": "таннат",
+  "payload": {
+   "en": "tannat"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "твелв",
+  "normalizedPattern": "твелв",
+  "payload": {
+   "en": "twelve"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "твелфтри",
+  "normalizedPattern": "твелфтри",
+  "payload": {
+   "en": "twelftree"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "твенти",
+  "normalizedPattern": "твенти",
+  "payload": {
+   "en": "twenty"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "текила",
+  "normalizedPattern": "текила",
+  "payload": {
+   "en": "tequila"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "темпранильо",
+  "normalizedPattern": "темпранильо",
+  "payload": {
+   "en": "tempranillo"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "тен",
+  "normalizedPattern": "тен",
+  "payload": {
+   "en": "ten"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "тенута",
+  "normalizedPattern": "тенута",
+  "payload": {
+   "en": "tenuta"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "террас",
+  "normalizedPattern": "террас",
+  "payload": {
+   "en": "terrasses"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "терре",
+  "normalizedPattern": "терре",
+  "payload": {
+   "en": "terre"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "терруар",
+  "normalizedPattern": "терруар",
+  "payload": {
+   "en": "terroir"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "теш",
+  "normalizedPattern": "теш",
+  "payload": {
+   "en": "tesch"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "тинта",
+  "normalizedPattern": "тинта",
+  "payload": {
+   "en": "tinta"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "тинта баррока",
+  "normalizedPattern": "тинта баррока",
+  "payload": {
+   "en": "tinta barroca"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "тинта рориз",
+  "normalizedPattern": "тинта рориз",
+  "payload": {
+   "en": "tinta roriz"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "тинта рориш",
+  "normalizedPattern": "тинта рориш",
+  "payload": {
+   "en": "tinta roriz"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "тинто",
+  "normalizedPattern": "тинто",
+  "payload": {
+   "en": "tinto"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "тио",
+  "normalizedPattern": "тио",
+  "payload": {
+   "en": "tio"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "титиньяно",
+  "normalizedPattern": "титиньяно",
+  "payload": {
+   "en": "titignano"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "тифенбруннер",
+  "normalizedPattern": "тифенбруннер",
+  "payload": {
+   "en": "tiefenbrunner"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "тобаго",
+  "normalizedPattern": "тобаго",
+  "payload": {
+   "en": "tobago"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "токай",
+  "normalizedPattern": "токай",
+  "payload": {
+   "en": "tokaji"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "тоник",
+  "normalizedPattern": "тоник",
+  "payload": {
+   "en": "tonic"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "топено",
+  "normalizedPattern": "топено",
+  "payload": {
+   "en": "taupenot"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "торронтес",
+  "normalizedPattern": "торронтес",
+  "payload": {
+   "en": "torrontes"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "тортошо",
+  "normalizedPattern": "тортошо",
+  "payload": {
+   "en": "tortochot"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "тоскана",
+  "normalizedPattern": "тоскана",
+  "payload": {
+   "en": "toscana"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "тото",
+  "normalizedPattern": "тото",
+  "payload": {
+   "en": "toto"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "традисьон",
+  "normalizedPattern": "традисьон",
+  "payload": {
+   "en": "tradition"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "традисьонель",
+  "normalizedPattern": "традисьонель",
+  "payload": {
+   "en": "traditionnelle"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "трак",
+  "normalizedPattern": "трак",
+  "payload": {
+   "en": "truck"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "траминер",
+  "normalizedPattern": "траминер",
+  "payload": {
+   "en": "gewurztraminer"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "треббьяно",
+  "normalizedPattern": "треббьяно",
+  "payload": {
+   "en": "trebbiano"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "трезор",
+  "normalizedPattern": "трезор",
+  "payload": {
+   "en": "tresor"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "трейд",
+  "normalizedPattern": "трейд",
+  "payload": {
+   "en": "trade"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "тринидад",
+  "normalizedPattern": "тринидад",
+  "payload": {
+   "en": "trinidad"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "трипл",
+  "normalizedPattern": "трипл",
+  "payload": {
+   "en": "triple"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "триплдистиллед",
+  "normalizedPattern": "триплдистиллед",
+  "payload": {
+   "en": "triple distilled"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "трокен",
+  "normalizedPattern": "трокен",
+  "payload": {
+   "en": "trocken"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "трэдишн",
+  "normalizedPattern": "трэдишн",
+  "payload": {
+   "en": "tradition"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "тубе",
+  "normalizedPattern": "тубе",
+  "payload": {
+   "en": "tube"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "тур",
+  "normalizedPattern": "тур",
+  "payload": {
+   "en": "tour"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "турига",
+  "normalizedPattern": "турига",
+  "payload": {
+   "en": "touriga nacional"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "турига насьональ",
+  "normalizedPattern": "турига насьональ",
+  "payload": {
+   "en": "touriga nacional"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "тьено",
+  "normalizedPattern": "тьено",
+  "payload": {
+   "en": "thienot"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "уайт",
+  "normalizedPattern": "уайт",
+  "payload": {
+   "en": "white"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ува",
+  "normalizedPattern": "ува",
+  "payload": {
+   "en": "uva"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "уит",
+  "normalizedPattern": "уит",
+  "payload": {
+   "en": "wheat"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "уитли",
+  "normalizedPattern": "уитли",
+  "payload": {
+   "en": "whitley"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "умбрия",
+  "normalizedPattern": "умбрия",
+  "payload": {
+   "en": "umbria"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "умэнисики",
+  "normalizedPattern": "умэнисики",
+  "payload": {
+   "en": "umenishiki"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "уна",
+  "normalizedPattern": "уна",
+  "payload": {
+   "en": "una"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "уньи",
+  "normalizedPattern": "уньи",
+  "payload": {
+   "en": "ugni"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "уньи блан",
+  "normalizedPattern": "уньи блан",
+  "payload": {
+   "en": "ugni blanc"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "урбан",
+  "normalizedPattern": "урбан",
+  "payload": {
+   "en": "urban"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "урбанихоф",
+  "normalizedPattern": "урбанихоф",
+  "payload": {
+   "en": "urbanihof"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фабиг",
+  "normalizedPattern": "фабиг",
+  "payload": {
+   "en": "fabig"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фаер",
+  "normalizedPattern": "фаер",
+  "payload": {
+   "en": "fire"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "фамий",
+  "normalizedPattern": "фамий",
+  "payload": {
+   "en": "famille"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фамили",
+  "normalizedPattern": "фамили",
+  "payload": {
+   "en": "family"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "фаттория",
+  "normalizedPattern": "фаттория",
+  "payload": {
+   "en": "fattoria"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "феркуллен",
+  "normalizedPattern": "феркуллен",
+  "payload": {
+   "en": "fercullen"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ферм",
+  "normalizedPattern": "ферм",
+  "payload": {
+   "en": "ferme"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "фернандо",
+  "normalizedPattern": "фернандо",
+  "payload": {
+   "en": "fernando"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "ферст",
+  "normalizedPattern": "ферст",
+  "payload": {
+   "en": "first"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "фиано",
+  "normalizedPattern": "фиано",
+  "payload": {
+   "en": "fiano"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "фижак",
+  "normalizedPattern": "фижак",
+  "payload": {
+   "en": "figeac"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "филипп",
+  "normalizedPattern": "филипп",
+  "payload": {
+   "en": "philippe"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фингерс",
+  "normalizedPattern": "фингерс",
+  "payload": {
+   "en": "fingers"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "финиш",
+  "normalizedPattern": "финиш",
+  "payload": {
+   "en": "finish"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "финишд",
+  "normalizedPattern": "финишд",
+  "payload": {
+   "en": "finished"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "финка",
+  "normalizedPattern": "финка",
+  "payload": {
+   "en": "finca"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "флорес",
+  "normalizedPattern": "флорес",
+  "payload": {
+   "en": "flores"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "флэтрок",
+  "normalizedPattern": "флэтрок",
+  "payload": {
+   "en": "flatrock"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фон",
+  "normalizedPattern": "фон",
+  "payload": {
+   "en": "von"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "фондаторе",
+  "normalizedPattern": "фондаторе",
+  "payload": {
+   "en": "fondatore"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "форт",
+  "normalizedPattern": "форт",
+  "payload": {
+   "en": "fort"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "фран",
+  "normalizedPattern": "фран",
+  "payload": {
+   "en": "franc"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "франклэнд",
+  "normalizedPattern": "франклэнд",
+  "payload": {
+   "en": "frankland"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "франс",
+  "normalizedPattern": "франс",
+  "payload": {
+   "en": "france"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "франсуа",
+  "normalizedPattern": "франсуа",
+  "payload": {
+   "en": "francois"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "франция",
+  "normalizedPattern": "франция",
+  "payload": {
+   "en": "france"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "франчакорта",
+  "normalizedPattern": "франчакорта",
+  "payload": {
+   "en": "franciacorta"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "фрапен",
+  "normalizedPattern": "фрапен",
+  "payload": {
+   "en": "frapin"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фрателли",
+  "normalizedPattern": "фрателли",
+  "payload": {
+   "en": "fratelli"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фрати",
+  "normalizedPattern": "фрати",
+  "payload": {
+   "en": "frati"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фрер",
+  "normalizedPattern": "фрер",
+  "payload": {
+   "en": "freres"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фрескелло",
+  "normalizedPattern": "фрескелло",
+  "payload": {
+   "en": "freschello"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фризанте",
+  "normalizedPattern": "фризанте",
+  "payload": {
+   "en": "frizzante"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "фурминт",
+  "normalizedPattern": "фурминт",
+  "payload": {
+   "en": "furmint"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "фуэго",
+  "normalizedPattern": "фуэго",
+  "payload": {
+   "en": "fuego"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фьезаль",
+  "normalizedPattern": "фьезаль",
+  "payload": {
+   "en": "fieuzal"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фэмили",
+  "normalizedPattern": "фэмили",
+  "payload": {
+   "en": "family"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "хай",
+  "normalizedPattern": "хай",
+  "payload": {
+   "en": "high"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "хайдсик",
+  "normalizedPattern": "хайдсик",
+  "payload": {
+   "en": "heidsieck"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "хайленд",
+  "normalizedPattern": "хайленд",
+  "payload": {
+   "en": "highland"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "хайнц",
+  "normalizedPattern": "хайнц",
+  "payload": {
+   "en": "heinz"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "хакусика",
+  "normalizedPattern": "хакусика",
+  "payload": {
+   "en": "hakushika"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "хальбтрокен",
+  "normalizedPattern": "хальбтрокен",
+  "payload": {
+   "en": "halbtrocken"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "хандред",
+  "normalizedPattern": "хандред",
+  "payload": {
+   "en": "hundred"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "ханс",
+  "normalizedPattern": "ханс",
+  "payload": {
+   "en": "hans"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "харбор",
+  "normalizedPattern": "харбор",
+  "payload": {
+   "en": "harbour"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "харвест",
+  "normalizedPattern": "харвест",
+  "payload": {
+   "en": "harvest"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "хауз",
+  "normalizedPattern": "хауз",
+  "payload": {
+   "en": "house"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "хаус",
+  "normalizedPattern": "хаус",
+  "payload": {
+   "en": "house"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "херитедж",
+  "normalizedPattern": "херитедж",
+  "payload": {
+   "en": "heritage"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "херренберг",
+  "normalizedPattern": "херренберг",
+  "payload": {
+   "en": "herrenberg"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "хилл",
+  "normalizedPattern": "хилл",
+  "payload": {
+   "en": "hill"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "хиллс",
+  "normalizedPattern": "хиллс",
+  "payload": {
+   "en": "hills"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "хименес",
+  "normalizedPattern": "хименес",
+  "payload": {
+   "en": "ximenez"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "хогсхед",
+  "normalizedPattern": "хогсхед",
+  "payload": {
+   "en": "hogshead"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "хуан",
+  "normalizedPattern": "хуан",
+  "payload": {
+   "en": "juan"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "хунтос",
+  "normalizedPattern": "хунтос",
+  "payload": {
+   "en": "juntos"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "цвайгельт",
+  "normalizedPattern": "цвайгельт",
+  "payload": {
+   "en": "zweigelt"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "целтингер",
+  "normalizedPattern": "целтингер",
+  "payload": {
+   "en": "zeltinger"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "цинандали",
+  "normalizedPattern": "цинандали",
+  "payload": {
+   "en": "tsinandali"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "цоликаури",
+  "normalizedPattern": "цоликаури",
+  "payload": {
+   "en": "tsolikouri"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "чамлыджа",
+  "normalizedPattern": "чамлыджа",
+  "payload": {
+   "en": "chamlija"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "чарред",
+  "normalizedPattern": "чарред",
+  "payload": {
+   "en": "charred"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "чевико",
+  "normalizedPattern": "чевико",
+  "payload": {
+   "en": "cevico"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "чело",
+  "normalizedPattern": "чело",
+  "payload": {
+   "en": "cielo"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "черчилль",
+  "normalizedPattern": "черчилль",
+  "payload": {
+   "en": "churchill"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шабли",
+  "normalizedPattern": "шабли",
+  "payload": {
+   "en": "chablis"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шамбертен",
+  "normalizedPattern": "шамбертен",
+  "payload": {
+   "en": "chambertin"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шампань",
+  "normalizedPattern": "шампань",
+  "payload": {
+   "en": "champagne"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шамплио",
+  "normalizedPattern": "шамплио",
+  "payload": {
+   "en": "champliau"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шардоне",
+  "normalizedPattern": "шардоне",
+  "payload": {
+   "en": "chardonnay"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "шардонне",
+  "normalizedPattern": "шардонне",
+  "payload": {
+   "en": "chardonnay"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шарм",
+  "normalizedPattern": "шарм",
+  "payload": {
+   "en": "charme"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шассань",
+  "normalizedPattern": "шассань",
+  "payload": {
+   "en": "chassagne"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шато",
+  "normalizedPattern": "шато",
+  "payload": {
+   "en": "chateau"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "шатонеф",
+  "normalizedPattern": "шатонеф",
+  "payload": {
+   "en": "chateauneuf"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шевалье",
+  "normalizedPattern": "шевалье",
+  "payload": {
+   "en": "chevalier"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шенен",
+  "normalizedPattern": "шенен",
+  "payload": {
+   "en": "chenin"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "шенен блан",
+  "normalizedPattern": "шенен блан",
+  "payload": {
+   "en": "chenin blanc"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "шерри",
+  "normalizedPattern": "шерри",
+  "payload": {
+   "en": "sherry"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "шилдис",
+  "normalizedPattern": "шилдис",
+  "payload": {
+   "en": "shildis"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шини",
+  "normalizedPattern": "шини",
+  "payload": {
+   "en": "chigny"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шираз",
+  "normalizedPattern": "шираз",
+  "payload": {
+   "en": "shiraz"
+  },
+  "source": "GRAPE_IMPORT"
+ },
+ {
+  "pattern": "шифер",
+  "normalizedPattern": "шифер",
+  "payload": {
+   "en": "schiefer"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шорор",
+  "normalizedPattern": "шорор",
+  "payload": {
+   "en": "shoror"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шпетбургундер",
+  "normalizedPattern": "шпетбургундер",
+  "payload": {
+   "en": "spatburgunder"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "шпетлезе",
+  "normalizedPattern": "шпетлезе",
+  "payload": {
+   "en": "spatlese"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "штадльман",
+  "normalizedPattern": "штадльман",
+  "payload": {
+   "en": "stadlmann"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "эггерт",
+  "normalizedPattern": "эггерт",
+  "payload": {
+   "en": "eggert"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "эдишн",
+  "normalizedPattern": "эдишн",
+  "payload": {
+   "en": "edition"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "эйдж",
+  "normalizedPattern": "эйдж",
+  "payload": {
+   "en": "age"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "эйджд",
+  "normalizedPattern": "эйджд",
+  "payload": {
+   "en": "aged"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "эйт",
+  "normalizedPattern": "эйт",
+  "payload": {
+   "en": "eight"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "экла",
+  "normalizedPattern": "экла",
+  "payload": {
+   "en": "eclat"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "эксепшнл",
+  "normalizedPattern": "эксепшнл",
+  "payload": {
+   "en": "exceptional"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "экстра",
+  "normalizedPattern": "экстра",
+  "payload": {
+   "en": "extra"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "эль",
+  "normalizedPattern": "эль",
+  "payload": {
+   "en": "ale"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "эмильон",
+  "normalizedPattern": "эмильон",
+  "payload": {
+   "en": "emilion"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "энд",
+  "normalizedPattern": "энд",
+  "payload": {
+   "en": "and"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "энджелс",
+  "normalizedPattern": "энджелс",
+  "payload": {
+   "en": "angels"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "эпено",
+  "normalizedPattern": "эпено",
+  "payload": {
+   "en": "epenots"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "эрдаде",
+  "normalizedPattern": "эрдаде",
+  "payload": {
+   "en": "herdade"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "эстейт",
+  "normalizedPattern": "эстейт",
+  "payload": {
+   "en": "estate"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "эстелар",
+  "normalizedPattern": "эстелар",
+  "payload": {
+   "en": "estelar"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "эстеф",
+  "normalizedPattern": "эстеф",
+  "payload": {
+   "en": "estephe"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "эстурнель",
+  "normalizedPattern": "эстурнель",
+  "payload": {
+   "en": "estournel"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "этна",
+  "normalizedPattern": "этна",
+  "payload": {
+   "en": "etna"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "эшерндорфер",
+  "normalizedPattern": "эшерндорфер",
+  "payload": {
+   "en": "escherndorfer"
+  },
+  "source": "MINED_BILINGUAL"
+ },
+ {
+  "pattern": "фис",
+  "normalizedPattern": "фис",
+  "payload": {
+   "en": "fils"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "нюи",
+  "normalizedPattern": "нюи",
+  "payload": {
+   "en": "nuits"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "болс",
+  "normalizedPattern": "болс",
+  "payload": {
+   "en": "bols"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "фанагория",
+  "normalizedPattern": "фанагория",
+  "payload": {
+   "en": "fanagoria"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "абрау",
+  "normalizedPattern": "абрау",
+  "payload": {
+   "en": "abrau"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дюрсо",
+  "normalizedPattern": "дюрсо",
+  "payload": {
+   "en": "durso"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "массандра",
+  "normalizedPattern": "массандра",
+  "payload": {
+   "en": "massandra"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "инкерман",
+  "normalizedPattern": "инкерман",
+  "payload": {
+   "en": "inkerman"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "мысхако",
+  "normalizedPattern": "мысхако",
+  "payload": {
+   "en": "myskhako"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "дивноморское",
+  "normalizedPattern": "дивноморское",
+  "payload": {
+   "en": "divnomorskoe"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "солнечная",
+  "normalizedPattern": "солнечная",
+  "payload": {
+   "en": "solnechnaya"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "долина",
+  "normalizedPattern": "долина",
+  "payload": {
+   "en": "dolina"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "золотая",
+  "normalizedPattern": "золотая",
+  "payload": {
+   "en": "zolotaya"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "балка",
+  "normalizedPattern": "балка",
+  "payload": {
+   "en": "balka"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "шумринка",
+  "normalizedPattern": "шумринка",
+  "payload": {
+   "en": "shumrinka"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "сатера",
+  "normalizedPattern": "сатера",
+  "payload": {
+   "en": "satera"
+  },
+  "source": "CURATED"
+ },
+ {
+  "pattern": "усадьба",
+  "normalizedPattern": "усадьба",
+  "payload": {
+   "en": "usadba"
+  },
+  "source": "CURATED"
+ }
+]

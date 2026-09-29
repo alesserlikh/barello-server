@@ -1,0 +1,2021 @@
+[
+ {
+  "pattern": "штопор",
+  "normalizedPattern": "штопор",
+  "categoryPath": [
+   "Барный инвентарь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "безалкогольное игристое",
+  "normalizedPattern": "безалкогольное игристое",
+  "categoryPath": [
+   "Вино",
+   "Безалкогольное вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино безалкогольное",
+  "normalizedPattern": "вино безалкогольное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "безалкогольное вино",
+  "normalizedPattern": "безалкогольное вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "пиво безалкогольное",
+  "normalizedPattern": "пиво безалкогольное",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Безалкогольное пиво"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "безалкогольное пиво",
+  "normalizedPattern": "безалкогольное пиво",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Безалкогольное пиво"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "напиток безалкогольный газированный",
+  "normalizedPattern": "напиток безалкогольный газированный",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "напиток безалкогольный",
+  "normalizedPattern": "напиток безалкогольный",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "безалкогольный напиток",
+  "normalizedPattern": "безалкогольный напиток",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "энергетический напиток",
+  "normalizedPattern": "энергетический напиток",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "напиток энергетический",
+  "normalizedPattern": "напиток энергетический",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вода минеральная",
+  "normalizedPattern": "вода минеральная",
+  "categoryPath": [
+   "Безалкогольные напитки",
+   "Вода"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вода питьевая",
+  "normalizedPattern": "вода питьевая",
+  "categoryPath": [
+   "Безалкогольные напитки",
+   "Вода"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "холодный чай",
+  "normalizedPattern": "холодный чай",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "лимонад",
+  "normalizedPattern": "лимонад",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "комбуча",
+  "normalizedPattern": "комбуча",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "нектар",
+  "normalizedPattern": "нектар",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "тоник",
+  "normalizedPattern": "тоник",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вода",
+  "normalizedPattern": "вода",
+  "categoryPath": [
+   "Безалкогольные напитки",
+   "Вода"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "морс",
+  "normalizedPattern": "морс",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "квас",
+  "normalizedPattern": "квас",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "сок",
+  "normalizedPattern": "сок",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино с защищенным наименованием места происхождения",
+  "normalizedPattern": "вино с защищенным наименованием места происхождения",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "legalClass": "ЗНМП/ЗГУ"
+  }
+ },
+ {
+  "pattern": "вино защищенного наименования места происхождения",
+  "normalizedPattern": "вино защищенного наименования места происхождения",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "legalClass": "ЗНМП/ЗГУ"
+  }
+ },
+ {
+  "pattern": "ароматизированный виноградосодержащий напиток",
+  "normalizedPattern": "ароматизированный виноградосодержащий напиток",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино с защищенным географическим указанием",
+  "normalizedPattern": "вино с защищенным географическим указанием",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "legalClass": "ЗНМП/ЗГУ"
+  }
+ },
+ {
+  "pattern": "вино защищенного географического указания",
+  "normalizedPattern": "вино защищенного географического указания",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "legalClass": "ЗНМП/ЗГУ"
+  }
+ },
+ {
+  "pattern": "российское крепленое ликерное вино",
+  "normalizedPattern": "российское крепленое ликерное вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино географического наименования",
+  "normalizedPattern": "вино географического наименования",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "legalClass": "ЗНМП/ЗГУ"
+  }
+ },
+ {
+  "pattern": "вино с защищенным наименованием",
+  "normalizedPattern": "вино с защищенным наименованием",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "legalClass": "ЗНМП/ЗГУ"
+  }
+ },
+ {
+  "pattern": "вино защищенного наименования",
+  "normalizedPattern": "вино защищенного наименования",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "legalClass": "ЗНМП/ЗГУ"
+  }
+ },
+ {
+  "pattern": "вино географического указания",
+  "normalizedPattern": "вино географического указания",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "legalClass": "ЗНМП/ЗГУ"
+  }
+ },
+ {
+  "pattern": "виноградосодержащий напиток",
+  "normalizedPattern": "виноградосодержащий напиток",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино сортовое выдержанное",
+  "normalizedPattern": "вино сортовое выдержанное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино игристое выдержанное",
+  "normalizedPattern": "вино игристое выдержанное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино сортовое ординарное",
+  "normalizedPattern": "вино сортовое ординарное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино ординарное сортовое",
+  "normalizedPattern": "вино ординарное сортовое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "российское игристое вино",
+  "normalizedPattern": "российское игристое вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино игристое жемчужное",
+  "normalizedPattern": "вино игристое жемчужное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "крепленое ликерное вино",
+  "normalizedPattern": "крепленое ликерное вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино сортовое марочное",
+  "normalizedPattern": "вино сортовое марочное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино игристое просекко",
+  "normalizedPattern": "вино игристое просекко",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "игристое вино просекко",
+  "normalizedPattern": "игристое вино просекко",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино сортовое молодое",
+  "normalizedPattern": "вино сортовое молодое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "шампанское российское",
+  "normalizedPattern": "шампанское российское",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "российское шампанское",
+  "normalizedPattern": "российское шампанское",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "российское крепленое",
+  "normalizedPattern": "российское крепленое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "российское игристое",
+  "normalizedPattern": "российское игристое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино коллекционное",
+  "normalizedPattern": "вино коллекционное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "крепленое ликерное",
+  "normalizedPattern": "крепленое ликерное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино крестьянское",
+  "normalizedPattern": "вино крестьянское",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино выдержанное",
+  "normalizedPattern": "вино выдержанное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино ординарное",
+  "normalizedPattern": "вино ординарное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "российское вино",
+  "normalizedPattern": "российское вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "origin": "Россия"
+  }
+ },
+ {
+  "pattern": "грузинское вино",
+  "normalizedPattern": "грузинское вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "origin": "Грузия"
+  }
+ },
+ {
+  "pattern": "вино грузинское",
+  "normalizedPattern": "вино грузинское",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {
+   "origin": "Грузия"
+  }
+ },
+ {
+  "pattern": "вино фруктовое",
+  "normalizedPattern": "вино фруктовое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "крепленое вино",
+  "normalizedPattern": "крепленое вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино крепленое",
+  "normalizedPattern": "вино крепленое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "напиток винный",
+  "normalizedPattern": "напиток винный",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "винный напиток",
+  "normalizedPattern": "винный напиток",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино сортовое",
+  "normalizedPattern": "вино сортовое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино столовое",
+  "normalizedPattern": "вино столовое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино марочное",
+  "normalizedPattern": "вино марочное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино плодовое",
+  "normalizedPattern": "вино плодовое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино игристое",
+  "normalizedPattern": "вино игристое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "игристое вино",
+  "normalizedPattern": "игристое вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино ликерное",
+  "normalizedPattern": "вино ликерное",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "ликерное вино",
+  "normalizedPattern": "ликерное вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино молодое",
+  "normalizedPattern": "вино молодое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "шампанское",
+  "normalizedPattern": "шампанское",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "ламбруско",
+  "normalizedPattern": "ламбруско",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "крепленое",
+  "normalizedPattern": "крепленое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "игристое",
+  "normalizedPattern": "игристое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "просекко",
+  "normalizedPattern": "просекко",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "портвейн",
+  "normalizedPattern": "портвейн",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "шампань",
+  "normalizedPattern": "шампань",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "марсала",
+  "normalizedPattern": "марсала",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "креман",
+  "normalizedPattern": "креман",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "мадера",
+  "normalizedPattern": "мадера",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вермут",
+  "normalizedPattern": "вермут",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "порто",
+  "normalizedPattern": "порто",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "херес",
+  "normalizedPattern": "херес",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "кагор",
+  "normalizedPattern": "кагор",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вино",
+  "normalizedPattern": "вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "вина",
+  "normalizedPattern": "вина",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "кава",
+  "normalizedPattern": "кава",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "коктейль слабоалкогольный",
+  "normalizedPattern": "коктейль слабоалкогольный",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "слабоалкогольный напиток",
+  "normalizedPattern": "слабоалкогольный напиток",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "напиток слабоалкогольный",
+  "normalizedPattern": "напиток слабоалкогольный",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "готовый коктейль",
+  "normalizedPattern": "готовый коктейль",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "глинтвейн",
+  "normalizedPattern": "глинтвейн",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)",
+   "Глинтвейн"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "спиртной зерновой дистиллированный напиток",
+  "normalizedPattern": "спиртной зерновой дистиллированный напиток",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "виски шотландский купажированный",
+  "normalizedPattern": "виски шотландский купажированный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Шотландия"
+  }
+ },
+ {
+  "pattern": "виски шотландский односолодовый",
+  "normalizedPattern": "виски шотландский односолодовый",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Шотландия"
+  }
+ },
+ {
+  "pattern": "виски ирландский купажированный",
+  "normalizedPattern": "виски ирландский купажированный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Ирландия"
+  }
+ },
+ {
+  "pattern": "коньяк ординарный четырехлетний",
+  "normalizedPattern": "коньяк ординарный четырехлетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 4,
+   "agingClass": "ординарный"
+  }
+ },
+ {
+  "pattern": "российский коньяк четырехлетний",
+  "normalizedPattern": "российский коньяк четырехлетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 4,
+   "origin": "Россия"
+  }
+ },
+ {
+  "pattern": "виски ирландский односолодовый",
+  "normalizedPattern": "виски ирландский односолодовый",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Ирландия"
+  }
+ },
+ {
+  "pattern": "купажированный крафтовый виски",
+  "normalizedPattern": "купажированный крафтовый виски",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "craft": true
+  }
+ },
+ {
+  "pattern": "коньяк ординарный восьмилетний",
+  "normalizedPattern": "коньяк ординарный восьмилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 8,
+   "agingClass": "ординарный"
+  }
+ },
+ {
+  "pattern": "российский коньяк восьмилетний",
+  "normalizedPattern": "российский коньяк восьмилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 8,
+   "origin": "Россия"
+  }
+ },
+ {
+  "pattern": "коньяк ординарный шестилетний",
+  "normalizedPattern": "коньяк ординарный шестилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 6,
+   "agingClass": "ординарный"
+  }
+ },
+ {
+  "pattern": "российский коньяк шестилетний",
+  "normalizedPattern": "российский коньяк шестилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 6,
+   "origin": "Россия"
+  }
+ },
+ {
+  "pattern": "коньяк ординарный трехлетний",
+  "normalizedPattern": "коньяк ординарный трехлетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 3,
+   "agingClass": "ординарный"
+  }
+ },
+ {
+  "pattern": "российский коньяк трехлетний",
+  "normalizedPattern": "российский коньяк трехлетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 3,
+   "origin": "Россия"
+  }
+ },
+ {
+  "pattern": "коньяк ординарный пятилетний",
+  "normalizedPattern": "коньяк ординарный пятилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 5,
+   "agingClass": "ординарный"
+  }
+ },
+ {
+  "pattern": "российский коньяк пятилетний",
+  "normalizedPattern": "российский коньяк пятилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 5,
+   "origin": "Россия"
+  }
+ },
+ {
+  "pattern": "коньяк ординарный семилетний",
+  "normalizedPattern": "коньяк ординарный семилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 7,
+   "agingClass": "ординарный"
+  }
+ },
+ {
+  "pattern": "российский коньяк семилетний",
+  "normalizedPattern": "российский коньяк семилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 7,
+   "origin": "Россия"
+  }
+ },
+ {
+  "pattern": "виски шотландский солодовый",
+  "normalizedPattern": "виски шотландский солодовый",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Шотландия"
+  }
+ },
+ {
+  "pattern": "коньяк марочный выдержанный",
+  "normalizedPattern": "коньяк марочный выдержанный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "agingClass": "марочный"
+  }
+ },
+ {
+  "pattern": "виски шотландский зерновой",
+  "normalizedPattern": "виски шотландский зерновой",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Шотландия"
+  }
+ },
+ {
+  "pattern": "коньяк марочный старый",
+  "normalizedPattern": "коньяк марочный старый",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "agingClass": "марочный"
+  }
+ },
+ {
+  "pattern": "виски зерновой бурбон",
+  "normalizedPattern": "виски зерновой бурбон",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "дистиллят виноградный",
+  "normalizedPattern": "дистиллят виноградный",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "джин лондонский сухой",
+  "normalizedPattern": "джин лондонский сухой",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Джин"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "лондонский сухой джин",
+  "normalizedPattern": "лондонский сухой джин",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Джин"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "виски купажированный",
+  "normalizedPattern": "виски купажированный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "купажированный виски",
+  "normalizedPattern": "купажированный виски",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "коньяк четырехлетний",
+  "normalizedPattern": "коньяк четырехлетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 4
+  }
+ },
+ {
+  "pattern": "коньяк коллекционный",
+  "normalizedPattern": "коньяк коллекционный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "agingClass": "коллекционный"
+  }
+ },
+ {
+  "pattern": "виски односолодовый",
+  "normalizedPattern": "виски односолодовый",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "односолодовый виски",
+  "normalizedPattern": "односолодовый виски",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "коньяк восьмилетний",
+  "normalizedPattern": "коньяк восьмилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 8
+  }
+ },
+ {
+  "pattern": "виски американский",
+  "normalizedPattern": "виски американский",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "США"
+  }
+ },
+ {
+  "pattern": "зерновой дистиллят",
+  "normalizedPattern": "зерновой дистиллят",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "коньяк шестилетний",
+  "normalizedPattern": "коньяк шестилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 6
+  }
+ },
+ {
+  "pattern": "бренди виноградный",
+  "normalizedPattern": "бренди виноградный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Бренди"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "виски шотландский",
+  "normalizedPattern": "виски шотландский",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Шотландия"
+  }
+ },
+ {
+  "pattern": "водка виноградная",
+  "normalizedPattern": "водка виноградная",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "коньяк трехлетний",
+  "normalizedPattern": "коньяк трехлетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 3
+  }
+ },
+ {
+  "pattern": "коньяк пятилетний",
+  "normalizedPattern": "коньяк пятилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 5
+  }
+ },
+ {
+  "pattern": "коньяк семилетний",
+  "normalizedPattern": "коньяк семилетний",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "ageYears": 7
+  }
+ },
+ {
+  "pattern": "коньяк ординарный",
+  "normalizedPattern": "коньяк ординарный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "agingClass": "ординарный"
+  }
+ },
+ {
+  "pattern": "российский коньяк",
+  "normalizedPattern": "российский коньяк",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "origin": "Россия"
+  }
+ },
+ {
+  "pattern": "ром невыдержанный",
+  "normalizedPattern": "ром невыдержанный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ром"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "грузинский коньяк",
+  "normalizedPattern": "грузинский коньяк",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "country": "Грузия"
+  }
+ },
+ {
+  "pattern": "виски ирландский",
+  "normalizedPattern": "виски ирландский",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Ирландия"
+  }
+ },
+ {
+  "pattern": "армянский коньяк",
+  "normalizedPattern": "армянский коньяк",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "country": "Армения"
+  }
+ },
+ {
+  "pattern": "виски канадский",
+  "normalizedPattern": "виски канадский",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Канада"
+  }
+ },
+ {
+  "pattern": "виски солодовый",
+  "normalizedPattern": "виски солодовый",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "коньяк марочный",
+  "normalizedPattern": "коньяк марочный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {
+   "agingClass": "марочный"
+  }
+ },
+ {
+  "pattern": "ром выдержанный",
+  "normalizedPattern": "ром выдержанный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ром"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "выдержанный ром",
+  "normalizedPattern": "выдержанный ром",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ром"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "виски японский",
+  "normalizedPattern": "виски японский",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "Япония"
+  }
+ },
+ {
+  "pattern": "виски зерновой",
+  "normalizedPattern": "виски зерновой",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "виски бурбон",
+  "normalizedPattern": "виски бурбон",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "водка особая",
+  "normalizedPattern": "водка особая",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Водка"
+  ],
+  "attrs": {
+   "subtype": "особая"
+  }
+ },
+ {
+  "pattern": "хлебное вино",
+  "normalizedPattern": "хлебное вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "кальвадос",
+  "normalizedPattern": "кальвадос",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Кальвадос"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "арманьяк",
+  "normalizedPattern": "арманьяк",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Арманьяк"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "полугар",
+  "normalizedPattern": "полугар",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "мескаль",
+  "normalizedPattern": "мескаль",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "самбука",
+  "normalizedPattern": "самбука",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "аквавит",
+  "normalizedPattern": "аквавит",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "женевер",
+  "normalizedPattern": "женевер",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Джин"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "бурбон",
+  "normalizedPattern": "бурбон",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {
+   "country": "США"
+  }
+ },
+ {
+  "pattern": "коньяк",
+  "normalizedPattern": "коньяк",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "бренди",
+  "normalizedPattern": "бренди",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Бренди"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "граппа",
+  "normalizedPattern": "граппа",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Граппа"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "кашаса",
+  "normalizedPattern": "кашаса",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "текила",
+  "normalizedPattern": "текила",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "абсент",
+  "normalizedPattern": "абсент",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Абсент"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "байцзю",
+  "normalizedPattern": "байцзю",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "виски",
+  "normalizedPattern": "виски",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "водка",
+  "normalizedPattern": "водка",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Водка"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "писко",
+  "normalizedPattern": "писко",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Писко"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "ракия",
+  "normalizedPattern": "ракия",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "шнапс",
+  "normalizedPattern": "шнапс",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Шнапс"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "соджу",
+  "normalizedPattern": "соджу",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "чача",
+  "normalizedPattern": "чача",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Чача"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "джин",
+  "normalizedPattern": "джин",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Джин"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "сетю",
+  "normalizedPattern": "сетю",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "ром",
+  "normalizedPattern": "ром",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ром"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "узо",
+  "normalizedPattern": "узо",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "настойка полусладкая",
+  "normalizedPattern": "настойка полусладкая",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "ликер эмульсионный",
+  "normalizedPattern": "ликер эмульсионный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "настойка горькая",
+  "normalizedPattern": "настойка горькая",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "настойка сладкая",
+  "normalizedPattern": "настойка сладкая",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "ликер десертный",
+  "normalizedPattern": "ликер десертный",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "ликер кремовый",
+  "normalizedPattern": "ликер кремовый",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "ликер крепкий",
+  "normalizedPattern": "ликер крепкий",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "настойка",
+  "normalizedPattern": "настойка",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "аперитив",
+  "normalizedPattern": "аперитив",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "бальзам",
+  "normalizedPattern": "бальзам",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "биттер",
+  "normalizedPattern": "биттер",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "ликер",
+  "normalizedPattern": "ликер",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "пиво светлое непастеризованное",
+  "normalizedPattern": "пиво светлое непастеризованное",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Лагер"
+  ],
+  "attrs": {
+   "pasteurized": false
+  }
+ },
+ {
+  "pattern": "пиво светлое пастеризованное",
+  "normalizedPattern": "пиво светлое пастеризованное",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Лагер"
+  ],
+  "attrs": {
+   "pasteurized": true
+  }
+ },
+ {
+  "pattern": "пиво светлое нефильтрованное",
+  "normalizedPattern": "пиво светлое нефильтрованное",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Лагер"
+  ],
+  "attrs": {
+   "filtered": false
+  }
+ },
+ {
+  "pattern": "пиво светлое фильтрованное",
+  "normalizedPattern": "пиво светлое фильтрованное",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Лагер"
+  ],
+  "attrs": {
+   "filtered": true
+  }
+ },
+ {
+  "pattern": "пивной напиток светлый",
+  "normalizedPattern": "пивной напиток светлый",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "пиво пшеничное",
+  "normalizedPattern": "пиво пшеничное",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Пшеничное"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "пивной напиток",
+  "normalizedPattern": "пивной напиток",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "напиток пивной",
+  "normalizedPattern": "напиток пивной",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "пиво светлое",
+  "normalizedPattern": "пиво светлое",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Лагер"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "пиво темное",
+  "normalizedPattern": "пиво темное",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Безалкогольное пиво",
+   "Тёмное"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "портер",
+  "normalizedPattern": "портер",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Стаут и портер",
+   "Портер"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "лагер",
+  "normalizedPattern": "лагер",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Лагер"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "стаут",
+  "normalizedPattern": "стаут",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Стаут и портер"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "пиво",
+  "normalizedPattern": "пиво",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "эль",
+  "normalizedPattern": "эль",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Эль"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "набор бокалов",
+  "normalizedPattern": "набор бокалов",
+  "categoryPath": [
+   "POS-материалы, меню и бренд-аксессуары",
+   "Мерч и подарочная упаковка",
+   "Мерч",
+   "Бокалы"
+  ],
+  "attrs": {
+   "isSet": true
+  }
+ },
+ {
+  "pattern": "декантер",
+  "normalizedPattern": "декантер",
+  "categoryPath": [
+   "Посуда, стекло и сервировка",
+   "Графины, декантеры, кувшины",
+   "Декантеры"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "бокал",
+  "normalizedPattern": "бокал",
+  "categoryPath": [
+   "POS-материалы, меню и бренд-аксессуары",
+   "Мерч и подарочная упаковка",
+   "Мерч",
+   "Бокалы"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "сливовая настойка",
+  "normalizedPattern": "сливовая настойка",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "настойка из сливы",
+  "normalizedPattern": "настойка из сливы",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "сливовое вино",
+  "normalizedPattern": "сливовое вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "сливовое",
+  "normalizedPattern": "сливовое",
+  "categoryPath": [
+   "Вино"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "умесю",
+  "normalizedPattern": "умесю",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "саке",
+  "normalizedPattern": "саке",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "сакэ",
+  "normalizedPattern": "сакэ",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "сидр яблочный",
+  "normalizedPattern": "сидр яблочный",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Сидр"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "медовуха",
+  "normalizedPattern": "медовуха",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Медовуха"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "пуаре",
+  "normalizedPattern": "пуаре",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Сидр",
+   "Перри"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "сидр",
+  "normalizedPattern": "сидр",
+  "categoryPath": [
+   "Пиво, сидр и медовуха",
+   "Сидр"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "сироп",
+  "normalizedPattern": "сироп",
+  "categoryPath": [
+   "Сиропы, топпинги, основы для коктейлей",
+   "Сиропы"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "спиртной напиток на основе",
+  "normalizedPattern": "спиртной напиток на основе",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "спиртной напиток со вкусом",
+  "normalizedPattern": "спиртной напиток со вкусом",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "спиртной напиток",
+  "normalizedPattern": "спиртной напиток",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ },
+ {
+  "pattern": "напиток спиртной",
+  "normalizedPattern": "напиток спиртной",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "attrs": {}
+ }
+]

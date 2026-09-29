@@ -1,0 +1,1660 @@
+[
+ {
+  "pattern": "п/у",
+  "normalizedPattern": "п у",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в п/у",
+  "normalizedPattern": "в п у",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "п/уп",
+  "normalizedPattern": "п уп",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в п/уп",
+  "normalizedPattern": "в п уп",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "под. уп.",
+  "normalizedPattern": "под уп",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "подар. уп.",
+  "normalizedPattern": "подар уп",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "подарочная упаковка",
+  "normalizedPattern": "подарочная упаковка",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в подарочной упаковке",
+  "normalizedPattern": "в подарочной упаковке",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "подарочной упаковке",
+  "normalizedPattern": "подарочной упаковке",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "подарочное оформление",
+  "normalizedPattern": "подарочное оформление",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в подарочном оформлении",
+  "normalizedPattern": "в подарочном оформлении",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "giftbox",
+  "normalizedPattern": "giftbox",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "gift box",
+  "normalizedPattern": "gift box",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "in gift box",
+  "normalizedPattern": "in gift box",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "gift pack",
+  "normalizedPattern": "gift pack",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "gift wrap",
+  "normalizedPattern": "gift wrap",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "gb",
+  "normalizedPattern": "gb",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "пу",
+  "normalizedPattern": "пу",
+  "payload": {
+   "code": "GIFT_PACKAGING",
+   "label": "подарочная упаковка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "туба",
+  "normalizedPattern": "туба",
+  "payload": {
+   "code": "GIFT_TUBE",
+   "label": "туба/тубус",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в тубе",
+  "normalizedPattern": "в тубе",
+  "payload": {
+   "code": "GIFT_TUBE",
+   "label": "туба/тубус",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "тубус",
+  "normalizedPattern": "тубус",
+  "payload": {
+   "code": "GIFT_TUBE",
+   "label": "туба/тубус",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в тубусе",
+  "normalizedPattern": "в тубусе",
+  "payload": {
+   "code": "GIFT_TUBE",
+   "label": "туба/тубус",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "tube",
+  "normalizedPattern": "tube",
+  "payload": {
+   "code": "GIFT_TUBE",
+   "label": "туба/тубус",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "in tube",
+  "normalizedPattern": "in tube",
+  "payload": {
+   "code": "GIFT_TUBE",
+   "label": "туба/тубус",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "деревянная коробка",
+  "normalizedPattern": "деревянная коробка",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в деревянной коробке",
+  "normalizedPattern": "в деревянной коробке",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "дер. коробка",
+  "normalizedPattern": "дер коробка",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "дер. п/у",
+  "normalizedPattern": "дер п у",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в дер. п/у",
+  "normalizedPattern": "в дер п у",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "деревянный ящик",
+  "normalizedPattern": "деревянный ящик",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "дер. ящик",
+  "normalizedPattern": "дер ящик",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в деревянном ящике",
+  "normalizedPattern": "в деревянном ящике",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "wooden box",
+  "normalizedPattern": "wooden box",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "wooden giftbox",
+  "normalizedPattern": "wooden giftbox",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "wood box",
+  "normalizedPattern": "wood box",
+  "payload": {
+   "code": "GIFT_WOODEN_BOX",
+   "label": "деревянная коробка/ящик",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в коробке",
+  "normalizedPattern": "в коробке",
+  "payload": {
+   "code": "GIFT_BOX",
+   "label": "подарочная коробка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в подарочной коробке",
+  "normalizedPattern": "в подарочной коробке",
+  "payload": {
+   "code": "GIFT_BOX",
+   "label": "подарочная коробка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "подарочная коробка",
+  "normalizedPattern": "подарочная коробка",
+  "payload": {
+   "code": "GIFT_BOX",
+   "label": "подарочная коробка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "п/к",
+  "normalizedPattern": "п к",
+  "payload": {
+   "code": "GIFT_BOX",
+   "label": "подарочная коробка",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "футляр",
+  "normalizedPattern": "футляр",
+  "payload": {
+   "code": "GIFT_CASE",
+   "label": "футляр",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в футляре",
+  "normalizedPattern": "в футляре",
+  "payload": {
+   "code": "GIFT_CASE",
+   "label": "футляр",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "кожаный футляр",
+  "normalizedPattern": "кожаный футляр",
+  "payload": {
+   "code": "GIFT_CASE",
+   "label": "футляр",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "в кожаном футляре",
+  "normalizedPattern": "в кожаном футляре",
+  "payload": {
+   "code": "GIFT_CASE",
+   "label": "футляр",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "leather case",
+  "normalizedPattern": "leather case",
+  "payload": {
+   "code": "GIFT_CASE",
+   "label": "футляр",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "с бокалом",
+  "normalizedPattern": "с бокалом",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "с бокалами",
+  "normalizedPattern": "с бокалами",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "с 2 бокалами",
+  "normalizedPattern": "с 2 бокалами",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "1 бокал",
+  "normalizedPattern": "1 бокал",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "2 бокала",
+  "normalizedPattern": "2 бокала",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "4 бокала",
+  "normalizedPattern": "4 бокала",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "with glass",
+  "normalizedPattern": "with glass",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "with glasses",
+  "normalizedPattern": "with glasses",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "1 glass",
+  "normalizedPattern": "1 glass",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "2 glasses",
+  "normalizedPattern": "2 glasses",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "со стаканом",
+  "normalizedPattern": "со стаканом",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "со стаканами",
+  "normalizedPattern": "со стаканами",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "2 стакана",
+  "normalizedPattern": "2 стакана",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "с рюмкой",
+  "normalizedPattern": "с рюмкой",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "с рюмками",
+  "normalizedPattern": "с рюмками",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "2 рюмки",
+  "normalizedPattern": "2 рюмки",
+  "payload": {
+   "code": "WITH_GLASSES",
+   "label": "в наборе с бокалами",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "фляга",
+  "normalizedPattern": "фляга",
+  "payload": {
+   "code": "FLASK",
+   "label": "фляга",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "во фляге",
+  "normalizedPattern": "во фляге",
+  "payload": {
+   "code": "FLASK",
+   "label": "фляга",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "flask",
+  "normalizedPattern": "flask",
+  "payload": {
+   "code": "FLASK",
+   "label": "фляга",
+   "group": "Подарочное оформление",
+   "keepInName": false
+  }
+ },
+ {
+  "pattern": "графин",
+  "normalizedPattern": "графин",
+  "payload": {
+   "code": "DECORATIVE_BOTTLE",
+   "label": "декоративная бутылка",
+   "group": "Подарочное оформление",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "carafe",
+  "normalizedPattern": "carafe",
+  "payload": {
+   "code": "DECORATIVE_BOTTLE",
+   "label": "декоративная бутылка",
+   "group": "Подарочное оформление",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "штоф",
+  "normalizedPattern": "штоф",
+  "payload": {
+   "code": "DECORATIVE_BOTTLE",
+   "label": "декоративная бутылка",
+   "group": "Подарочное оформление",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "сувенирная бутылка",
+  "normalizedPattern": "сувенирная бутылка",
+  "payload": {
+   "code": "DECORATIVE_BOTTLE",
+   "label": "декоративная бутылка",
+   "group": "Подарочное оформление",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "сувенирный",
+  "normalizedPattern": "сувенирный",
+  "payload": {
+   "code": "DECORATIVE_BOTTLE",
+   "label": "декоративная бутылка",
+   "group": "Подарочное оформление",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "керамическая бутылка",
+  "normalizedPattern": "керамическая бутылка",
+  "payload": {
+   "code": "DECORATIVE_BOTTLE",
+   "label": "декоративная бутылка",
+   "group": "Подарочное оформление",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "decanter bottle",
+  "normalizedPattern": "decanter bottle",
+  "payload": {
+   "code": "DECORATIVE_BOTTLE",
+   "label": "декоративная бутылка",
+   "group": "Подарочное оформление",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "магнум",
+  "normalizedPattern": "магнум",
+  "payload": {
+   "code": "MAGNUM",
+   "label": "магнум",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 1500,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "magnum",
+  "normalizedPattern": "magnum",
+  "payload": {
+   "code": "MAGNUM",
+   "label": "магнум",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 1500,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "двойной магнум",
+  "normalizedPattern": "двойной магнум",
+  "payload": {
+   "code": "DOUBLE_MAGNUM",
+   "label": "двойной магнум",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 3000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "double magnum",
+  "normalizedPattern": "double magnum",
+  "payload": {
+   "code": "DOUBLE_MAGNUM",
+   "label": "двойной магнум",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 3000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "жеробоам",
+  "normalizedPattern": "жеробоам",
+  "payload": {
+   "code": "JEROBOAM",
+   "label": "жеробоам",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 3000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "jeroboam",
+  "normalizedPattern": "jeroboam",
+  "payload": {
+   "code": "JEROBOAM",
+   "label": "жеробоам",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 3000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "реобоам",
+  "normalizedPattern": "реобоам",
+  "payload": {
+   "code": "REHOBOAM",
+   "label": "реобоам",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 4500,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "rehoboam",
+  "normalizedPattern": "rehoboam",
+  "payload": {
+   "code": "REHOBOAM",
+   "label": "реобоам",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 4500,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "метузалем",
+  "normalizedPattern": "метузалем",
+  "payload": {
+   "code": "METHUSELAH",
+   "label": "мафусаил",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 6000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "мафусаил",
+  "normalizedPattern": "мафусаил",
+  "payload": {
+   "code": "METHUSELAH",
+   "label": "мафусаил",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 6000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "methuselah",
+  "normalizedPattern": "methuselah",
+  "payload": {
+   "code": "METHUSELAH",
+   "label": "мафусаил",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 6000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "салманазар",
+  "normalizedPattern": "салманазар",
+  "payload": {
+   "code": "SALMANAZAR",
+   "label": "салманазар",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 9000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "salmanazar",
+  "normalizedPattern": "salmanazar",
+  "payload": {
+   "code": "SALMANAZAR",
+   "label": "салманазар",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 9000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "бальтазар",
+  "normalizedPattern": "бальтазар",
+  "payload": {
+   "code": "BALTHAZAR",
+   "label": "бальтазар",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 12000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "balthazar",
+  "normalizedPattern": "balthazar",
+  "payload": {
+   "code": "BALTHAZAR",
+   "label": "бальтазар",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 12000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "навуходоносор",
+  "normalizedPattern": "навуходоносор",
+  "payload": {
+   "code": "NEBUCHADNEZZAR",
+   "label": "навуходоносор",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 15000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "nebuchadnezzar",
+  "normalizedPattern": "nebuchadnezzar",
+  "payload": {
+   "code": "NEBUCHADNEZZAR",
+   "label": "навуходоносор",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 15000,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "пикколо",
+  "normalizedPattern": "пикколо",
+  "payload": {
+   "code": "PICCOLO",
+   "label": "пикколо",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 200,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "piccolo",
+  "normalizedPattern": "piccolo",
+  "payload": {
+   "code": "PICCOLO",
+   "label": "пикколо",
+   "group": "Формат",
+   "keepInName": true,
+   "impliedVolumeMl": 200,
+   "requiresVolumeConfirmation": true
+  }
+ },
+ {
+  "pattern": "лимитед",
+  "normalizedPattern": "лимитед",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "limited",
+  "normalizedPattern": "limited",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "limited edition",
+  "normalizedPattern": "limited edition",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "лимитед эдишн",
+  "normalizedPattern": "лимитед эдишн",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "лимитированная серия",
+  "normalizedPattern": "лимитированная серия",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "лимитированный выпуск",
+  "normalizedPattern": "лимитированный выпуск",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "лимитированное издание",
+  "normalizedPattern": "лимитированное издание",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "limited release",
+  "normalizedPattern": "limited release",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "коллекционное издание",
+  "normalizedPattern": "коллекционное издание",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "collector s edition",
+  "normalizedPattern": "collector s edition",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "эксклюзивная серия",
+  "normalizedPattern": "эксклюзивная серия",
+  "payload": {
+   "code": "LIMITED",
+   "label": "лимитированная серия",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "special edition",
+  "normalizedPattern": "special edition",
+  "payload": {
+   "code": "SPECIAL_EDITION",
+   "label": "специальное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "спешл эдишн",
+  "normalizedPattern": "спешл эдишн",
+  "payload": {
+   "code": "SPECIAL_EDITION",
+   "label": "специальное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "юбилейный",
+  "normalizedPattern": "юбилейный",
+  "payload": {
+   "code": "SPECIAL_EDITION",
+   "label": "специальное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "юбилейное издание",
+  "normalizedPattern": "юбилейное издание",
+  "payload": {
+   "code": "SPECIAL_EDITION",
+   "label": "специальное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "anniversary edition",
+  "normalizedPattern": "anniversary edition",
+  "payload": {
+   "code": "SPECIAL_EDITION",
+   "label": "специальное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "новогодний",
+  "normalizedPattern": "новогодний",
+  "payload": {
+   "code": "FESTIVE_EDITION",
+   "label": "праздничное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "новогоднее оформление",
+  "normalizedPattern": "новогоднее оформление",
+  "payload": {
+   "code": "FESTIVE_EDITION",
+   "label": "праздничное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "christmas edition",
+  "normalizedPattern": "christmas edition",
+  "payload": {
+   "code": "FESTIVE_EDITION",
+   "label": "праздничное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "festive edition",
+  "normalizedPattern": "festive edition",
+  "payload": {
+   "code": "FESTIVE_EDITION",
+   "label": "праздничное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "holiday edition",
+  "normalizedPattern": "holiday edition",
+  "payload": {
+   "code": "FESTIVE_EDITION",
+   "label": "праздничное издание",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "дизайн",
+  "normalizedPattern": "дизайн",
+  "payload": {
+   "code": "DESIGN_EDITION",
+   "label": "вариант оформления (дизайн)",
+   "group": "Серия",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "органик",
+  "normalizedPattern": "органик",
+  "payload": {
+   "code": "ORGANIC",
+   "label": "органическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "organic",
+  "normalizedPattern": "organic",
+  "payload": {
+   "code": "ORGANIC",
+   "label": "органическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "органическое",
+  "normalizedPattern": "органическое",
+  "payload": {
+   "code": "ORGANIC",
+   "label": "органическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "био",
+  "normalizedPattern": "био",
+  "payload": {
+   "code": "ORGANIC",
+   "label": "органическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "bio",
+  "normalizedPattern": "bio",
+  "payload": {
+   "code": "ORGANIC",
+   "label": "органическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "биоложик",
+  "normalizedPattern": "биоложик",
+  "payload": {
+   "code": "ORGANIC",
+   "label": "органическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "biologique",
+  "normalizedPattern": "biologique",
+  "payload": {
+   "code": "ORGANIC",
+   "label": "органическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "биологико",
+  "normalizedPattern": "биологико",
+  "payload": {
+   "code": "ORGANIC",
+   "label": "органическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "biologico",
+  "normalizedPattern": "biologico",
+  "payload": {
+   "code": "ORGANIC",
+   "label": "органическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "биодинамика",
+  "normalizedPattern": "биодинамика",
+  "payload": {
+   "code": "BIODYNAMIC",
+   "label": "биодинамическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "биодинамическое",
+  "normalizedPattern": "биодинамическое",
+  "payload": {
+   "code": "BIODYNAMIC",
+   "label": "биодинамическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "biodynamic",
+  "normalizedPattern": "biodynamic",
+  "payload": {
+   "code": "BIODYNAMIC",
+   "label": "биодинамическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "demeter",
+  "normalizedPattern": "demeter",
+  "payload": {
+   "code": "BIODYNAMIC",
+   "label": "биодинамическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "деметер",
+  "normalizedPattern": "деметер",
+  "payload": {
+   "code": "BIODYNAMIC",
+   "label": "биодинамическое",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "веган",
+  "normalizedPattern": "веган",
+  "payload": {
+   "code": "VEGAN",
+   "label": "веганское",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "vegan",
+  "normalizedPattern": "vegan",
+  "payload": {
+   "code": "VEGAN",
+   "label": "веганское",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "без сульфитов",
+  "normalizedPattern": "без сульфитов",
+  "payload": {
+   "code": "NO_SULFITES",
+   "label": "без добавления сульфитов",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "сан сульфит",
+  "normalizedPattern": "сан сульфит",
+  "payload": {
+   "code": "NO_SULFITES",
+   "label": "без добавления сульфитов",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "sans soufre",
+  "normalizedPattern": "sans soufre",
+  "payload": {
+   "code": "NO_SULFITES",
+   "label": "без добавления сульфитов",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "sans sulfites",
+  "normalizedPattern": "sans sulfites",
+  "payload": {
+   "code": "NO_SULFITES",
+   "label": "без добавления сульфитов",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "no sulfites",
+  "normalizedPattern": "no sulfites",
+  "payload": {
+   "code": "NO_SULFITES",
+   "label": "без добавления сульфитов",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "без диоксида серы",
+  "normalizedPattern": "без диоксида серы",
+  "payload": {
+   "code": "NO_SULFITES",
+   "label": "без добавления сульфитов",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "кошерное",
+  "normalizedPattern": "кошерное",
+  "payload": {
+   "code": "KOSHER",
+   "label": "кошерное",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "кошер",
+  "normalizedPattern": "кошер",
+  "payload": {
+   "code": "KOSHER",
+   "label": "кошерное",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "kosher",
+  "normalizedPattern": "kosher",
+  "payload": {
+   "code": "KOSHER",
+   "label": "кошерное",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "мевушаль",
+  "normalizedPattern": "мевушаль",
+  "payload": {
+   "code": "KOSHER",
+   "label": "кошерное",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "mevushal",
+  "normalizedPattern": "mevushal",
+  "payload": {
+   "code": "KOSHER",
+   "label": "кошерное",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "халяль",
+  "normalizedPattern": "халяль",
+  "payload": {
+   "code": "HALAL",
+   "label": "халяль",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "halal",
+  "normalizedPattern": "halal",
+  "payload": {
+   "code": "HALAL",
+   "label": "халяль",
+   "group": "Сертификация",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "сингл каск",
+  "normalizedPattern": "сингл каск",
+  "payload": {
+   "code": "SINGLE_CASK",
+   "label": "из одной бочки",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "single cask",
+  "normalizedPattern": "single cask",
+  "payload": {
+   "code": "SINGLE_CASK",
+   "label": "из одной бочки",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "single barrel",
+  "normalizedPattern": "single barrel",
+  "payload": {
+   "code": "SINGLE_CASK",
+   "label": "из одной бочки",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "сингл баррел",
+  "normalizedPattern": "сингл баррел",
+  "payload": {
+   "code": "SINGLE_CASK",
+   "label": "из одной бочки",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "смол батч",
+  "normalizedPattern": "смол батч",
+  "payload": {
+   "code": "SMALL_BATCH",
+   "label": "малая партия",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "смол бетч",
+  "normalizedPattern": "смол бетч",
+  "payload": {
+   "code": "SMALL_BATCH",
+   "label": "малая партия",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "small batch",
+  "normalizedPattern": "small batch",
+  "payload": {
+   "code": "SMALL_BATCH",
+   "label": "малая партия",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "каск стренгт",
+  "normalizedPattern": "каск стренгт",
+  "payload": {
+   "code": "CASK_STRENGTH",
+   "label": "бочковая крепость",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "каск стрендж",
+  "normalizedPattern": "каск стрендж",
+  "payload": {
+   "code": "CASK_STRENGTH",
+   "label": "бочковая крепость",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "cask strength",
+  "normalizedPattern": "cask strength",
+  "payload": {
+   "code": "CASK_STRENGTH",
+   "label": "бочковая крепость",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "бочковая крепость",
+  "normalizedPattern": "бочковая крепость",
+  "payload": {
+   "code": "CASK_STRENGTH",
+   "label": "бочковая крепость",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "бочковой крепости",
+  "normalizedPattern": "бочковой крепости",
+  "payload": {
+   "code": "CASK_STRENGTH",
+   "label": "бочковая крепость",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "нехолодная фильтрация",
+  "normalizedPattern": "нехолодная фильтрация",
+  "payload": {
+   "code": "NON_CHILL_FILTERED",
+   "label": "без холодной фильтрации",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "без холодной фильтрации",
+  "normalizedPattern": "без холодной фильтрации",
+  "payload": {
+   "code": "NON_CHILL_FILTERED",
+   "label": "без холодной фильтрации",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "non chill filtered",
+  "normalizedPattern": "non chill filtered",
+  "payload": {
+   "code": "NON_CHILL_FILTERED",
+   "label": "без холодной фильтрации",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "unchillfiltered",
+  "normalizedPattern": "unchillfiltered",
+  "payload": {
+   "code": "NON_CHILL_FILTERED",
+   "label": "без холодной фильтрации",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "un chillfiltered",
+  "normalizedPattern": "un chillfiltered",
+  "payload": {
+   "code": "NON_CHILL_FILTERED",
+   "label": "без холодной фильтрации",
+   "group": "Производство (крепкое)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "сюр ли",
+  "normalizedPattern": "сюр ли",
+  "payload": {
+   "code": "SUR_LIE",
+   "label": "выдержка на осадке (sur lie)",
+   "group": "Производство (вино)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "sur lie",
+  "normalizedPattern": "sur lie",
+  "payload": {
+   "code": "SUR_LIE",
+   "label": "выдержка на осадке (sur lie)",
+   "group": "Производство (вино)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "анфильтре",
+  "normalizedPattern": "анфильтре",
+  "payload": {
+   "code": "UNFILTERED_WINE",
+   "label": "нефильтрованное (вино)",
+   "group": "Производство (вино)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "unfiltered",
+  "normalizedPattern": "unfiltered",
+  "payload": {
+   "code": "UNFILTERED_WINE",
+   "label": "нефильтрованное (вино)",
+   "group": "Производство (вино)",
+   "keepInName": true
+  }
+ },
+ {
+  "pattern": "non filtre",
+  "normalizedPattern": "non filtre",
+  "payload": {
+   "code": "UNFILTERED_WINE",
+   "label": "нефильтрованное (вино)",
+   "group": "Производство (вино)",
+   "keepInName": true
+  }
+ }
+]

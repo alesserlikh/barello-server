@@ -1,0 +1,2576 @@
+[
+ {
+  "pattern": "белуга",
+  "normalizedPattern": "белуга",
+  "payload": {
+   "canonical": "Beluga",
+   "producer": "Novabev Group",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "beluga",
+  "normalizedPattern": "beluga",
+  "payload": {
+   "canonical": "Beluga",
+   "producer": "Novabev Group",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "беленькая",
+  "normalizedPattern": "беленькая",
+  "payload": {
+   "canonical": "Беленькая",
+   "producer": "Novabev Group",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "архангельская",
+  "normalizedPattern": "архангельская",
+  "payload": {
+   "canonical": "Архангельская",
+   "producer": "Novabev Group",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "мягков",
+  "normalizedPattern": "мягков",
+  "payload": {
+   "canonical": "Мягков",
+   "producer": "Novabev Group",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "myagkov",
+  "normalizedPattern": "myagkov",
+  "payload": {
+   "canonical": "Мягков",
+   "producer": "Novabev Group",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "царь",
+  "normalizedPattern": "царь",
+  "payload": {
+   "canonical": "Царь",
+   "producer": "Ладога",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "czar s",
+  "normalizedPattern": "czar s",
+  "payload": {
+   "canonical": "Царь",
+   "producer": "Ладога",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "tsar",
+  "normalizedPattern": "tsar",
+  "payload": {
+   "canonical": "Царь",
+   "producer": "Ладога",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "фокс энд догс",
+  "normalizedPattern": "фокс энд догс",
+  "payload": {
+   "canonical": "Fowler’s",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "fowler s",
+  "normalizedPattern": "fowler s",
+  "payload": {
+   "canonical": "Fowler’s",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "фаулерс",
+  "normalizedPattern": "фаулерс",
+  "payload": {
+   "canonical": "Fowler’s",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "барристер",
+  "normalizedPattern": "барристер",
+  "payload": {
+   "canonical": "Барристер",
+   "producer": "Ладога",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "barrister",
+  "normalizedPattern": "barrister",
+  "payload": {
+   "canonical": "Барристер",
+   "producer": "Ладога",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "медная лошадка",
+  "normalizedPattern": "медная лошадка",
+  "payload": {
+   "canonical": "Медная Лошадка",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "бастион",
+  "normalizedPattern": "бастион",
+  "payload": {
+   "canonical": "Бастион",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "русский лед",
+  "normalizedPattern": "русский лед",
+  "payload": {
+   "canonical": "Русский Лёд",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "доктор август",
+  "normalizedPattern": "доктор август",
+  "payload": {
+   "canonical": "Доктор Август",
+   "segment": "ликёры"
+  }
+ },
+ {
+  "pattern": "doctor august",
+  "normalizedPattern": "doctor august",
+  "payload": {
+   "canonical": "Доктор Август",
+   "segment": "ликёры"
+  }
+ },
+ {
+  "pattern": "кизлярский",
+  "normalizedPattern": "кизлярский",
+  "payload": {
+   "canonical": "Кизлярский КЗ",
+   "producer": "Кизлярский коньячный завод",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "кизляр",
+  "normalizedPattern": "кизляр",
+  "payload": {
+   "canonical": "Кизлярский КЗ",
+   "producer": "Кизлярский коньячный завод",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "kizlyar",
+  "normalizedPattern": "kizlyar",
+  "payload": {
+   "canonical": "Кизлярский КЗ",
+   "producer": "Кизлярский коньячный завод",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "дербентская",
+  "normalizedPattern": "дербентская",
+  "payload": {
+   "canonical": "Дербентская ВК",
+   "producer": "Дербентская винодельческая компания",
+   "segment": "коньяк/вино"
+  }
+ },
+ {
+  "pattern": "дербент",
+  "normalizedPattern": "дербент",
+  "payload": {
+   "canonical": "Дербентская ВК",
+   "producer": "Дербентская винодельческая компания",
+   "segment": "коньяк/вино"
+  }
+ },
+ {
+  "pattern": "derbent",
+  "normalizedPattern": "derbent",
+  "payload": {
+   "canonical": "Дербентская ВК",
+   "producer": "Дербентская винодельческая компания",
+   "segment": "коньяк/вино"
+  }
+ },
+ {
+  "pattern": "полугар",
+  "normalizedPattern": "полугар",
+  "payload": {
+   "canonical": "Полугар",
+   "producer": "Родионов с сыновьями",
+   "segment": "полугар"
+  }
+ },
+ {
+  "pattern": "polugar",
+  "normalizedPattern": "polugar",
+  "payload": {
+   "canonical": "Полугар",
+   "producer": "Родионов с сыновьями",
+   "segment": "полугар"
+  }
+ },
+ {
+  "pattern": "фанагория",
+  "normalizedPattern": "фанагория",
+  "payload": {
+   "canonical": "Фанагория",
+   "producer": "Фанагория",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "fanagoria",
+  "normalizedPattern": "fanagoria",
+  "payload": {
+   "canonical": "Фанагория",
+   "producer": "Фанагория",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "абрау дюрсо",
+  "normalizedPattern": "абрау дюрсо",
+  "payload": {
+   "canonical": "Абрау-Дюрсо",
+   "producer": "Абрау-Дюрсо",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "абрау",
+  "normalizedPattern": "абрау",
+  "payload": {
+   "canonical": "Абрау-Дюрсо",
+   "producer": "Абрау-Дюрсо",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "abrau durso",
+  "normalizedPattern": "abrau durso",
+  "payload": {
+   "canonical": "Абрау-Дюрсо",
+   "producer": "Абрау-Дюрсо",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "abrau",
+  "normalizedPattern": "abrau",
+  "payload": {
+   "canonical": "Абрау-Дюрсо",
+   "producer": "Абрау-Дюрсо",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "массандра",
+  "normalizedPattern": "массандра",
+  "payload": {
+   "canonical": "Массандра",
+   "producer": "Массандра",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "massandra",
+  "normalizedPattern": "massandra",
+  "payload": {
+   "canonical": "Массандра",
+   "producer": "Массандра",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "инкерман",
+  "normalizedPattern": "инкерман",
+  "payload": {
+   "canonical": "Инкерман",
+   "producer": "Инкерман",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "inkerman",
+  "normalizedPattern": "inkerman",
+  "payload": {
+   "canonical": "Инкерман",
+   "producer": "Инкерман",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "мысхако",
+  "normalizedPattern": "мысхако",
+  "payload": {
+   "canonical": "Мысхако",
+   "producer": "Мысхако",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "myskhako",
+  "normalizedPattern": "myskhako",
+  "payload": {
+   "canonical": "Мысхако",
+   "producer": "Мысхако",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "золотая балка",
+  "normalizedPattern": "золотая балка",
+  "payload": {
+   "canonical": "Золотая Балка",
+   "producer": "Золотая Балка",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "zolotaya balka",
+  "normalizedPattern": "zolotaya balka",
+  "payload": {
+   "canonical": "Золотая Балка",
+   "producer": "Золотая Балка",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "балаклава",
+  "normalizedPattern": "балаклава",
+  "payload": {
+   "canonical": "Золотая Балка",
+   "producer": "Золотая Балка",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "balaklava",
+  "normalizedPattern": "balaklava",
+  "payload": {
+   "canonical": "Золотая Балка",
+   "producer": "Золотая Балка",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "кубань вино",
+  "normalizedPattern": "кубань вино",
+  "payload": {
+   "canonical": "Кубань-Вино",
+   "producer": "Кубань-Вино",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "chateau tamagne",
+  "normalizedPattern": "chateau tamagne",
+  "payload": {
+   "canonical": "Кубань-Вино",
+   "producer": "Кубань-Вино",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "шато тамань",
+  "normalizedPattern": "шато тамань",
+  "payload": {
+   "canonical": "Кубань-Вино",
+   "producer": "Кубань-Вино",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "дивноморское",
+  "normalizedPattern": "дивноморское",
+  "payload": {
+   "canonical": "Дивноморское",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "divnomorskoe",
+  "normalizedPattern": "divnomorskoe",
+  "payload": {
+   "canonical": "Дивноморское",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "сатера",
+  "normalizedPattern": "сатера",
+  "payload": {
+   "canonical": "Сатера",
+   "producer": "Сатера",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "satera",
+  "normalizedPattern": "satera",
+  "payload": {
+   "canonical": "Сатера",
+   "producer": "Сатера",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "esse",
+  "normalizedPattern": "esse",
+  "payload": {
+   "canonical": "Сатера",
+   "producer": "Сатера",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "эссе",
+  "normalizedPattern": "эссе",
+  "payload": {
+   "canonical": "Сатера",
+   "producer": "Сатера",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "усадьба маркотх",
+  "normalizedPattern": "усадьба маркотх",
+  "payload": {
+   "canonical": "Усадьба Маркотх",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "маркотх",
+  "normalizedPattern": "маркотх",
+  "payload": {
+   "canonical": "Усадьба Маркотх",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "николаев и сыновья",
+  "normalizedPattern": "николаев и сыновья",
+  "payload": {
+   "canonical": "Николаев и Сыновья",
+   "producer": "Николаев и сыновья",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "николаев",
+  "normalizedPattern": "николаев",
+  "payload": {
+   "canonical": "Николаев и Сыновья",
+   "producer": "Николаев и сыновья",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "burnier",
+  "normalizedPattern": "burnier",
+  "payload": {
+   "canonical": "BURNIER",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "бюрнье",
+  "normalizedPattern": "бюрнье",
+  "payload": {
+   "canonical": "BURNIER",
+   "segment": "вино"
+  }
+ },
+ {
+  "pattern": "балтика",
+  "normalizedPattern": "балтика",
+  "payload": {
+   "canonical": "Балтика",
+   "producer": "Балтика",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "baltika",
+  "normalizedPattern": "baltika",
+  "payload": {
+   "canonical": "Балтика",
+   "producer": "Балтика",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "василеостровская",
+  "normalizedPattern": "василеостровская",
+  "payload": {
+   "canonical": "Василеостровская",
+   "producer": "Василеостровская пивоварня",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "vasileostrovskaya",
+  "normalizedPattern": "vasileostrovskaya",
+  "payload": {
+   "canonical": "Василеостровская",
+   "producer": "Василеостровская пивоварня",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "jaws",
+  "normalizedPattern": "jaws",
+  "payload": {
+   "canonical": "Jaws",
+   "producer": "Jaws Brewery",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "джоус",
+  "normalizedPattern": "джоус",
+  "payload": {
+   "canonical": "Jaws",
+   "producer": "Jaws Brewery",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "коникс",
+  "normalizedPattern": "коникс",
+  "payload": {
+   "canonical": "Konix",
+   "producer": "Konix Brewery",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "konix",
+  "normalizedPattern": "konix",
+  "payload": {
+   "canonical": "Konix",
+   "producer": "Konix Brewery",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "заря плюс",
+  "normalizedPattern": "заря плюс",
+  "payload": {
+   "canonical": "Заря Плюс",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "невская пивоварня",
+  "normalizedPattern": "невская пивоварня",
+  "payload": {
+   "canonical": "Невская пивоварня",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "медоварус",
+  "normalizedPattern": "медоварус",
+  "payload": {
+   "canonical": "Медоварус",
+   "segment": "медовуха"
+  }
+ },
+ {
+  "pattern": "камрус",
+  "normalizedPattern": "камрус",
+  "payload": {
+   "canonical": "Камрус",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "van honsebrouck",
+  "normalizedPattern": "van honsebrouck",
+  "payload": {
+   "canonical": "Van Honsebrouck",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "ван хонзебрук",
+  "normalizedPattern": "ван хонзебрук",
+  "payload": {
+   "canonical": "Van Honsebrouck",
+   "segment": "пиво"
+  }
+ },
+ {
+  "pattern": "william grant",
+  "normalizedPattern": "william grant",
+  "payload": {
+   "canonical": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "вильям грант",
+  "normalizedPattern": "вильям грант",
+  "payload": {
+   "canonical": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "уильям грант",
+  "normalizedPattern": "уильям грант",
+  "payload": {
+   "canonical": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "glenfiddich",
+  "normalizedPattern": "glenfiddich",
+  "payload": {
+   "canonical": "Glenfiddich",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "гленфиддик",
+  "normalizedPattern": "гленфиддик",
+  "payload": {
+   "canonical": "Glenfiddich",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "balvenie",
+  "normalizedPattern": "balvenie",
+  "payload": {
+   "canonical": "The Balvenie",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "балвени",
+  "normalizedPattern": "балвени",
+  "payload": {
+   "canonical": "The Balvenie",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "grants",
+  "normalizedPattern": "grants",
+  "payload": {
+   "canonical": "Grant’s",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "грантс",
+  "normalizedPattern": "грантс",
+  "payload": {
+   "canonical": "Grant’s",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "tullamore",
+  "normalizedPattern": "tullamore",
+  "payload": {
+   "canonical": "Tullamore D.E.W.",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "талламор",
+  "normalizedPattern": "талламор",
+  "payload": {
+   "canonical": "Tullamore D.E.W.",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "monkey shoulder",
+  "normalizedPattern": "monkey shoulder",
+  "payload": {
+   "canonical": "Monkey Shoulder",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "манки шолдер",
+  "normalizedPattern": "манки шолдер",
+  "payload": {
+   "canonical": "Monkey Shoulder",
+   "producer": "William Grant & Sons",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "hendrick s",
+  "normalizedPattern": "hendrick s",
+  "payload": {
+   "canonical": "Hendrick’s",
+   "producer": "William Grant & Sons",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "хендрикс",
+  "normalizedPattern": "хендрикс",
+  "payload": {
+   "canonical": "Hendrick’s",
+   "producer": "William Grant & Sons",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "jameson",
+  "normalizedPattern": "jameson",
+  "payload": {
+   "canonical": "Jameson",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "джемесон",
+  "normalizedPattern": "джемесон",
+  "payload": {
+   "canonical": "Jameson",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "джеймсон",
+  "normalizedPattern": "джеймсон",
+  "payload": {
+   "canonical": "Jameson",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "jack daniel s",
+  "normalizedPattern": "jack daniel s",
+  "payload": {
+   "canonical": "Jack Daniel’s",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "джек дэниелс",
+  "normalizedPattern": "джек дэниелс",
+  "payload": {
+   "canonical": "Jack Daniel’s",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "джек дениелс",
+  "normalizedPattern": "джек дениелс",
+  "payload": {
+   "canonical": "Jack Daniel’s",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "jim beam",
+  "normalizedPattern": "jim beam",
+  "payload": {
+   "canonical": "Jim Beam",
+   "segment": "бурбон"
+  }
+ },
+ {
+  "pattern": "джим бим",
+  "normalizedPattern": "джим бим",
+  "payload": {
+   "canonical": "Jim Beam",
+   "segment": "бурбон"
+  }
+ },
+ {
+  "pattern": "maker s mark",
+  "normalizedPattern": "maker s mark",
+  "payload": {
+   "canonical": "Maker’s Mark",
+   "segment": "бурбон"
+  }
+ },
+ {
+  "pattern": "мейкерс марк",
+  "normalizedPattern": "мейкерс марк",
+  "payload": {
+   "canonical": "Maker’s Mark",
+   "segment": "бурбон"
+  }
+ },
+ {
+  "pattern": "wild turkey",
+  "normalizedPattern": "wild turkey",
+  "payload": {
+   "canonical": "Wild Turkey",
+   "segment": "бурбон"
+  }
+ },
+ {
+  "pattern": "уайлд терки",
+  "normalizedPattern": "уайлд терки",
+  "payload": {
+   "canonical": "Wild Turkey",
+   "segment": "бурбон"
+  }
+ },
+ {
+  "pattern": "bushmills",
+  "normalizedPattern": "bushmills",
+  "payload": {
+   "canonical": "Bushmills",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "бушмилс",
+  "normalizedPattern": "бушмилс",
+  "payload": {
+   "canonical": "Bushmills",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "macallan",
+  "normalizedPattern": "macallan",
+  "payload": {
+   "canonical": "Macallan",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "макаллан",
+  "normalizedPattern": "макаллан",
+  "payload": {
+   "canonical": "Macallan",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "glenlivet",
+  "normalizedPattern": "glenlivet",
+  "payload": {
+   "canonical": "Glenlivet",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "гленливет",
+  "normalizedPattern": "гленливет",
+  "payload": {
+   "canonical": "Glenlivet",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "highland park",
+  "normalizedPattern": "highland park",
+  "payload": {
+   "canonical": "Highland Park",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "хайленд парк",
+  "normalizedPattern": "хайленд парк",
+  "payload": {
+   "canonical": "Highland Park",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "laphroaig",
+  "normalizedPattern": "laphroaig",
+  "payload": {
+   "canonical": "Laphroaig",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "лафройг",
+  "normalizedPattern": "лафройг",
+  "payload": {
+   "canonical": "Laphroaig",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "lagavulin",
+  "normalizedPattern": "lagavulin",
+  "payload": {
+   "canonical": "Lagavulin",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "лагавулин",
+  "normalizedPattern": "лагавулин",
+  "payload": {
+   "canonical": "Lagavulin",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "ardbeg",
+  "normalizedPattern": "ardbeg",
+  "payload": {
+   "canonical": "Ardbeg",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "ардбег",
+  "normalizedPattern": "ардбег",
+  "payload": {
+   "canonical": "Ardbeg",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "bowmore",
+  "normalizedPattern": "bowmore",
+  "payload": {
+   "canonical": "Bowmore",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "боумор",
+  "normalizedPattern": "боумор",
+  "payload": {
+   "canonical": "Bowmore",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "bunnahabhain",
+  "normalizedPattern": "bunnahabhain",
+  "payload": {
+   "canonical": "Bunnahabhain",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "буннахавен",
+  "normalizedPattern": "буннахавен",
+  "payload": {
+   "canonical": "Bunnahabhain",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "arran",
+  "normalizedPattern": "arran",
+  "payload": {
+   "canonical": "Arran",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "арран",
+  "normalizedPattern": "арран",
+  "payload": {
+   "canonical": "Arran",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "kavalan",
+  "normalizedPattern": "kavalan",
+  "payload": {
+   "canonical": "Kavalan",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "кавалан",
+  "normalizedPattern": "кавалан",
+  "payload": {
+   "canonical": "Kavalan",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "nikka",
+  "normalizedPattern": "nikka",
+  "payload": {
+   "canonical": "Nikka",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "никка",
+  "normalizedPattern": "никка",
+  "payload": {
+   "canonical": "Nikka",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "suntory",
+  "normalizedPattern": "suntory",
+  "payload": {
+   "canonical": "Suntory",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "сантори",
+  "normalizedPattern": "сантори",
+  "payload": {
+   "canonical": "Suntory",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "chivas",
+  "normalizedPattern": "chivas",
+  "payload": {
+   "canonical": "Chivas Regal",
+   "producer": "Pernod Ricard",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "чивас",
+  "normalizedPattern": "чивас",
+  "payload": {
+   "canonical": "Chivas Regal",
+   "producer": "Pernod Ricard",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "ballantine s",
+  "normalizedPattern": "ballantine s",
+  "payload": {
+   "canonical": "Ballantine’s",
+   "producer": "Pernod Ricard",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "баллантайнс",
+  "normalizedPattern": "баллантайнс",
+  "payload": {
+   "canonical": "Ballantine’s",
+   "producer": "Pernod Ricard",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "samaroli",
+  "normalizedPattern": "samaroli",
+  "payload": {
+   "canonical": "Samaroli",
+   "segment": "виски (боттлер)"
+  }
+ },
+ {
+  "pattern": "самароли",
+  "normalizedPattern": "самароли",
+  "payload": {
+   "canonical": "Samaroli",
+   "segment": "виски (боттлер)"
+  }
+ },
+ {
+  "pattern": "hinch",
+  "normalizedPattern": "hinch",
+  "payload": {
+   "canonical": "Hinch",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "хинч",
+  "normalizedPattern": "хинч",
+  "payload": {
+   "canonical": "Hinch",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "belgian owl",
+  "normalizedPattern": "belgian owl",
+  "payload": {
+   "canonical": "Belgian Owl",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "бельджиан оул",
+  "normalizedPattern": "бельджиан оул",
+  "payload": {
+   "canonical": "Belgian Owl",
+   "segment": "виски"
+  }
+ },
+ {
+  "pattern": "hennessy",
+  "normalizedPattern": "hennessy",
+  "payload": {
+   "canonical": "Hennessy",
+   "producer": "LVMH",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "хеннесси",
+  "normalizedPattern": "хеннесси",
+  "payload": {
+   "canonical": "Hennessy",
+   "producer": "LVMH",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "martell",
+  "normalizedPattern": "martell",
+  "payload": {
+   "canonical": "Martell",
+   "producer": "Pernod Ricard",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "мартель",
+  "normalizedPattern": "мартель",
+  "payload": {
+   "canonical": "Martell",
+   "producer": "Pernod Ricard",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "remy martin",
+  "normalizedPattern": "remy martin",
+  "payload": {
+   "canonical": "Remy Martin",
+   "producer": "Rémy Cointreau",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "реми мартан",
+  "normalizedPattern": "реми мартан",
+  "payload": {
+   "canonical": "Remy Martin",
+   "producer": "Rémy Cointreau",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "courvoisier",
+  "normalizedPattern": "courvoisier",
+  "payload": {
+   "canonical": "Courvoisier",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "курвуазье",
+  "normalizedPattern": "курвуазье",
+  "payload": {
+   "canonical": "Courvoisier",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "camus",
+  "normalizedPattern": "camus",
+  "payload": {
+   "canonical": "Camus",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "камю",
+  "normalizedPattern": "камю",
+  "payload": {
+   "canonical": "Camus",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "frapin",
+  "normalizedPattern": "frapin",
+  "payload": {
+   "canonical": "Frapin",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "фрапен",
+  "normalizedPattern": "фрапен",
+  "payload": {
+   "canonical": "Frapin",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "фрапэн",
+  "normalizedPattern": "фрапэн",
+  "payload": {
+   "canonical": "Frapin",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "lheraud",
+  "normalizedPattern": "lheraud",
+  "payload": {
+   "canonical": "Lheraud",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "леро",
+  "normalizedPattern": "леро",
+  "payload": {
+   "canonical": "Lheraud",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "heinz eggert",
+  "normalizedPattern": "heinz eggert",
+  "payload": {
+   "canonical": "Heinz Eggert",
+   "segment": "бренди"
+  }
+ },
+ {
+  "pattern": "хайнц эггерт",
+  "normalizedPattern": "хайнц эггерт",
+  "payload": {
+   "canonical": "Heinz Eggert",
+   "segment": "бренди"
+  }
+ },
+ {
+  "pattern": "арарат",
+  "normalizedPattern": "арарат",
+  "payload": {
+   "canonical": "Ararat",
+   "producer": "Pernod Ricard",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "ararat",
+  "normalizedPattern": "ararat",
+  "payload": {
+   "canonical": "Ararat",
+   "producer": "Pernod Ricard",
+   "segment": "коньяк"
+  }
+ },
+ {
+  "pattern": "absolut",
+  "normalizedPattern": "absolut",
+  "payload": {
+   "canonical": "Absolut",
+   "producer": "Pernod Ricard",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "абсолют",
+  "normalizedPattern": "абсолют",
+  "payload": {
+   "canonical": "Absolut",
+   "producer": "Pernod Ricard",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "finlandia",
+  "normalizedPattern": "finlandia",
+  "payload": {
+   "canonical": "Finlandia",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "финляндия водка",
+  "normalizedPattern": "финляндия водка",
+  "payload": {
+   "canonical": "Finlandia",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "grey goose",
+  "normalizedPattern": "grey goose",
+  "payload": {
+   "canonical": "Grey Goose",
+   "producer": "Bacardi",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "грей гус",
+  "normalizedPattern": "грей гус",
+  "payload": {
+   "canonical": "Grey Goose",
+   "producer": "Bacardi",
+   "segment": "водка"
+  }
+ },
+ {
+  "pattern": "beefeater",
+  "normalizedPattern": "beefeater",
+  "payload": {
+   "canonical": "Beefeater",
+   "producer": "Pernod Ricard",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "бифитер",
+  "normalizedPattern": "бифитер",
+  "payload": {
+   "canonical": "Beefeater",
+   "producer": "Pernod Ricard",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "bombay",
+  "normalizedPattern": "bombay",
+  "payload": {
+   "canonical": "Bombay Sapphire",
+   "producer": "Bacardi",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "бомбей сапфир",
+  "normalizedPattern": "бомбей сапфир",
+  "payload": {
+   "canonical": "Bombay Sapphire",
+   "producer": "Bacardi",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "whitley neill",
+  "normalizedPattern": "whitley neill",
+  "payload": {
+   "canonical": "Whitley Neill",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "whitley",
+  "normalizedPattern": "whitley",
+  "payload": {
+   "canonical": "Whitley Neill",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "уитли нил",
+  "normalizedPattern": "уитли нил",
+  "payload": {
+   "canonical": "Whitley Neill",
+   "segment": "джин"
+  }
+ },
+ {
+  "pattern": "bacardi",
+  "normalizedPattern": "bacardi",
+  "payload": {
+   "canonical": "Bacardi",
+   "producer": "Bacardi",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "бакарди",
+  "normalizedPattern": "бакарди",
+  "payload": {
+   "canonical": "Bacardi",
+   "producer": "Bacardi",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "havana club",
+  "normalizedPattern": "havana club",
+  "payload": {
+   "canonical": "Havana Club",
+   "producer": "Pernod Ricard",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "гавана клаб",
+  "normalizedPattern": "гавана клаб",
+  "payload": {
+   "canonical": "Havana Club",
+   "producer": "Pernod Ricard",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "captain morgan",
+  "normalizedPattern": "captain morgan",
+  "payload": {
+   "canonical": "Captain Morgan",
+   "producer": "Diageo",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "капитан морган",
+  "normalizedPattern": "капитан морган",
+  "payload": {
+   "canonical": "Captain Morgan",
+   "producer": "Diageo",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "barcelo",
+  "normalizedPattern": "barcelo",
+  "payload": {
+   "canonical": "Barcelo",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "барсело",
+  "normalizedPattern": "барсело",
+  "payload": {
+   "canonical": "Barcelo",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "legendario",
+  "normalizedPattern": "legendario",
+  "payload": {
+   "canonical": "Legendario",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "легендарио",
+  "normalizedPattern": "легендарио",
+  "payload": {
+   "canonical": "Legendario",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "diplomatico",
+  "normalizedPattern": "diplomatico",
+  "payload": {
+   "canonical": "Diplomatico",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "дипломатико",
+  "normalizedPattern": "дипломатико",
+  "payload": {
+   "canonical": "Diplomatico",
+   "segment": "ром"
+  }
+ },
+ {
+  "pattern": "olmeca",
+  "normalizedPattern": "olmeca",
+  "payload": {
+   "canonical": "Olmeca",
+   "producer": "Pernod Ricard",
+   "segment": "текила"
+  }
+ },
+ {
+  "pattern": "ольмека",
+  "normalizedPattern": "ольмека",
+  "payload": {
+   "canonical": "Olmeca",
+   "producer": "Pernod Ricard",
+   "segment": "текила"
+  }
+ },
+ {
+  "pattern": "jose cuervo",
+  "normalizedPattern": "jose cuervo",
+  "payload": {
+   "canonical": "Jose Cuervo",
+   "segment": "текила"
+  }
+ },
+ {
+  "pattern": "хосе куэрво",
+  "normalizedPattern": "хосе куэрво",
+  "payload": {
+   "canonical": "Jose Cuervo",
+   "segment": "текила"
+  }
+ },
+ {
+  "pattern": "sierra tequila",
+  "normalizedPattern": "sierra tequila",
+  "payload": {
+   "canonical": "Sierra",
+   "segment": "текила"
+  }
+ },
+ {
+  "pattern": "сьерра текила",
+  "normalizedPattern": "сьерра текила",
+  "payload": {
+   "canonical": "Sierra",
+   "segment": "текила"
+  }
+ },
+ {
+  "pattern": "compania tequilera de arandas",
+  "normalizedPattern": "compania tequilera de arandas",
+  "payload": {
+   "canonical": "Compania Tequilera de Arandas",
+   "segment": "текила"
+  }
+ },
+ {
+  "pattern": "арандас",
+  "normalizedPattern": "арандас",
+  "payload": {
+   "canonical": "Compania Tequilera de Arandas",
+   "segment": "текила"
+  }
+ },
+ {
+  "pattern": "jagermeister",
+  "normalizedPattern": "jagermeister",
+  "payload": {
+   "canonical": "Jagermeister",
+   "segment": "биттер"
+  }
+ },
+ {
+  "pattern": "егермейстер",
+  "normalizedPattern": "егермейстер",
+  "payload": {
+   "canonical": "Jagermeister",
+   "segment": "биттер"
+  }
+ },
+ {
+  "pattern": "aperol",
+  "normalizedPattern": "aperol",
+  "payload": {
+   "canonical": "Aperol",
+   "producer": "Campari Group",
+   "segment": "аперитив"
+  }
+ },
+ {
+  "pattern": "апероль",
+  "normalizedPattern": "апероль",
+  "payload": {
+   "canonical": "Aperol",
+   "producer": "Campari Group",
+   "segment": "аперитив"
+  }
+ },
+ {
+  "pattern": "campari",
+  "normalizedPattern": "campari",
+  "payload": {
+   "canonical": "Campari",
+   "producer": "Campari Group",
+   "segment": "биттер"
+  }
+ },
+ {
+  "pattern": "кампари",
+  "normalizedPattern": "кампари",
+  "payload": {
+   "canonical": "Campari",
+   "producer": "Campari Group",
+   "segment": "биттер"
+  }
+ },
+ {
+  "pattern": "martini",
+  "normalizedPattern": "martini",
+  "payload": {
+   "canonical": "Martini",
+   "producer": "Bacardi",
+   "segment": "вермут"
+  }
+ },
+ {
+  "pattern": "мартини",
+  "normalizedPattern": "мартини",
+  "payload": {
+   "canonical": "Martini",
+   "producer": "Bacardi",
+   "segment": "вермут"
+  }
+ },
+ {
+  "pattern": "cinzano",
+  "normalizedPattern": "cinzano",
+  "payload": {
+   "canonical": "Cinzano",
+   "producer": "Campari Group",
+   "segment": "вермут"
+  }
+ },
+ {
+  "pattern": "чинзано",
+  "normalizedPattern": "чинзано",
+  "payload": {
+   "canonical": "Cinzano",
+   "producer": "Campari Group",
+   "segment": "вермут"
+  }
+ },
+ {
+  "pattern": "baileys",
+  "normalizedPattern": "baileys",
+  "payload": {
+   "canonical": "Baileys",
+   "producer": "Diageo",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "бейлис",
+  "normalizedPattern": "бейлис",
+  "payload": {
+   "canonical": "Baileys",
+   "producer": "Diageo",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "cointreau",
+  "normalizedPattern": "cointreau",
+  "payload": {
+   "canonical": "Cointreau",
+   "producer": "Rémy Cointreau",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "куантро",
+  "normalizedPattern": "куантро",
+  "payload": {
+   "canonical": "Cointreau",
+   "producer": "Rémy Cointreau",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "luxardo",
+  "normalizedPattern": "luxardo",
+  "payload": {
+   "canonical": "Luxardo",
+   "producer": "Luxardo",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "люксардо",
+  "normalizedPattern": "люксардо",
+  "payload": {
+   "canonical": "Luxardo",
+   "producer": "Luxardo",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "combier",
+  "normalizedPattern": "combier",
+  "payload": {
+   "canonical": "Combier",
+   "producer": "Combier",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "комбье",
+  "normalizedPattern": "комбье",
+  "payload": {
+   "canonical": "Combier",
+   "producer": "Combier",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "fernet branca",
+  "normalizedPattern": "fernet branca",
+  "payload": {
+   "canonical": "Fernet-Branca",
+   "producer": "Fratelli Branca",
+   "segment": "биттер"
+  }
+ },
+ {
+  "pattern": "фернет бранка",
+  "normalizedPattern": "фернет бранка",
+  "payload": {
+   "canonical": "Fernet-Branca",
+   "producer": "Fratelli Branca",
+   "segment": "биттер"
+  }
+ },
+ {
+  "pattern": "bols",
+  "normalizedPattern": "bols",
+  "payload": {
+   "canonical": "Bols",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "болс",
+  "normalizedPattern": "болс",
+  "payload": {
+   "canonical": "Bols",
+   "segment": "ликёр"
+  }
+ },
+ {
+  "pattern": "riedel",
+  "normalizedPattern": "riedel",
+  "payload": {
+   "canonical": "Riedel",
+   "producer": "Riedel",
+   "segment": "посуда"
+  }
+ },
+ {
+  "pattern": "ридель",
+  "normalizedPattern": "ридель",
+  "payload": {
+   "canonical": "Riedel",
+   "producer": "Riedel",
+   "segment": "посуда"
+  }
+ },
+ {
+  "pattern": "piper heidsieck",
+  "normalizedPattern": "piper heidsieck",
+  "payload": {
+   "canonical": "Piper-Heidsieck",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "пайпер хайдсик",
+  "normalizedPattern": "пайпер хайдсик",
+  "payload": {
+   "canonical": "Piper-Heidsieck",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "bruno paillard",
+  "normalizedPattern": "bruno paillard",
+  "payload": {
+   "canonical": "Bruno Paillard",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "брюно пайар",
+  "normalizedPattern": "брюно пайар",
+  "payload": {
+   "canonical": "Bruno Paillard",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "thienot",
+  "normalizedPattern": "thienot",
+  "payload": {
+   "canonical": "Thienot",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "тьено",
+  "normalizedPattern": "тьено",
+  "payload": {
+   "canonical": "Thienot",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "vouette",
+  "normalizedPattern": "vouette",
+  "payload": {
+   "canonical": "Vouette et Sorbee",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "вуэт э сорбе",
+  "normalizedPattern": "вуэт э сорбе",
+  "payload": {
+   "canonical": "Vouette et Sorbee",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "lassalle",
+  "normalizedPattern": "lassalle",
+  "payload": {
+   "canonical": "Lassalle",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "лассаль",
+  "normalizedPattern": "лассаль",
+  "payload": {
+   "canonical": "Lassalle",
+   "segment": "шампанское"
+  }
+ },
+ {
+  "pattern": "codorniu",
+  "normalizedPattern": "codorniu",
+  "payload": {
+   "canonical": "Codorniu",
+   "producer": "Raventós Codorníu",
+   "segment": "кава"
+  }
+ },
+ {
+  "pattern": "кодорню",
+  "normalizedPattern": "кодорню",
+  "payload": {
+   "canonical": "Codorniu",
+   "producer": "Raventós Codorníu",
+   "segment": "кава"
+  }
+ },
+ {
+  "pattern": "sumarroca",
+  "normalizedPattern": "sumarroca",
+  "payload": {
+   "canonical": "Sumarroca",
+   "segment": "кава"
+  }
+ },
+ {
+  "pattern": "сумаррока",
+  "normalizedPattern": "сумаррока",
+  "payload": {
+   "canonical": "Sumarroca",
+   "segment": "кава"
+  }
+ },
+ {
+  "pattern": "bouvet ladubay",
+  "normalizedPattern": "bouvet ladubay",
+  "payload": {
+   "canonical": "Bouvet-Ladubay",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "буве ладюбе",
+  "normalizedPattern": "буве ладюбе",
+  "payload": {
+   "canonical": "Bouvet-Ladubay",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "буве",
+  "normalizedPattern": "буве",
+  "payload": {
+   "canonical": "Bouvet-Ladubay",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "ладюбе",
+  "normalizedPattern": "ладюбе",
+  "payload": {
+   "canonical": "Bouvet-Ladubay",
+   "segment": "игристое"
+  }
+ },
+ {
+  "pattern": "schlumberger",
+  "normalizedPattern": "schlumberger",
+  "payload": {
+   "canonical": "Schlumberger",
+   "segment": "зект"
+  }
+ },
+ {
+  "pattern": "шлюмбергер",
+  "normalizedPattern": "шлюмбергер",
+  "payload": {
+   "canonical": "Schlumberger",
+   "segment": "зект"
+  }
+ },
+ {
+  "pattern": "райхсрат фон буль",
+  "normalizedPattern": "райхсрат фон буль",
+  "payload": {
+   "canonical": "Reichsrat von Buhl",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "reichsrat von buhl",
+  "normalizedPattern": "reichsrat von buhl",
+  "payload": {
+   "canonical": "Reichsrat von Buhl",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "лоймер",
+  "normalizedPattern": "лоймер",
+  "payload": {
+   "canonical": "Loimer",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "loimer",
+  "normalizedPattern": "loimer",
+  "payload": {
+   "canonical": "Loimer",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "корвеццо",
+  "normalizedPattern": "корвеццо",
+  "payload": {
+   "canonical": "Corvezzo",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "corvezzo",
+  "normalizedPattern": "corvezzo",
+  "payload": {
+   "canonical": "Corvezzo",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "кювелье и фис",
+  "normalizedPattern": "кювелье и фис",
+  "payload": {
+   "canonical": "Cuvelier et Fils",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "кювелье",
+  "normalizedPattern": "кювелье",
+  "payload": {
+   "canonical": "Cuvelier et Fils",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "cuvelier",
+  "normalizedPattern": "cuvelier",
+  "payload": {
+   "canonical": "Cuvelier et Fils",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "домен мишель гро",
+  "normalizedPattern": "домен мишель гро",
+  "payload": {
+   "canonical": "Domaine Michel Gros",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "michel gros",
+  "normalizedPattern": "michel gros",
+  "payload": {
+   "canonical": "Domaine Michel Gros",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "шлосс гобельсбург",
+  "normalizedPattern": "шлосс гобельсбург",
+  "payload": {
+   "canonical": "Schloss Gobelsburg",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "schloss gobelsburg",
+  "normalizedPattern": "schloss gobelsburg",
+  "payload": {
+   "canonical": "Schloss Gobelsburg",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "барале фрателли",
+  "normalizedPattern": "барале фрателли",
+  "payload": {
+   "canonical": "Barale Fratelli",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "barale",
+  "normalizedPattern": "barale",
+  "payload": {
+   "canonical": "Barale Fratelli",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "хайтлингер",
+  "normalizedPattern": "хайтлингер",
+  "payload": {
+   "canonical": "Heitlinger",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "heitlinger",
+  "normalizedPattern": "heitlinger",
+  "payload": {
+   "canonical": "Heitlinger",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "эулохио помарес",
+  "normalizedPattern": "эулохио помарес",
+  "payload": {
+   "canonical": "Eulogio Pomares",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "eulogio pomares",
+  "normalizedPattern": "eulogio pomares",
+  "payload": {
+   "canonical": "Eulogio Pomares",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "йозеф нойс",
+  "normalizedPattern": "йозеф нойс",
+  "payload": {
+   "canonical": "Josef Neuss? — сверить",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "сьерра кантабриа",
+  "normalizedPattern": "сьерра кантабриа",
+  "payload": {
+   "canonical": "Sierra Cantabria",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "sierra cantabria",
+  "normalizedPattern": "sierra cantabria",
+  "payload": {
+   "canonical": "Sierra Cantabria",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "темент",
+  "normalizedPattern": "темент",
+  "payload": {
+   "canonical": "Tement",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "tement",
+  "normalizedPattern": "tement",
+  "payload": {
+   "canonical": "Tement",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "карл шефер",
+  "normalizedPattern": "карл шефер",
+  "payload": {
+   "canonical": "Karl Schaefer",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "karl schaefer",
+  "normalizedPattern": "karl schaefer",
+  "payload": {
+   "canonical": "Karl Schaefer",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "ван вольксем",
+  "normalizedPattern": "ван вольксем",
+  "payload": {
+   "canonical": "Van Volxem",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "van volxem",
+  "normalizedPattern": "van volxem",
+  "payload": {
+   "canonical": "Van Volxem",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "життон",
+  "normalizedPattern": "життон",
+  "payload": {
+   "canonical": "Gitton",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "gitton",
+  "normalizedPattern": "gitton",
+  "payload": {
+   "canonical": "Gitton",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "франкетти",
+  "normalizedPattern": "франкетти",
+  "payload": {
+   "canonical": "Franchetti / Passopisciaro",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "franchetti",
+  "normalizedPattern": "franchetti",
+  "payload": {
+   "canonical": "Franchetti / Passopisciaro",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "passopisciaro",
+  "normalizedPattern": "passopisciaro",
+  "payload": {
+   "canonical": "Franchetti / Passopisciaro",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "анселму мендеш",
+  "normalizedPattern": "анселму мендеш",
+  "payload": {
+   "canonical": "Anselmo Mendes",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "anselmo mendes",
+  "normalizedPattern": "anselmo mendes",
+  "payload": {
+   "canonical": "Anselmo Mendes",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "кинта да боавишта",
+  "normalizedPattern": "кинта да боавишта",
+  "payload": {
+   "canonical": "Quinta da Boavista",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "quinta da boavista",
+  "normalizedPattern": "quinta da boavista",
+  "payload": {
+   "canonical": "Quinta da Boavista",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "мас мартинет",
+  "normalizedPattern": "мас мартинет",
+  "payload": {
+   "canonical": "Mas Martinet",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "mas martinet",
+  "normalizedPattern": "mas martinet",
+  "payload": {
+   "canonical": "Mas Martinet",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "филипп кун",
+  "normalizedPattern": "филипп кун",
+  "payload": {
+   "canonical": "Philipp Kuhn",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "philipp kuhn",
+  "normalizedPattern": "philipp kuhn",
+  "payload": {
+   "canonical": "Philipp Kuhn",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "черетто",
+  "normalizedPattern": "черетто",
+  "payload": {
+   "canonical": "Ceretto",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "ceretto",
+  "normalizedPattern": "ceretto",
+  "payload": {
+   "canonical": "Ceretto",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "cavit",
+  "normalizedPattern": "cavit",
+  "payload": {
+   "canonical": "Cavit",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "кавит",
+  "normalizedPattern": "кавит",
+  "payload": {
+   "canonical": "Cavit",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "ramon bilbao",
+  "normalizedPattern": "ramon bilbao",
+  "payload": {
+   "canonical": "Ramon Bilbao",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "рамон бильбао",
+  "normalizedPattern": "рамон бильбао",
+  "payload": {
+   "canonical": "Ramon Bilbao",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "viu manent",
+  "normalizedPattern": "viu manent",
+  "payload": {
+   "canonical": "Viu Manent",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "вью манент",
+  "normalizedPattern": "вью манент",
+  "payload": {
+   "canonical": "Viu Manent",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "alta vista",
+  "normalizedPattern": "alta vista",
+  "payload": {
+   "canonical": "Alta Vista",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "альта виста",
+  "normalizedPattern": "альта виста",
+  "payload": {
+   "canonical": "Alta Vista",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "d arenberg",
+  "normalizedPattern": "d arenberg",
+  "payload": {
+   "canonical": "d’Arenberg",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "arenberg",
+  "normalizedPattern": "arenberg",
+  "payload": {
+   "canonical": "d’Arenberg",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "даренберг",
+  "normalizedPattern": "даренберг",
+  "payload": {
+   "canonical": "d’Arenberg",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "taupenot merme",
+  "normalizedPattern": "taupenot merme",
+  "payload": {
+   "canonical": "Taupenot-Merme",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "топно мерм",
+  "normalizedPattern": "топно мерм",
+  "payload": {
+   "canonical": "Taupenot-Merme",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "dourthe",
+  "normalizedPattern": "dourthe",
+  "payload": {
+   "canonical": "Dourthe",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "дурт",
+  "normalizedPattern": "дурт",
+  "payload": {
+   "canonical": "Dourthe",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "terramater",
+  "normalizedPattern": "terramater",
+  "payload": {
+   "canonical": "TerraMater",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "терраматер",
+  "normalizedPattern": "терраматер",
+  "payload": {
+   "canonical": "TerraMater",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "marani",
+  "normalizedPattern": "marani",
+  "payload": {
+   "canonical": "Marani",
+   "producer": "Telavi Wine Cellar",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "марани",
+  "normalizedPattern": "марани",
+  "payload": {
+   "canonical": "Marani",
+   "producer": "Telavi Wine Cellar",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "dereszla",
+  "normalizedPattern": "dereszla",
+  "payload": {
+   "canonical": "Dereszla",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "дересла",
+  "normalizedPattern": "дересла",
+  "payload": {
+   "canonical": "Dereszla",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "glaetzer",
+  "normalizedPattern": "glaetzer",
+  "payload": {
+   "canonical": "Glaetzer",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "глейцер",
+  "normalizedPattern": "глейцер",
+  "payload": {
+   "canonical": "Glaetzer",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "nittnaus",
+  "normalizedPattern": "nittnaus",
+  "payload": {
+   "canonical": "Nittnaus",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "ниттнаус",
+  "normalizedPattern": "ниттнаус",
+  "payload": {
+   "canonical": "Nittnaus",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "frankland estate",
+  "normalizedPattern": "frankland estate",
+  "payload": {
+   "canonical": "Frankland Estate",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "франклэнд",
+  "normalizedPattern": "франклэнд",
+  "payload": {
+   "canonical": "Frankland Estate",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "torres",
+  "normalizedPattern": "torres",
+  "payload": {
+   "canonical": "Torres",
+   "producer": "Familia Torres",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "торрес",
+  "normalizedPattern": "торрес",
+  "payload": {
+   "canonical": "Torres",
+   "producer": "Familia Torres",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "chiyomusubi",
+  "normalizedPattern": "chiyomusubi",
+  "payload": {
+   "canonical": "Chiyomusubi",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "чиемусуби",
+  "normalizedPattern": "чиемусуби",
+  "payload": {
+   "canonical": "Chiyomusubi",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "hirooka",
+  "normalizedPattern": "hirooka",
+  "payload": {
+   "canonical": "Hirooka",
+   "segment": "вино/производитель"
+  }
+ },
+ {
+  "pattern": "хироока",
+  "normalizedPattern": "хироока",
+  "payload": {
+   "canonical": "Hirooka",
+   "segment": "вино/производитель"
+  }
+ }
+]

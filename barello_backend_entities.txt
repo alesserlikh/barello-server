@@ -1,0 +1,83 @@
+1. Auth и users
+
+User — аккаунт сотрудника заведения
+UserProfile — профиль и настройки пользователя
+UserVenueMembership — привязка пользователя к заведению и его роль
+UserNote — заметки пользователя
+UserNoteAccess — доступ выбранных сотрудников к заметке
+UserTask — личные и рабочие задачи пользователя
+AuthSession — сессии входа и refresh-token
+VerificationCode — коды подтверждения
+
+2. Business / venue
+
+Business — бизнес/юрлицо по ИНН
+Venue — карточка заведения
+CuisineType — справочник типов кухни
+VenueCuisineType — связь заведения с типами кухни
+
+3. Suppliers
+
+Supplier — аккаунт поставщика
+SupplierCategory — категории товаров поставщика
+SupplierSpecialCondition — специальные условия поставщика для заведения
+SupplierPriceImport — загрузка прайса
+SupplierPriceImportRow — строки загруженного прайса
+
+4. Catalog
+
+Product — единая карточка товара платформы
+ProductVariant — варианты объёма/упаковки товара
+CatalogCategory — иерархические категории каталога
+CatalogCategoryBanner — обложка/баннер категории каталога
+CatalogBanner — рекламный/навигационный баннер каталога
+SupplierProduct — связь поставщика с товаром/вариантом
+Offer — предложение поставщика по товару
+ContractSupplier — контрактный/приоритетный поставщик для заведения
+SponsoredProductPlacement — спонсируемое размещение товара в каталоге
+CatalogSearchSuggestion — автоподстановка поиска каталога
+UserFavoriteProduct — избранные товары пользователя
+UnitConversionProfile — правила нормализации единиц
+
+5. Orders
+
+Flow заказа: Cart → OrderBatch → SupplierOrder → SupplierOrderItem → SupplierOrderStatusEvent / OrderDeliveryConfirmation
+
+Cart — текущая корзина заведения
+CartItem — позиция корзины
+OrderBatch — один пользовательский акт оформления заказа, внутри которого товары разбиваются по поставщикам
+SupplierOrder — отдельная заявка конкретному поставщику
+SupplierOrderItem — позиция заявки поставщику
+SupplierOrderStatusEvent — история смены статусов заявки (принят / в обработке / отправлен / доставлен / отклонён)
+OrderDeliveryConfirmation — подтверждение или отклонение приёмки заведением с причиной
+
+6. Inventory / Stock
+
+InventoryItem — складская позиция заведения
+InventoryReservation — резерв товара на складе
+StockMovement — движение по складу
+StockAlert — предупреждения по складу
+StopListItem — запись стоп-листа
+
+7. Menu
+
+MenuCategory — раздел меню
+MenuItem — позиция меню
+MenuItemTag — теги карточки меню
+MenuItemAnalog — аналоги товара/блюда в меню
+MenuItemPairingStat — статистика "с чем чаще заказывают"
+TechCard — техкарта блюда
+TechCardIngredient — ингредиент техкарты
+InventorySession — сессия ревизии
+InventorySessionItem — позиция ревизии
+
+8. Sales & analytics
+
+SalesReportImport — импорт отчёта о продажах
+SalesReportRow — строка отчёта о продажах
+VenueAnalyticsSnapshot — агрегированный срез статистики для дашборда, склада, меню и аналитических тегов
+
+9. Cross-cutting
+
+FileAsset — файлы, изображения, видео, баннеры, прайсы, отчёты
+AuditLog — журнал действий

@@ -1,0 +1,175 @@
+1. 1:1
+User | has | UserProfile | 1:1 | один профиль на пользователя
+Product | has | UnitConversionProfile | 1:1 | правила нормализации единиц товара
+MenuItem | has | TechCard | 1:1 | техкарта обязательна для блюда (MenuItem.type = DISH)
+
+2. Users / Access
+User | has many | UserVenueMembership | 1:N | пользователь состоит в заведениях
+Venue | has many | UserVenueMembership | 1:N | в заведении много пользователей
+
+User | has many | UserNote | 1:N | заметки пользователя
+UserNote | has many | UserNoteAccess | 1:N | доступ к заметке
+User | has many | UserNoteAccess | 1:N | доступ пользователя к чужим заметкам
+
+User | creates | UserTask | 1:N | создатель задачи
+User | assigned to | UserTask | 1:N | исполнитель задачи
+
+User | has many | AuthSession | 1:N | сессии пользователя
+User | has many | VerificationCode | 1:N | коды подтверждения
+
+3. Business / Venue
+Business | has many | Venue | 1:N | бизнес владеет заведениями
+
+Venue | has many | MenuCategory | 1:N | разделы меню
+MenuCategory | has many | MenuItem | 1:N | позиции меню
+Venue | has many | MenuItem | 1:N | меню заведения
+
+Venue | has many | InventoryItem | 1:N | складские позиции
+InventoryItem | has many | StockMovement | 1:N | движения по складу
+
+Venue | has many | StockMovement | 1:N | движения склада
+Venue | has many | StockAlert | 1:N | предупреждения
+InventoryItem | has many | StockAlert | 1:N | предупреждение по позиции
+
+Venue | has many | StopListItem | 1:N | стоп-лист
+MenuItem | has many | StopListItem | 1:N | история стоп-листа
+
+Venue | has many | InventorySession | 1:N | ревизии
+InventorySession | has many | InventorySessionItem | 1:N | строки ревизии
+InventoryItem | has many | InventorySessionItem | 1:N | участие в ревизиях
+
+InventoryItem | has many | InventoryReservation | 1:N | резервы по складской позиции
+Venue | has many | InventoryReservation | 1:N | резервы заведения
+
+4. Suppliers
+Supplier | has many | SupplierCategory | 1:N | категории поставщика
+Supplier | has many | SupplierSpecialCondition | 1:N | спецусловия
+Venue | has many | SupplierSpecialCondition | 1:N | спецусловия для заведения
+
+Supplier | has many | SupplierPriceImport | 1:N | загрузки прайсов
+SupplierPriceImport | has many | SupplierPriceImportRow | 1:N | строки импорта
+
+Supplier | has many | SupplierProduct | 1:N | товары поставщика
+Supplier | has many | ContractSupplier | 1:N | контрактность для заведений
+
+5. Catalog
+CatalogCategory | has many | Product | 1:N | товары категории
+
+Product | has many | ProductVariant | 1:N | варианты объёма/упаковки
+Product | has many | SupplierProduct | 1:N | связи товара с поставщиками
+Supplier | has many | SupplierProduct | 1:N | товары поставщика
+ProductVariant | has many | SupplierProduct | 1:N | доступность варианта у поставщика
+SupplierProduct | has many | Offer | 1:N | предложения поставщика по товару
+
+User | has many | UserFavoriteProduct | 1:N | избранное пользователя
+Product | has many | UserFavoriteProduct | 1:N | добавления товара в избранное
+Venue | has many | UserFavoriteProduct | 1:N | контекст заведения для избранного
+
+Venue | has many | ContractSupplier | 1:N | контрактные/приоритетные поставщики
+Supplier | has many | ContractSupplier | 1:N | статус поставщика для заведений
+
+CatalogCategory | has many | CatalogCategoryBanner | 1:N | баннеры/обложки категории
+Supplier | has many | CatalogCategoryBanner | 1:N | спонсируемые обложки категорий
+
+CatalogCategory | has many | CatalogBanner | 1:N | баннеры подборок внутри категории
+Supplier | has many | CatalogBanner | 1:N | спонсируемые баннеры каталога
+
+Product | has many | SponsoredProductPlacement | 1:N | спонсируемые размещения товара
+Supplier | has many | SponsoredProductPlacement | 1:N | спонсируемые размещения поставщика
+Offer | has many | SponsoredProductPlacement | 1:N | размещение конкретного оффера
+
+Product | has many | CatalogSearchSuggestion | 1:N | автосаджест по товару
+CatalogCategory | has many | CatalogSearchSuggestion | 1:N | автосаджест по категории
+Supplier | has many | CatalogSearchSuggestion | 1:N | автосаджест по поставщику
+
+6. Orders
+Venue | has many | Cart | 1:N | корзины заведения
+User | has many | Cart | 1:N | создатель корзины
+Cart | has many | CartItem | 1:N | позиции корзины
+
+Product | has many | CartItem | 1:N | товар в корзине
+ProductVariant | has many | CartItem | 1:N | вариант товара в корзине
+Offer | has many | CartItem | 1:N | оффер в корзине
+
+Venue | has many | OrderBatch | 1:N | заказные пакеты заведения
+User | has many | OrderBatch | 1:N | кто оформил заказ
+Cart | has many | OrderBatch | 1:N | источник заказа
+
+OrderBatch | has many | SupplierOrder | 1:N | разбивка заказа по поставщикам
+Supplier | has many | SupplierOrder | 1:N | заявки поставщику
+Venue | has many | SupplierOrder | 1:N | заявки заведения
+
+SupplierOrder | has many | SupplierOrderItem | 1:N | позиции заявки
+Product | has many | SupplierOrderItem | 1:N | товар в заявке
+ProductVariant | has many | SupplierOrderItem | 1:N | вариант товара в заявке
+Offer | has many | SupplierOrderItem | 1:N | оффер в заявке
+
+SupplierOrder | has many | SupplierOrderStatusEvent | 1:N | история статусов заявки
+SupplierOrder | has many | OrderDeliveryConfirmation | 1:N | подтверждение/отклонение приёмки
+User | has many | OrderDeliveryConfirmation | 1:N | подтверждающий пользователь
+
+Order flow:
+Cart → CartItem
+Cart → OrderBatch
+OrderBatch → SupplierOrder
+SupplierOrder → SupplierOrderItem
+SupplierOrder → SupplierOrderStatusEvent
+SupplierOrder → OrderDeliveryConfirmation
+
+7. Menu
+MenuItem | has | TechCard | 1:1 | техкарта блюда (см. раздел 1)
+TechCard | has many | TechCardIngredient | 1:N | ингредиенты техкарты
+InventoryItem | has many | TechCardIngredient | 1:N | использование складской позиции в блюдах
+
+Product | has many | MenuItem | 1:N | связь товара с меню (nullable для блюд)
+
+MenuItem | has many | MenuItemTag | 1:N | теги карточки в меню
+User | has many | MenuItemTag | 1:N | автор ручных тегов (nullable для авто-тегов)
+Venue | has many | MenuItemTag | 1:N | теги в контексте заведения
+
+MenuItem | has many | MenuItemAnalog | 1:N | аналоги товара/блюда
+User | has many | MenuItemAnalog | 1:N | кто назначил аналог
+
+MenuItem | has many | MenuItemPairingStat | 1:N | базовая позиция pairing stats
+MenuItem | has many | MenuItemPairingStat | 1:N | paired позиция pairing stats
+Venue | has many | MenuItemPairingStat | 1:N | статистика сочетаний по заведению
+# Примечание: MenuItemPairingStat имеет два FK на MenuItem — menuItemId и pairedMenuItemId.
+
+8. Sales & analytics
+Venue | has many | SalesReportImport | 1:N | отчёты
+SalesReportImport | has many | SalesReportRow | 1:N | строки
+MenuItem | has many | SalesReportRow | 1:N | продажи по сопоставленным позициям
+
+Venue | has many | VenueAnalyticsSnapshot | 1:N | аналитика дашборда, склада, меню и аналитических тегов
+Venue | has many | MenuItemPairingStat | 1:N | pairing stats из аналитики продаж
+
+9. Files & Audit
+FileAsset | used by | UserProfile | 1:N | аватар
+FileAsset | used by | Venue | 1:N | главное фото заведения
+FileAsset | used by | Supplier | 1:N | медиа поставщика
+FileAsset | used by | Product | 1:N | фото / barcode image / promo video товара
+FileAsset | used by | CatalogCategoryBanner | 1:N | баннер категории
+FileAsset | used by | CatalogBanner | 1:N | баннер каталога
+FileAsset | used by | SupplierPriceImport | 1:N | файл прайса
+FileAsset | used by | SalesReportImport | 1:N | файл отчёта
+
+User | has many | AuditLog | 1:N | действия
+Supplier | has many | AuditLog | 1:N | действия поставщика
+Venue | has many | AuditLog | 1:N | контекст
+Business | has many | AuditLog | 1:N | контекст
+
+10. N:N
+User | many-to-many | Venue | N:N | через UserVenueMembership
+Venue | many-to-many | CuisineType | N:N | через VenueCuisineType
+UserNote | many-to-many | User | N:N | через UserNoteAccess
+TechCard | many-to-many | InventoryItem | N:N | через TechCardIngredient
+Supplier | many-to-many | CatalogCategory | N:N | через SupplierCategory
+Supplier | many-to-many | Product | N:N | через SupplierProduct
+MenuItem | many-to-many | MenuItem | N:N | через MenuItemAnalog
+
+11. Barcode / lookup relations
+Product | resolved by | barcode | lookup | barcode — сквозной ключ поиска по всей платформе
+Product | resolved to | Catalog card | lookup | поиск по штрихкоду в каталоге
+Product | resolved to | Menu input | lookup | ввод товара в меню по штрихкоду
+Product | resolved to | InventoryItem | lookup | ввод товара на склад по штрихкоду
+Product | resolved to | InventorySessionItem | lookup | сканирование в ревизии по штрихкоду

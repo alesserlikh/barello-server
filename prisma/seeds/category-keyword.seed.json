@@ -1,0 +1,4740 @@
+[
+ {
+  "pattern": "джинджер эль",
+  "normalizedPattern": "джинджер эль",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "джинджер бир",
+  "normalizedPattern": "джинджер бир",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "ginger beer",
+  "normalizedPattern": "ginger beer",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "ginger ale",
+  "normalizedPattern": "ginger ale",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "кола",
+  "normalizedPattern": "кола",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "cola",
+  "normalizedPattern": "cola",
+  "categoryPath": [
+   "Безалкогольные напитки"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "late bottled vintage",
+  "normalizedPattern": "late bottled vintage",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "portType": "LBV"
+  }
+ },
+ {
+  "pattern": "cabernet sauvignon",
+  "normalizedPattern": "cabernet sauvignon",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Каберне Совиньон",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "грюнер вельтлинер",
+  "normalizedPattern": "грюнер вельтлинер",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Грюнер Вельтлинер",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "petillant naturel",
+  "normalizedPattern": "petillant naturel",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "каберне совиньон",
+  "normalizedPattern": "каберне совиньон",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Каберне Совиньон",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "турига насьональ",
+  "normalizedPattern": "турига насьональ",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Турига Насьональ",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "touriga nacional",
+  "normalizedPattern": "touriga nacional",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Турига Насьональ",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "gruner veltliner",
+  "normalizedPattern": "gruner veltliner",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Грюнер Вельтлинер",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "sauvignon blanc",
+  "normalizedPattern": "sauvignon blanc",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Совиньон Блан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "blanc de blancs",
+  "normalizedPattern": "blanc de blancs",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "cabernet franc",
+  "normalizedPattern": "cabernet franc",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Каберне Фран",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "гевюрцтраминер",
+  "normalizedPattern": "гевюрцтраминер",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гевюрцтраминер",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "gewurztraminer",
+  "normalizedPattern": "gewurztraminer",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гевюрцтраминер",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "оранжевое вино",
+  "normalizedPattern": "оранжевое вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {
+   "color": "оранжевое"
+  }
+ },
+ {
+  "pattern": "blanc de noirs",
+  "normalizedPattern": "blanc de noirs",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "монтепульчано",
+  "normalizedPattern": "монтепульчано",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Монтепульчано",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "montepulciano",
+  "normalizedPattern": "montepulciano",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Монтепульчано",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "blaufrankisch",
+  "normalizedPattern": "blaufrankisch",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Блауфранкиш",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "совиньон блан",
+  "normalizedPattern": "совиньон блан",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Совиньон Блан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "вендаж тардив",
+  "normalizedPattern": "вендаж тардив",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "педро хименес",
+  "normalizedPattern": "педро хименес",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "sherryType": "Pedro Ximénez"
+  }
+ },
+ {
+  "pattern": "pedro ximenez",
+  "normalizedPattern": "pedro ximenez",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "sherryType": "Pedro Ximénez"
+  }
+ },
+ {
+  "pattern": "petit manseng",
+  "normalizedPattern": "petit manseng",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пти Мансан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "тинта баррока",
+  "normalizedPattern": "тинта баррока",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Тинта Баррока",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "tinta barroca",
+  "normalizedPattern": "tinta barroca",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Тинта Баррока",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "pinot meunier",
+  "normalizedPattern": "pinot meunier",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Менье",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "каберне фран",
+  "normalizedPattern": "каберне фран",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Каберне Фран",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "неро д авола",
+  "normalizedPattern": "неро д авола",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Неро д’Авола",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "nero d avola",
+  "normalizedPattern": "nero d avola",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Неро д’Авола",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "petit verdot",
+  "normalizedPattern": "petit verdot",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пти Вердо",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "petite sirah",
+  "normalizedPattern": "petite sirah",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пти Сира",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "киндзмараули",
+  "normalizedPattern": "киндзмараули",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Саперави",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "kindzmarauli",
+  "normalizedPattern": "kindzmarauli",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Саперави",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "pinot grigio",
+  "normalizedPattern": "pinot grigio",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Гриджо",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "chenin blanc",
+  "normalizedPattern": "chenin blanc",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Шенен Блан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "гран ресерва",
+  "normalizedPattern": "гран ресерва",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "aging": "gran reserva"
+  }
+ },
+ {
+  "pattern": "gran reserva",
+  "normalizedPattern": "gran reserva",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "aging": "gran reserva"
+  }
+ },
+ {
+  "pattern": "аппассименто",
+  "normalizedPattern": "аппассименто",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "appassimento",
+  "normalizedPattern": "appassimento",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "супертоскана",
+  "normalizedPattern": "супертоскана",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "super tuscan",
+  "normalizedPattern": "super tuscan",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "late harvest",
+  "normalizedPattern": "late harvest",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "поздний сбор",
+  "normalizedPattern": "поздний сбор",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "ледяное вино",
+  "normalizedPattern": "ледяное вино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "блан де блан",
+  "normalizedPattern": "блан де блан",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "блан де нуар",
+  "normalizedPattern": "блан де нуар",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "franciacorta",
+  "normalizedPattern": "franciacorta",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "gros manseng",
+  "normalizedPattern": "gros manseng",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гро Мансан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "темпранильо",
+  "normalizedPattern": "темпранильо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Темпранильо",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "tempranillo",
+  "normalizedPattern": "tempranillo",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Темпранильо",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "блауфранкиш",
+  "normalizedPattern": "блауфранкиш",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Блауфранкиш",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "петит вердо",
+  "normalizedPattern": "петит вердо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пти Вердо",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "пино гриджо",
+  "normalizedPattern": "пино гриджо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Гриджо",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "pinot blanc",
+  "normalizedPattern": "pinot blanc",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Блан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "orange wine",
+  "normalizedPattern": "orange wine",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {
+   "color": "оранжевое"
+  }
+ },
+ {
+  "pattern": "brut nature",
+  "normalizedPattern": "brut nature",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sugar": "брют натюр"
+  }
+ },
+ {
+  "pattern": "zero dosage",
+  "normalizedPattern": "zero dosage",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sugar": "брют натюр"
+  }
+ },
+ {
+  "pattern": "экстра брют",
+  "normalizedPattern": "экстра брют",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sugar": "экстра брют"
+  }
+ },
+ {
+  "pattern": "франчакорта",
+  "normalizedPattern": "франчакорта",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "амонтильядо",
+  "normalizedPattern": "амонтильядо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sherryType": "Amontillado"
+  }
+ },
+ {
+  "pattern": "amontillado",
+  "normalizedPattern": "amontillado",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sherryType": "Amontillado"
+  }
+ },
+ {
+  "pattern": "тинта рориш",
+  "normalizedPattern": "тинта рориш",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Тинта Рориз",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "тинта рориз",
+  "normalizedPattern": "тинта рориз",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Тинта Рориз",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "tinta roriz",
+  "normalizedPattern": "tinta roriz",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Тинта Рориз",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "pinot noir",
+  "normalizedPattern": "pinot noir",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Нуар",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "monastrell",
+  "normalizedPattern": "monastrell",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мурведр",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "монастрель",
+  "normalizedPattern": "монастрель",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мурведр",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "санджовезе",
+  "normalizedPattern": "санджовезе",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Санджовезе",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "sangiovese",
+  "normalizedPattern": "sangiovese",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Санджовезе",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "зинфандель",
+  "normalizedPattern": "зинфандель",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Зинфандель",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "красностоп",
+  "normalizedPattern": "красностоп",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Красностоп",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "негроамаро",
+  "normalizedPattern": "негроамаро",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Негроамаро",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "negroamaro",
+  "normalizedPattern": "negroamaro",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Негроамаро",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "chardonnay",
+  "normalizedPattern": "chardonnay",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Шардоне",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "pinot gris",
+  "normalizedPattern": "pinot gris",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Гри",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "шенен блан",
+  "normalizedPattern": "шенен блан",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Шенен Блан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "верментино",
+  "normalizedPattern": "верментино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Верментино",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "vermentino",
+  "normalizedPattern": "vermentino",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Верментино",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "альбариньо",
+  "normalizedPattern": "альбариньо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Альбариньо",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "rkatsiteli",
+  "normalizedPattern": "rkatsiteli",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Ркацители",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "tsolikouri",
+  "normalizedPattern": "tsolikouri",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Цоликаури",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "брют натюр",
+  "normalizedPattern": "брют натюр",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sugar": "брют натюр"
+  }
+ },
+ {
+  "pattern": "дозаж зеро",
+  "normalizedPattern": "дозаж зеро",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sugar": "брют натюр"
+  }
+ },
+ {
+  "pattern": "extra brut",
+  "normalizedPattern": "extra brut",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sugar": "экстра брют"
+  }
+ },
+ {
+  "pattern": "мансанилья",
+  "normalizedPattern": "мансанилья",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sherryType": "Manzanilla"
+  }
+ },
+ {
+  "pattern": "manzanilla",
+  "normalizedPattern": "manzanilla",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sherryType": "Manzanilla"
+  }
+ },
+ {
+  "pattern": "ugni blanc",
+  "normalizedPattern": "ugni blanc",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Уньи Блан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "гро мансан",
+  "normalizedPattern": "гро мансан",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гро Мансан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "пти мансан",
+  "normalizedPattern": "пти мансан",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пти Мансан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "пино менье",
+  "normalizedPattern": "пино менье",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Менье",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "пино нуар",
+  "normalizedPattern": "пино нуар",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Нуар",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "mourvedre",
+  "normalizedPattern": "mourvedre",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мурведр",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "дольчетто",
+  "normalizedPattern": "дольчетто",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Дольчетто",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "примитиво",
+  "normalizedPattern": "примитиво",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Примитиво",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "primitivo",
+  "normalizedPattern": "primitivo",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Примитиво",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "zinfandel",
+  "normalizedPattern": "zinfandel",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Зинфандель",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "carmenere",
+  "normalizedPattern": "carmenere",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Карменер",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "цвайгельт",
+  "normalizedPattern": "цвайгельт",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Цвайгельт",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "aglianico",
+  "normalizedPattern": "aglianico",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Альянико",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "пти вердо",
+  "normalizedPattern": "пти вердо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пти Вердо",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "пино блан",
+  "normalizedPattern": "пино блан",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Блан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "гарганега",
+  "normalizedPattern": "гарганега",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гарганега",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "garganega",
+  "normalizedPattern": "garganega",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гарганега",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "треббьяно",
+  "normalizedPattern": "треббьяно",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Треббьяно",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "trebbiano",
+  "normalizedPattern": "trebbiano",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Треббьяно",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "ркацители",
+  "normalizedPattern": "ркацители",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Ркацители",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "цоликаури",
+  "normalizedPattern": "цоликаури",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Цоликаури",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "торронтес",
+  "normalizedPattern": "торронтес",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Торронтес",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "torrontes",
+  "normalizedPattern": "torrontes",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Торронтес",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "токайское",
+  "normalizedPattern": "токайское",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "sauternes",
+  "normalizedPattern": "sauternes",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "millesime",
+  "normalizedPattern": "millesime",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "frizzante",
+  "normalizedPattern": "frizzante",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "руби порт",
+  "normalizedPattern": "руби порт",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "portType": "Ruby"
+  }
+ },
+ {
+  "pattern": "ruby port",
+  "normalizedPattern": "ruby port",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "portType": "Ruby"
+  }
+ },
+ {
+  "pattern": "уньи блан",
+  "normalizedPattern": "уньи блан",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Уньи Блан",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "colombard",
+  "normalizedPattern": "colombard",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Коломбар",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "clairette",
+  "normalizedPattern": "clairette",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Клерет",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "grenache",
+  "normalizedPattern": "grenache",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гренаш",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "garnacha",
+  "normalizedPattern": "garnacha",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гарнача",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "неббиоло",
+  "normalizedPattern": "неббиоло",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Неббиоло",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "nebbiolo",
+  "normalizedPattern": "nebbiolo",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Неббиоло",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "dolcetto",
+  "normalizedPattern": "dolcetto",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Дольчетто",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "карменер",
+  "normalizedPattern": "карменер",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Карменер",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "pinotage",
+  "normalizedPattern": "pinotage",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пинотаж",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "саперави",
+  "normalizedPattern": "саперави",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Саперави",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "saperavi",
+  "normalizedPattern": "saperavi",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Саперави",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "кариньян",
+  "normalizedPattern": "кариньян",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Кариньян",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "carignan",
+  "normalizedPattern": "carignan",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Кариньян",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "zweigelt",
+  "normalizedPattern": "zweigelt",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Цвайгельт",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "альянико",
+  "normalizedPattern": "альянико",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Альянико",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "пти сира",
+  "normalizedPattern": "пти сира",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пти Сира",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "мукузани",
+  "normalizedPattern": "мукузани",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Саперави",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "mukuzani",
+  "normalizedPattern": "mukuzani",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Саперави",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "riesling",
+  "normalizedPattern": "riesling",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Рислинг",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "пино гри",
+  "normalizedPattern": "пино гри",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пино Гри",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "траминер",
+  "normalizedPattern": "траминер",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гевюрцтраминер",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "viognier",
+  "normalizedPattern": "viognier",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Вионье",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "семильон",
+  "normalizedPattern": "семильон",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Семильон",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "semillon",
+  "normalizedPattern": "semillon",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Семильон",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "albarino",
+  "normalizedPattern": "albarino",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Альбариньо",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "вердельо",
+  "normalizedPattern": "вердельо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Вердельо",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "verdelho",
+  "normalizedPattern": "verdelho",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Вердельо",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "кастелло",
+  "normalizedPattern": "кастелло",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.35,
+  "attrs": {}
+ },
+ {
+  "pattern": "castello",
+  "normalizedPattern": "castello",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.35,
+  "attrs": {}
+ },
+ {
+  "pattern": "миллезим",
+  "normalizedPattern": "миллезим",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "спуманте",
+  "normalizedPattern": "спуманте",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "spumante",
+  "normalizedPattern": "spumante",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "фризанте",
+  "normalizedPattern": "фризанте",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "коломбар",
+  "normalizedPattern": "коломбар",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Коломбар",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "cinsault",
+  "normalizedPattern": "cinsault",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Сенсо",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "гарнача",
+  "normalizedPattern": "гарнача",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гарнача",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "мурведр",
+  "normalizedPattern": "мурведр",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мурведр",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "барбера",
+  "normalizedPattern": "барбера",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Барбера",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "barbera",
+  "normalizedPattern": "barbera",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Барбера",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "мальбек",
+  "normalizedPattern": "мальбек",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мальбек",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "пинотаж",
+  "normalizedPattern": "пинотаж",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Пинотаж",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "корвина",
+  "normalizedPattern": "корвина",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Корвина",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "corvina",
+  "normalizedPattern": "corvina",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Корвина",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "шардоне",
+  "normalizedPattern": "шардоне",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Шардоне",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "рислинг",
+  "normalizedPattern": "рислинг",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Рислинг",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "moscato",
+  "normalizedPattern": "moscato",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мускат",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "москато",
+  "normalizedPattern": "москато",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мускат",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "алиготе",
+  "normalizedPattern": "алиготе",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Алиготе",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "aligote",
+  "normalizedPattern": "aligote",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Алиготе",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "вердехо",
+  "normalizedPattern": "вердехо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Вердехо",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "verdejo",
+  "normalizedPattern": "verdejo",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Вердехо",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "кортезе",
+  "normalizedPattern": "кортезе",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Кортезе",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "cortese",
+  "normalizedPattern": "cortese",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Кортезе",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "макабео",
+  "normalizedPattern": "макабео",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Макабео",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "macabeo",
+  "normalizedPattern": "macabeo",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Макабео",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "фурминт",
+  "normalizedPattern": "фурминт",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Фурминт",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "furmint",
+  "normalizedPattern": "furmint",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Фурминт",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "mtsvane",
+  "normalizedPattern": "mtsvane",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мцване",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "chateau",
+  "normalizedPattern": "chateau",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "ch teau",
+  "normalizedPattern": "ch teau",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "domaine",
+  "normalizedPattern": "domaine",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "bodegas",
+  "normalizedPattern": "bodegas",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "вайнгут",
+  "normalizedPattern": "вайнгут",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "weingut",
+  "normalizedPattern": "weingut",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "ризерва",
+  "normalizedPattern": "ризерва",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {
+   "aging": "riserva"
+  }
+ },
+ {
+  "pattern": "riserva",
+  "normalizedPattern": "riserva",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {
+   "aging": "riserva"
+  }
+ },
+ {
+  "pattern": "ресерва",
+  "normalizedPattern": "ресерва",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {
+   "aging": "reserva"
+  }
+ },
+ {
+  "pattern": "reserva",
+  "normalizedPattern": "reserva",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {
+   "aging": "reserva"
+  }
+ },
+ {
+  "pattern": "крианса",
+  "normalizedPattern": "крианса",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "aging": "crianza"
+  }
+ },
+ {
+  "pattern": "crianza",
+  "normalizedPattern": "crianza",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "aging": "crianza"
+  }
+ },
+ {
+  "pattern": "амароне",
+  "normalizedPattern": "амароне",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "amarone",
+  "normalizedPattern": "amarone",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "рипассо",
+  "normalizedPattern": "рипассо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "ripasso",
+  "normalizedPattern": "ripasso",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "айсвайн",
+  "normalizedPattern": "айсвайн",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "icewine",
+  "normalizedPattern": "icewine",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "eiswein",
+  "normalizedPattern": "eiswein",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "пет нат",
+  "normalizedPattern": "пет нат",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "pet nat",
+  "normalizedPattern": "pet nat",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "олоросо",
+  "normalizedPattern": "олоросо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sherryType": "Oloroso"
+  }
+ },
+ {
+  "pattern": "oloroso",
+  "normalizedPattern": "oloroso",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sherryType": "Oloroso"
+  }
+ },
+ {
+  "pattern": "сершиал",
+  "normalizedPattern": "сершиал",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "sercial",
+  "normalizedPattern": "sercial",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "merlot",
+  "normalizedPattern": "merlot",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мерло",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "shiraz",
+  "normalizedPattern": "shiraz",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Шираз",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "гренаш",
+  "normalizedPattern": "гренаш",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гренаш",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "malbec",
+  "normalizedPattern": "malbec",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мальбек",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "таннат",
+  "normalizedPattern": "таннат",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Таннат",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "tannat",
+  "normalizedPattern": "tannat",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Таннат",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "турига",
+  "normalizedPattern": "турига",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Турига Насьональ",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "менсия",
+  "normalizedPattern": "менсия",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Менсия",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "mencia",
+  "normalizedPattern": "mencia",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Менсия",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "вионье",
+  "normalizedPattern": "вионье",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Вионье",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "мускат",
+  "normalizedPattern": "мускат",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мускат",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "muscat",
+  "normalizedPattern": "muscat",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мускат",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "грюнер",
+  "normalizedPattern": "грюнер",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Грюнер Вельтлинер",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "мцване",
+  "normalizedPattern": "мцване",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мцване",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "бодега",
+  "normalizedPattern": "бодега",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "bodega",
+  "normalizedPattern": "bodega",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "тенута",
+  "normalizedPattern": "тенута",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "tenuta",
+  "normalizedPattern": "tenuta",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "tokaji",
+  "normalizedPattern": "tokaji",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "сотерн",
+  "normalizedPattern": "сотерн",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "петнат",
+  "normalizedPattern": "петнат",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "клерет",
+  "normalizedPattern": "клерет",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Клерет",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "мерло",
+  "normalizedPattern": "мерло",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Мерло",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "syrah",
+  "normalizedPattern": "syrah",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Сира",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "шираз",
+  "normalizedPattern": "шираз",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Шираз",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "gamay",
+  "normalizedPattern": "gamay",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гаме",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "фиано",
+  "normalizedPattern": "фиано",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Фиано",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "fiano",
+  "normalizedPattern": "fiano",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Фиано",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "глера",
+  "normalizedPattern": "глера",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Глера",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "glera",
+  "normalizedPattern": "glera",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Глера",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "домен",
+  "normalizedPattern": "домен",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "cuvee",
+  "normalizedPattern": "cuvee",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.35,
+  "attrs": {}
+ },
+ {
+  "pattern": "токай",
+  "normalizedPattern": "токай",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "tawny",
+  "normalizedPattern": "tawny",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.35,
+  "attrs": {
+   "portType": "Tawny"
+  }
+ },
+ {
+  "pattern": "боаль",
+  "normalizedPattern": "боаль",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "виура",
+  "normalizedPattern": "виура",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Виура",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "viura",
+  "normalizedPattern": "viura",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Виура",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "сенсо",
+  "normalizedPattern": "сенсо",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Сенсо",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "сира",
+  "normalizedPattern": "сира",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Сира",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "гаме",
+  "normalizedPattern": "гаме",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Гаме",
+   "color": "красное"
+  }
+ },
+ {
+  "pattern": "гави",
+  "normalizedPattern": "гави",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Кортезе",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "gavi",
+  "normalizedPattern": "gavi",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Кортезе",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "шато",
+  "normalizedPattern": "шато",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "кюве",
+  "normalizedPattern": "кюве",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.35,
+  "attrs": {}
+ },
+ {
+  "pattern": "брют",
+  "normalizedPattern": "брют",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "sugar": "брют"
+  }
+ },
+ {
+  "pattern": "brut",
+  "normalizedPattern": "brut",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "sugar": "брют"
+  }
+ },
+ {
+  "pattern": "зект",
+  "normalizedPattern": "зект",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "sekt",
+  "normalizedPattern": "sekt",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "асти",
+  "normalizedPattern": "асти",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "asti",
+  "normalizedPattern": "asti",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "фино",
+  "normalizedPattern": "фино",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "sherryType": "Fino"
+  }
+ },
+ {
+  "pattern": "fino",
+  "normalizedPattern": "fino",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "sherryType": "Fino"
+  }
+ },
+ {
+  "pattern": "тони",
+  "normalizedPattern": "тони",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.35,
+  "attrs": {
+   "portType": "Tawny"
+  }
+ },
+ {
+  "pattern": "bual",
+  "normalizedPattern": "bual",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "boal",
+  "normalizedPattern": "boal",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "киси",
+  "normalizedPattern": "киси",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Киси",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "kisi",
+  "normalizedPattern": "kisi",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "grape": "Киси",
+   "color": "белое"
+  }
+ },
+ {
+  "pattern": "лбв",
+  "normalizedPattern": "лбв",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "portType": "LBV"
+  }
+ },
+ {
+  "pattern": "lbv",
+  "normalizedPattern": "lbv",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "portType": "LBV"
+  }
+ },
+ {
+  "pattern": "px",
+  "normalizedPattern": "px",
+  "categoryPath": [
+   "Вино"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "sherryType": "Pedro Ximénez"
+  }
+ },
+ {
+  "pattern": "хард зельцер",
+  "normalizedPattern": "хард зельцер",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)",
+   "Хард-зельтцер"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "hard seltzer",
+  "normalizedPattern": "hard seltzer",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)",
+   "Хард-зельтцер"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "джин тоник",
+  "normalizedPattern": "джин тоник",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)"
+  ],
+  "weight": 0.35,
+  "attrs": {}
+ },
+ {
+  "pattern": "gin tonic",
+  "normalizedPattern": "gin tonic",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)"
+  ],
+  "weight": 0.35,
+  "attrs": {}
+ },
+ {
+  "pattern": "зельцер",
+  "normalizedPattern": "зельцер",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)",
+   "Хард-зельтцер"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "мохито",
+  "normalizedPattern": "мохито",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)"
+  ],
+  "weight": 0.3,
+  "attrs": {}
+ },
+ {
+  "pattern": "mojito",
+  "normalizedPattern": "mojito",
+  "categoryPath": [
+   "Готовые алкогольные напитки (RTD)"
+  ],
+  "weight": 0.3,
+  "attrs": {}
+ },
+ {
+  "pattern": "grande champagne",
+  "normalizedPattern": "grande champagne",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "country": "Франция"
+  }
+ },
+ {
+  "pattern": "petite champagne",
+  "normalizedPattern": "petite champagne",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "country": "Франция"
+  }
+ },
+ {
+  "pattern": "fine champagne",
+  "normalizedPattern": "fine champagne",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "country": "Франция"
+  }
+ },
+ {
+  "pattern": "cask strength",
+  "normalizedPattern": "cask strength",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "weight": 0.4,
+  "attrs": {
+   "feature": "CASK_STRENGTH"
+  }
+ },
+ {
+  "pattern": "гранд шампань",
+  "normalizedPattern": "гранд шампань",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "country": "Франция"
+  }
+ },
+ {
+  "pattern": "каск стренгт",
+  "normalizedPattern": "каск стренгт",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "weight": 0.4,
+  "attrs": {
+   "feature": "CASK_STRENGTH"
+  }
+ },
+ {
+  "pattern": "каск стрендж",
+  "normalizedPattern": "каск стрендж",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "weight": 0.4,
+  "attrs": {
+   "feature": "CASK_STRENGTH"
+  }
+ },
+ {
+  "pattern": "single malt",
+  "normalizedPattern": "single malt",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "лондон драй",
+  "normalizedPattern": "лондон драй",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Джин"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "фин шампань",
+  "normalizedPattern": "фин шампань",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "country": "Франция"
+  }
+ },
+ {
+  "pattern": "пти шампань",
+  "normalizedPattern": "пти шампань",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "country": "Франция"
+  }
+ },
+ {
+  "pattern": "сингл молт",
+  "normalizedPattern": "сингл молт",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "london dry",
+  "normalizedPattern": "london dry",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Джин"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "пряный ром",
+  "normalizedPattern": "пряный ром",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ром"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "tennessee",
+  "normalizedPattern": "tennessee",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "country": "США"
+  }
+ },
+ {
+  "pattern": "слоу джин",
+  "normalizedPattern": "слоу джин",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Джин"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "overproof",
+  "normalizedPattern": "overproof",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ром"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "теннесси",
+  "normalizedPattern": "теннесси",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "weight": 0.45,
+  "attrs": {
+   "country": "США"
+  }
+ },
+ {
+  "pattern": "репосадо",
+  "normalizedPattern": "репосадо",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "agingClass": "reposado"
+  }
+ },
+ {
+  "pattern": "reposado",
+  "normalizedPattern": "reposado",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "agingClass": "reposado"
+  }
+ },
+ {
+  "pattern": "sloe gin",
+  "normalizedPattern": "sloe gin",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Джин"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "оверпруф",
+  "normalizedPattern": "оверпруф",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ром"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "наполеон",
+  "normalizedPattern": "наполеон",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.3,
+  "attrs": {
+   "agingClass": "Napoleon"
+  }
+ },
+ {
+  "pattern": "napoleon",
+  "normalizedPattern": "napoleon",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.3,
+  "attrs": {
+   "agingClass": "Napoleon"
+  }
+ },
+ {
+  "pattern": "мескаль",
+  "normalizedPattern": "мескаль",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "эспадин",
+  "normalizedPattern": "эспадин",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "espadin",
+  "normalizedPattern": "espadin",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "спайсед",
+  "normalizedPattern": "спайсед",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ром"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "scotch",
+  "normalizedPattern": "scotch",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "country": "Шотландия"
+  }
+ },
+ {
+  "pattern": "бланко",
+  "normalizedPattern": "бланко",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.3,
+  "attrs": {
+   "agingClass": "blanco"
+  }
+ },
+ {
+  "pattern": "blanco",
+  "normalizedPattern": "blanco",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.3,
+  "attrs": {
+   "agingClass": "blanco"
+  }
+ },
+ {
+  "pattern": "аньехо",
+  "normalizedPattern": "аньехо",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "agingClass": "añejo"
+  }
+ },
+ {
+  "pattern": "mezcal",
+  "normalizedPattern": "mezcal",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "spiced",
+  "normalizedPattern": "spiced",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ром"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "скотч",
+  "normalizedPattern": "скотч",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Виски"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "country": "Шотландия"
+  }
+ },
+ {
+  "pattern": "anejo",
+  "normalizedPattern": "anejo",
+  "categoryPath": [
+   "Крепкий алкоголь"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "agingClass": "añejo"
+  }
+ },
+ {
+  "pattern": "vsop",
+  "normalizedPattern": "vsop",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.35,
+  "attrs": {
+   "agingClass": "VSOP"
+  }
+ },
+ {
+  "pattern": "всоп",
+  "normalizedPattern": "всоп",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.35,
+  "attrs": {
+   "agingClass": "VSOP"
+  }
+ },
+ {
+  "pattern": "иксо",
+  "normalizedPattern": "иксо",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.3,
+  "attrs": {
+   "agingClass": "XO"
+  }
+ },
+ {
+  "pattern": "x o",
+  "normalizedPattern": "x o",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.3,
+  "attrs": {
+   "agingClass": "XO"
+  }
+ },
+ {
+  "pattern": "xo",
+  "normalizedPattern": "xo",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Коньяк"
+  ],
+  "weight": 0.3,
+  "attrs": {
+   "agingClass": "XO"
+  }
+ },
+ {
+  "pattern": "лимончелло",
+  "normalizedPattern": "лимончелло",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "limoncello",
+  "normalizedPattern": "limoncello",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "triple sec",
+  "normalizedPattern": "triple sec",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "трипл сек",
+  "normalizedPattern": "трипл сек",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "амаретто",
+  "normalizedPattern": "амаретто",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "amaretto",
+  "normalizedPattern": "amaretto",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "creme de",
+  "normalizedPattern": "creme de",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "анисовый",
+  "normalizedPattern": "анисовый",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "anisette",
+  "normalizedPattern": "anisette",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "кюрасао",
+  "normalizedPattern": "кюрасао",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "curacao",
+  "normalizedPattern": "curacao",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "крем де",
+  "normalizedPattern": "крем де",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "пастис",
+  "normalizedPattern": "пастис",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "pastis",
+  "normalizedPattern": "pastis",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.5,
+  "attrs": {}
+ },
+ {
+  "pattern": "амаро",
+  "normalizedPattern": "амаро",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "amaro",
+  "normalizedPattern": "amaro",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.45,
+  "attrs": {}
+ },
+ {
+  "pattern": "ouzo",
+  "normalizedPattern": "ouzo",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "узо",
+  "normalizedPattern": "узо",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Ликёры"
+  ],
+  "weight": 0.4,
+  "attrs": {}
+ },
+ {
+  "pattern": "ирландский красный",
+  "normalizedPattern": "ирландский красный",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Ред эль"
+  }
+ },
+ {
+  "pattern": "american pale ale",
+  "normalizedPattern": "american pale ale",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "APA"
+  }
+ },
+ {
+  "pattern": "new england ipa",
+  "normalizedPattern": "new england ipa",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "NEIPA"
+  }
+ },
+ {
+  "pattern": "берлинер вайссе",
+  "normalizedPattern": "берлинер вайссе",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Берлинер вайссе"
+  }
+ },
+ {
+  "pattern": "berliner weisse",
+  "normalizedPattern": "berliner weisse",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Берлинер вайссе"
+  }
+ },
+ {
+  "pattern": "india pale ale",
+  "normalizedPattern": "india pale ale",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "IPA"
+  }
+ },
+ {
+  "pattern": "молочный стаут",
+  "normalizedPattern": "молочный стаут",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Милк стаут"
+  }
+ },
+ {
+  "pattern": "империал стаут",
+  "normalizedPattern": "империал стаут",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Империал стаут"
+  }
+ },
+ {
+  "pattern": "imperial stout",
+  "normalizedPattern": "imperial stout",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Империал стаут"
+  }
+ },
+ {
+  "pattern": "овсяный стаут",
+  "normalizedPattern": "овсяный стаут",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Овсяный стаут"
+  }
+ },
+ {
+  "pattern": "oatmeal stout",
+  "normalizedPattern": "oatmeal stout",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Овсяный стаут"
+  }
+ },
+ {
+  "pattern": "octoberfest",
+  "normalizedPattern": "octoberfest",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Мэрцен"
+  }
+ },
+ {
+  "pattern": "октоберфест",
+  "normalizedPattern": "октоберфест",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Мэрцен"
+  }
+ },
+ {
+  "pattern": "barley wine",
+  "normalizedPattern": "barley wine",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Барливайн"
+  }
+ },
+ {
+  "pattern": "double ipa",
+  "normalizedPattern": "double ipa",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "DIPA"
+  }
+ },
+ {
+  "pattern": "кислый эль",
+  "normalizedPattern": "кислый эль",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Сауэр"
+  }
+ },
+ {
+  "pattern": "hefeweizen",
+  "normalizedPattern": "hefeweizen",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Вайцен"
+  }
+ },
+ {
+  "pattern": "хефевайцен",
+  "normalizedPattern": "хефевайцен",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Вайцен"
+  }
+ },
+ {
+  "pattern": "kellerbier",
+  "normalizedPattern": "kellerbier",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Келлербир"
+  }
+ },
+ {
+  "pattern": "доппельбок",
+  "normalizedPattern": "доппельбок",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Доппельбок"
+  }
+ },
+ {
+  "pattern": "doppelbock",
+  "normalizedPattern": "doppelbock",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Доппельбок"
+  }
+ },
+ {
+  "pattern": "милк стаут",
+  "normalizedPattern": "милк стаут",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Милк стаут"
+  }
+ },
+ {
+  "pattern": "milk stout",
+  "normalizedPattern": "milk stout",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Милк стаут"
+  }
+ },
+ {
+  "pattern": "голден эль",
+  "normalizedPattern": "голден эль",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Голден эль"
+  }
+ },
+ {
+  "pattern": "golden ale",
+  "normalizedPattern": "golden ale",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Голден эль"
+  }
+ },
+ {
+  "pattern": "квадрюпель",
+  "normalizedPattern": "квадрюпель",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Квадрюпель"
+  }
+ },
+ {
+  "pattern": "барливайн",
+  "normalizedPattern": "барливайн",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Барливайн"
+  }
+ },
+ {
+  "pattern": "браун эль",
+  "normalizedPattern": "браун эль",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Браун эль"
+  }
+ },
+ {
+  "pattern": "brown ale",
+  "normalizedPattern": "brown ale",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Браун эль"
+  }
+ },
+ {
+  "pattern": "quadrupel",
+  "normalizedPattern": "quadrupel",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Квадрюпель"
+  }
+ },
+ {
+  "pattern": "дабл ипа",
+  "normalizedPattern": "дабл ипа",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "DIPA"
+  }
+ },
+ {
+  "pattern": "пейл эль",
+  "normalizedPattern": "пейл эль",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Пейл эль"
+  }
+ },
+ {
+  "pattern": "pale ale",
+  "normalizedPattern": "pale ale",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Пейл эль"
+  }
+ },
+ {
+  "pattern": "траппист",
+  "normalizedPattern": "траппист",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Траппистское"
+  }
+ },
+ {
+  "pattern": "trappist",
+  "normalizedPattern": "trappist",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Траппистское"
+  }
+ },
+ {
+  "pattern": "witbier",
+  "normalizedPattern": "witbier",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Витбир/Бланш"
+  }
+ },
+ {
+  "pattern": "blanche",
+  "normalizedPattern": "blanche",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Витбир/Бланш"
+  }
+ },
+ {
+  "pattern": "пилснер",
+  "normalizedPattern": "пилснер",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Пилснер"
+  }
+ },
+ {
+  "pattern": "pilsner",
+  "normalizedPattern": "pilsner",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Пилснер"
+  }
+ },
+ {
+  "pattern": "дункель",
+  "normalizedPattern": "дункель",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Дункель"
+  }
+ },
+ {
+  "pattern": "альтбир",
+  "normalizedPattern": "альтбир",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Альтбир"
+  }
+ },
+ {
+  "pattern": "altbier",
+  "normalizedPattern": "altbier",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Альтбир"
+  }
+ },
+ {
+  "pattern": "ред эль",
+  "normalizedPattern": "ред эль",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Ред эль"
+  }
+ },
+ {
+  "pattern": "red ale",
+  "normalizedPattern": "red ale",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Ред эль"
+  }
+ },
+ {
+  "pattern": "трипель",
+  "normalizedPattern": "трипель",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Трипель"
+  }
+ },
+ {
+  "pattern": "дюббель",
+  "normalizedPattern": "дюббель",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Дюббель"
+  }
+ },
+ {
+  "pattern": "трапист",
+  "normalizedPattern": "трапист",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Траппистское"
+  }
+ },
+ {
+  "pattern": "ламбик",
+  "normalizedPattern": "ламбик",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Ламбик"
+  }
+ },
+ {
+  "pattern": "lambic",
+  "normalizedPattern": "lambic",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Ламбик"
+  }
+ },
+ {
+  "pattern": "gueuze",
+  "normalizedPattern": "gueuze",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Гёз"
+  }
+ },
+ {
+  "pattern": "saison",
+  "normalizedPattern": "saison",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Сэзон"
+  }
+ },
+ {
+  "pattern": "вайцен",
+  "normalizedPattern": "вайцен",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Вайцен"
+  }
+ },
+ {
+  "pattern": "weizen",
+  "normalizedPattern": "weizen",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Вайцен"
+  }
+ },
+ {
+  "pattern": "витбир",
+  "normalizedPattern": "витбир",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Витбир/Бланш"
+  }
+ },
+ {
+  "pattern": "хеллес",
+  "normalizedPattern": "хеллес",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Хеллес"
+  }
+ },
+ {
+  "pattern": "helles",
+  "normalizedPattern": "helles",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Хеллес"
+  }
+ },
+ {
+  "pattern": "келлер",
+  "normalizedPattern": "келлер",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Келлербир"
+  }
+ },
+ {
+  "pattern": "dunkel",
+  "normalizedPattern": "dunkel",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Дункель"
+  }
+ },
+ {
+  "pattern": "мэрцен",
+  "normalizedPattern": "мэрцен",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Мэрцен"
+  }
+ },
+ {
+  "pattern": "marzen",
+  "normalizedPattern": "marzen",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Мэрцен"
+  }
+ },
+ {
+  "pattern": "kolsch",
+  "normalizedPattern": "kolsch",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Кёльш"
+  }
+ },
+ {
+  "pattern": "tripel",
+  "normalizedPattern": "tripel",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Трипель"
+  }
+ },
+ {
+  "pattern": "dubbel",
+  "normalizedPattern": "dubbel",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Дюббель"
+  }
+ },
+ {
+  "pattern": "радлер",
+  "normalizedPattern": "радлер",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Радлер"
+  }
+ },
+ {
+  "pattern": "radler",
+  "normalizedPattern": "radler",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Радлер"
+  }
+ },
+ {
+  "pattern": "нейпа",
+  "normalizedPattern": "нейпа",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "NEIPA"
+  }
+ },
+ {
+  "pattern": "neipa",
+  "normalizedPattern": "neipa",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "NEIPA"
+  }
+ },
+ {
+  "pattern": "сауэр",
+  "normalizedPattern": "сауэр",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Сауэр"
+  }
+ },
+ {
+  "pattern": "kriek",
+  "normalizedPattern": "kriek",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Крик"
+  }
+ },
+ {
+  "pattern": "сезон",
+  "normalizedPattern": "сезон",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Сэзон"
+  }
+ },
+ {
+  "pattern": "бланш",
+  "normalizedPattern": "бланш",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Витбир/Бланш"
+  }
+ },
+ {
+  "pattern": "кельш",
+  "normalizedPattern": "кельш",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Кёльш"
+  }
+ },
+ {
+  "pattern": "дипа",
+  "normalizedPattern": "дипа",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "DIPA"
+  }
+ },
+ {
+  "pattern": "dipa",
+  "normalizedPattern": "dipa",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "DIPA"
+  }
+ },
+ {
+  "pattern": "sour",
+  "normalizedPattern": "sour",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Сауэр"
+  }
+ },
+ {
+  "pattern": "гозе",
+  "normalizedPattern": "гозе",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Гозе"
+  }
+ },
+ {
+  "pattern": "gose",
+  "normalizedPattern": "gose",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Гозе"
+  }
+ },
+ {
+  "pattern": "крик",
+  "normalizedPattern": "крик",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Крик"
+  }
+ },
+ {
+  "pattern": "pils",
+  "normalizedPattern": "pils",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Пилснер"
+  }
+ },
+ {
+  "pattern": "пилс",
+  "normalizedPattern": "пилс",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Пилснер"
+  }
+ },
+ {
+  "pattern": "bock",
+  "normalizedPattern": "bock",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Бок"
+  }
+ },
+ {
+  "pattern": "ипа",
+  "normalizedPattern": "ипа",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "IPA"
+  }
+ },
+ {
+  "pattern": "ipa",
+  "normalizedPattern": "ipa",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "IPA"
+  }
+ },
+ {
+  "pattern": "апа",
+  "normalizedPattern": "апа",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "APA"
+  }
+ },
+ {
+  "pattern": "apa",
+  "normalizedPattern": "apa",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "APA"
+  }
+ },
+ {
+  "pattern": "гез",
+  "normalizedPattern": "гез",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Гёз"
+  }
+ },
+ {
+  "pattern": "бок",
+  "normalizedPattern": "бок",
+  "categoryPath": [
+   "Пиво, сидр и медовуха"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "beerStyle": "Бок"
+  }
+ },
+ {
+  "pattern": "дайгиндзе",
+  "normalizedPattern": "дайгиндзе",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Daiginjo"
+  }
+ },
+ {
+  "pattern": "хондзедзо",
+  "normalizedPattern": "хондзедзо",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Honjozo"
+  }
+ },
+ {
+  "pattern": "daiginjo",
+  "normalizedPattern": "daiginjo",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Daiginjo"
+  }
+ },
+ {
+  "pattern": "дзюнмай",
+  "normalizedPattern": "дзюнмай",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Junmai"
+  }
+ },
+ {
+  "pattern": "honjozo",
+  "normalizedPattern": "honjozo",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Honjozo"
+  }
+ },
+ {
+  "pattern": "junmai",
+  "normalizedPattern": "junmai",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Junmai"
+  }
+ },
+ {
+  "pattern": "гиндзе",
+  "normalizedPattern": "гиндзе",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Ginjo"
+  }
+ },
+ {
+  "pattern": "нигори",
+  "normalizedPattern": "нигори",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Nigori"
+  }
+ },
+ {
+  "pattern": "nigori",
+  "normalizedPattern": "nigori",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Nigori"
+  }
+ },
+ {
+  "pattern": "ginjo",
+  "normalizedPattern": "ginjo",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.5,
+  "attrs": {
+   "sakeGrade": "Ginjo"
+  }
+ },
+ {
+  "pattern": "юдзу",
+  "normalizedPattern": "юдзу",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.35,
+  "attrs": {}
+ },
+ {
+  "pattern": "yuzu",
+  "normalizedPattern": "yuzu",
+  "categoryPath": [
+   "Крепкий алкоголь",
+   "Саке"
+  ],
+  "weight": 0.35,
+  "attrs": {}
+ }
+]

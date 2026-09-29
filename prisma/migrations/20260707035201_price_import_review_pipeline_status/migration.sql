@@ -1,0 +1,2 @@
+-- AlterEnum
+ALTER TYPE "PriceImportStatus" ADD VALUE 'PARTIALLY_PUBLISHED';

@@ -1,0 +1,2 @@
+ALTER TABLE "Supplier"
+ALTER COLUMN "passwordHash" DROP NOT NULL;

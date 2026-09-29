@@ -1,0 +1,1 @@
+ALTER TYPE "NameDictionaryKind" ADD VALUE 'CATEGORY_KEYWORD';
